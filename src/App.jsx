@@ -1,7 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { supabase, supabaseConfigurado } from "./lib/supabase";
 import * as db from "./lib/datos";
-import { EPOCAS, epocaDe } from "./data/cineArgentino";
+import {
+  CAPITULOS, HISTORIA_CIERRE, HISTORIA_FUENTES, HISTORIA_INTRO, POR_QUE_VERLA, QUE_APRENDES,
+} from "./data/cineArgentino";
+import TextoMd from "./components/TextoMd";
+import { IMG } from "./lib/tmdb";
+import Estrellas from "./components/Estrellas";
 import Login from "./components/Login";
 import Buscador from "./components/Buscador";
 import Tarjeta from "./components/Tarjeta";
@@ -330,34 +335,110 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
   );
 }
 
-function SeccionArgentino({ pelis, marcas, admin, onAbrir, onMarcar }) {
+// La sección se lee como un libro: nueve capítulos con su texto y, al final de cada uno,
+// sus películas para marcar como vistas.
+function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar }) {
   const [estado, setEstado] = useState("todas");
+  const porTitulo = useMemo(() => new Map(pelis.map(p => [p.titulo, p])), [pelis]);
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
-  const visibles = filtrarEstado(pelis, marcas, estado);
+  const visibles = new Set(filtrarEstado(pelis, marcas, estado).map(p => p.id));
+
+  function irA(id) {
+    document.getElementById(`cap-${id}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   return (
-    <>
+    <div className="historia">
+      <header className="historia-cabeza">
+        <h1>Historia del cine argentino</h1>
+        <p className="bajada">Del cine mudo a hoy: directores, actores y películas para aprender.</p>
+      </header>
       <Progreso vistas={vistas} total={pelis.length} texto="VISTAS" />
+
+      <nav className="linea-tiempo" aria-label="Capítulos">
+        {CAPITULOS.map(c => {
+          const suyas = c.peliculas.map(t => porTitulo.get(t)).filter(Boolean);
+          const hechas = suyas.filter(p => marcas[p.id]?.visto).length;
+          return (
+            <button key={c.id} type="button" onClick={() => irA(c.id)}
+              style={{ flexGrow: c.hasta - c.desde }} title={`${c.numero}. ${c.titulo}`}
+              className={suyas.length && hechas === suyas.length ? "completo" : ""}>
+              <span className="num">{c.numero}</span>
+              <span className="anios">{c.desde}</span>
+            </button>
+          );
+        })}
+      </nav>
+
+      <div className="historia-texto"><TextoMd texto={HISTORIA_INTRO} /></div>
+
       <Chips opciones={[{ id: "todas", label: "TODAS" }, { id: "porver", label: "POR VER" }, { id: "vistas", label: "VISTAS" }]}
         valor={estado} onCambiar={setEstado} />
-      {EPOCAS.map(ep => {
-        const deEpoca = pelis.filter(p => epocaDe(p.anio).id === ep.id);
-        const mostrar = visibles.filter(p => epocaDe(p.anio).id === ep.id);
-        if (!deEpoca.length || !mostrar.length) return null;
-        const vistasEp = deEpoca.filter(p => marcas[p.id]?.visto).length;
+
+      {CAPITULOS.map(c => {
+        const suyas = c.peliculas.map(t => porTitulo.get(t)).filter(Boolean);
+        const mostrar = suyas.filter(p => visibles.has(p.id));
+        const hechas = suyas.filter(p => marcas[p.id]?.visto).length;
         return (
-          <section key={ep.id} className="epoca">
+          <section key={c.id} id={`cap-${c.id}`} className="capitulo">
             <h2>
-              {ep.titulo}
-              <small>{ep.desde}{ep.hasta < 2100 ? `–${ep.hasta}` : " en adelante"}</small>
-              <span className="cuenta">{vistasEp}/{deEpoca.length}</span>
+              <span className="cap-num">{c.numero}</span>
+              {c.titulo}
+              <small>{c.desde}–{c.hasta}</small>
             </h2>
-            <p>{ep.intro}</p>
-            <Grilla pelis={mostrar} marcas={marcas} admin={admin} onAbrir={onAbrir} onMarcar={onMarcar} />
+            <div className="historia-texto"><TextoMd texto={c.texto} /></div>
+            {suyas.length > 0 && (
+              <>
+                <div className="para-ver">
+                  <span>PARA VER</span>
+                  <span className="cuenta">{hechas}/{suyas.length} vistas</span>
+                </div>
+                {mostrar.length > 0 ? (
+                  <div className="lista-arg">
+                    {mostrar.map(p => (
+                      <FilaArgentina key={p.id} peli={p} marca={marcas[p.id]} onAbrir={onAbrir} onMarcar={onMarcar} />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="nada">{estado === "porver" ? "Ya viste todas las de este capítulo." : "Todavía no viste ninguna de este capítulo."}</p>
+                )}
+              </>
+            )}
           </section>
         );
       })}
-    </>
+
+      <section className="capitulo">
+        <div className="historia-texto"><TextoMd texto={HISTORIA_CIERRE} /></div>
+        <div className="historia-texto fuentes"><TextoMd texto={HISTORIA_FUENTES} /></div>
+      </section>
+    </div>
+  );
+}
+
+// En cine argentino cada película se lee como una entrada del recorrido: afiche, datos y por qué verla.
+function FilaArgentina({ peli, marca, onAbrir, onMarcar }) {
+  const vista = Boolean(marca?.visto);
+  return (
+    <article className={`fila-arg${vista ? " vista" : ""}`} onClick={() => onAbrir(peli)}>
+      <div className="afiche">
+        {peli.poster_path
+          ? <img src={`${IMG}w185${peli.poster_path}`} alt="" loading="lazy" decoding="async" />
+          : <span>{peli.titulo}</span>}
+      </div>
+      <div className="texto">
+        <h3>{peli.titulo} <small>{peli.anio}</small></h3>
+        {peli.direccion && <div className="dire">{peli.direccion}</div>}
+        {QUE_APRENDES[peli.titulo] && <div className="aprendes">{QUE_APRENDES[peli.titulo]}</div>}
+        <p>{POR_QUE_VERLA[peli.titulo] || peli.sinopsis}</p>
+        {vista && <Estrellas valor={marca.puntaje} tamano={16} onCambiar={v => onMarcar(peli, { puntaje: v })} />}
+      </div>
+      <button type="button" className="check" aria-pressed={vista}
+        aria-label={vista ? `Desmarcar ${peli.titulo} como vista` : `Marcar ${peli.titulo} como vista`}
+        onClick={e => { e.stopPropagation(); onMarcar(peli, { visto: !vista }); }}>
+        ✓
+      </button>
+    </article>
   );
 }
 

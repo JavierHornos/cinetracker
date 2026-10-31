@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { IMG, detalles, elegirTrailer } from "../lib/tmdb";
 import { corregirPelicula } from "../lib/datos";
-import { POR_QUE_VERLA, epocaDe } from "../data/cineArgentino";
+import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
 import Estrellas from "./Estrellas";
 import Buscador from "./Buscador";
 
@@ -61,7 +61,9 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
             {peli.listas.includes("1001") && (
               <span className="insignia libro">1001 películas{peli.pagina_libro ? ` · pág. ${peli.pagina_libro}` : ""}</span>
             )}
-            {esArg && <span className="insignia arg">Cine argentino · {epocaDe(peli.anio).titulo}</span>}
+            {esArg && capituloDe(peli.titulo) && (
+              <span className="insignia arg">Cine argentino · cap. {capituloDe(peli.titulo).numero}: {capituloDe(peli.titulo).titulo}</span>
+            )}
             {peli.listas.includes("clasicos") && <span className="insignia">Clásico</span>}
             {enMiLista && <span className="insignia">En mi lista</span>}
             {generos.map(g => <span key={g} className="insignia">{g}</span>)}
@@ -69,7 +71,7 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
 
           {porQue && (
             <div className="bloque por-que">
-              <div className="etiqueta">POR QUÉ VERLA</div>
+              <div className="etiqueta">POR QUÉ VERLA{QUE_APRENDES[peli.titulo] ? ` · ${QUE_APRENDES[peli.titulo].toUpperCase()}` : ""}</div>
               <p>{porQue}</p>
             </div>
           )}
