@@ -185,6 +185,7 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
   background: linear-gradient(180deg, #13304a, #0b1c2b); color: #8cc4ec;
 }
 .linea-tiempo button:nth-child(even) { background: linear-gradient(180deg, #1b4364, #10283c); }
+.linea-tiempo button.las41-ir { flex: 0 0 auto; background: #2a2208; color: var(--oro); border: 1px solid #5a4810; }
 .linea-tiempo button.completo { background: linear-gradient(180deg, #0f5a0f, #083808); color: #b6f5b6; }
 @media (hover: hover) { .linea-tiempo button:hover { outline: 1px solid #8cc4ec; } }
 .linea-tiempo .num { font-family: var(--display); font-size: 18px; line-height: 1; color: #fff; }
@@ -217,6 +218,30 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
   border-top: 1px solid #1d4a6b; font-family: var(--display); letter-spacing: 2px; font-size: 15px; color: #8cc4ec;
 }
 .para-ver .cuenta { color: var(--verde-borde); font-size: 14px; letter-spacing: 1px; }
+.las41 { list-style: none; border: 1px solid #1f2a33; border-radius: 6px; overflow: hidden; }
+.las41 li { display: flex; align-items: center; gap: 12px; padding: 8px 12px; border-top: 1px solid #1a2229; }
+.las41 li:first-child { border-top: none; }
+.las41 li:nth-child(even) { background: #0b0f13; }
+.las41 li.vista { background: #0a140a; }
+.las41 .check {
+  flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 15px;
+  background: rgba(0,0,0,.65); border: 1.5px solid #555; color: #777;
+}
+.las41 li.vista .check { background: rgba(0,120,0,.95); border-color: #00dd00; color: #fff; }
+.las41 .anio { flex-shrink: 0; width: 40px; font-family: var(--display); font-size: 17px; letter-spacing: .5px; color: #8cc4ec; }
+.las41 .cuerpo {
+  flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1.3fr); gap: 4px 16px; align-items: baseline;
+  background: none; border: none; padding: 0; text-align: left; cursor: pointer; font-family: var(--serif);
+}
+.las41 .titulo { color: #f0e2b0; font-style: italic; font-size: 15px; }
+.las41 li.vista .titulo { color: #9fd89f; }
+.las41 .dire { color: var(--tenue); font-size: 13px; }
+.las41 .porque { color: #c8c8c8; font-size: 14px; }
+@media (hover: hover) { .las41 .cuerpo:hover .titulo { text-decoration: underline; } }
+@media (max-width: 720px) {
+  .las41 .cuerpo { grid-template-columns: 1fr; gap: 1px; }
+  .las41 .dire { font-size: 12px; }
+}
 .capitulo .nada { color: var(--muy-tenue); font-style: italic; font-size: 14px; }
 
 .lista-arg { display: grid; gap: 10px; }

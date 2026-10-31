@@ -368,6 +368,10 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar }) {
             </button>
           );
         })}
+        <button type="button" className="las41-ir" onClick={() => irA("las41")} title="Las 41 películas">
+          <span className="num">41</span>
+          <span className="anios">lista</span>
+        </button>
       </nav>
 
       <div className="historia-texto"><TextoMd texto={HISTORIA_INTRO} /></div>
@@ -407,6 +411,35 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar }) {
           </section>
         );
       })}
+
+      <section id="cap-las41" className="capitulo">
+        <h2>Las 41 películas para aprender cine argentino</h2>
+        <div className="historia-texto">
+          <p>Si las ves en este orden, recorrés toda la historia. Marcá las que vas viendo; tocá una para ver su tráiler.</p>
+        </div>
+        <div className="para-ver">
+          <span>EL RECORRIDO COMPLETO</span>
+          <span className="cuenta">{vistas}/{pelis.length} vistas</span>
+        </div>
+        <ol className="las41">
+          {CAPITULOS.flatMap(c => c.peliculas).map(t => porTitulo.get(t)).filter(Boolean).map(p => {
+            const vista = Boolean(marcas[p.id]?.visto);
+            return (
+              <li key={p.id} className={vista ? "vista" : ""}>
+                <button type="button" className="check" aria-pressed={vista}
+                  aria-label={vista ? `Desmarcar ${p.titulo} como vista` : `Marcar ${p.titulo} como vista`}
+                  onClick={() => onMarcar(p, { visto: !vista })}>✓</button>
+                <span className="anio">{p.anio}</span>
+                <button type="button" className="cuerpo" onClick={() => onAbrir(p)}>
+                  <span className="titulo">{p.titulo}</span>
+                  {p.direccion && <span className="dire">{p.direccion}</span>}
+                  <span className="porque">{QUE_APRENDES[p.titulo]}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
 
       <section className="capitulo">
         <div className="historia-texto"><TextoMd texto={HISTORIA_CIERRE} /></div>
