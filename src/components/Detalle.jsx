@@ -167,7 +167,7 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
               {enMiLista ? "QUITAR DE MI LISTA" : "+ MI LISTA"}
             </button>
             {peli.id != null && (
-              <button className="boton fantasma" onClick={() => onCompartir(`/pelicula/${peli.id}`, peli.titulo)}>↗ COMPARTIR</button>
+              <button className="boton fantasma" onClick={() => onCompartir(`/p/${peli.id}`, peli.titulo)}>↗ COMPARTIR</button>
             )}
           </div>
 

@@ -452,7 +452,7 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona, onCompa
         <h1>Historia del cine argentino</h1>
         <p className="bajada">Del cine mudo a hoy: directores, actores y películas para aprender.</p>
         <button type="button" className="boton fantasma chico compartir"
-          onClick={() => onCompartir("/seccion/argentino", "Historia del cine argentino")}>↗ COMPARTIR</button>
+          onClick={() => onCompartir("/historia", "Historia del cine argentino")}>↗ COMPARTIR</button>
       </header>
       <Progreso vistas={vistas} total={pelis.length} texto="VISTAS" />
 
