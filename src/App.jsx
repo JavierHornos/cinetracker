@@ -11,6 +11,8 @@ import Login from "./components/Login";
 import Buscador from "./components/Buscador";
 import Tarjeta from "./components/Tarjeta";
 import Detalle from "./components/Detalle";
+import Ficha from "./components/Ficha";
+import { FICHAS, MONTI } from "./data/personas";
 
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
@@ -64,6 +66,20 @@ function Cinetracker({ usuario }) {
   const [seccion, setSeccion] = useState(() => leer("cinetracker_seccion", "1001"));
   const [abiertaId, setAbiertaId] = useState(null);
   const [aviso, setAviso] = useState(null);
+  const [ruta, setRuta] = useState(() => window.location.hash);
+
+  // Las fichas de personas tienen su propia dirección (#/persona/123) para poder compartirlas.
+  useEffect(() => {
+    const cambio = () => { setRuta(window.location.hash); window.scrollTo({ top: 0 }); };
+    window.addEventListener("hashchange", cambio);
+    return () => window.removeEventListener("hashchange", cambio);
+  }, []);
+  const personaId = Number(ruta.match(/^#\/persona\/(\d+)/)?.[1]) || null;
+
+  const irAPersona = useCallback(id => {
+    setAbiertaId(null);
+    window.location.hash = `/persona/${id}`;
+  }, []);
 
   const avisar = useCallback(texto => {
     setAviso(texto);
@@ -89,6 +105,7 @@ function Cinetracker({ usuario }) {
   function elegirSeccion(id) {
     setSeccion(id);
     guardar("cinetracker_seccion", id);
+    if (window.location.hash) window.location.hash = "";
     window.scrollTo({ top: 0 });
   }
 
@@ -145,6 +162,24 @@ function Cinetracker({ usuario }) {
       },
     }));
     return peli;
+  }
+
+  // Desde una ficha: la película puede no estar en el catálogo todavía; la suma sin tocar "Mi lista".
+  async function asegurar(r) {
+    const existente = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
+    if (existente) return existente;
+    const id = await db.asegurarPelicula(r);
+    const peli = await db.cargarPelicula(id);
+    setCatalogo(c => (c.some(p => p.id === id) ? c : [...c, peli]));
+    return peli;
+  }
+
+  async function abrirDeTmdb(r) {
+    try { setAbiertaId((await asegurar(r)).id); } catch (e) { avisar(`No se pudo abrir: ${e.message}`); }
+  }
+
+  async function marcarDeTmdb(r, cambios) {
+    try { await marcar(await asegurar(r), cambios); } catch (e) { avisar(`No se pudo guardar: ${e.message}`); }
   }
 
   async function agregarDesdeBusqueda(r) {
@@ -213,7 +248,7 @@ function Cinetracker({ usuario }) {
         </div>
         <nav className="tabs" role="tablist">
           {SECCIONES.map(s => (
-            <button key={s.id} role="tab" className="tab" aria-selected={seccion === s.id} onClick={() => elegirSeccion(s.id)}>
+            <button key={s.id} role="tab" className="tab" aria-selected={!personaId && seccion === s.id} onClick={() => elegirSeccion(s.id)}>
               {s.titulo}<span className="num">{conteo[s.id] || ""}</span>
             </button>
           ))}
@@ -225,10 +260,13 @@ function Cinetracker({ usuario }) {
           <div className="vacio-grande">CARGANDO…</div>
         ) : error ? (
           <div className="banner"><span>No pude cargar los datos: {error}</span><button className="boton chico" onClick={recargar}>REINTENTAR</button></div>
+        ) : personaId ? (
+          <Ficha id={personaId} porTmdb={porTmdb} marcas={marcas}
+            onAbrir={abrirDeTmdb} onMarcar={marcarDeTmdb} onVolver={() => { window.location.hash = ""; }} />
         ) : seccion === "1001" ? (
           <Seccion1001 pelis={libro} {...props} />
         ) : seccion === "argentino" ? (
-          <SeccionArgentino pelis={argentino} {...props} />
+          <SeccionArgentino pelis={argentino} {...props} onPersona={irAPersona} />
         ) : (
           <SeccionMiLista pelis={miLista} onImportar={importarListaVieja} {...props} />
         )}
@@ -236,7 +274,7 @@ function Cinetracker({ usuario }) {
 
       {abierta && (
         <Detalle peli={abierta} marca={marcas[abierta.id]} admin={admin}
-          onCerrar={cerrarDetalle} onMarcar={marcar} onCorregida={corregida} />
+          onCerrar={cerrarDetalle} onMarcar={marcar} onCorregida={corregida} onPersona={irAPersona} />
       )}
       {aviso && <div className="aviso" role="status">{aviso}</div>}
     </>
@@ -337,7 +375,7 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
 
 // La sección se lee como un libro: nueve capítulos con su texto y, al final de cada uno,
 // sus películas para marcar como vistas.
-function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar }) {
+function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona }) {
   const [estado, setEstado] = useState("todas");
   const porTitulo = useMemo(() => new Map(pelis.map(p => [p.titulo, p])), [pelis]);
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
@@ -442,6 +480,18 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar }) {
       </section>
 
       <section className="capitulo">
+        <h2>Quienes hacen las películas</h2>
+        <div className="historia-texto">
+          <p>Detrás de cada película hay alguien que la dirige, alguien que la ilumina y alguien que la monta. En el detalle de cada película, tocá un nombre para ver su ficha y toda su filmografía.</p>
+        </div>
+        <button type="button" className="tarjeta-persona" onClick={() => onPersona(MONTI)}>
+          <span className="etiqueta">{FICHAS[MONTI].rol.toUpperCase()}</span>
+          <b>{FICHAS[MONTI].nombre}</b>
+          <span>{FICHAS[MONTI].bajada} Todas sus películas y la historia de su luz →</span>
+        </button>
+      </section>
+
+      <section className="capitulo">
         <div className="historia-texto"><TextoMd texto={HISTORIA_CIERRE} /></div>
         <div className="historia-texto fuentes"><TextoMd texto={HISTORIA_FUENTES} /></div>
       </section>
@@ -490,6 +540,11 @@ function SeccionMiLista({ pelis, marcas, admin, onAbrir, onMarcar, onImportar })
             onClick={() => { setImportando(true); onImportar(vieja, () => { setVieja([]); setImportando(false); }); }}>
             {importando ? "IMPORTANDO…" : "IMPORTAR MI LISTA ANTERIOR"}
           </button>
+          {!importando && (
+            <button className="boton fantasma chico" onClick={() => { guardar(LISTA_VIEJA_IMPORTADA, "1"); setVieja([]); }}>
+              NO, GRACIAS
+            </button>
+          )}
         </div>
       )}
       {pelis.length === 0 ? (

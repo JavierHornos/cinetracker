@@ -5,6 +5,7 @@ const PERMITIDOS = [
   /^\/search\/(multi|movie|tv)$/,
   /^\/(movie|tv)\/\d+$/,
   /^\/(movie|tv)\/\d+\/videos$/,
+  /^\/person\/\d+$/,
 ];
 
 export default async function handler(req) {

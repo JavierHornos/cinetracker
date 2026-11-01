@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { IMG, detalles, elegirTrailer } from "../lib/tmdb";
+import { IMG, detalles, elegirTrailer, equipoDe } from "../lib/tmdb";
 import { corregirPelicula } from "../lib/datos";
 import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
 import Estrellas from "./Estrellas";
 import Buscador from "./Buscador";
 
-export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorregida }) {
+export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorregida, onPersona }) {
   const [extra, setExtra] = useState(null);
   const vista = Boolean(marca?.visto);
   const enMiLista = Boolean(marca?.en_mi_lista);
@@ -29,6 +29,7 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
   const duracion = extra?.runtime ? `${Math.floor(extra.runtime / 60)}h ${extra.runtime % 60}m` : null;
   const temporadas = extra?.number_of_seasons;
   const reparto = extra?.credits?.cast?.slice(0, 8) || [];
+  const equipo = extra ? equipoDe(extra, peli.media_type) : [];
   const sinopsis = peli.sinopsis || extra?.overview;
   const esArg = peli.listas.includes("cine_argentino");
   const porQue = esArg ? POR_QUE_VERLA[peli.titulo] : null;
@@ -83,7 +84,21 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
             </div>
           )}
 
-          {peli.direccion && (
+          {equipo.length > 0 ? (
+            <div className="bloque equipo">
+              {equipo.map(r => (
+                <div key={r.job}>
+                  <div className="etiqueta">{r.titulo}</div>
+                  {r.gente.map(p => (
+                    <button key={p.id} type="button" className="persona" onClick={() => onPersona(p.id)}>
+                      {p.profile_path ? <img src={`${IMG}w185${p.profile_path}`} alt="" loading="lazy" /> : <span className="sin" />}
+                      <span>{p.name}</span>
+                    </button>
+                  ))}
+                </div>
+              ))}
+            </div>
+          ) : peli.direccion && (
             <div className="bloque">
               <div className="etiqueta">DIRECCIÓN</div>
               <p>{peli.direccion}</p>

@@ -50,3 +50,30 @@ export function direccionDe(d, mediaType) {
     : (d.credits?.crew || []).filter(p => p.job === "Director").map(p => p.name);
   return nombres.slice(0, 3).join(", ") || null;
 }
+
+// Ficha de una persona con toda su filmografía. Si no hay biografía en castellano, usa la inglesa.
+export async function persona(id) {
+  const d = await tmdb(`/person/${id}`, { append_to_response: "combined_credits" });
+  if (!d.biography) {
+    const en = await tmdb(`/person/${id}`, { language: "en-US" }).catch(() => null);
+    if (en?.biography) d.biography = en.biography;
+  }
+  return d;
+}
+
+// Los roles que importan para leer una película: quién la dirigió, la fotografió y la montó.
+export const ROLES = [
+  { job: "Director", titulo: "DIRECCIÓN", plural: "COMO DIRECTOR" },
+  { job: "Director of Photography", titulo: "FOTOGRAFÍA", plural: "COMO DIRECTOR DE FOTOGRAFÍA" },
+  { job: "Editor", titulo: "MONTAJE", plural: "COMO MONTAJISTA" },
+];
+
+export function equipoDe(d, mediaType) {
+  const crew = d?.credits?.crew || [];
+  return ROLES.map(r => {
+    let gente = crew.filter(p => p.job === r.job);
+    if (r.job === "Director" && mediaType === "tv") gente = gente.concat(d.created_by || []);
+    const unicos = [...new Map(gente.map(p => [p.id, p])).values()].slice(0, 4);
+    return { ...r, gente: unicos };
+  }).filter(r => r.gente.length);
+}

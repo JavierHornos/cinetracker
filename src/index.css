@@ -329,6 +329,42 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
   color: #eee; font-size: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.6); animation: aparecer .2s ease;
 }
 
+/* ── Fichas de personas ─────────────────────────────────────────────────── */
+.ficha { max-width: 980px; margin: 0 auto; }
+.volver { background: none; border: none; cursor: pointer; color: var(--tenue); font-family: var(--display); letter-spacing: 1.5px; font-size: 15px; padding: 4px 0; margin-bottom: 10px; }
+@media (hover: hover) { .volver:hover { color: #fff; } }
+.ficha-cabeza { display: flex; gap: 18px; align-items: center; margin-bottom: 18px; }
+.ficha-cabeza img, .ficha-cabeza .sin-foto { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid #1d4a6b; background: #141414; }
+.ficha-cabeza h1 { font-family: var(--display); font-weight: normal; font-size: clamp(30px, 7vw, 48px); letter-spacing: 1.5px; line-height: 1; color: #fff; }
+.ficha-cabeza .rol { font-family: var(--display); letter-spacing: 2px; color: var(--oro); font-size: 15px; margin-top: 4px; }
+.ficha-cabeza .bajada { margin-top: 4px; }
+@media (max-width: 520px) { .ficha-cabeza img, .ficha-cabeza .sin-foto { width: 72px; height: 72px; } }
+
+.documental {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
+  margin: 4px 0 24px; padding: 14px 16px; border: 1px solid #5a4810; background: #141006; border-radius: 6px;
+}
+.documental b { display: block; color: #f0e2b0; font-style: italic; font-weight: normal; font-size: 18px; }
+.documental small { color: var(--tenue); font-size: 13px; }
+.documental .acciones-doc { display: flex; gap: 8px; }
+
+.filmografia .cuerpo { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); }
+
+.equipo { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px 18px; }
+.persona {
+  display: flex; align-items: center; gap: 8px; width: 100%; margin-top: 6px; padding: 0; text-align: left;
+  background: none; border: none; cursor: pointer; color: #ddd; font-size: 14px; line-height: 1.25;
+}
+.persona img, .persona .sin { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 1px solid #2a2a2a; background: #1a1a1a; }
+@media (hover: hover) { .persona:hover span { color: var(--oro); text-decoration: underline; } }
+
+.tarjeta-persona {
+  display: flex; flex-direction: column; gap: 4px; width: 100%; max-width: 720px; padding: 16px 18px; text-align: left; cursor: pointer;
+  background: linear-gradient(135deg, #141006, #0b1c2b); border: 1px solid #5a4810; border-radius: 8px; color: #c8c8c8; font-size: 15px; line-height: 1.5;
+}
+.tarjeta-persona b { font-family: var(--display); font-weight: normal; font-size: 28px; letter-spacing: 1px; color: #fff; }
+@media (hover: hover) { .tarjeta-persona:hover { border-color: var(--oro); } }
+
 @keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }
 @keyframes subir { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

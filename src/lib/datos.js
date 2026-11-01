@@ -64,6 +64,23 @@ export async function agregarAMiLista(r, { visto = false, puntaje = 0 } = {}) {
   return data; // id en el catálogo
 }
 
+// Suma una película de TMDB al catálogo sin tocar "Mi lista" (para marcarla desde una ficha).
+export async function asegurarPelicula(r) {
+  const { data, error } = await supabase.rpc("asegurar_pelicula", {
+    p_tmdb_id: r.id,
+    p_media_type: r.media_type === "tv" ? "tv" : "movie",
+    p_titulo: r.title || r.name,
+    p_titulo_original: r.original_title || r.original_name || null,
+    p_anio: anioDe(r),
+    p_sinopsis: r.overview || null,
+    p_poster: r.poster_path || null,
+    p_backdrop: r.backdrop_path || null,
+    p_vote: r.vote_average ? Math.round(r.vote_average * 10) / 10 : null,
+  });
+  if (error) throw error;
+  return data;
+}
+
 // Solo admins: confirma qué película de TMDB es (o que no está en TMDB, con r = null).
 export async function corregirPelicula(id, r, mediaType) {
   let cambios = {
