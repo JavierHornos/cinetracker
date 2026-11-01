@@ -14,7 +14,7 @@ import Detalle from "./components/Detalle";
 import Ficha from "./components/Ficha";
 import { FICHAS, MONTI } from "./data/personas";
 import { compartir } from "./lib/compartir";
-import { ENCUESTA, PUESTOS } from "./data/encuesta2022";
+import { ENCUESTA, PUESTOS, VOTOS } from "./data/encuesta2022";
 import { GENTE } from "./data/gente";
 
 const LISTA_VIEJA = "cinetracker_list_v2";
@@ -594,7 +594,7 @@ function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPerson
           ))}
         </ol>
         <div className="historia-texto fuentes">
-          <p>Fuente: <a href={ENCUESTA.fuente} target="_blank" rel="noreferrer">Encuesta de cine argentino 2022</a>.</p>
+          <p>Fuente: ranking de la Encuesta de cine argentino 2022 publicado por <a href={ENCUESTA.fuente} target="_blank" rel="noreferrer">Otros Cines</a>. Las empatadas comparten puesto.</p>
         </div>
       </section>
 
@@ -645,7 +645,7 @@ function FilaEncuesta({ peli, marca, onAbrir, onMarcar, ranking = false }) {
         <span className="titulo">{peli.titulo}</span>
         <span className="dire">{ranking ? [peli.direccion, peli.anio].filter(Boolean).join(" · ") : peli.direccion}</span>
         <span className="porque">
-          {ranking ? (peli.listas.includes("cine_argentino") ? "También en la historia" : "") : `Puesto ${puesto} de la crítica`}
+          {ranking ? (peli.listas.includes("cine_argentino") ? "También en la historia" : "") : `Puesto ${puesto} de la crítica · ${VOTOS[peli.tmdb_id]} votos`}
         </span>
       </button>
     </li>
