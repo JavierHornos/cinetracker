@@ -1,13 +1,17 @@
 import { supabase } from "./supabase";
 import { anioDe, detalles, direccionDe, elegirTrailer } from "./tmdb";
 
+// Lo que puede leer un visitante sin sesión (ver supabase/05_publico.sql).
+const PUBLICAS = "id,tmdb_id,media_type,titulo,titulo_tmdb,titulo_original,anio,direccion,sinopsis," +
+  "poster_path,backdrop_path,vote_average,trailer_youtube,listas,pagina_libro,donde_ver,cruce";
+
 // Supabase devuelve como máximo 1000 filas por pedido: el catálogo se trae por páginas.
-export async function cargarCatalogo() {
+export async function cargarCatalogo(visitante = false) {
   const PAGINA = 1000;
   let todas = [];
   for (let desde = 0; ; desde += PAGINA) {
     const { data, error } = await supabase
-      .from("peliculas").select("*").order("id").range(desde, desde + PAGINA - 1);
+      .from("peliculas").select(visitante ? PUBLICAS : "*").order("id").range(desde, desde + PAGINA - 1);
     if (error) throw error;
     todas = todas.concat(data);
     if (data.length < PAGINA) return todas;

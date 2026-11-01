@@ -5,7 +5,7 @@ import TextoMd from "./TextoMd";
 
 // Ficha de un director, director de fotografía o montajista: quién es y toda su filmografía,
 // con cada película para marcar como vista (aunque todavía no esté en el catálogo).
-export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver }) {
+export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver, onCompartir }) {
   const [datos, setDatos] = useState(null);
   const [error, setError] = useState(null);
   const propia = FICHAS[id];
@@ -53,7 +53,10 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
 
   return (
     <div className="ficha">
-      <button type="button" className="volver" onClick={onVolver}>← VOLVER</button>
+      <div className="ficha-barra">
+        <button type="button" className="volver" onClick={onVolver}>← VOLVER</button>
+        <button type="button" className="boton fantasma chico" onClick={() => onCompartir(`/persona/${id}`, nombre)}>↗ COMPARTIR</button>
+      </div>
 
       <header className="ficha-cabeza">
         {datos.profile_path

@@ -6,7 +6,7 @@ import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
 import Estrellas from "./Estrellas";
 import Buscador from "./Buscador";
 
-export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorregida, onPersona }) {
+export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorregida, onPersona, onCompartir }) {
   const [extra, setExtra] = useState(null);
   const vista = Boolean(marca?.visto);
   const enMiLista = Boolean(marca?.en_mi_lista);
@@ -166,6 +166,9 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
             <button className="boton fantasma" onClick={() => onMarcar(peli, { en_mi_lista: !enMiLista })}>
               {enMiLista ? "QUITAR DE MI LISTA" : "+ MI LISTA"}
             </button>
+            {peli.id != null && (
+              <button className="boton fantasma" onClick={() => onCompartir(`/pelicula/${peli.id}`, peli.titulo)}>↗ COMPARTIR</button>
+            )}
           </div>
 
           {admin && peli.cruce !== "segura" && <Revision peli={peli} onCorregida={onCorregida} />}

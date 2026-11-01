@@ -5,7 +5,7 @@ import {
   CAPITULOS, HISTORIA_CIERRE, HISTORIA_FUENTES, HISTORIA_INTRO, POR_QUE_VERLA, QUE_APRENDES,
 } from "./data/cineArgentino";
 import TextoMd from "./components/TextoMd";
-import { IMG } from "./lib/tmdb";
+import { IMG, anioDe } from "./lib/tmdb";
 import Estrellas from "./components/Estrellas";
 import Login from "./components/Login";
 import Buscador from "./components/Buscador";
@@ -13,6 +13,7 @@ import Tarjeta from "./components/Tarjeta";
 import Detalle from "./components/Detalle";
 import Ficha from "./components/Ficha";
 import { FICHAS, MONTI } from "./data/personas";
+import { compartir } from "./lib/compartir";
 
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
@@ -47,8 +48,22 @@ export default function App() {
     );
   }
   if (sesion === undefined) return <main className="pantalla-centro"><div className="logo">🎬</div></main>;
-  if (!sesion) return <Login />;
-  return <Cinetracker usuario={sesion.user} />;
+  return <Cinetracker usuario={sesion?.user || null} />;
+}
+
+// Links que se pueden compartir: #/pelicula/ID, #/persona/ID y #/seccion/argentino.
+function leerRuta() {
+  const h = window.location.hash;
+  return {
+    pelicula: Number(h.match(/^#\/pelicula\/(\d+)/)?.[1]) || null,
+    seccion: h.match(/^#\/seccion\/(1001|argentino|mia)$/)?.[1] || null,
+  };
+}
+// Película y sección se abren una vez y el link se limpia; la ficha de una persona queda en la dirección.
+function limpiarRuta() {
+  const r = leerRuta();
+  if (r.pelicula || r.seccion) window.history.replaceState(null, "", window.location.pathname);
+  return r;
 }
 
 const SECCIONES = [
@@ -63,14 +78,23 @@ function Cinetracker({ usuario }) {
   const [admin, setAdmin] = useState(false);
   const [cargando, setCargando] = useState(true);
   const [error, setError] = useState(null);
-  const [seccion, setSeccion] = useState(() => leer("cinetracker_seccion", "1001"));
-  const [abiertaId, setAbiertaId] = useState(null);
+  const [rutaInicial] = useState(limpiarRuta);
+  const [seccion, setSeccion] = useState(() => rutaInicial.seccion || leer("cinetracker_seccion", "1001"));
+  const [abiertaId, setAbiertaId] = useState(rutaInicial.pelicula);
+  const [abiertaTmdb, setAbiertaTmdb] = useState(null);
+  const [pedirLogin, setPedirLogin] = useState(false);
   const [aviso, setAviso] = useState(null);
   const [ruta, setRuta] = useState(() => window.location.hash);
 
   // Las fichas de personas tienen su propia dirección (#/persona/123) para poder compartirlas.
   useEffect(() => {
-    const cambio = () => { setRuta(window.location.hash); window.scrollTo({ top: 0 }); };
+    const cambio = () => {
+      const r = limpiarRuta();
+      if (r.pelicula) setAbiertaId(r.pelicula);
+      if (r.seccion) setSeccion(r.seccion);
+      setRuta(window.location.hash);
+      if (!r.pelicula) window.scrollTo({ top: 0 });
+    };
     window.addEventListener("hashchange", cambio);
     return () => window.removeEventListener("hashchange", cambio);
   }, []);
@@ -91,8 +115,10 @@ function Cinetracker({ usuario }) {
     .catch(e => setError(e.message || String(e)))
     .finally(() => setCargando(false)), []);
 
-  const traerTodo = useCallback(
-    () => Promise.all([db.cargarCatalogo(), db.cargarMarcas(), db.esAdmin(usuario.id)]), [usuario.id]);
+  const usuarioId = usuario?.id;
+  const traerTodo = useCallback(() => (usuarioId
+    ? Promise.all([db.cargarCatalogo(), db.cargarMarcas(), db.esAdmin(usuarioId)])
+    : Promise.all([db.cargarCatalogo(true), {}, false])), [usuarioId]);
 
   const recargar = useCallback(() => aplicar(traerTodo()), [aplicar, traerTodo]);
 
@@ -117,6 +143,7 @@ function Cinetracker({ usuario }) {
 
   // Cambia visto / puntaje / en_mi_lista con respuesta inmediata en pantalla.
   async function marcar(peli, cambios) {
+    if (!usuario) { setPedirLogin(true); return; }
     const previa = marcas[peli.id];
     const base = previa || { pelicula_id: peli.id, visto: false, puntaje: 0, en_mi_lista: false, visto_at: null };
     const nueva = { ...base, ...cambios };
@@ -175,14 +202,26 @@ function Cinetracker({ usuario }) {
   }
 
   async function abrirDeTmdb(r) {
+    const existente = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
+    // Un visitante no puede sumar al catálogo: ve la película armada con los datos de TMDB.
+    if (!usuario && !existente) {
+      setAbiertaTmdb({
+        id: null, tmdb_id: r.id, media_type: r.media_type === "tv" ? "tv" : "movie", titulo: r.title || r.name,
+        titulo_original: r.original_title || r.original_name, anio: anioDe(r), sinopsis: r.overview,
+        poster_path: r.poster_path, backdrop_path: r.backdrop_path, vote_average: r.vote_average, listas: [], cruce: "segura",
+      });
+      return;
+    }
     try { setAbiertaId((await asegurar(r)).id); } catch (e) { avisar(`No se pudo abrir: ${e.message}`); }
   }
 
   async function marcarDeTmdb(r, cambios) {
+    if (!usuario) { setPedirLogin(true); return; }
     try { await marcar(await asegurar(r), cambios); } catch (e) { avisar(`No se pudo guardar: ${e.message}`); }
   }
 
   async function agregarDesdeBusqueda(r) {
+    if (!usuario) { setPedirLogin(true); return; }
     try {
       const peli = await sumarDeTmdb(r);
       if (peli) avisar(`Agregada a tu lista: ${peli.titulo}`);
@@ -225,9 +264,15 @@ function Cinetracker({ usuario }) {
   const miLista = useMemo(() => catalogo.filter(p => marcas[p.id]?.en_mi_lista)
     .sort((a, b) => (marcas[b.id].agregado_at || "").localeCompare(marcas[a.id].agregado_at || "")), [catalogo, marcas]);
 
-  const cerrarDetalle = useCallback(() => setAbiertaId(null), []);
+  const cerrarDetalle = useCallback(() => { setAbiertaId(null); setAbiertaTmdb(null); }, []);
+  const compartirLink = useCallback(async (ruta, titulo) => {
+    const mensaje = await compartir(ruta, titulo);
+    if (mensaje) avisar(mensaje);
+  }, [avisar]);
   const conteo = { "1001": libro.length, argentino: argentino.length, mia: miLista.length };
-  const abierta = abiertaId != null ? catalogo.find(p => p.id === abiertaId) : null;
+  const abierta = abiertaId != null ? catalogo.find(p => p.id === abiertaId) : abiertaTmdb;
+
+  if (pedirLogin) return <Login onVolver={() => setPedirLogin(false)} />;
   const props = { marcas, admin, onAbrir: p => setAbiertaId(p.id), onMarcar: marcar };
 
   return (
@@ -246,7 +291,9 @@ function Cinetracker({ usuario }) {
               if (p.listas.includes("cine_argentino")) return "CINE ARG.";
               return null;
             }} />
-          <button className="boton fantasma chico usuario" onClick={salir} title={usuario.email}>SALIR</button>
+          {usuario
+            ? <button className="boton fantasma chico usuario" onClick={salir} title={usuario.email}>SALIR</button>
+            : <button className="boton oro chico usuario" onClick={() => setPedirLogin(true)}>ENTRAR</button>}
         </div>
         <nav className="tabs" role="tablist">
           {SECCIONES.map(s => (
@@ -258,25 +305,37 @@ function Cinetracker({ usuario }) {
       </header>
 
       <main className="contenido">
+        {!usuario && !cargando && (
+          <div className="banner visitante">
+            <span>Estás mirando como visitante. Entrá con Google o tu mail para marcar lo que viste y armar tu lista.</span>
+            <button className="boton oro chico" onClick={() => setPedirLogin(true)}>ENTRAR</button>
+          </div>
+        )}
         {cargando ? (
           <div className="vacio-grande">CARGANDO…</div>
         ) : error ? (
           <div className="banner"><span>No pude cargar los datos: {error}</span><button className="boton chico" onClick={recargar}>REINTENTAR</button></div>
         ) : personaId ? (
           <Ficha id={personaId} porTmdb={porTmdb} marcas={marcas}
-            onAbrir={abrirDeTmdb} onMarcar={marcarDeTmdb} onVolver={() => { window.location.hash = ""; }} />
+            onAbrir={abrirDeTmdb} onMarcar={marcarDeTmdb} onVolver={() => { window.location.hash = ""; }}
+            onCompartir={compartirLink} />
         ) : seccion === "1001" ? (
           <Seccion1001 pelis={libro} {...props} />
         ) : seccion === "argentino" ? (
-          <SeccionArgentino pelis={argentino} {...props} onPersona={irAPersona} />
-        ) : (
+          <SeccionArgentino pelis={argentino} {...props} onPersona={irAPersona} onCompartir={compartirLink} />
+        ) : usuario ? (
           <SeccionMiLista pelis={miLista} onImportar={importarListaVieja} {...props} />
+        ) : (
+          <div className="vacio-grande">ENTRÁ PARA ARMAR TU LISTA<br />
+            <button className="boton oro" style={{ marginTop: 16 }} onClick={() => setPedirLogin(true)}>ENTRAR</button>
+          </div>
         )}
       </main>
 
       {abierta && (
         <Detalle peli={abierta} marca={marcas[abierta.id]} admin={admin}
-          onCerrar={cerrarDetalle} onMarcar={marcar} onCorregida={corregida} onPersona={irAPersona} />
+          onCerrar={cerrarDetalle} onMarcar={marcar} onCorregida={corregida} onPersona={irAPersona}
+          onCompartir={compartirLink} />
       )}
       {aviso && <div className="aviso" role="status">{aviso}</div>}
     </>
@@ -377,7 +436,7 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
 
 // La sección se lee como un libro: nueve capítulos con su texto y, al final de cada uno,
 // sus películas para marcar como vistas.
-function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona }) {
+function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona, onCompartir }) {
   const [estado, setEstado] = useState("todas");
   const porTitulo = useMemo(() => new Map(pelis.map(p => [p.titulo, p])), [pelis]);
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
@@ -392,6 +451,8 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona }) {
       <header className="historia-cabeza">
         <h1>Historia del cine argentino</h1>
         <p className="bajada">Del cine mudo a hoy: directores, actores y películas para aprender.</p>
+        <button type="button" className="boton fantasma chico compartir"
+          onClick={() => onCompartir("/seccion/argentino", "Historia del cine argentino")}>↗ COMPARTIR</button>
       </header>
       <Progreso vistas={vistas} total={pelis.length} texto="VISTAS" />
 

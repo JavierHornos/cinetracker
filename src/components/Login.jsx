@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { supabase } from "../lib/supabase";
 
-export default function Login() {
+export default function Login({ onVolver }) {
   const [email, setEmail] = useState("");
   const [estado, setEstado] = useState(null); // null | "enviando" | "enviado" | {error}
 
@@ -22,8 +22,9 @@ export default function Login() {
   return (
     <main className="pantalla-centro">
       <div className="login">
+        {onVolver && <button type="button" className="volver" onClick={onVolver}>← VOLVER</button>}
         <div className="logo">🎬 CINETRACKER</div>
-        <p>Las 1001 películas del libro, un recorrido por el cine argentino y tu lista. Marcá lo que vas viendo desde el celu o la compu.</p>
+        <p>Las 1001 películas del libro, un recorrido por el cine argentino y tu lista. Entrá para marcar lo que vas viendo, desde el celu o la compu.</p>
 
         <button className="boton blanco" style={{ width: "100%" }} onClick={conGoogle}>
           <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true">

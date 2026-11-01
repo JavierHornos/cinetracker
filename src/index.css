@@ -376,6 +376,13 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .fuente-donde { margin-top: 8px; color: var(--muy-tenue); font-size: 11px; }
 @media (max-width: 520px) { .donde-tipo { width: 100%; } }
 
+/* ── Compartir y visitantes ───────────────────────────────────────────── */
+.ficha-barra { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.ficha-barra .volver { margin-bottom: 0; }
+.historia-cabeza .compartir { margin-top: 10px; }
+.banner.visitante { border-color: #5a4810; background: #141006; }
+.login .volver { display: block; margin-bottom: 18px; }
+
 @keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }
 @keyframes subir { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
