@@ -68,14 +68,15 @@ for t, d in filas:
     "  set listas = array(select distinct unnest(peliculas.listas || excluded.listas));\n",
     encoding="utf-8")
 
-puestos = ",\n".join(f"  {t['tmdb_id']}: {t['puesto']}," for t in encuesta).rstrip(",")
+# Puesto y votos vienen en encuesta2022_tmdb.json (tomados del ranking de Otros Cines).
 (RAIZ / "src/data/encuesta2022.js").write_text(
     "// Encuesta de cine argentino 2022: puesto de cada película (clave: id de TMDB).\n"
-    "// Los empates comparten puesto. Generado por data/gen_encuesta.py.\n\n"
+    "// Puestos y votos según el ranking publicado por Otros Cines; los empates comparten puesto. Generado por data/gen_encuesta.py.\n\n"
     "export const ENCUESTA = {\n  titulo: \"Encuesta de cine argentino 2022\",\n"
     "  bajada: \"Las 100 mejores películas argentinas según 546 críticos, cineastas e investigadores, convocados por las revistas Taipei, La vida útil y La tierra quema.\",\n"
-    "  fuente: \"https://es.wikipedia.org/wiki/Encuesta_de_cine_argentino\",\n};\n\n"
-    "export const PUESTOS = {\n" + "\n".join(f"  {t['tmdb_id']}: {t['puesto']}," for t in encuesta) + "\n};\n",
+    "  fuente: \"https://www.otroscines.com/nota-18572-la-cienaga-de-lucrecia-martel-encabezo-la-encuesta-de\",\n};\n\n"
+    "export const PUESTOS = {\n" + "\n".join(f"  {t['tmdb_id']}: {t['puesto']}," for t in encuesta) + "\n};\n\n"
+    "export const VOTOS = {\n" + "\n".join(f"  {t['tmdb_id']}: {t['votos']}," for t in encuesta) + "\n};\n",
     encoding="utf-8")
 
 # Galería: los 8 que más aparecen por rol, con su foto.
