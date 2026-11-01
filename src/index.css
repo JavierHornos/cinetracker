@@ -385,6 +385,18 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 
 /* ── Las 100 de la crítica y galería ─────────────────────────────────────── */
 .encuesta .anio { color: var(--oro); }
+.mas-epoca { margin-top: 14px; }
+.mas-epoca summary {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 10px; cursor: pointer; list-style: none;
+  padding: 10px 12px; border: 1px solid #3a3010; border-radius: 6px; background: #100d05;
+  font-family: var(--display); letter-spacing: 1.5px; font-size: 14px; color: var(--oro);
+}
+.mas-epoca summary::-webkit-details-marker { display: none; }
+.mas-epoca summary span:first-child::before { content: "▸ "; display: inline-block; transition: transform .15s; }
+.mas-epoca[open] summary span:first-child::before { content: "▾ "; }
+.mas-epoca summary .cuenta { color: var(--verde-borde); font-size: 13px; letter-spacing: 1px; white-space: nowrap; }
+@media (hover: hover) { .mas-epoca summary:hover { border-color: var(--oro); } }
+.mas-epoca .nota { color: var(--tenue); font-size: 13px; margin: 10px 0 8px; }
 .galeria { margin: 18px 0 6px; max-width: 980px; }
 .galeria-gente { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 14px; }
 .galeria .persona span { display: flex; flex-direction: column; }

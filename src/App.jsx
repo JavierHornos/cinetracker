@@ -446,6 +446,19 @@ function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPerson
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
   const visibles = new Set(filtrarEstado(pelis, marcas, estado).map(p => p.id));
 
+  // Las de la encuesta que no están entre las 41 van al capítulo de su época
+  // (el último que empieza antes de su año; los años límite quedan en el capítulo que arranca).
+  const masPorCapitulo = useMemo(() => {
+    const m = new Map(CAPITULOS.map(c => [c.id, []]));
+    for (const p of encuesta) {
+      if (p.listas.includes("cine_argentino") || !p.anio) continue;
+      const cap = CAPITULOS.filter(c => c.desde <= p.anio).at(-1) || CAPITULOS[0];
+      m.get(cap.id).push(p);
+    }
+    for (const lista of m.values()) lista.sort((a, b) => a.anio - b.anio);
+    return m;
+  }, [encuesta]);
+
   function irA(id) {
     document.getElementById(`cap-${id}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -517,6 +530,22 @@ function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPerson
                 )}
               </>
             )}
+            {masPorCapitulo.get(c.id).length > 0 && (
+              <details className="mas-epoca">
+                <summary>
+                  <span>MÁS DE ESTA ÉPOCA, SEGÚN LA CRÍTICA</span>
+                  <span className="cuenta">
+                    {masPorCapitulo.get(c.id).filter(p => marcas[p.id]?.visto).length}/{masPorCapitulo.get(c.id).length} vistas
+                  </span>
+                </summary>
+                <p className="nota">De las 100 mejores películas argentinas de la Encuesta 2022 que no están entre las 41 del recorrido.</p>
+                <ol className="las41 encuesta">
+                  {masPorCapitulo.get(c.id).map(p => (
+                    <FilaEncuesta key={p.id} peli={p} marca={marcas[p.id]} onAbrir={onAbrir} onMarcar={onMarcar} />
+                  ))}
+                </ol>
+              </details>
+            )}
           </section>
         );
       })}
@@ -560,22 +589,9 @@ function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPerson
           <span className="cuenta">{encuesta.filter(p => marcas[p.id]?.visto).length}/{encuesta.length} vistas</span>
         </div>
         <ol className="las41 encuesta">
-          {encuesta.map(p => {
-            const vista = Boolean(marcas[p.id]?.visto);
-            return (
-              <li key={p.id} className={vista ? "vista" : ""}>
-                <button type="button" className="check" aria-pressed={vista}
-                  aria-label={vista ? `Desmarcar ${p.titulo} como vista` : `Marcar ${p.titulo} como vista`}
-                  onClick={() => onMarcar(p, { visto: !vista })}>✓</button>
-                <span className="anio">{PUESTOS[p.tmdb_id]}º</span>
-                <button type="button" className="cuerpo" onClick={() => onAbrir(p)}>
-                  <span className="titulo">{p.titulo}</span>
-                  <span className="dire">{[p.direccion, p.anio].filter(Boolean).join(" · ")}</span>
-                  <span className="porque">{p.listas.includes("cine_argentino") ? "También en la historia" : ""}</span>
-                </button>
-              </li>
-            );
-          })}
+          {encuesta.map(p => (
+            <FilaEncuesta key={p.id} peli={p} marca={marcas[p.id]} onAbrir={onAbrir} onMarcar={onMarcar} ranking />
+          ))}
         </ol>
         <div className="historia-texto fuentes">
           <p>Fuente: <a href={ENCUESTA.fuente} target="_blank" rel="noreferrer">Encuesta de cine argentino 2022</a>.</p>
@@ -612,6 +628,27 @@ function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPerson
         <div className="historia-texto fuentes"><TextoMd texto={HISTORIA_FUENTES} /></div>
       </section>
     </div>
+  );
+}
+
+// Una película de la encuesta: en el ranking se ordena por puesto; dentro de un capítulo, por año.
+function FilaEncuesta({ peli, marca, onAbrir, onMarcar, ranking = false }) {
+  const vista = Boolean(marca?.visto);
+  const puesto = `${PUESTOS[peli.tmdb_id]}º`;
+  return (
+    <li className={vista ? "vista" : ""}>
+      <button type="button" className="check" aria-pressed={vista}
+        aria-label={vista ? `Desmarcar ${peli.titulo} como vista` : `Marcar ${peli.titulo} como vista`}
+        onClick={() => onMarcar(peli, { visto: !vista })}>✓</button>
+      <span className="anio">{ranking ? puesto : peli.anio}</span>
+      <button type="button" className="cuerpo" onClick={() => onAbrir(peli)}>
+        <span className="titulo">{peli.titulo}</span>
+        <span className="dire">{ranking ? [peli.direccion, peli.anio].filter(Boolean).join(" · ") : peli.direccion}</span>
+        <span className="porque">
+          {ranking ? (peli.listas.includes("cine_argentino") ? "También en la historia" : "") : `Puesto ${puesto} de la crítica`}
+        </span>
+      </button>
+    </li>
   );
 }
 
