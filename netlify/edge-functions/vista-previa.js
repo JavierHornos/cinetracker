@@ -77,7 +77,7 @@ const escapar = s => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").re
 
 export default async function handler(req) {
   const url = new URL(req.url);
-  const base = await fetch(new URL("/index.html", url));
+  const base = await fetch(new URL("/index.html", url), { cache: "no-store" });
   let html = await base.text();
 
   let datos = null;
@@ -102,7 +102,8 @@ export default async function handler(req) {
     .replace("</head>", `    ${etiquetas}\n  </head>`);
 
   return new Response(html, {
-    headers: { "content-type": "text/html; charset=utf-8", "cache-control": "public, max-age=300" },
+    // Sin caché: después de cada deploy index.html apunta a archivos nuevos, y una copia vieja dejaría la página en blanco.
+    headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" },
   });
 }
 
