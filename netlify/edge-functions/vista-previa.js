@@ -14,6 +14,13 @@ const POR_DEFECTO = {
   descripcion: "Las 1001 películas del libro, un recorrido por la historia del cine argentino y las fichas de quienes hacen las películas.",
 };
 const ROLES = { Directing: "Dirección", Camera: "Dirección de fotografía", Editing: "Montaje", Acting: "Actuación" };
+// Fichas con texto propio (como en src/data/personas.js), por id de TMDB.
+const FICHAS = {
+  414697: {
+    titulo: "Félix “Chango” Monti · Director de fotografía",
+    descripcion: "La luz de dos películas argentinas ganadoras del Oscar. Su historia, contada en el documental Chango, la luz descubre, y todas sus películas.",
+  },
+};
 
 async function supabase(consulta) {
   const res = await fetch(`${SUPABASE}/rest/v1/${consulta}`, { headers: { apikey: CLAVE_PUBLICA } });
@@ -50,6 +57,7 @@ async function datosDe(ruta) {
       titulo: `${d.name} · ${rol}`,
       descripcion: cortar(d.biography) || `Ficha y filmografía completa de ${d.name}: marcá las películas que viste.`,
       imagen: d.profile_path && `${IMG}h632${d.profile_path}`,
+      ...FICHAS[persona[1]],
     };
   }
 
