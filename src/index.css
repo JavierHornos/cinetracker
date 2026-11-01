@@ -66,7 +66,7 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
   background: linear-gradient(180deg, #000 0%, #0a0a0a 100%); border-bottom: 1px solid #161616;
 }
 .header-fila { max-width: 1400px; margin: 0 auto; padding: 10px 16px 0; display: flex; align-items: center; gap: 12px; }
-.header .logo { font-size: 22px; letter-spacing: 3px; flex-shrink: 0; }
+.header .logo { font-size: 22px; letter-spacing: 3px; flex-shrink: 0; background: none; border: none; padding: 0; cursor: pointer; }
 .buscador { position: relative; flex: 1; min-width: 0; }
 .buscador .campo { padding: 9px 12px; font-size: 15px; }
 .usuario { flex-shrink: 0; }

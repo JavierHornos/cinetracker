@@ -234,7 +234,9 @@ function Cinetracker({ usuario }) {
     <>
       <header className="header">
         <div className="header-fila">
-          <div className="logo">🎬<span className="ocultar-celu"> CINETRACKER</span></div>
+          <button type="button" className="logo" onClick={() => { setAbiertaId(null); elegirSeccion("1001"); }} title="Ir al inicio">
+            🎬<span className="ocultar-celu"> CINETRACKER</span>
+          </button>
           <Buscador placeholder="Sumar película o serie…" onElegir={agregarDesdeBusqueda}
             etiquetaDe={r => {
               const p = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
