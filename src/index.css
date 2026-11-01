@@ -383,6 +383,14 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .banner.visitante { border-color: #5a4810; background: #141006; }
 .login .volver { display: block; margin-bottom: 18px; }
 
+/* ── Las 100 de la crítica y galería ─────────────────────────────────────── */
+.encuesta .anio { color: var(--oro); }
+.galeria { margin: 18px 0 6px; max-width: 980px; }
+.galeria-gente { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 14px; }
+.galeria .persona span { display: flex; flex-direction: column; }
+.galeria .persona small { color: var(--tenue); font-size: 12px; }
+.tarjeta-persona { margin-bottom: 8px; }
+
 @keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }
 @keyframes subir { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

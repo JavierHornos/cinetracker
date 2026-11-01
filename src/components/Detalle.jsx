@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { IMG, detalles, dondeVerDe, elegirTrailer, equipoDe } from "../lib/tmdb";
 import { LINKS, NOMBRES, NOTAS } from "../data/dondeVer";
+import { PUESTOS } from "../data/encuesta2022";
 import { corregirPelicula } from "../lib/datos";
 import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
 import Estrellas from "./Estrellas";
@@ -67,6 +68,9 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
             )}
             {esArg && capituloDe(peli.titulo) && (
               <span className="insignia arg">Cine argentino · cap. {capituloDe(peli.titulo).numero}: {capituloDe(peli.titulo).titulo}</span>
+            )}
+            {peli.listas.includes("encuesta2022") && PUESTOS[peli.tmdb_id] && (
+              <span className="insignia arg">Las 100 de la crítica · puesto {PUESTOS[peli.tmdb_id]}</span>
             )}
             {peli.listas.includes("clasicos") && <span className="insignia">Clásico</span>}
             {enMiLista && <span className="insignia">En mi lista</span>}

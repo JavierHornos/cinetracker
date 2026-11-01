@@ -1,0 +1,755 @@
+{
+ "universo": {
+  "top100": 103,
+  "historia41": 41,
+  "1001_argentinas": 2,
+  "total": 115
+ },
+ "sin_credito": {
+  "direccion": 0,
+  "fotografia": 23,
+  "montaje": 3
+ },
+ "ranking": {
+  "direccion": [
+   {
+    "id": 116190,
+    "nombre": "Leonardo Favio",
+    "n": 8,
+    "pelis": [
+     "Aniceto (2008)",
+     "Chronicle of a Boy Alone (1965)",
+     "Gatica, the Monkey (1993)",
+     "Juan Moreira (1973)",
+     "Nazareno Cruz and the Wolf (1975)",
+     "Soñar, soñar (1976)",
+     "The Dependent (1969)",
+     "The Romance of Aniceto and Francisca (1967)"
+    ]
+   },
+   {
+    "id": 116197,
+    "nombre": "Leopoldo Torre Nilsson",
+    "n": 5,
+    "pelis": [
+     "Painted Lips (1974)",
+     "The Hand in the Trap (1961)",
+     "The House of the Angel (1957)",
+     "The Kidnapper (1958)",
+     "The Party Is Over (1960)"
+    ]
+   },
+   {
+    "id": 1066960,
+    "nombre": "María Luisa Bemberg",
+    "n": 5,
+    "pelis": [
+     "Camila (1984)",
+     "I Don't Want to Talk About It (1993)",
+     "I, the Worst of All (1990)",
+     "Miss Mary (1986)",
+     "Nobody's Wife (1982)"
+    ]
+   },
+   {
+    "id": 109356,
+    "nombre": "Adolfo Aristarain",
+    "n": 4,
+    "pelis": [
+     "A Place in the World (1992)",
+     "Last Days of the Victim (1982)",
+     "The Lion's Share (1978)",
+     "Time for Revenge (1981)"
+    ]
+   },
+   {
+    "id": 56208,
+    "nombre": "Lucrecia Martel",
+    "n": 4,
+    "pelis": [
+     "La Ciénaga (2001)",
+     "The Headless Woman (2008)",
+     "The Holy Girl (2004)",
+     "Zama (2017)"
+    ]
+   },
+   {
+    "id": 71353,
+    "nombre": "Fernando E. Solanas",
+    "n": 4,
+    "pelis": [
+     "Tangos, the Exile of Gardel (1985)",
+     "The Children of Fierro (1978)",
+     "The Hour of the Furnaces (1968)",
+     "The South (1988)"
+    ]
+   },
+   {
+    "id": 1087155,
+    "nombre": "Mario Soffici",
+    "n": 3,
+    "pelis": [
+     "Prisoners of the Land (1939)",
+     "Rosaura at 10 O'Clock (1958)",
+     "The Circus Cavalcade (1945)"
+    ]
+   },
+   {
+    "id": 1082091,
+    "nombre": "Martín Rejtman",
+    "n": 3,
+    "pelis": [
+     "Rapado (1992)",
+     "Silvia Prieto (1999)",
+     "The Magic Gloves (2003)"
+    ]
+   },
+   {
+    "id": 1279066,
+    "nombre": "Ana Poliak",
+    "n": 3,
+    "pelis": [
+     "La fe del volcán (2002)",
+     "Long Live the Hobos (1995)",
+     "Pin Boy (2004)"
+    ]
+   },
+   {
+    "id": 230217,
+    "nombre": "Adrián Caetano",
+    "n": 3,
+    "pelis": [
+     "A Red Bear (2002)",
+     "Bolivia (2002)",
+     "Pizza, Beer, and Cigarettes (1998)"
+    ]
+   },
+   {
+    "id": 113625,
+    "nombre": "Esteban Sapir",
+    "n": 2,
+    "pelis": [
+     "Fine Powder (1998)",
+     "The Aerial (2007)"
+    ]
+   },
+   {
+    "id": 1452584,
+    "nombre": "Leopoldo Torres Ríos",
+    "n": 2,
+    "pelis": [
+     "Pelota de trapo (1948)",
+     "Return to the Nest (1938)"
+    ]
+   },
+   {
+    "id": 1411903,
+    "nombre": "Manuel Romero",
+    "n": 2,
+    "pelis": [
+     "Los muchachos de antes no usaban gomina (1937)",
+     "Women Who Work (1938)"
+    ]
+   },
+   {
+    "id": 106779,
+    "nombre": "Albertina Carri",
+    "n": 2,
+    "pelis": [
+     "Rustlers (2016)",
+     "The Blonds (2003)"
+    ]
+   },
+   {
+    "id": 107292,
+    "nombre": "Carlos Hugo Christensen",
+    "n": 2,
+    "pelis": [
+     "If I Should Die Before I Wake (1952)",
+     "Never Open That Door (1952)"
+    ]
+   },
+   {
+    "id": 1145473,
+    "nombre": "Hugo Santiago",
+    "n": 2,
+    "pelis": [
+     "Invasion (1969)",
+     "The Sidewalks of Saturn (1986)"
+    ]
+   },
+   {
+    "id": 1293509,
+    "nombre": "Mariano Llinás",
+    "n": 2,
+    "pelis": [
+     "Extraordinary Stories (2008)",
+     "La Flor (2019)"
+    ]
+   },
+   {
+    "id": 1083797,
+    "nombre": "José A. Martínez Suárez",
+    "n": 2,
+    "pelis": [
+     "Dar la cara (1962)",
+     "Yesterday's Guys Used No Arsenic (1976)"
+    ]
+   },
+   {
+    "id": 74907,
+    "nombre": "Fabián Bielinsky",
+    "n": 2,
+    "pelis": [
+     "Nine Queens (2000)",
+     "The Aura (2005)"
+    ]
+   },
+   {
+    "id": 1083978,
+    "nombre": "Lucas Demare",
+    "n": 2,
+    "pelis": [
+     "The Gaucho War (1942)",
+     "The Islanders (1951)"
+    ]
+   },
+   {
+    "id": 52121,
+    "nombre": "Héctor Olivera",
+    "n": 2,
+    "pelis": [
+     "Funny Dirty Little War (1983)",
+     "Rebellion in Patagonia (1974)"
+    ]
+   },
+   {
+    "id": 87510,
+    "nombre": "Carlos Sorin",
+    "n": 2,
+    "pelis": [
+     "A King and His Movie (1986)",
+     "Intimate Stories (2002)"
+    ]
+   },
+   {
+    "id": 941154,
+    "nombre": "Hugo del Carril",
+    "n": 2,
+    "pelis": [
+     "Beyond Oblivion (1956)",
+     "Dark River (1952)"
+    ]
+   },
+   {
+    "id": 1453184,
+    "nombre": "Rodolfo Kuhn",
+    "n": 2,
+    "pelis": [
+     "Pajarito Gómez (1965)",
+     "The Old Young People (1962)"
+    ]
+   },
+   {
+    "id": 1131520,
+    "nombre": "Fernando Birri",
+    "n": 2,
+    "pelis": [
+     "Flooded Out (1962)",
+     "Toss Me a Dime (1958)"
+    ]
+   },
+   {
+    "id": 1002601,
+    "nombre": "Lisandro Alonso",
+    "n": 2,
+    "pelis": [
+     "La libertad (2001)",
+     "Los Muertos (2004)"
+    ]
+   },
+   {
+    "id": 591600,
+    "nombre": "Damián Szifron",
+    "n": 2,
+    "pelis": [
+     "On Probation (2005)",
+     "Wild Tales (2014)"
+    ]
+   },
+   {
+    "id": 220264,
+    "nombre": "Fernando Ayala",
+    "n": 2,
+    "pelis": [
+     "Sweet Money (1982)",
+     "The Bitter Stems (1956)"
+    ]
+   }
+  ],
+  "fotografia": [
+   {
+    "id": 414697,
+    "nombre": "Félix \"Chango\" Monti",
+    "n": 9,
+    "pelis": [
+     "A Wall of Silence (1993)",
+     "Aniceto (2008)",
+     "I Don't Want to Talk About It (1993)",
+     "I, the Worst of All (1990)",
+     "Tangos, the Exile of Gardel (1985)",
+     "The Holy Girl (2004)",
+     "The Official Story (1985)",
+     "The Secret in Their Eyes (2009)",
+     "The South (1988)"
+    ]
+   },
+   {
+    "id": 1173339,
+    "nombre": "Alberto Etchebehere",
+    "n": 5,
+    "pelis": [
+     "Beyond Oblivion (1956)",
+     "God Bless You (1948)",
+     "Man on Pink Corner (1962)",
+     "The Hand in the Trap (1961)",
+     "The Kidnapper (1958)"
+    ]
+   },
+   {
+    "id": 1818145,
+    "nombre": "Pablo Tabernero",
+    "n": 4,
+    "pelis": [
+     "If I Should Die Before I Wake (1952)",
+     "Never Open That Door (1952)",
+     "Prisoners of the Land (1939)",
+     "Vidalita (1949)"
+    ]
+   },
+   {
+    "id": 1676474,
+    "nombre": "Miguel Rodriguez",
+    "n": 3,
+    "pelis": [
+     "Miss Mary (1986)",
+     "Nobody's Wife (1982)",
+     "Yesterday's Guys Used No Arsenic (1976)"
+    ]
+   },
+   {
+    "id": 1311464,
+    "nombre": "Horacio Maira",
+    "n": 3,
+    "pelis": [
+     "Last Days of the Victim (1982)",
+     "The Lion's Share (1978)",
+     "Time for Revenge (1981)"
+    ]
+   },
+   {
+    "id": 22456,
+    "nombre": "Ricardo Aronovich",
+    "n": 3,
+    "pelis": [
+     "Invasion (1969)",
+     "The Old Young People (1962)",
+     "The Sidewalks of Saturn (1986)"
+    ]
+   },
+   {
+    "id": 50924,
+    "nombre": "Cobi Migliora",
+    "n": 3,
+    "pelis": [
+     "Crane World (1999)",
+     "La libertad (2001)",
+     "Los Muertos (2004)"
+    ]
+   },
+   {
+    "id": 15603,
+    "nombre": "Ramiro Civita",
+    "n": 2,
+    "pelis": [
+     "Garage Olimpo (1999)",
+     "Lost Embrace (2004)"
+    ]
+   },
+   {
+    "id": 1414707,
+    "nombre": "Aníbal González Paz",
+    "n": 2,
+    "pelis": [
+     "Rosaura at 10 O'Clock (1958)",
+     "The House of the Angel (1957)"
+    ]
+   },
+   {
+    "id": 1315233,
+    "nombre": "Ignacio Souto",
+    "n": 2,
+    "pelis": [
+     "Chronicle of a Boy Alone (1965)",
+     "Pajarito Gómez (1965)"
+    ]
+   },
+   {
+    "id": 958596,
+    "nombre": "Hugo Colace",
+    "n": 2,
+    "pelis": [
+     "Intimate Stories (2002)",
+     "La Ciénaga (2001)"
+    ]
+   },
+   {
+    "id": 995370,
+    "nombre": "Juan Carlos Desanzo",
+    "n": 2,
+    "pelis": [
+     "The Children of Fierro (1978)",
+     "The Hour of the Furnaces (1968)"
+    ]
+   },
+   {
+    "id": 1706305,
+    "nombre": "Agustín Mendilaharzu",
+    "n": 2,
+    "pelis": [
+     "La Flor (2019)",
+     "Trenque Lauquen (2023)"
+    ]
+   },
+   {
+    "id": 967715,
+    "nombre": "Ricardo DeAngelis",
+    "n": 2,
+    "pelis": [
+     "A Place in the World (1992)",
+     "Man Facing Southeast (1987)"
+    ]
+   },
+   {
+    "id": 999842,
+    "nombre": "José Luis García",
+    "n": 2,
+    "pelis": [
+     "Rapado (1992)",
+     "The Magic Gloves (2003)"
+    ]
+   },
+   {
+    "id": 1822075,
+    "nombre": "Adelqui Camusso",
+    "n": 2,
+    "pelis": [
+     "Brief Heaven (1969)",
+     "Flooded Out (1962)"
+    ]
+   },
+   {
+    "id": 1020046,
+    "nombre": "Javier Julia",
+    "n": 2,
+    "pelis": [
+     "Argentina 1985 (2022)",
+     "Wild Tales (2014)"
+    ]
+   },
+   {
+    "id": 1949344,
+    "nombre": "Víctor González",
+    "n": 2,
+    "pelis": [
+     "Fine Powder (1998)",
+     "Pin Boy (2004)"
+    ]
+   },
+   {
+    "id": 1356708,
+    "nombre": "Ricardo Younis",
+    "n": 2,
+    "pelis": [
+     "Dar la cara (1962)",
+     "The Bitter Stems (1956)"
+    ]
+   },
+   {
+    "id": 68145,
+    "nombre": "Lucio Bonelli",
+    "n": 2,
+    "pelis": [
+     "On Probation (2005)",
+     "The Paranoids (2008)"
+    ]
+   },
+   {
+    "id": 1409155,
+    "nombre": "Víctor Hugo Caula",
+    "n": 2,
+    "pelis": [
+     "Rebellion in Patagonia (1974)",
+     "Sweet Money (1982)"
+    ]
+   }
+  ],
+  "montaje": [
+   {
+    "id": 1195528,
+    "nombre": "Antonio Ripoll",
+    "n": 13,
+    "pelis": [
+     "Chronicle of a Boy Alone (1965)",
+     "Dar la cara (1962)",
+     "Flooded Out (1962)",
+     "Juan Moreira (1973)",
+     "Nazareno Cruz and the Wolf (1975)",
+     "Painted Lips (1974)",
+     "Soñar, soñar (1976)",
+     "The Bitter Stems (1956)",
+     "The Dependent (1969)",
+     "The Hour of the Furnaces (1968)",
+     "The Old Young People (1962)",
+     "The Romance of Aniceto and Francisca (1967)",
+     "Toss Me a Dime (1958)"
+    ]
+   },
+   {
+    "id": 1916121,
+    "nombre": "Gerardo Rinaldi",
+    "n": 9,
+    "pelis": [
+     "Brief Heaven (1969)",
+     "Chronicle of a Boy Alone (1965)",
+     "Dar la cara (1962)",
+     "Dark River (1952)",
+     "Flooded Out (1962)",
+     "Prisoners of the Land (1939)",
+     "The Bitter Stems (1956)",
+     "The Old Young People (1962)",
+     "Vidalita (1949)"
+    ]
+   },
+   {
+    "id": 1070260,
+    "nombre": "Juan Carlos Macías",
+    "n": 7,
+    "pelis": [
+     "A Wall of Silence (1993)",
+     "I Don't Want to Talk About It (1993)",
+     "I, the Worst of All (1990)",
+     "The Hour of the Furnaces (1968)",
+     "The Official Story (1985)",
+     "The South (1988)",
+     "Viejo Reales' Long Journey to Death (1971)"
+    ]
+   },
+   {
+    "id": 1173340,
+    "nombre": "Jorge Gárate",
+    "n": 6,
+    "pelis": [
+     "God Bless You (1948)",
+     "Hardly a Criminal (1949)",
+     "Man on Pink Corner (1962)",
+     "Rosaura at 10 O'Clock (1958)",
+     "The House of the Angel (1957)",
+     "The Kidnapper (1958)"
+    ]
+   },
+   {
+    "id": 140557,
+    "nombre": "Luis César D'Angiolillo",
+    "n": 5,
+    "pelis": [
+     "Camila (1984)",
+     "Man Facing Southeast (1987)",
+     "Miss Mary (1986)",
+     "Tangos, the Exile of Gardel (1985)",
+     "The Children of Fierro (1978)"
+    ]
+   },
+   {
+    "id": 1311465,
+    "nombre": "Eduardo López",
+    "n": 5,
+    "pelis": [
+     "A Place in the World (1992)",
+     "Funny Dirty Little War (1983)",
+     "Last Days of the Victim (1982)",
+     "Sweet Money (1982)",
+     "Time for Revenge (1981)"
+    ]
+   },
+   {
+    "id": 978234,
+    "nombre": "Santiago Ricci",
+    "n": 4,
+    "pelis": [
+     "A Red Bear (2002)",
+     "Bolivia (2002)",
+     "La Ciénaga (2001)",
+     "The Holy Girl (2004)"
+    ]
+   },
+   {
+    "id": 1701521,
+    "nombre": "José Cardella",
+    "n": 3,
+    "pelis": [
+     "Pelota de trapo (1948)",
+     "Return to the Nest (1938)",
+     "The Furies (1960)"
+    ]
+   },
+   {
+    "id": 1540999,
+    "nombre": "Óscar Montauti",
+    "n": 3,
+    "pelis": [
+     "Invasion (1969)",
+     "Rebellion in Patagonia (1974)",
+     "The Traitors (1973)"
+    ]
+   },
+   {
+    "id": 128046,
+    "nombre": "Alejo Moguillansky",
+    "n": 3,
+    "pelis": [
+     "Extraordinary Stories (2008)",
+     "La Flor (2019)",
+     "Trenque Lauquen (2023)"
+    ]
+   },
+   {
+    "id": 1279066,
+    "nombre": "Ana Poliak",
+    "n": 3,
+    "pelis": [
+     "La fe del volcán (2002)",
+     "Long Live the Hobos (1995)",
+     "Pin Boy (2004)"
+    ]
+   },
+   {
+    "id": 1043859,
+    "nombre": "Pablo Barbieri Carrera",
+    "n": 2,
+    "pelis": [
+     "The Aerial (2007)",
+     "Wild Tales (2014)"
+    ]
+   },
+   {
+    "id": 1411904,
+    "nombre": "Francisco Múgica",
+    "n": 2,
+    "pelis": [
+     "Los muchachos de antes no usaban gomina (1937)",
+     "The Three Amateurs (1933)"
+    ]
+   },
+   {
+    "id": 1318865,
+    "nombre": "José J. Serra",
+    "n": 2,
+    "pelis": [
+     "Shunko (1960)",
+     "The Party Is Over (1960)"
+    ]
+   },
+   {
+    "id": 1917668,
+    "nombre": "José Gallego",
+    "n": 2,
+    "pelis": [
+     "If I Should Die Before I Wake (1952)",
+     "Never Open That Door (1952)"
+    ]
+   },
+   {
+    "id": 1049151,
+    "nombre": "Miguel Pérez",
+    "n": 2,
+    "pelis": [
+     "Nobody's Wife (1982)",
+     "The Lion's Share (1978)"
+    ]
+   },
+   {
+    "id": 1791449,
+    "nombre": "Agustín Rolandelli",
+    "n": 2,
+    "pelis": [
+     "Extraordinary Stories (2008)",
+     "La Flor (2019)"
+    ]
+   },
+   {
+    "id": 1917595,
+    "nombre": "Óscar Souto",
+    "n": 2,
+    "pelis": [
+     "Coup de Grace (1969)",
+     "The Truce (1974)"
+    ]
+   },
+   {
+    "id": 2174045,
+    "nombre": "Armando Blanco",
+    "n": 2,
+    "pelis": [
+     "Brief Heaven (1969)",
+     "The Romance of Aniceto and Francisca (1967)"
+    ]
+   },
+   {
+    "id": 1084079,
+    "nombre": "Carlos Rinaldi",
+    "n": 2,
+    "pelis": [
+     "The Circus Cavalcade (1945)",
+     "The Gaucho War (1942)"
+    ]
+   },
+   {
+    "id": 1002601,
+    "nombre": "Lisandro Alonso",
+    "n": 2,
+    "pelis": [
+     "La libertad (2001)",
+     "Los Muertos (2004)"
+    ]
+   },
+   {
+    "id": 555975,
+    "nombre": "Nicolás Goldbart",
+    "n": 2,
+    "pelis": [
+     "Crane World (1999)",
+     "The Paranoids (2008)"
+    ]
+   },
+   {
+    "id": 979592,
+    "nombre": "Miguel Schverdfinger",
+    "n": 2,
+    "pelis": [
+     "The Headless Woman (2008)",
+     "Zama (2017)"
+    ]
+   },
+   {
+    "id": 1925280,
+    "nombre": "Vicente Castagno",
+    "n": 2,
+    "pelis": [
+     "Pajarito Gómez (1965)",
+     "People in Buenos Aires (1974)"
+    ]
+   }
+  ]
+ }
+}

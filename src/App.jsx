@@ -14,6 +14,8 @@ import Detalle from "./components/Detalle";
 import Ficha from "./components/Ficha";
 import { FICHAS, MONTI } from "./data/personas";
 import { compartir } from "./lib/compartir";
+import { ENCUESTA, PUESTOS } from "./data/encuesta2022";
+import { GENTE } from "./data/gente";
 
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
@@ -261,6 +263,8 @@ function Cinetracker({ usuario }) {
     .sort((a, b) => (a.pagina_libro ?? 9999) - (b.pagina_libro ?? 9999) || a.id - b.id), [catalogo]);
   const argentino = useMemo(() => catalogo.filter(p => p.listas.includes("cine_argentino"))
     .sort((a, b) => (a.anio ?? 0) - (b.anio ?? 0)), [catalogo]);
+  const encuesta = useMemo(() => catalogo.filter(p => p.listas.includes("encuesta2022"))
+    .sort((a, b) => (PUESTOS[a.tmdb_id] ?? 999) - (PUESTOS[b.tmdb_id] ?? 999) || (a.anio ?? 0) - (b.anio ?? 0)), [catalogo]);
   const miLista = useMemo(() => catalogo.filter(p => marcas[p.id]?.en_mi_lista)
     .sort((a, b) => (marcas[b.id].agregado_at || "").localeCompare(marcas[a.id].agregado_at || "")), [catalogo, marcas]);
 
@@ -322,7 +326,7 @@ function Cinetracker({ usuario }) {
         ) : seccion === "1001" ? (
           <Seccion1001 pelis={libro} {...props} />
         ) : seccion === "argentino" ? (
-          <SeccionArgentino pelis={argentino} {...props} onPersona={irAPersona} onCompartir={compartirLink} />
+          <SeccionArgentino pelis={argentino} encuesta={encuesta} {...props} onPersona={irAPersona} onCompartir={compartirLink} />
         ) : usuario ? (
           <SeccionMiLista pelis={miLista} onImportar={importarListaVieja} {...props} />
         ) : (
@@ -436,7 +440,7 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
 
 // La sección se lee como un libro: nueve capítulos con su texto y, al final de cada uno,
 // sus películas para marcar como vistas.
-function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona, onCompartir }) {
+function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPersona, onCompartir }) {
   const [estado, setEstado] = useState("todas");
   const porTitulo = useMemo(() => new Map(pelis.map(p => [p.titulo, p])), [pelis]);
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
@@ -472,6 +476,10 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona, onCompa
         <button type="button" className="las41-ir" onClick={() => irA("las41")} title="Las 41 películas">
           <span className="num">41</span>
           <span className="anios">lista</span>
+        </button>
+        <button type="button" className="las41-ir" onClick={() => irA("encuesta")} title={ENCUESTA.titulo}>
+          <span className="num">100</span>
+          <span className="anios">crítica</span>
         </button>
       </nav>
 
@@ -542,11 +550,56 @@ function SeccionArgentino({ pelis, marcas, onAbrir, onMarcar, onPersona, onCompa
         </ol>
       </section>
 
+      <section id="cap-encuesta" className="capitulo">
+        <h2>Las 100 de la crítica</h2>
+        <div className="historia-texto">
+          <p>{ENCUESTA.bajada} Por los empates son 103. Las que también están en la historia de arriba llevan la marca.</p>
+        </div>
+        <div className="para-ver">
+          <span>{ENCUESTA.titulo.toUpperCase()}</span>
+          <span className="cuenta">{encuesta.filter(p => marcas[p.id]?.visto).length}/{encuesta.length} vistas</span>
+        </div>
+        <ol className="las41 encuesta">
+          {encuesta.map(p => {
+            const vista = Boolean(marcas[p.id]?.visto);
+            return (
+              <li key={p.id} className={vista ? "vista" : ""}>
+                <button type="button" className="check" aria-pressed={vista}
+                  aria-label={vista ? `Desmarcar ${p.titulo} como vista` : `Marcar ${p.titulo} como vista`}
+                  onClick={() => onMarcar(p, { visto: !vista })}>✓</button>
+                <span className="anio">{PUESTOS[p.tmdb_id]}º</span>
+                <button type="button" className="cuerpo" onClick={() => onAbrir(p)}>
+                  <span className="titulo">{p.titulo}</span>
+                  <span className="dire">{[p.direccion, p.anio].filter(Boolean).join(" · ")}</span>
+                  <span className="porque">{p.listas.includes("cine_argentino") ? "También en la historia" : ""}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ol>
+        <div className="historia-texto fuentes">
+          <p>Fuente: <a href={ENCUESTA.fuente} target="_blank" rel="noreferrer">Encuesta de cine argentino 2022</a>.</p>
+        </div>
+      </section>
+
       <section className="capitulo">
         <h2>Quienes hacen las películas</h2>
         <div className="historia-texto">
-          <p>Detrás de cada película hay alguien que la dirige, alguien que la ilumina y alguien que la monta. En el detalle de cada película, tocá un nombre para ver su ficha y toda su filmografía.</p>
+          <p>Detrás de cada película hay alguien que la dirige, alguien que la ilumina y alguien que la monta. Estos son los que más se repiten entre las 100 de la crítica y las 41 de la historia. Tocá un nombre para ver su ficha y toda su filmografía; en el detalle de cada película también podés tocar quién la hizo.</p>
         </div>
+        {GENTE.map(g => (
+          <div key={g.rol} className="galeria">
+            <div className="etiqueta">{g.rol.toUpperCase()}</div>
+            <div className="galeria-gente">
+              {g.personas.map(p => (
+                <button key={p.id} type="button" className="persona" onClick={() => onPersona(p.id)}>
+                  {p.foto ? <img src={`${IMG}w185${p.foto}`} alt="" loading="lazy" /> : <span className="sin" />}
+                  <span>{p.nombre}<small>{p.n} películas</small></span>
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
         <button type="button" className="tarjeta-persona" onClick={() => onPersona(MONTI)}>
           <span className="etiqueta">{FICHAS[MONTI].rol.toUpperCase()}</span>
           <b>{FICHAS[MONTI].nombre}</b>
