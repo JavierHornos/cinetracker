@@ -1,0 +1,13 @@
+// Links directos que TMDB no tiene (o no tiene completos). Clave: "movie-<id TMDB>" o "tv-<id TMDB>".
+export const LINKS = {
+  "movie-898015": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
+  ],
+  "movie-740542": [
+    { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
+  ],
+};
+
+// Cómo mostrar algunas plataformas de TMDB (que vienen con nombres en inglés o abreviados).
+export const NOMBRES = { CINE: "Cine.ar" };
+export const NOTAS = { CINE: "gratis con registro" };

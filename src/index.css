@@ -365,6 +365,17 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .tarjeta-persona b { font-family: var(--display); font-weight: normal; font-size: 28px; letter-spacing: 1px; color: #fff; }
 @media (hover: hover) { .tarjeta-persona:hover { border-color: var(--oro); } }
 
+/* ── Dónde verla ───────────────────────────────────────────────────────── */
+.donde .boton { display: inline-flex; gap: 4px; align-items: baseline; margin: 2px 0 10px; }
+.donde .boton small { font-family: var(--serif); font-size: 12px; letter-spacing: 0; opacity: .8; }
+.donde-grupo { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.donde-tipo { width: 120px; flex-shrink: 0; color: var(--tenue); font-size: 13px; }
+.plataforma { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 3px; border: 1px solid #2a2a2a; border-radius: 6px; background: #141414; color: #ddd; font-size: 13px; text-decoration: none; }
+.plataforma img { width: 28px; height: 28px; border-radius: 5px; }
+@media (hover: hover) { .plataforma:hover { border-color: var(--oro); } }
+.fuente-donde { margin-top: 8px; color: var(--muy-tenue); font-size: 11px; }
+@media (max-width: 520px) { .donde-tipo { width: 100%; } }
+
 @keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }
 @keyframes subir { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

@@ -20,7 +20,7 @@ export async function buscar(query, tipo = "multi") {
 
 export function detalles(id, mediaType) {
   return tmdb(`/${mediaType}/${id}`, {
-    append_to_response: "credits,videos",
+    append_to_response: "credits,videos,watch/providers",
     include_video_language: "es,en,null",
   });
 }
@@ -76,4 +76,25 @@ export function equipoDe(d, mediaType) {
     const unicos = [...new Map(gente.map(p => [p.id, p])).values()].slice(0, 4);
     return { ...r, gente: unicos };
   }).filter(r => r.gente.length);
+}
+
+// Dónde verla en Argentina (datos de JustWatch vía TMDB), agrupado de lo más accesible a lo más caro.
+const TIPOS_DONDE = [
+  { clave: ["free", "ads"], titulo: "Gratis" },
+  { clave: ["flatrate"], titulo: "Con suscripción" },
+  { clave: ["rent"], titulo: "Alquiler" },
+  { clave: ["buy"], titulo: "Compra" },
+];
+
+export function dondeVerDe(d) {
+  const ar = d?.["watch/providers"]?.results?.AR;
+  if (!ar) return { link: null, grupos: [] };
+  const vistas = new Set();
+  const grupos = TIPOS_DONDE.map(t => {
+    const lista = t.clave.flatMap(k => ar[k] || [])
+      .sort((a, b) => a.display_priority - b.display_priority)
+      .filter(p => !vistas.has(p.provider_id) && vistas.add(p.provider_id));
+    return { titulo: t.titulo, plataformas: lista };
+  }).filter(g => g.plataformas.length);
+  return { link: ar.link, grupos };
 }

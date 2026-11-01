@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { IMG, detalles, elegirTrailer, equipoDe } from "../lib/tmdb";
+import { IMG, detalles, dondeVerDe, elegirTrailer, equipoDe } from "../lib/tmdb";
+import { LINKS, NOMBRES, NOTAS } from "../data/dondeVer";
 import { corregirPelicula } from "../lib/datos";
 import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
 import Estrellas from "./Estrellas";
@@ -30,6 +31,8 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
   const temporadas = extra?.number_of_seasons;
   const reparto = extra?.credits?.cast?.slice(0, 8) || [];
   const equipo = extra ? equipoDe(extra, peli.media_type) : [];
+  const donde = dondeVerDe(extra);
+  const links = LINKS[`${peli.media_type}-${peli.tmdb_id}`] || [];
   const sinopsis = peli.sinopsis || extra?.overview;
   const esArg = peli.listas.includes("cine_argentino");
   const porQue = esArg ? POR_QUE_VERLA[peli.titulo] : null;
@@ -105,10 +108,28 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
             </div>
           )}
 
-          {peli.donde_ver && (
-            <div className="bloque">
-              <div className="etiqueta">DÓNDE VERLA</div>
-              <p>{peli.donde_ver}</p>
+          {(links.length > 0 || donde.grupos.length > 0 || peli.donde_ver) && (
+            <div className="bloque donde">
+              <div className="etiqueta">DÓNDE VERLA EN ARGENTINA</div>
+              {links.map(l => (
+                <a key={l.url} className="boton oro chico" href={l.url} target="_blank" rel="noreferrer">
+                  ▶ VER EN {l.nombre.toUpperCase()}<small> · {l.nota}</small>
+                </a>
+              ))}
+              {donde.grupos.map(g => (
+                <div key={g.titulo} className="donde-grupo">
+                  <span className="donde-tipo">{g.titulo}</span>
+                  {g.plataformas.map(p => (
+                    <a key={p.provider_id} className="plataforma" href={donde.link} target="_blank" rel="noreferrer"
+                      title={NOTAS[p.provider_name] ? `${NOMBRES[p.provider_name] || p.provider_name} · ${NOTAS[p.provider_name]}` : p.provider_name}>
+                      <img src={`${IMG}w92${p.logo_path}`} alt="" loading="lazy" />
+                      <span>{NOMBRES[p.provider_name] || p.provider_name}</span>
+                    </a>
+                  ))}
+                </div>
+              ))}
+              {peli.donde_ver && <p>{peli.donde_ver}</p>}
+              {donde.grupos.length > 0 && <div className="fuente-donde">Datos de JustWatch. Pueden cambiar.</div>}
             </div>
           )}
 
