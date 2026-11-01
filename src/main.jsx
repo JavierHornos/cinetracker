@@ -15,6 +15,8 @@ for (const [re, interna] of internas) {
   const m = ruta.match(re)
   if (m) window.history.replaceState(null, '', `/#${interna(m)}`)
 }
+// El título de la vista previa ("Viaje a la Luna · Cinetracker") no tiene que quedar al navegar.
+document.title = 'Cinetracker'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
