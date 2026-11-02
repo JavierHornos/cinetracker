@@ -10,7 +10,10 @@ function enLinea(texto, clave = "") {
   while ((m = re.exec(texto))) {
     if (m.index > ultimo) partes.push(texto.slice(ultimo, m.index));
     const k = `${clave}-${m.index}`;
-    if (m[1]) partes.push(<a key={k} href={m[2]} target="_blank" rel="noreferrer">{enLinea(m[1], k)}</a>);
+    // Los links internos (#/persona/…) abren dentro de la página; los demás, en otra pestaña.
+    if (m[1]) partes.push(m[2].startsWith("#")
+      ? <a key={k} href={m[2]}>{enLinea(m[1], k)}</a>
+      : <a key={k} href={m[2]} target="_blank" rel="noreferrer">{enLinea(m[1], k)}</a>);
     else if (m[3]) partes.push(<strong key={k}>{enLinea(m[3], k)}</strong>);
     else partes.push(<em key={k}>{enLinea(m[4], k)}</em>);
     ultimo = re.lastIndex;
