@@ -28,7 +28,7 @@ En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira polít
 
 **José Agustín Ferreyra** fue el director más importante de los años 20. Filmaba en el arrabal, con actores no profesionales y sin guion cerrado, mucho antes del neorrealismo. Sus melodramas de tango, como *La muchacha del arrabal* (1922), inventaron un Buenos Aires de conventillos y milongas que el cine sonoro iba a heredar.
 
-Casi todo el cine mudo argentino se perdió: sobreviven muy pocas películas. Por eso esta época se conoce más por libros que por películas. Si la encontrás, sumá también *Amalia* (1914).`,
+Casi todo el cine mudo argentino se perdió: sobreviven muy pocas películas. Por eso esta época se conoce más por libros que por películas. *El Apóstol* y *La muchacha del arrabal* están perdidas; de las que sí se conservan, *Amalia* (1914), *Nobleza gaucha* (1915) y *Perdón viejita* (1927), de Ferreyra, se pueden ver completas acá abajo.`,
     peliculas: ["Nobleza gaucha"],
   },
   {

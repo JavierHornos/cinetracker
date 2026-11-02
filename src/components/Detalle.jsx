@@ -91,6 +91,9 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
               {completa.youtube ? (
                 <iframe src={`https://www.youtube-nocookie.com/embed/${completa.youtube}?autoplay=1`} title={peli.titulo}
                   allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+              ) : completa.archive ? (
+                <iframe src={`https://archive.org/embed/${completa.archive}`} title={peli.titulo}
+                  allow="fullscreen" allowFullScreen />
               ) : (
                 <video controls autoPlay playsInline preload="metadata">
                   {completa.webm && <source src={completa.webm} type="video/webm" />}

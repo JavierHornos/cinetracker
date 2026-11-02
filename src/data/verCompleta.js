@@ -1,8 +1,15 @@
 // Películas que se pueden ver completas dentro de la página. Clave: "movie-<id TMDB>".
 // Hoy son copias de Wikimedia Commons (dominio público o CC BY); cuando estén en el canal
 // "Cine Club El Doctor" se puede cambiar por { youtube: "<id del video>", ... }.
+// También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  "movie-234260": {
+    archive: "perdon-viejita-1927",
+    licencia: "Obra de dominio público (Ferreyra murió en 1943)",
+    credito: "José A. Ferreyra",
+    fuente: { nombre: "Internet Archive", url: "https://archive.org/details/perdon-viejita-1927" },
+  },
   "movie-160": {
     webm: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm",
     mov: "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm.360p.mpeg4.mov",
@@ -41,4 +48,4 @@ export const VER_COMPLETA = {
 };
 
 // Las que se ven completas en el capítulo 1 (el cine mudo), en orden.
-export const MUDAS_COMPLETAS = [160, 233020, 226934, 285525];
+export const MUDAS_COMPLETAS = [160, 233020, 226934, 285525, 234260];
