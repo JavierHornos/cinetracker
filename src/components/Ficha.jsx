@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { IMG, ROLES, anioDe, persona } from "../lib/tmdb";
 import { FICHAS } from "../data/personas";
+import { BIOS } from "../data/bios";
 import TextoMd from "./TextoMd";
 
 // Ficha de un director, director de fotografía o montajista: quién es y toda su filmografía,
@@ -94,9 +95,23 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
       )}
 
       <div className="historia-texto">
-        {propia?.texto
-          ? <TextoMd texto={propia.texto} />
-          : datos.biography && <TextoMd texto={datos.biography} />}
+        {propia?.texto ? (
+          <TextoMd texto={propia.texto} />
+        ) : BIOS[id] ? (
+          <>
+            <TextoMd texto={BIOS[id].texto} />
+            <p className="fuente-bio">Biografía traducida de TMDB{BIOS[id].fuente ? ` (origen: ${BIOS[id].fuente})` : ""}.</p>
+          </>
+        ) : datos.biografia_en_ingles ? (
+          <details className="bio-ingles">
+            <summary>Todavía no tenemos su biografía en castellano. Ver la de TMDB, en inglés</summary>
+            <TextoMd texto={datos.biography} />
+          </details>
+        ) : datos.biography ? (
+          <TextoMd texto={datos.biography} />
+        ) : (
+          <p className="fuente-bio">Todavía no tenemos su biografía. Abajo, toda su filmografía.</p>
+        )}
       </div>
 
       {secciones.map(s => {

@@ -387,6 +387,8 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .encuesta .anio { color: var(--oro); }
 .completas .porque { color: var(--oro); }
 .reproductor { margin-top: 16px; }
+.fuente-bio { color: var(--muy-tenue); font-size: 13px; font-style: italic; }
+.bio-ingles summary { cursor: pointer; color: var(--tenue); font-size: 14px; font-style: italic; margin-bottom: 8px; }
 .reproductor video, .reproductor iframe { display: block; width: 100%; aspect-ratio: 4 / 3; max-height: 70vh; background: #000; border: 0; border-radius: 6px; }
 .reproductor iframe { aspect-ratio: 16 / 9; }
 .reproductor .fuente-donde a { color: var(--tenue); }

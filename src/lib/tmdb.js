@@ -51,12 +51,12 @@ export function direccionDe(d, mediaType) {
   return nombres.slice(0, 3).join(", ") || null;
 }
 
-// Ficha de una persona con toda su filmografía. Si no hay biografía en castellano, usa la inglesa.
+// Ficha de una persona con toda su filmografía. Si no hay biografía en castellano, trae la inglesa (y lo marca).
 export async function persona(id) {
   const d = await tmdb(`/person/${id}`, { append_to_response: "combined_credits" });
   if (!d.biography) {
     const en = await tmdb(`/person/${id}`, { language: "en-US" }).catch(() => null);
-    if (en?.biography) d.biography = en.biography;
+    if (en?.biography) { d.biography = en.biography; d.biografia_en_ingles = true; }
   }
   return d;
 }
