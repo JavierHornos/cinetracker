@@ -1,5 +1,5 @@
 import { supabase } from "./supabase";
-import { anioDe, detalles, direccionDe, elegirTrailer } from "./tmdb";
+import { anioDe, detalles, direccionDe, elegirTrailer, tituloDe } from "./tmdb";
 
 // Lo que puede leer un visitante sin sesión (ver supabase/05_publico.sql).
 const PUBLICAS = "id,tmdb_id,media_type,titulo,titulo_tmdb,titulo_original,anio,direccion,sinopsis," +
@@ -62,7 +62,7 @@ export async function agregarAMiLista(r, { visto = false, puntaje = 0 } = {}) {
     p_direccion: await direccionDeTmdb(r),
     p_tmdb_id: r.id,
     p_media_type: r.media_type === "tv" ? "tv" : "movie",
-    p_titulo: r.title || r.name,
+    p_titulo: tituloDe(r),
     p_titulo_original: r.original_title || r.original_name || null,
     p_anio: anioDe(r),
     p_sinopsis: r.overview || null,
@@ -82,7 +82,7 @@ export async function asegurarPelicula(r) {
     p_direccion: await direccionDeTmdb(r),
     p_tmdb_id: r.id,
     p_media_type: r.media_type === "tv" ? "tv" : "movie",
-    p_titulo: r.title || r.name,
+    p_titulo: tituloDe(r),
     p_titulo_original: r.original_title || r.original_name || null,
     p_anio: anioDe(r),
     p_sinopsis: r.overview || null,

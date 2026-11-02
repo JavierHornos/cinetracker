@@ -98,3 +98,10 @@ export function dondeVerDe(d) {
   }).filter(g => g.plataformas.length);
   return { link: ar.link, grupos };
 }
+
+// Las habladas en castellano van con su título original: en es-AR, TMDB a veces devuelve
+// el título de España (Futbolín en vez de Metegol).
+export function tituloDe(r) {
+  const original = r.original_title || r.original_name;
+  return r.original_language === "es" && original ? original : r.title || r.name;
+}

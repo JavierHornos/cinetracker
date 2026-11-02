@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { IMG, ROLES, anioDe, persona } from "../lib/tmdb";
+import { IMG, ROLES, anioDe, persona, tituloDe } from "../lib/tmdb";
 import { FICHAS } from "../data/personas";
 import { BIOS } from "../data/bios";
 import TextoMd from "./TextoMd";
@@ -131,7 +131,7 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
                   c?.listas.includes("1001") && "1001 películas",
                   p.media_type === "tv" && "Serie",
                 ].filter(Boolean).join(" · ");
-                const titulo = p.title || p.name;
+                const titulo = tituloDe(p);
                 return (
                   <li key={`${p.media_type}-${p.id}`} className={v ? "vista" : ""}>
                     <button type="button" className="check" aria-pressed={v}

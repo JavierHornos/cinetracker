@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { IMG, anioDe, buscar } from "../lib/tmdb";
+import { IMG, anioDe, buscar, tituloDe } from "../lib/tmdb";
 
 // Búsqueda en TMDB con desplegable de resultados.
 export default function Buscador({ placeholder, tipo = "multi", inicial = "", etiquetaDe, onElegir }) {
@@ -43,7 +43,7 @@ export default function Buscador({ placeholder, tipo = "multi", inicial = "", et
           {estado === "error" && <div className="vacio">No se pudo buscar. Probá de nuevo.</div>}
           {estado === "listo" && !resultados.length && <div className="vacio">Sin resultados.</div>}
           {resultados.map(r => {
-            const titulo = r.title || r.name;
+            const titulo = tituloDe(r);
             const anio = anioDe(r);
             return (
               <button type="button" key={`${r.media_type}-${r.id}`} className="resultado"

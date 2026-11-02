@@ -5,7 +5,7 @@ import {
   CAPITULOS, HISTORIA_CIERRE, HISTORIA_FUENTES, HISTORIA_INTRO, POR_QUE_VERLA, QUE_APRENDES,
 } from "./data/cineArgentino";
 import TextoMd from "./components/TextoMd";
-import { IMG, anioDe } from "./lib/tmdb";
+import { IMG, anioDe, tituloDe } from "./lib/tmdb";
 import Estrellas from "./components/Estrellas";
 import Login from "./components/Login";
 import Buscador from "./components/Buscador";
@@ -209,7 +209,7 @@ function Cinetracker({ usuario }) {
     // Un visitante no puede sumar al catálogo: ve la película armada con los datos de TMDB.
     if (!usuario && !existente) {
       setAbiertaTmdb({
-        id: null, tmdb_id: r.id, media_type: r.media_type === "tv" ? "tv" : "movie", titulo: r.title || r.name,
+        id: null, tmdb_id: r.id, media_type: r.media_type === "tv" ? "tv" : "movie", titulo: tituloDe(r),
         titulo_original: r.original_title || r.original_name, anio: anioDe(r), sinopsis: r.overview,
         poster_path: r.poster_path, backdrop_path: r.backdrop_path, vote_average: r.vote_average, listas: [], cruce: "segura",
       });
