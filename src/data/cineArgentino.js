@@ -22,7 +22,7 @@ export const CAPITULOS = [
 
 *Amalia* (1914), basada en la novela de José Mármol, es el largometraje argentino más antiguo que se conserva. Al año siguiente llegó el primer gran éxito: *Nobleza gaucha* (1915), un drama rural de Humberto Cairo, Eduardo Martínez de la Pera y Ernesto Gunche. Estuvo en cartel más de veinte años y mostró que el cine local podía ser negocio.
 
-En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira política sobre el presidente Yrigoyen. Es el primer largometraje animado de la historia del cine, anterior a Disney. No se conserva ninguna copia.
+En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira política sobre el presidente Yrigoyen. Es el primer largometraje animado de la historia del cine, anterior a Disney. No se conserva ninguna copia. De Cristiani sobrevivió un solo corto, *El mono relojero* (1938): está en la lista de abajo.
 
 ### El Negro Ferreyra y el tango
 

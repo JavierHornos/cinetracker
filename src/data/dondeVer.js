@@ -1,5 +1,9 @@
 // Links directos que TMDB no tiene (o no tiene completos). Clave: "movie-<id TMDB>" o "tv-<id TMDB>".
 export const LINKS = {
+  // No es de dominio público (Cristiani murió en 1984): link afuera, no embebida. Pedir permiso para embeberla.
+  "movie-253766": [
+    { nombre: "Internet Archive", url: "https://archive.org/details/mono-relojero-el-quirino-cristiani-arg-1938", nota: "copia subida por terceros · derechos: herederos de Quirino Cristiani" },
+  ],
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],

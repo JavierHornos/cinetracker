@@ -47,5 +47,5 @@ export const VER_COMPLETA = {
   },
 };
 
-// Las que se ven completas en el capítulo 1 (el cine mudo), en orden.
-export const MUDAS_COMPLETAS = [160, 233020, 226934, 285525, 234260];
+// Las del capítulo 1 (el cine mudo), en orden. Las que no están en VER_COMPLETA se ven con un link afuera.
+export const MUDAS_COMPLETAS = [160, 233020, 226934, 285525, 234260, 253766];

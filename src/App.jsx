@@ -16,7 +16,7 @@ import { FICHAS, MONTI } from "./data/personas";
 import { compartir } from "./lib/compartir";
 import { ENCUESTA, PUESTOS, VOTOS } from "./data/encuesta2022";
 import { GENTE } from "./data/gente";
-import { MUDAS_COMPLETAS } from "./data/verCompleta";
+import { MUDAS_COMPLETAS, VER_COMPLETA } from "./data/verCompleta";
 
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
@@ -519,7 +519,7 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
             {c.id === "mudo" && completas.length > 0 && (
               <>
                 <div className="para-ver">
-                  <span>PARA VER COMPLETAS, ACÁ MISMO</span>
+                  <span>PARA VER COMPLETAS</span>
                   <span className="cuenta">{completas.filter(p => marcas[p.id]?.visto).length}/{completas.length} vistas</span>
                 </div>
                 <ol className="las41 completas">
@@ -534,7 +534,9 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
                         <button type="button" className="cuerpo" onClick={() => onAbrir(p)}>
                           <span className="titulo">{p.titulo}</span>
                           <span className="dire">{p.direccion}</span>
-                          <span className="porque">▶ Completa, dentro de la página</span>
+                          <span className="porque">
+                            {VER_COMPLETA[`movie-${p.tmdb_id}`] ? "▶ Completa, dentro de la página" : "↗ Completa, en otro sitio (no es de dominio público)"}
+                          </span>
                         </button>
                       </li>
                     );
