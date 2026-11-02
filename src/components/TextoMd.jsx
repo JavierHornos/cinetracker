@@ -25,7 +25,9 @@ function enLinea(texto, clave = "") {
 const celdas = fila => fila.trim().replace(/^\||\|$/g, "").split("|").map(c => c.trim());
 
 export default function TextoMd({ texto }) {
-  return texto.trim().split(/\n\s*\n/).map((bloque, i) => {
+  // Un subtítulo (###) es siempre su propio bloque, aunque el párrafo siga en la línea de abajo.
+  const bloques = texto.trim().replace(/^(### .*)\n(?!\s*\n)/gm, "$1\n\n").split(/\n\s*\n/);
+  return bloques.map((bloque, i) => {
     const lineas = bloque.split("\n");
     if (bloque.startsWith("### ")) return <h3 key={i}>{enLinea(bloque.slice(4), `h${i}`)}</h3>;
     const foto = bloque.trim().match(/^!\[(.+)\]\((\S+)\)$/);
