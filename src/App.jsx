@@ -663,9 +663,18 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
 }
 
 // Una película de la encuesta: en el ranking se ordena por puesto; dentro de un capítulo, por año.
+// Cuántas películas comparten cada puesto (los empates numeran igual y el siguiente salta).
+const POR_PUESTO = Object.values(PUESTOS).reduce((m, p) => ({ ...m, [p]: (m[p] || 0) + 1 }), {});
+
+function empate(tmdbId) {
+  const otras = (POR_PUESTO[PUESTOS[tmdbId]] || 1) - 1;
+  return otras === 0 ? "" : otras === 1 ? "empatada con otra" : `empatada con otras ${otras}`;
+}
+
 function FilaEncuesta({ peli, marca, onAbrir, onMarcar, ranking = false }) {
   const vista = Boolean(marca?.visto);
   const puesto = `${PUESTOS[peli.tmdb_id]}º`;
+  const empatada = empate(peli.tmdb_id);
   return (
     <li className={vista ? "vista" : ""}>
       <button type="button" className="check" aria-pressed={vista}
@@ -676,7 +685,9 @@ function FilaEncuesta({ peli, marca, onAbrir, onMarcar, ranking = false }) {
         <span className="titulo">{peli.titulo}</span>
         <span className="dire">{ranking ? [peli.direccion, peli.anio].filter(Boolean).join(" · ") : peli.direccion}</span>
         <span className="porque">
-          {ranking ? (peli.listas.includes("cine_argentino") ? "También en la historia" : "") : `Puesto ${puesto} de la crítica · ${VOTOS[peli.tmdb_id]} votos`}
+          {ranking
+            ? [empatada && `${empatada[0].toUpperCase()}${empatada.slice(1)}`, peli.listas.includes("cine_argentino") && "También en la historia"].filter(Boolean).join(" · ")
+            : `Puesto ${puesto} de la crítica${empatada ? ` (${empatada})` : ""} · ${VOTOS[peli.tmdb_id]} votos`}
         </span>
       </button>
     </li>
