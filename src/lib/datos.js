@@ -49,9 +49,17 @@ export async function borrarMarca(peliculaId) {
   if (error) throw error;
 }
 
+// Los resultados de búsqueda y de filmografías no traen el director: se pide aparte.
+async function direccionDeTmdb(r) {
+  const mediaType = r.media_type === "tv" ? "tv" : "movie";
+  const d = await detalles(r.id, mediaType).catch(() => null);
+  return d ? direccionDe(d, mediaType) : null;
+}
+
 // `r` es un resultado de búsqueda de TMDB.
 export async function agregarAMiLista(r, { visto = false, puntaje = 0 } = {}) {
   const { data, error } = await supabase.rpc("agregar_a_mi_lista", {
+    p_direccion: await direccionDeTmdb(r),
     p_tmdb_id: r.id,
     p_media_type: r.media_type === "tv" ? "tv" : "movie",
     p_titulo: r.title || r.name,
@@ -71,6 +79,7 @@ export async function agregarAMiLista(r, { visto = false, puntaje = 0 } = {}) {
 // Suma una película de TMDB al catálogo sin tocar "Mi lista" (para marcarla desde una ficha).
 export async function asegurarPelicula(r) {
   const { data, error } = await supabase.rpc("asegurar_pelicula", {
+    p_direccion: await direccionDeTmdb(r),
     p_tmdb_id: r.id,
     p_media_type: r.media_type === "tv" ? "tv" : "movie",
     p_titulo: r.title || r.name,
