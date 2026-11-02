@@ -387,6 +387,11 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .encuesta .anio { color: var(--oro); }
 .completas .porque { color: var(--oro); }
 .reproductor { margin-top: 16px; }
+.foto { margin: 6px 0 22px; }
+.foto img { display: block; width: 100%; border-radius: 4px; filter: grayscale(1); }
+.foto figcaption { margin-top: 8px; color: var(--tenue); font-size: 13px; line-height: 1.5; font-style: italic; }
+.foto figcaption em { color: #d8cfa8; }
+.foto figcaption a { color: var(--tenue); }
 .fuente-bio { color: var(--muy-tenue); font-size: 13px; font-style: italic; }
 .bio-ingles summary { cursor: pointer; color: var(--tenue); font-size: 14px; font-style: italic; margin-bottom: 8px; }
 .reproductor video, .reproductor iframe { display: block; width: 100%; aspect-ratio: 4 / 3; max-height: 70vh; background: #000; border: 0; border-radius: 6px; }

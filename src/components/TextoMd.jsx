@@ -1,5 +1,6 @@
 // Markdown mínimo para los textos de la historia del cine argentino:
-// ### subtítulo, - lista, 1. lista, | tabla | (primera fila = encabezado), **negrita**, *itálica*, [link](url).
+// ### subtítulo, - lista, 1. lista, | tabla | (primera fila = encabezado), **negrita**, *itálica*, [link](url),
+// y ![epígrafe](/img/foto.webp) sola en su párrafo para una foto con epígrafe.
 
 function enLinea(texto, clave = "") {
   const partes = [];
@@ -24,6 +25,15 @@ export default function TextoMd({ texto }) {
   return texto.trim().split(/\n\s*\n/).map((bloque, i) => {
     const lineas = bloque.split("\n");
     if (bloque.startsWith("### ")) return <h3 key={i}>{enLinea(bloque.slice(4), `h${i}`)}</h3>;
+    const foto = bloque.trim().match(/^!\[(.+)\]\((\S+)\)$/);
+    if (foto) {
+      return (
+        <figure key={i} className="foto">
+          <img src={foto[2]} alt="" loading="lazy" decoding="async" />
+          <figcaption>{enLinea(foto[1], `f${i}`)}</figcaption>
+        </figure>
+      );
+    }
     if (lineas.every(l => l.startsWith("- "))) {
       return <ul key={i}>{lineas.map((l, j) => <li key={j}>{enLinea(l.slice(2), `${i}-${j}`)}</li>)}</ul>;
     }
