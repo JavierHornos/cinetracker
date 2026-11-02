@@ -7,10 +7,6 @@ export const LINKS = {
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],
-  // Invasión (Hugo Santiago, 1969): TMDB no la tiene en ninguna plataforma de Argentina.
-  "movie-163924": [
-    { nombre: "MUBI", url: "https://mubi.com/es/ar/films/invasion", nota: "con suscripción" },
-  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
