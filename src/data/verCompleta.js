@@ -4,7 +4,7 @@
 
 export const VER_COMPLETA = {
   "movie-160": {
-    webm: "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm.240p.vp9.webm",
+    webm: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm",
     mov: "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm/Arrival_of_a_Train_at_La_Ciotat_%28The_Lumi%C3%A8re_Brothers%2C_1895%29.webm.360p.mpeg4.mov",
     licencia: "Dominio público",
     credito: "Hermanos Lumière",
@@ -18,7 +18,7 @@ export const VER_COMPLETA = {
     fuente: { nombre: "Wikimedia Commons", url: "https://commons.wikimedia.org/wiki/File:La_revoluci%C3%B3n_de_mayo_(Mario_Gallo,_1909).ogv" },
   },
   "movie-226934": {
-    webm: "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Nitrato_argentino_-_Amalia_%281914%29.webm/Nitrato_argentino_-_Amalia_%281914%29.webm.240p.vp9.webm",
+    webm: "https://upload.wikimedia.org/wikipedia/commons/4/43/Nitrato_argentino_-_Amalia_%281914%29.webm",
     mov: "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Nitrato_argentino_-_Amalia_%281914%29.webm/Nitrato_argentino_-_Amalia_%281914%29.webm.360p.mpeg4.mov",
     licencia: "CC BY 3.0",
     credito: "Restauración: Museo del Cine Pablo Ducrós Hicken (Nitrato argentino)",
