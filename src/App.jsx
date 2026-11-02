@@ -16,6 +16,7 @@ import { FICHAS, MONTI } from "./data/personas";
 import { compartir } from "./lib/compartir";
 import { ENCUESTA, PUESTOS, VOTOS } from "./data/encuesta2022";
 import { GENTE } from "./data/gente";
+import { MUDAS_COMPLETAS } from "./data/verCompleta";
 
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
@@ -265,6 +266,8 @@ function Cinetracker({ usuario }) {
     .sort((a, b) => (a.anio ?? 0) - (b.anio ?? 0)), [catalogo]);
   const encuesta = useMemo(() => catalogo.filter(p => p.listas.includes("encuesta2022"))
     .sort((a, b) => (PUESTOS[a.tmdb_id] ?? 999) - (PUESTOS[b.tmdb_id] ?? 999) || (a.anio ?? 0) - (b.anio ?? 0)), [catalogo]);
+  const completas = useMemo(() => MUDAS_COMPLETAS
+    .map(t => catalogo.find(p => p.media_type === "movie" && p.tmdb_id === t)).filter(Boolean), [catalogo]);
   const miLista = useMemo(() => catalogo.filter(p => marcas[p.id]?.en_mi_lista)
     .sort((a, b) => (marcas[b.id].agregado_at || "").localeCompare(marcas[a.id].agregado_at || "")), [catalogo, marcas]);
 
@@ -326,7 +329,7 @@ function Cinetracker({ usuario }) {
         ) : seccion === "1001" ? (
           <Seccion1001 pelis={libro} {...props} />
         ) : seccion === "argentino" ? (
-          <SeccionArgentino pelis={argentino} encuesta={encuesta} {...props} onPersona={irAPersona} onCompartir={compartirLink} />
+          <SeccionArgentino pelis={argentino} encuesta={encuesta} completas={completas} {...props} onPersona={irAPersona} onCompartir={compartirLink} />
         ) : usuario ? (
           <SeccionMiLista pelis={miLista} onImportar={importarListaVieja} {...props} />
         ) : (
@@ -440,7 +443,7 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
 
 // La sección se lee como un libro: nueve capítulos con su texto y, al final de cada uno,
 // sus películas para marcar como vistas.
-function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPersona, onCompartir }) {
+function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarcar, onPersona, onCompartir }) {
   const [estado, setEstado] = useState("todas");
   const porTitulo = useMemo(() => new Map(pelis.map(p => [p.titulo, p])), [pelis]);
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
@@ -513,6 +516,32 @@ function SeccionArgentino({ pelis, encuesta, marcas, onAbrir, onMarcar, onPerson
               <small>{c.desde}–{c.hasta}</small>
             </h2>
             <div className="historia-texto"><TextoMd texto={c.texto} /></div>
+            {c.id === "mudo" && completas.length > 0 && (
+              <>
+                <div className="para-ver">
+                  <span>PARA VER COMPLETAS, ACÁ MISMO</span>
+                  <span className="cuenta">{completas.filter(p => marcas[p.id]?.visto).length}/{completas.length} vistas</span>
+                </div>
+                <ol className="las41 completas">
+                  {completas.map(p => {
+                    const vista = Boolean(marcas[p.id]?.visto);
+                    return (
+                      <li key={p.id} className={vista ? "vista" : ""}>
+                        <button type="button" className="check" aria-pressed={vista}
+                          aria-label={vista ? `Desmarcar ${p.titulo} como vista` : `Marcar ${p.titulo} como vista`}
+                          onClick={() => onMarcar(p, { visto: !vista })}>✓</button>
+                        <span className="anio">{p.anio}</span>
+                        <button type="button" className="cuerpo" onClick={() => onAbrir(p)}>
+                          <span className="titulo">{p.titulo}</span>
+                          <span className="dire">{p.direccion}</span>
+                          <span className="porque">▶ Completa, dentro de la página</span>
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </>
+            )}
             {suyas.length > 0 && (
               <>
                 <div className="para-ver">

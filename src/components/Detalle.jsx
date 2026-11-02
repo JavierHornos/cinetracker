@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IMG, detalles, dondeVerDe, elegirTrailer, equipoDe } from "../lib/tmdb";
 import { LINKS, NOMBRES, NOTAS } from "../data/dondeVer";
 import { PUESTOS } from "../data/encuesta2022";
+import { VER_COMPLETA } from "../data/verCompleta";
 import { corregirPelicula } from "../lib/datos";
 import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
 import Estrellas from "./Estrellas";
@@ -9,6 +10,8 @@ import Buscador from "./Buscador";
 
 export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorregida, onPersona, onCompartir }) {
   const [extra, setExtra] = useState(null);
+  const [verla, setVerla] = useState(false);
+  const reproductor = useRef(null);
   const vista = Boolean(marca?.visto);
   const enMiLista = Boolean(marca?.en_mi_lista);
 
@@ -34,6 +37,12 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
   const equipo = extra ? equipoDe(extra, peli.media_type) : [];
   const donde = dondeVerDe(extra);
   const links = LINKS[`${peli.media_type}-${peli.tmdb_id}`] || [];
+  const completa = VER_COMPLETA[`${peli.media_type}-${peli.tmdb_id}`];
+
+  function verCompleta() {
+    setVerla(true);
+    setTimeout(() => reproductor.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
+  }
   const sinopsis = peli.sinopsis || extra?.overview;
   const esArg = peli.listas.includes("cine_argentino");
   const porQue = esArg ? POR_QUE_VERLA[peli.titulo] : null;
@@ -76,6 +85,23 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
             {enMiLista && <span className="insignia">En mi lista</span>}
             {generos.map(g => <span key={g} className="insignia">{g}</span>)}
           </div>
+
+          {verla && completa && (
+            <div className="bloque reproductor" ref={reproductor}>
+              {completa.youtube ? (
+                <iframe src={`https://www.youtube-nocookie.com/embed/${completa.youtube}?autoplay=1`} title={peli.titulo}
+                  allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+              ) : (
+                <video controls autoPlay playsInline preload="metadata">
+                  {completa.webm && <source src={completa.webm} type="video/webm" />}
+                  {completa.mov && <source src={completa.mov} type="video/quicktime" />}
+                </video>
+              )}
+              <div className="fuente-donde">
+                {completa.credito} · {completa.licencia} · Copia: <a href={completa.fuente.url} target="_blank" rel="noreferrer">{completa.fuente.nombre}</a>
+              </div>
+            </div>
+          )}
 
           {porQue && (
             <div className="bloque por-que">
@@ -159,7 +185,10 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
           )}
 
           <div className="acciones">
-            {trailer && (
+            {completa && !verla && (
+              <button className="boton oro" onClick={verCompleta}>▶ VER COMPLETA</button>
+            )}
+            {trailer && !completa && (
               <a className="boton oro" href={`https://www.youtube.com/watch?v=${trailer}`} target="_blank" rel="noreferrer">
                 ▶ VER TRÁILER
               </a>
