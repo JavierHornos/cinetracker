@@ -28,15 +28,18 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
     const principal = propia?.principal || {
       Directing: "Director", Camera: "Director of Photography", Editing: "Editor",
     }[datos?.known_for_department];
-    return ROLES
-      .map(r => {
-        const unicas = new Map();
-        for (const c of crew) if (c.job === r.job) unicas.set(`${c.media_type}-${c.id}`, c);
-        const pelis = [...unicas.values()].sort((a, b) => (anioDe(a) ?? 9999) - (anioDe(b) ?? 9999));
-        return { ...r, pelis };
-      })
+    const porAnio = lista => [...new Map(lista.map(c => [`${c.media_type}-${c.id}`, c])).values()]
+      .sort((a, b) => (anioDe(a) ?? 9999) - (anioDe(b) ?? 9999));
+    const roles = ROLES
+      .map(r => ({ ...r, pelis: porAnio(crew.filter(c => c.job === r.job)) }))
       .filter(s => s.pelis.length)
       .sort((a, b) => (b.job === principal) - (a.job === principal));
+    // Para quien no es cineasta (críticos, coleccionistas): las películas en las que aparece.
+    if (propia?.apariciones) {
+      const pelis = porAnio(datos?.combined_credits?.cast || []);
+      if (pelis.length) roles.push({ job: "apariciones", titulo: "APARICIONES", plural: propia.apariciones, pelis });
+    }
+    return roles;
   }, [datos, propia]);
 
   const todas = [...new Map(secciones.flatMap(s => s.pelis).map(p => [`${p.media_type}-${p.id}`, p])).values()];
@@ -89,7 +92,9 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
             {documental && (
               <button type="button" className="boton fantasma chico" onClick={() => onAbrir(documental)}>FICHA</button>
             )}
-            <a className="boton oro chico" href={propia.documental.url} target="_blank" rel="noreferrer">▶ VER EN CINE.AR</a>
+            {propia.documental.url && (
+              <a className="boton oro chico" href={propia.documental.url} target="_blank" rel="noreferrer">▶ VER EN CINE.AR</a>
+            )}
           </div>
         </div>
       )}

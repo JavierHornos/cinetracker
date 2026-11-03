@@ -19,7 +19,7 @@ export const FICHAS = {
 Lo que sigue lo cuentan su familia, Puenzo y Campanella en el documental *Chango, la luz descubre*, que lo muestra trabajando en el rodaje de *Mamá se fue de viaje* y en el Teatro San Martín, en *La farsa de los ausentes*.
 
 ### Aprender de los maestros
-No había escuela de cine: se aprendía de los maestros, en el rodaje y en charlas, y después a prueba y error. Chango entró a *La Quintrala* (Hugo del Carril, 1955) por el lado del arte, y ahí, mirando trabajar al director de fotografía Pablo Tabernero, empezó a gustarle la luz.
+No había escuela de cine: se aprendía de los maestros, en el rodaje y en charlas, y después a prueba y error. Chango entró a *La Quintrala* (Hugo del Carril, 1955) por el lado del arte, y ahí, mirando trabajar al director de fotografía Pablo Tabernero, empezó a gustarle la luz. Tabernero era el alemán Peter Weinschenk, que llegó a la Argentina a mediados de los años 30; su historia está en el documental *Buscando a Tabernero* (2020), en Cine.ar.
 
 ### La primera
 *Juan que reía* (Carlos Galettini, 1976) fue su primera película. Su hermana cuenta que la familia les pedía a todos los conocidos que sacaran entrada, aunque después no entraran a verla: había que mantenerla en cartel.
@@ -96,5 +96,38 @@ Después vinieron *La creación del Himno* (1910), *Camila O'Gorman* (1910), *Ju
 En *La batalla de Maipú* (1912), filmada donde hoy está la cancha de River, los actores que hacían de San Martín y O'Higgins se cayeron del caballo en el abrazo: ninguno había montado nunca.
 
 Ángel Villoldo se inspiró en él para el tango *Sacame una película, gordito*. Gallo murió pobre.`,
+  },
+
+  // ── Fernando Martín Peña (fuentes: Wikipedia en castellano y las presentaciones de Eddie Muller en Noir Alley, TCM) ──
+  1816728: {
+    nombre: "Fernando Martín Peña",
+    rol: "Crítico, coleccionista y rescatador de películas",
+    bajada: "El que salva las películas que nadie más busca.",
+    apariciones: "APARECE EN",
+    documental: {
+      titulo: "La vida a oscuras (Enrique Bellande, 2023)",
+      tmdb_id: 1110671,
+      donde: "Cine.ar · gratis con registro",
+    },
+    texto: `Nació en Buenos Aires en 1968. Es crítico, historiador, docente y coleccionista, y para muchos el gran cinéfilo argentino: así lo presenta Eddie Muller, de la Film Noir Foundation, en la televisión norteamericana.
+
+### Filmoteca
+Desde diciembre de 2006 conduce *Filmoteca, temas de cine* a la medianoche de la TV Pública, primero junto a Fabio Manes y después con Roger Koza. Ahí mostró durante años películas raras, olvidadas o recién rescatadas, muchas de su propia colección.
+
+### El coleccionista
+Empezó a los 8 años, con un proyector Súper 8 y las copias de 16 mm que llevaba su padre a casa. En 1994 creó la Filmoteca Buenos Aires y fue uno de los fundadores de Aprocinain, que rescató cerca de 300 películas argentinas que estaban por perderse. También impulsó la reglamentación de la ley que creó la cinemateca nacional.
+
+### Los hallazgos
+- En 1997 armó una copia de *Los traidores*, de Raymundo Gleyzer.
+- En 2008, en el Museo del Cine, encontró una copia de 16 mm de *Metrópolis* (Fritz Lang, 1927) con casi media hora que se creía perdida.
+- En 2009 encontró en Ushuaia cortos de Quirino Cristiani, el pionero de la animación.
+- En 2013 apareció una copia más larga de *Los inundados*, de Fernando Birri.
+- En 2014 encontró el negativo de *Los tallos amargos* en el sótano de una estancia. Con la Film Noir Foundation y el archivo de UCLA la restauraron, y volvió a verse en todo el mundo.
+
+### Festivales y libros
+Programa el cine del MALBA desde 2002, dirigió el BAFICI entre 2004 y 2007 y fue director artístico del festival de Mar del Plata. Escribió y editó más de diez libros, entre ellos *Cien años de cine argentino* y uno sobre *Metrópolis*.
+
+### Para ver
+*La vida a oscuras* (Enrique Bellande, 2023), el documental sobre él y su trabajo, está gratis en Cine.ar. También aparece en *Buscando a Tabernero* (Eduardo Montes-Bradley, 2020), sobre el alemán Peter Weinschenk, que en la Argentina fue Pablo Tabernero: el director de fotografía de *La Quintrala*, donde Chango Monti descubrió la luz. También está en Cine.ar.`,
   },
 };
