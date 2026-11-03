@@ -7,6 +7,10 @@ export const LINKS = {
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],
+  // Los tallos amargos (1956): no es de dominio público (Piazzolla murió en 1992). Copia restaurada subida por terceros.
+  "movie-185250": [
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-tallos-amargos-the-bitter-stems-1956-eng-sub-restored-movie-720p-hd", nota: "copia restaurada subida por terceros, con presentación y subtítulos en inglés" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
