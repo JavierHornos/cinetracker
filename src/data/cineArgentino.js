@@ -86,6 +86,16 @@ La ley de 1947 obligó a los cines a pasar películas argentinas y el Estado dio
 - **Leopoldo Torres Ríos**, el cine de barrio y de pibes: *Pelota de trapo* (1948).
 - **Hugo del Carril** dirigió *Las aguas bajan turbias* (1952), sobre los trabajadores de los yerbales. Es la película social más importante de la época.
 
+### El cine negro argentino
+
+Mientras Hollywood inventaba el *film noir*, los estudios argentinos lo trajeron a Buenos Aires: calles de noche, sombras largas, dinero fácil, culpa y crímenes. En 2016 el MoMA de Nueva York le dedicó un ciclo al cine negro argentino de la posguerra.
+
+- [*A sangre fría*](https://es.wikipedia.org/wiki/A_sangre_fr%C3%ADa_%28pel%C3%ADcula_de_1947%29) (Daniel Tinayre, 1947): una pareja planea envenenar a una anciana para quedarse con su fortuna. La crítica la comparó con *Pacto de sangre*, de Billy Wilder.
+- [*Apenas un delincuente*](#/pelicula/1156) (Hugo Fregonese, 1949): un empleado estafa a su empresa, esconde la plata y cumple seis años de cárcel pensando en disfrutarla al salir. Filmada en las calles de Buenos Aires, casi como un documental, le abrió a Fregonese las puertas de Hollywood.
+- [*Si muero antes de despertar*](#/pelicula/1161) y [*No abras nunca esa puerta*](#/pelicula/1180) (Carlos Hugo Christensen, 1952): cuentos del norteamericano Cornell Woolrich (William Irish), con guion de Alejandro Casona y fotografía de Pablo Tabernero, el maestro de Chango Monti. En la segunda hay una secuencia de cinco minutos sin palabras, en sombras: una madre ciega busca el arma de su hijo mientras él duerme.
+- [*El vampiro negro*](https://es.wikipedia.org/wiki/El_vampiro_negro_%28pel%C3%ADcula_de_1953%29) (Román Viñoly Barreto, 1953): una versión porteña de *M*, de Fritz Lang, sobre un asesino de niñas que aterroriza a la ciudad. Con fotografía de Aníbal González Paz, es de lo más expresionista del cine argentino.
+- [*Los tallos amargos*](#/pelicula/1177) (Fernando Ayala, 1956): un periodista entra en un negocio de estafas por correspondencia y lo empiezan a carcomer las sospechas. Música de Astor Piazzolla y fotografía de Ricardo Younis, que había estudiado con Gregg Toland, el director de fotografía de *El ciudadano*. En 2000, la revista *American Cinematographer* la eligió entre las mejores fotografías de la historia del cine.
+
 En 1955 cayó Perón, se cortaron los créditos y los grandes estudios entraron en crisis. Lumiton ya había cerrado en 1952 y el resto fue cayendo en los años siguientes.`,
     peliculas: ["Dios se lo pague", "Pelota de trapo", "Las aguas bajan turbias"],
   },
