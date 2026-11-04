@@ -18,15 +18,25 @@ export const CAPITULOS = [
 - **[Eugenio Py](#/persona/1266997)**, fotógrafo francés, filmó [*La bandera argentina*](#/tmdb/movie/719504) (1897), considerado el primer corto filmado en el país. Sobrevivió apenas un fragmento, conservado en un flipbook, y se puede ver acá abajo.
 - **[Mario Gallo](#/persona/1037358)**, italiano, dirigió *El fusilamiento de Dorrego* (1908) y [*La Revolución de Mayo*](#/pelicula/1227), estrenada el 23 de mayo de 1909. Esa fecha es hoy el Día del Cine Nacional.
 
+En 1900 llegó el primer noticiario formal: la visita a Buenos Aires de Campos Salles, el presidente electo de Brasil. Al año siguiente, **Eugenio Cardini**, un aficionado que le había comprado una cámara a los Lumière en París, filmó la Avenida de Mayo con el Cabildo de antes y probó un tímido ensayo con argumento, *Escenas callejeras* (1901). Ya entonces hubo intentos de cine sonoro: se sincronizaba un disco con la imagen. No duraron mucho, pero se adelantaron décadas. Gallo siguió con *La creación del himno* (1910), y con él actuó **Blanca Podestá**, que venía del teatro y fue la primera estrella del cine argentino.
+
+!video[*Historia del cine argentino, parte I (1893-1909)*: el Odeón, la Casa Lepage, Py, Cardini, Gallo y Blanca Podestá, con imágenes de la época. Del noticiero del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:OiN4w5Ugpsg)
+
 ### Del corto al largometraje
 
-*Amalia* (1914), basada en la novela de José Mármol, es el largometraje argentino más antiguo que se conserva. Al año siguiente llegó el primer gran éxito: *Nobleza gaucha* (1915), un drama rural de Humberto Cairo, Eduardo Martínez de la Pera y Ernesto Gunche. Estuvo en cartel más de veinte años y mostró que el cine local podía ser negocio.
+*Amalia* (1914), basada en la novela de José Mármol, es el largometraje argentino más antiguo que se conserva. La dirigió Enrique García Velloso y la actuaron damas y caballeros de la sociedad porteña. Al año siguiente llegó el primer gran éxito: *Nobleza gaucha* (1915), un drama rural de Humberto Cairo, Eduardo Martínez de la Pera y Ernesto Gunche. Estuvo en cartel más de veinte años y mostró que el cine local podía ser negocio: con lo que ganaron, Martínez de la Pera y Gunche construyeron el primer estudio de cine del país. En *Flor de durazno* (1917), con Ilde Pirovano, apareció por primera vez en el cine un joven y todavía gordito **Carlos Gardel**. Las cámaras también filmaban la calle: un camarógrafo registró la Semana Trágica de 1919 arriesgando la vida.
 
-En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira política sobre el presidente Yrigoyen. Es el primer largometraje animado de la historia del cine, anterior a Disney. No se conserva ninguna copia. De Cristiani se conserva muy poco: *El mono relojero* (1938), que está en la lista de abajo, y algunos cortos que [Fernando Martín Peña](#/persona/1816728) encontró en Ushuaia en 2009.
+En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira política sobre el presidente Yrigoyen. Es el primer largometraje animado de la historia del cine, anterior a Disney. La produjo **Federico Valle**, un italiano que había trabajado con los Lumière y con Méliès en Francia y fue una figura central del cine mudo argentino. No se conserva ninguna copia. De Cristiani se conserva muy poco: *El mono relojero* (1938), que está en la lista de abajo, y algunos cortos que [Fernando Martín Peña](#/persona/1816728) encontró en Ushuaia en 2009.
+
+!video[*Historia del cine argentino, parte II (1909-1919)*: *Amalia*, la cámara de *Nobleza gaucha*, el primer Gardel, Federico Valle y la Semana Trágica. Del noticiero del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:wJ-3Pzw7g40)
 
 ### El Negro Ferreyra y el tango
 
 **[José Agustín Ferreyra](#/persona/1167413)** fue el director más importante de los años 20. Filmaba en el arrabal, con actores no profesionales y sin guion cerrado, mucho antes del neorrealismo. Sus melodramas de tango, como *La muchacha del arrabal* (1922), inventaron un Buenos Aires de conventillos y milongas que el cine sonoro iba a heredar.
+
+Con él arrancaron otros nombres de los años 20: [Leopoldo Torres Ríos](#/persona/1452584), con *El puñal del mazorquero* (1923), y el fotógrafo Roque Funes; María B. de Celestini, una de las primeras mujeres en dirigir en el país; Edmo Cominetti, con *Destinos* (1927). Las películas se hacían "a punta de corazón, sin dinero", armando carpas en las sierras de Córdoba. En 1923 *Martín Fierro* llegó por primera vez a la pantalla.
+
+!video[*Historia del cine argentino, parte III (1919-1931)*: *Flor de durazno*, Ferreyra, Torres Ríos, los años 20 y la llegada de *Muñequitas porteñas*, con discos sincronizados. Del noticiero del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:nSvz-8tNNrk)
 
 ![El equipo de *La muchacha del arrabal* (José A. Ferreyra, 1922), una de las películas perdidas del cine mudo. Foto vía [cinenacional.com](https://cinenacional.com/pelicula/la-muchacha-del-arrabal).](/img/muchacha-del-arrabal-1922.webp)
 

@@ -1,6 +1,7 @@
 // Markdown mínimo para los textos de la historia del cine argentino:
 // ### subtítulo, - lista, 1. lista, | tabla | (primera fila = encabezado), **negrita**, *itálica*, [link](url),
-// y ![epígrafe](/img/foto.webp) sola en su párrafo para una foto con epígrafe.
+// ![epígrafe](/img/foto.webp) sola en su párrafo para una foto con epígrafe,
+// y !video[epígrafe](youtube:ID) para un video de YouTube embebido (solo de fuentes oficiales).
 
 function enLinea(texto, clave = "") {
   const partes = [];
@@ -30,6 +31,18 @@ export default function TextoMd({ texto }) {
   return bloques.map((bloque, i) => {
     const lineas = bloque.split("\n");
     if (bloque.startsWith("### ")) return <h3 key={i}>{enLinea(bloque.slice(4), `h${i}`)}</h3>;
+    const video = bloque.trim().match(/^!video\[(.+)\]\(youtube:([\w-]+)\)$/);
+    if (video) {
+      return (
+        <figure key={i} className="foto video">
+          <div className="video-marco">
+            <iframe src={`https://www.youtube-nocookie.com/embed/${video[2]}?rel=0`} title={video[1].replace(/[*[\]]|\(.*?\)/g, "")}
+              loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowFullScreen />
+          </div>
+          <figcaption>{enLinea(video[1], `v${i}`)}</figcaption>
+        </figure>
+      );
+    }
     const foto = bloque.trim().match(/^!\[(.+)\]\((\S+)\)$/);
     if (foto) {
       return (
