@@ -140,6 +140,7 @@ Programa el cine del MALBA desde 2002, dirigió el BAFICI entre 2004 y 2007 y fu
     documental: {
       titulo: "Buscando a Tabernero (Eduardo Montes-Bradley, 2020)",
       tmdb_id: 768165,
+      url: "https://play.cine.ar/INCAA/produccion/6611",
       donde: "Cine.ar · gratis con registro",
     },
     texto: `Se llamaba Peter Paul Weinschenk y nació en Berlín en 1910, en una familia de clase media de origen judío. Murió en 1996.

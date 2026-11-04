@@ -24,6 +24,13 @@ export const LINKS = {
   "movie-464326": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/106", nota: "gratis con registro" },
   ],
+  // Buscando a Tabernero (Eduardo Montes-Bradley, 2020). TMDB la tiene dos veces: van las dos.
+  "movie-768165": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/6611", nota: "gratis con registro" },
+  ],
+  "movie-833186": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/6611", nota: "gratis con registro" },
+  ],
   // La vida a oscuras (Enrique Bellande, 2023), sobre Fernando Martín Peña.
   "movie-1110671": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/9787", nota: "gratis con registro" },
