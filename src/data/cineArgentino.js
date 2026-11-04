@@ -52,7 +52,7 @@ Carlos Gardel filmó sus películas más famosas para Paramount, en Francia y Nu
 
 - **[Manuel Romero](#/persona/1411903)**, el más prolífico, hizo comedias y melodramas de tango a ritmo de fábrica: [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), [*La rubia del camino*](#/tmdb/movie/403382) (1938).
 - **[Mario Soffici](#/persona/1087155)** llevó la cámara al interior y a los conflictos sociales. [*Prisioneros de la tierra*](#/tmdb/movie/335367) (1939), sobre los mensúes de la yerba mate en Misiones, es para muchos la mejor película argentina de su tiempo.
-- **Leopoldo Torres Ríos**, **Luis Saslavsky** (*Historia de una noche*, 1941) y **Francisco Mugica** ([*Los martes, orquídeas*](#/tmdb/movie/468702), 1941, con Mirtha Legrand) completaron un cine de géneros variado.
+- **[Leopoldo Torres Ríos](#/persona/1452584)**, **Luis Saslavsky** (*Historia de una noche*, 1941) y **Francisco Mugica** ([*Los martes, orquídeas*](#/tmdb/movie/468702), 1941, con Mirtha Legrand) completaron un cine de géneros variado.
 - **Lucas Demare** fundó con actores la cooperativa Artistas Argentinos Asociados en 1941. Su *La guerra gaucha* (1942), con guion de Homero Manzi y Ulyses Petit de Murat, fue el mayor éxito de taquilla de la época.
 
 ### El freno de 1943
@@ -83,7 +83,7 @@ La ley de 1947 obligó a los cines a pasar películas argentinas y el Estado dio
 - **Luis César Amadori**, el director comercial más exitoso: *Dios se lo pague* (1948), con Arturo de Córdova y Zully Moreno.
 - **Carlos Hugo Christensen**, el más audaz con el erotismo y el policial: *El ángel desnudo* (1946), *No abras nunca esa puerta* (1952).
 - **[Daniel Tinayre](#/persona/1180781)**, el policial y el melodrama oscuro: *A sangre fría* (1947).
-- **Leopoldo Torres Ríos**, el cine de barrio y de pibes: *Pelota de trapo* (1948).
+- **[Leopoldo Torres Ríos](#/persona/1452584)**, el cine de barrio y de pibes: [*Pelota de trapo*](#/tmdb/movie/499878) (1948).
 - **Hugo del Carril** dirigió *Las aguas bajan turbias* (1952), sobre los trabajadores de los yerbales. Es la película social más importante de la época.
 
 ### El cine negro argentino
@@ -121,7 +121,7 @@ En 1955 cayó Perón, se cortaron los créditos y los grandes estudios entraron 
 
 ### Leopoldo Torre Nilsson
 
-Hijo de Leopoldo Torres Ríos, **Torre Nilsson** fue el primer director argentino reconocido en los grandes festivales. *La casa del ángel* (1957) se presentó en Cannes y lo hizo conocido en Europa. Escribía con su mujer, la novelista Beatriz Guido, y retrató una clase alta encerrada, culposa y en decadencia: *La caída* (1959), *La mano en la trampa* (1961). Después hizo cine histórico de gran público, como *Martín Fierro* (1968).
+Hijo de [Leopoldo Torres Ríos](#/persona/1452584), **Torre Nilsson** fue el primer director argentino reconocido en los grandes festivales. *La casa del ángel* (1957) se presentó en Cannes y lo hizo conocido en Europa. Escribía con su mujer, la novelista Beatriz Guido, y retrató una clase alta encerrada, culposa y en decadencia: *La caída* (1959), *La mano en la trampa* (1961). Después hizo cine histórico de gran público, como *Martín Fierro* (1968).
 
 ### Fernando Birri y el documental social
 

@@ -192,7 +192,7 @@ Casi todas sus películas tienen una copia en Internet Archive, subida por terce
 Empezó pintando. En 1907, con su amigo Atilio Malinverno, fue uno de los primeros escenógrafos argentinos del Teatro Colón. Le gustaban Chaplin, Griffith, Ince y el cine sueco, y en 1915, el año de *Nobleza gaucha*, debutó sin ninguna experiencia previa con *Una noche de garufa*. Filmó casi siempre con muy poca plata y muy pocos recursos técnicos, entre 1915 y 1941.
 
 ### El tango en la pantalla
-Desde *El tango de la muerte* (1917), el tango estuvo en todas sus películas. Cuando el tango canción empezó a contar historias, Ferreyra las llevó al cine: *La muchacha del arrabal* (1922), *La maleva* (1923), *Mientras Buenos Aires duerme* (1924), *El organito de la tarde* (1925) y *La costurerita que dio aquel mal paso* (1926), sobre el soneto de Evaristo Carriego. Escribía también las letras: el tango *La muchacha del arrabal*, con Leopoldo Torres Ríos y música de Roberto Firpo, lo tocaba la orquesta de Firpo en vivo durante la proyección, y lo grabó Carlos Gardel. Gardel grabó también *Y reías como loca* y *El alma de la calle*, dos tangos con letra suya. Del cine mudo de Ferreyra sobrevive muy poco: se puede ver completa [*Perdón viejita*](#/tmdb/movie/234260) (1927) y, afuera, [*La vuelta al bulín*](#/tmdb/movie/184880) (1926).
+Desde *El tango de la muerte* (1917), el tango estuvo en todas sus películas. Cuando el tango canción empezó a contar historias, Ferreyra las llevó al cine: *La muchacha del arrabal* (1922), *La maleva* (1923), *Mientras Buenos Aires duerme* (1924), *El organito de la tarde* (1925) y *La costurerita que dio aquel mal paso* (1926), sobre el soneto de Evaristo Carriego. Escribía también las letras: el tango *La muchacha del arrabal*, con [Leopoldo Torres Ríos](#/persona/1452584) y música de Roberto Firpo, lo tocaba la orquesta de Firpo en vivo durante la proyección, y lo grabó Carlos Gardel. Gardel grabó también *Y reías como loca* y *El alma de la calle*, dos tangos con letra suya. Del cine mudo de Ferreyra sobrevive muy poco: se puede ver completa [*Perdón viejita*](#/tmdb/movie/234260) (1927) y, afuera, [*La vuelta al bulín*](#/tmdb/movie/184880) (1926).
 
 ### El paso al sonoro
 Probó el sonido antes que nadie: *La canción del gaucho* y *El cantar de mi ciudad* (1930) tenían música sincronizada, y [*Muñequitas porteñas*](#/tmdb/movie/550426) (1931) fue el primer largometraje argentino totalmente sonoro, con el sistema Vitaphone. En *Mañana es domingo* (1934) y [*Puente Alsina*](#/tmdb/movie/633791) (1935) trabajó con José Gola.
@@ -255,5 +255,28 @@ En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. En
 
 ### Para ver
 Cinco de sus películas están en Cine.ar, entre ellas *La pródiga*, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
+  // ── Leopoldo Torres Ríos (fuentes: Wikipedia en castellano e inglés y créditos de TMDB) ──
+  1452584: {
+    nombre: "Leopoldo Torres Ríos",
+    rol: "Director y guionista",
+    bajada: "La mirada íntima del cine clásico: La vuelta al nido, Pelota de trapo y el padre de Torre Nilsson.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1899 y murió en Buenos Aires en 1960. Fue también fotógrafo, periodista y letrista de tango.
+
+### Con Ferreyra, en el mudo
+Empezó escribiendo guiones: el primero fue *Palomas rubias* (1920), de [José Agustín Ferreyra](#/persona/1167413), con quien escribió también la letra del tango *La muchacha del arrabal*, que grabó Gardel. Desde 1923 dirigió sus propias películas mudas, como *El puñal del mazorquero* (1923) y *Buenos Aires bohemio* (1924), casi todas perdidas.
+
+### La vuelta al nido
+Su obra maestra es [*La vuelta al nido*](#/tmdb/movie/335366) (1938), con José Gola y Amelia Bence: un matrimonio de clase media contado sin acción y casi sin diálogos, desde la intimidad de los personajes. Los exhibidores la consideraron poco comercial y estuvo nueve meses guardada; cuando se estrenó fue un fracaso, y lo acusaron de "ensuciar el celuloide". Solo la defendió el crítico Calki. El golpe lo llevó a filmar películas más comerciales durante unos años. En los años 50 y 60 la rescataron los jóvenes del Cine Club Núcleo y la revista *Tiempo de Cine*, que vieron en ella un anticipo de la Generación del 60. Hoy es un clásico, y está entre [las 100 de la crítica](#/seccion/argentino).
+
+### El cine de barrio
+Su mirada era íntima y le escapaba al cine abiertamente comercial. Filmó el barrio, los pibes y el fútbol de potrero: [*Pelota de trapo*](#/tmdb/movie/499878) (1948), con Armando Bó, sobre textos de Borocotó, el cronista de *El Gráfico*: un chico de barrio, el Comeuñas, que sueña con ser crack y juega con sus amigos del Sacachispas. Fue un éxito enorme, y la siguieron [*Pantalones cortos*](#/tmdb/movie/922518) (1949) y [*El hijo del crack*](#/tmdb/movie/512341) (1953). También hizo dos veces [*Lo que le pasó a Reynoso*](#/tmdb/movie/809138), en 1937 y en 1955.
+
+### Padre e hijo
+Su hermano Carlos Torres Ríos fue director de fotografía, y su hijo fue [Leopoldo Torre Nilsson](#/persona/116197). Juntos dirigieron [*El crimen de Oribe*](#/tmdb/movie/261571) (1950), sobre un cuento de Adolfo Bioy Casares, el debut de su hijo, y después *El hijo del crack*. En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. Sus nietos Javier y Pablo Torre también son directores: Pablo contó su vida en *La mirada de Clara* (2004), desde la mirada de su esposa, Clara Nilsson.
+
+### Para ver
+Cinco de sus películas están en Cine.ar, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
 };

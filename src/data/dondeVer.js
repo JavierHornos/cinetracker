@@ -51,6 +51,89 @@ export const LINKS = {
   "movie-165177": [ // El día que me quieras (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
   ],
+  // Leopoldo Torres Ríos: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-551244": [ // El conventillo de la Paloma (1936)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-conventillo-de-la-paloma-1936", nota: "copia subida por terceros" },
+  ],
+  "movie-809138": [ // Lo que le pasó a Reynoso (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/lo-que-le-paso-a-reynoso-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-335366": [ // La vuelta al nido (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-vuelta-al-nido-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-649877": [ // Adiós Buenos Aires (1938)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/2", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/adios-buenos-aires-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-984365": [ // La estancia del gaucho Cruz (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-estancia-del-gaucho-cruz-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-914219": [ // Los pagarés de Mendieta (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-pagares-de-mendieta-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-694410": [ // La luz de un fósforo (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-luz-de-un-fosforo-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-984380": [ // Sinvergüenza (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/sinverguenza-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-722819": [ // El mozo número 13 (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-mozo-numero-13-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-684785": [ // El comisario de Tranco Largo (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-comisario-de-tranco-largo-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-722578": [ // El juego del amor y del azar (1944)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1024", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-juego-del-amor-y-del-azar-1944", nota: "copia subida por terceros" },
+  ],
+  "movie-977235": [ // La tía de Carlos (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-tia-de-carlos-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-435405": [ // Santos Vega vuelve (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/santos-vega-vuelve-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-921807": [ // El hombre del sábado (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-hombre-del-sabado-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-499878": [ // Pelota de trapo (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/pelota-de-trapo-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-933877": [ // Romance sin palabras (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/romance-sin-palabras-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-937639": [ // El hombre de las sorpresas (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-hombre-de-las-sorpresas-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-922518": [ // Pantalones cortos (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/pantalones-cortos-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-261571": [ // El crimen de Oribe (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-crimen-de-oribe-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-458192": [ // El regreso (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-regreso-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-722978": [ // En cuerpo y alma (1953)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/205", nota: "gratis con registro" },
+  ],
+  "movie-512341": [ // El hijo del crack (1953)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/188", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-hijo-del-crack-1953", nota: "copia subida por terceros" },
+  ],
+  "movie-722062": [ // Corazón fiel (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/corazon-fiel-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-486027": [ // Edad difícil (1956)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1298", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/edad-dificil-1956", nota: "copia subida por terceros" },
+  ],
+  "movie-561598": [ // Demasiado jóvenes (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/demasiados-jovenes-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-717867": [ // Campo virgen (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/campo-virgen-1959", nota: "copia subida por terceros" },
+  ],
   // Mario Soffici: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-915131": [ // Noche federal (1932)
     { nombre: "Internet Archive", url: "https://archive.org/details/noche-federal-1932", nota: "copia subida por terceros" },
