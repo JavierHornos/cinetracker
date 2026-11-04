@@ -4,6 +4,12 @@
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  "movie-719504": {
+    webm: "https://upload.wikimedia.org/wikipedia/commons/f/fa/La_bandera_Argentina_%281897%29.webm",
+    licencia: "Dominio público",
+    credito: "Eugenio Py · el fragmento que sobrevivió en un flipbook, repetido en loop",
+    fuente: { nombre: "Wikimedia Commons", url: "https://commons.wikimedia.org/wiki/File:La_bandera_Argentina_(1897).webm" },
+  },
   "movie-234260": {
     archive: "perdon-viejita-1927",
     licencia: "Obra de dominio público (Ferreyra murió en 1943)",
@@ -48,4 +54,4 @@ export const VER_COMPLETA = {
 };
 
 // Las del capítulo 1 (el cine mudo), en orden. Las que no están en VER_COMPLETA se ven con un link afuera.
-export const MUDAS_COMPLETAS = [160, 233020, 226934, 285525, 234260, 253766];
+export const MUDAS_COMPLETAS = [160, 719504, 233020, 226934, 285525, 234260, 253766];

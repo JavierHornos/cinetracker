@@ -48,7 +48,7 @@ Con Campanella empezó a trabajar en la serie *Vientos de agua*. En *El secreto 
 Trabajaba en la Casa Lepage, una tienda de fotografía de la calle Bolívar 375, casi esquina Belgrano, que había fundado el belga Henri (Enrique) Lepage y donde también trabajaba un joven Max Glücksmann. En julio de 1896 estuvo en el Teatro Odeón, en una de las primeras funciones de cine de Buenos Aires. Ahí empezó todo.
 
 ### La primera película
-En 1897, con una cámara Gaumont y la primera película virgen que entró al país, filmó *La bandera argentina*: 17 metros de una bandera flameando. Se la considera la primera película filmada en la Argentina, aunque hay quienes mencionan vistas de Buenos Aires anteriores de Federico Figner.
+En 1897, con una cámara Gaumont y la primera película virgen que entró al país, filmó [*La bandera argentina*](#/tmdb/movie/719504): 17 metros de una bandera flameando. De ella sobrevivió apenas un fragmento, conservado en un flipbook, que se puede ver completo en la página. Se la considera la primera película filmada en la Argentina, aunque hay quienes mencionan vistas de Buenos Aires anteriores de Federico Figner.
 
 ### El cronista
 Durante los años siguientes filmó todo lo que pasaba: la visita del presidente brasileño Campos Salles en 1900, con el abrazo con Roca, una operación del cirujano Alejandro Posadas en 1899, la escuadra argentina, escenas criollas y cómicas como *Pica, pica compadrito* o *Los escruchantes*. En la de Campos Salles aparece lo que podría ser el primer gag del cine argentino: un hombre se le cruza a la cámara y recibe un escupitajo.

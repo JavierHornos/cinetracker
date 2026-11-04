@@ -15,8 +15,8 @@ export const CAPITULOS = [
 ### Los pioneros
 
 - **Henri Lepage** y **[Max Glücksmann](#/persona/1920262)** importaron cámaras y proyectores. Glücksmann sería después el gran distribuidor y exhibidor del país.
-- **[Eugenio Py](#/persona/1266997)**, fotógrafo francés, filmó *La bandera argentina* (1897), considerado el primer corto filmado en el país.
-- **[Mario Gallo](#/persona/1037358)**, italiano, dirigió *El fusilamiento de Dorrego* (1908) y *La Revolución de Mayo*, estrenada el 23 de mayo de 1909. Esa fecha es hoy el Día del Cine Nacional.
+- **[Eugenio Py](#/persona/1266997)**, fotógrafo francés, filmó [*La bandera argentina*](#/tmdb/movie/719504) (1897), considerado el primer corto filmado en el país. Sobrevivió apenas un fragmento, conservado en un flipbook, y se puede ver acá abajo.
+- **[Mario Gallo](#/persona/1037358)**, italiano, dirigió *El fusilamiento de Dorrego* (1908) y [*La Revolución de Mayo*](#/pelicula/1227), estrenada el 23 de mayo de 1909. Esa fecha es hoy el Día del Cine Nacional.
 
 ### Del corto al largometraje
 
