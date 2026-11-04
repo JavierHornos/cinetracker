@@ -68,6 +68,8 @@ function leerRuta() {
 // Película y sección se abren una vez y el link se limpia; la ficha de una persona queda en la dirección.
 // Si el link a una película sale de una ficha, la ficha sigue abierta debajo del detalle.
 let rutaFija = "";
+// Dónde estaba el scroll en cada página (por su dirección), para volver al mismo lugar.
+const posiciones = new Map();
 function limpiarRuta() {
   const r = leerRuta();
   if (r.pelicula || r.tmdb) window.history.replaceState(null, "", window.location.pathname + rutaFija);
@@ -98,14 +100,22 @@ function Cinetracker({ usuario }) {
   const [ruta, setRuta] = useState(() => window.location.hash);
 
   // Las fichas de personas tienen su propia dirección (#/persona/123) para poder compartirlas.
+  // Al volver a una página ya vista (por ejemplo, de una ficha a la historia), se vuelve a donde estabas.
   useEffect(() => {
+    let anterior = window.location.hash;
     const cambio = () => {
+      posiciones.set(anterior, window.scrollY);
       const r = limpiarRuta();
       if (r.pelicula) setAbiertaId(r.pelicula);
       if (r.seccion) setSeccion(r.seccion);
       if (r.tmdb) setTmdbPendiente(r.tmdb);
-      setRuta(window.location.hash);
-      if (!r.pelicula && !r.tmdb) window.scrollTo({ top: 0 });
+      const nueva = window.location.hash;
+      anterior = nueva;
+      setRuta(nueva);
+      if (r.pelicula || r.tmdb) return;
+      const y = posiciones.get(nueva) ?? 0;
+      // Dos cuadros de espera: el primero para que React pinte la página, el segundo para que tenga su alto.
+      requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo({ top: y })));
     };
     window.addEventListener("hashchange", cambio);
     return () => window.removeEventListener("hashchange", cambio);
@@ -141,6 +151,7 @@ function Cinetracker({ usuario }) {
   }, [aplicar, traerTodo]);
 
   function elegirSeccion(id) {
+    posiciones.clear(); // cambiar de sección (o tocar el logo) siempre arranca arriba
     setSeccion(id);
     guardar("cinetracker_seccion", id);
     if (window.location.hash) window.location.hash = "";
