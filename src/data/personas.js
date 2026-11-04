@@ -19,7 +19,7 @@ export const FICHAS = {
 Lo que sigue lo cuentan su familia, Puenzo y Campanella en el documental *Chango, la luz descubre*, que lo muestra trabajando en el rodaje de *Mamá se fue de viaje* y en el Teatro San Martín, en *La farsa de los ausentes*.
 
 ### Aprender de los maestros
-No había escuela de cine: se aprendía de los maestros, en el rodaje y en charlas, y después a prueba y error. Chango entró a *La Quintrala* (Hugo del Carril, 1955) por el lado del arte, y ahí, mirando trabajar al director de fotografía [Pablo Tabernero](#/persona/1818145), empezó a gustarle la luz. Tabernero era el alemán Peter Weinschenk, que llegó a la Argentina a mediados de los años 30; su historia está en el documental *Buscando a Tabernero* (2020), en Cine.ar.
+No había escuela de cine: se aprendía de los maestros, en el rodaje y en charlas, y después a prueba y error. Chango entró a [*La Quintrala*](#/tmdb/movie/320014) ([Hugo del Carril](#/persona/941154), 1955) por el lado del arte, y ahí, mirando trabajar al director de fotografía [Pablo Tabernero](#/persona/1818145), empezó a gustarle la luz. Tabernero era el alemán Peter Weinschenk, que llegó a la Argentina a mediados de los años 30; su historia está en el documental *Buscando a Tabernero* (2020), en Cine.ar.
 
 ### La primera
 *Juan que reía* (Carlos Galettini, 1976) fue su primera película. Su hermana cuenta que la familia les pedía a todos los conocidos que sacaran entrada, aunque después no entraran a verla: había que mantenerla en cartel.
@@ -149,7 +149,7 @@ Programa el cine del MALBA desde 2002, dirigió el BAFICI entre 2004 y 2007 y fu
 Se formó como fotógrafo de cine en la Berlín de la República de Weimar, cerca de la Bauhaus, y se recibió en 1929 en la escuela de fotografía de la Asociación Lette. En 1933, con la llegada de los nazis al poder, se fue a Barcelona. Ahí trabajó como fotógrafo y camarógrafo en películas españolas, y dicen que aprendió el castellano leyendo *El Quijote*. En 1936, en plena Guerra Civil, se sumó al equipo que filmaba a la Columna Durruti, y sus fotos se difundieron en todo el mundo.
 
 ### Pablo Tabernero
-Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, [*Nace un amor*](#/tmdb/movie/627713) ([Luis Saslavsky](#/persona/586113), 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), [*Vidalita*](#/tmdb/movie/526465) ([Luis Saslavsky](#/persona/586113), 1949), *La Quintrala* (Hugo del Carril), y los policiales de [Carlos Hugo Christensen](#/persona/107292) *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
+Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, [*Nace un amor*](#/tmdb/movie/627713) ([Luis Saslavsky](#/persona/586113), 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), [*Vidalita*](#/tmdb/movie/526465) ([Luis Saslavsky](#/persona/586113), 1949), [*La Quintrala*](#/tmdb/movie/320014) ([Hugo del Carril](#/persona/941154)), y los policiales de [Carlos Hugo Christensen](#/persona/107292) *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
 
 ### El maestro
 En *La Quintrala*, un muchacho que trabajaba en el área de arte lo miraba iluminar: era Félix "Chango" Monti, que ahí descubrió la luz. Así se aprendía entonces, sin escuela, al lado de los maestros. Tabernero también dirigió los Laboratorios Alex y enseñó en la Universidad de La Plata, hasta que en 1967 se fue con su familia a los Estados Unidos.
@@ -251,7 +251,7 @@ Lo que más le importaba eran los temas nacionales, y amaba el interior, el aire
 En 1945 dirigió a Eva Duarte en [*La pródiga*](#/tmdb/movie/437951), que no se estrenó hasta 1984. Entre 1947 y 1956 hizo películas más débiles, y él mismo explicó que el clima de esos años no favorecía la expresión. Después volvió con fuerza: [*Rosaura a las 10*](#/tmdb/movie/128489) (1958), sobre la novela de Marco Denevi, contada desde varios puntos de vista.
 
 ### El Instituto de Cine
-En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. En 1973, con Hugo del Carril, se hizo cargo del Instituto de Cine: abolieron la censura, la producción subió a 39 películas en 1973 y 40 en 1974, y arrancaron proyectos como *La Patagonia rebelde*, *Quebracho*, *La Raulito* y *La tregua*. En 1974 se enteró por los diarios de que lo habían sacado del cargo.
+En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. En 1973, con [Hugo del Carril](#/persona/941154), se hizo cargo del Instituto de Cine: abolieron la censura, la producción subió a 39 películas en 1973 y 40 en 1974, y arrancaron proyectos como *La Patagonia rebelde*, *Quebracho*, *La Raulito* y *La tregua*. En 1974 se enteró por los diarios de que lo habían sacado del cargo.
 
 ### Para ver
 Cinco de sus películas están en Cine.ar, entre ellas *La pródiga*, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
@@ -410,13 +410,13 @@ Se fue del país y siguió filmando en Italia, como la experimental [*ORG*](#/tm
 Fue a la escuela en Villa Ballester y empezó Medicina en Córdoba, pero la dejó por la escritura: adaptaba comedias francesas. Debutó en el teatro con Ivo Pelay, y en 1940 compró el Teatro Maipo, donde montó decenas de revistas con el seudónimo de Leo Carter. Como guionista de cine firmaba Gabriel Peña. También fue letrista de tango, y Walt Disney lo eligió para dirigir el doblaje al castellano de *Fantasía*, *Pinocho*, *Dumbo* y *Bambi*.
 
 ### Las estrellas
-Debutó como director en 1936, codirigiendo con [Mario Soffici](#/persona/1087155) [*Puerto Nuevo*](#/tmdb/movie/623202). Fue el director comercial más exitoso de su tiempo, y trabajó con las estrellas más grandes. Con Libertad Lamarque hizo melodramas musicales como [*Madreselva*](#/tmdb/movie/316954) (1938), con Hugo del Carril, que partía de un tango suyo y tuvo fotografía del húngaro John Alton, que después triunfó en Hollywood. Con Niní Marshall llevó al cine los personajes que ella había creado en la radio, como en [*Hay que educar a Niní*](#/tmdb/movie/335368) (1940). Con Pepe Arias hizo [*El profesor Cero*](#/tmdb/movie/857823) (1942), y con Luis Sandrini [*Juan Globo*](#/tmdb/movie/464800) (1949). Su director de fotografía de cabecera fue [Alberto Etchebehere](#/persona/1173339).
+Debutó como director en 1936, codirigiendo con [Mario Soffici](#/persona/1087155) [*Puerto Nuevo*](#/tmdb/movie/623202). Fue el director comercial más exitoso de su tiempo, y trabajó con las estrellas más grandes. Con Libertad Lamarque hizo melodramas musicales como [*Madreselva*](#/tmdb/movie/316954) (1938), con [Hugo del Carril](#/persona/941154), que partía de un tango suyo y tuvo fotografía del húngaro John Alton, que después triunfó en Hollywood. Con Niní Marshall llevó al cine los personajes que ella había creado en la radio, como en [*Hay que educar a Niní*](#/tmdb/movie/335368) (1940). Con Pepe Arias hizo [*El profesor Cero*](#/tmdb/movie/857823) (1942), y con Luis Sandrini [*Juan Globo*](#/tmdb/movie/464800) (1949). Su director de fotografía de cabecera fue [Alberto Etchebehere](#/persona/1173339).
 
 ### Dios se lo pague
 En 1947 se casó con la actriz Zully Moreno, y al año siguiente la dirigió, junto a Arturo de Córdova, en [*Dios se lo pague*](#/tmdb/movie/188353) (1948): un mendigo que pide en la puerta de una iglesia y por las noches vive como un millonario. Fue durante años uno de los éxitos más grandes del cine argentino. Volvieron a juntarse en [*Nacha Regules*](#/tmdb/movie/766161) (1950), y después dirigió a Mirtha Legrand en [*La de los ojos color del tiempo*](#/tmdb/movie/740475) (1952) y a María Félix en [*La pasión desnuda*](#/tmdb/movie/100106) (1953).
 
 ### El exilio en España
-Cercano al peronismo, dirigió el corto [*Eva Perón inmortal*](#/tmdb/movie/631063) (1952). Después del golpe de 1955 lo detuvieron con cargos falsos, junto a Hugo del Carril y Atilio Mentasti, y se fue a España con Zully Moreno. Allí fue uno de los directores más populares de los años 50 y 60, con películas para las estrellas del momento: Sara Montiel en *La violetera* (1958) y *Mi último tango* (1960), las mellizas Pili y Mili en *Como dos gotas de agua* (1964), y Rocío Dúrcal en *Más bonita que ninguna* (1965) y *Cristina Guzmán* (1968).
+Cercano al peronismo, dirigió el corto [*Eva Perón inmortal*](#/tmdb/movie/631063) (1952). Después del golpe de 1955 lo detuvieron con cargos falsos, junto a [Hugo del Carril](#/persona/941154) y Atilio Mentasti, y se fue a España con Zully Moreno. Allí fue uno de los directores más populares de los años 50 y 60, con películas para las estrellas del momento: Sara Montiel en *La violetera* (1958) y *Mi último tango* (1960), las mellizas Pili y Mili en *Como dos gotas de agua* (1964), y Rocío Dúrcal en *Más bonita que ninguna* (1965) y *Cristina Guzmán* (1968).
 
 ### Para ver
 Casi todas sus películas argentinas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Juan Globo* (1949), con Luis Sandrini, está en Cine.ar.`,
@@ -443,5 +443,32 @@ Entre 1949 y 1951 vivió en Venezuela, donde filmó [*La balandra Isabel llegó 
 
 ### Para ver
 Quince de sus películas argentinas están en Cine.ar, y casi todas, también las brasileñas, tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
+  // ── Hugo del Carril (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  941154: {
+    nombre: "Hugo del Carril",
+    rol: "Cantor, actor y director",
+    bajada: "El cantor que iba a ser el sucesor de Gardel y terminó filmando Las aguas bajan turbias.",
+    principal: "Director",
+    apariciones: "COMO ACTOR",
+    texto: `Se llamaba Piero Bruno Hugo Fontana. Nació en Flores, Buenos Aires, en 1912, y murió en Buenos Aires en 1989. Fue cantor, actor, guionista, productor y director.
+
+### El cantor
+Sus padres se separaron y lo criaron sus padrinos franceses, con quienes vivió en Francia hasta los dieciséis años. De vuelta en Buenos Aires cantó en la radio con varios seudónimos, formó el Trío París y un dúo con un amigo, que le sugirió el nombre de Hugo del Carril. Mientras tanto estudió taquigrafía y fue taquígrafo en el Congreso.
+
+### El sucesor de Gardel
+En 1937 Lumiton lo contrató para cantar *Tiempos viejos* en [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447), de [Manuel Romero](#/persona/1411903): apostaban a que fuera el sucesor de Gardel. Siguieron [*La vuelta de Rocha*](#/tmdb/movie/644043), [*Tres anclados en París*](#/tmdb/movie/607677), [*Madreselva*](#/tmdb/movie/316954) con Libertad Lamarque y [*La vida es un tango*](#/tmdb/movie/504356), y en 1939 hizo de Gardel en [*La vida de Carlos Gardel*](#/tmdb/movie/430594). En [*La cabalgata del circo*](#/tmdb/movie/335279) (1945) actuó con Lamarque y con Eva Duarte. En 1950 hizo de José Betinotti en [*El último payador*](#/tmdb/movie/487627).
+
+### Las aguas bajan turbias
+Debutó como director en 1949 con [*Historia del 900*](#/tmdb/movie/435083). Peronista convencido, grabó la Marcha Peronista. En 1952 dirigió y protagonizó [*Las aguas bajan turbias*](#/tmdb/movie/318591), sobre la novela *El río oscuro* del escritor comunista Alfredo Varela, que estaba preso: Del Carril le pidió a Perón por él y lo liberaron. Es la explotación de los mensúes en los yerbales del Alto Paraná, inspirada en [*Prisioneros de la tierra*](#/tmdb/movie/335367) de [Mario Soffici](#/persona/1087155), a quien llamaba su guía artística. Fue un gran éxito popular, se estrenó en Estados Unidos y Europa, y Raúl Apold, con quien estaba peleado, la prohibió.
+
+### La Quintrala y la cárcel
+En 1955 estrenó [*La Quintrala*](#/tmdb/movie/320014), una superproducción de cuatro millones de pesos, donde un joven [Chango Monti](#/persona/414697) trabajaba en el área de arte y aprendió la luz mirando a [Pablo Tabernero](#/persona/1818145). Duró días en cartel: el golpe de 1955 lo metió preso y prohibió sus películas. Lo detuvieron otra vez mientras filmaba [*Más allá del olvido*](#/tmdb/movie/335486) (1956).
+
+### Los años 60 y después
+En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. Dirigió a Tita Merello en [*Amorina*](#/tmdb/movie/447435) y [*Esta tierra es mía*](#/tmdb/movie/455566), hizo [*La calesita*](#/tmdb/movie/455971), [*La sentencia*](#/tmdb/movie/462548) y *Buenas noches, Buenos Aires* (1964), el primer musical argentino en color. En 1973 se hizo cargo del Instituto de Cine con Soffici. Su última película como director fue [*Yo maté a Facundo*](#/tmdb/movie/435186) (1975); con la dictadura de 1976 volvieron a prohibirlo.
+
+### Para ver
+Varias de sus películas, como actor y como director, están en Cine.ar, y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
 };

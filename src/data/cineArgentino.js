@@ -71,7 +71,7 @@ Argentina se mantuvo neutral en la Segunda Guerra. En respuesta, Estados Unidos 
 | Niní Marshall | Comediante y autora de sus personajes (Catita, Cándida). También trabajó años en México. | [*Mujeres que trabajan*](#/pelicula/1200) (1938) |
 | Luis Sandrini | El cómico tierno y torpe que el público adoró por décadas. | [*Cuando los duendes cazan perdices*](#/tmdb/movie/485429) (1955) |
 | Tita Merello | La mujer de arrabal, dura y popular. | [*Mercado de abasto*](#/tmdb/movie/425114) (1955) |
-| Hugo del Carril | Cantor, galán y después director. | [*Las aguas bajan turbias*](#/tmdb/movie/318591) (1952) |
+| [Hugo del Carril](#/persona/941154) | Cantor, galán y después director. | [*Las aguas bajan turbias*](#/tmdb/movie/318591) (1952) |
 | Mirtha Legrand y Zully Moreno | Las damas del cine de teléfonos blancos, la comedia elegante de clase alta. | [*Los martes, orquídeas*](#/tmdb/movie/468702) (1941) |
 
 ### El peronismo y el cine
@@ -84,7 +84,7 @@ La ley de 1947 obligó a los cines a pasar películas argentinas y el Estado dio
 - **[Carlos Hugo Christensen](#/persona/107292)**, el más audaz con el erotismo y el policial: [*El ángel desnudo*](#/tmdb/movie/290968) (1946), [*No abras nunca esa puerta*](#/pelicula/1180) (1952).
 - **[Daniel Tinayre](#/persona/1180781)**, el policial y el melodrama oscuro: [*A sangre fría*](#/tmdb/movie/561736) (1947).
 - **[Leopoldo Torres Ríos](#/persona/1452584)**, el cine de barrio y de pibes: [*Pelota de trapo*](#/tmdb/movie/499878) (1948).
-- **Hugo del Carril** dirigió [*Las aguas bajan turbias*](#/tmdb/movie/318591) (1952), sobre los trabajadores de los yerbales. Es la película social más importante de la época.
+- **[Hugo del Carril](#/persona/941154)** dirigió [*Las aguas bajan turbias*](#/tmdb/movie/318591) (1952), sobre los trabajadores de los yerbales. Es la película social más importante de la época.
 
 ### El cine negro argentino
 

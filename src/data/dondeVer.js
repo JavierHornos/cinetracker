@@ -390,6 +390,81 @@ export const LINKS = {
   "movie-504766": [ // ¿Somos? (1982)
     { nombre: "Internet Archive", url: "https://archive.org/details/somos-1982", nota: "copia subida por terceros" },
   ],
+  // Hugo del Carril (murió en 1989), como actor y como director: Cine.ar primero; si no, Internet Archive (copia subida por terceros).
+  "movie-430594": [ // La vida de Carlos Gardel (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-vida-de-carlos-gardel-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-577860": [ // Confesión (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/confesion-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-576236": [ // El astro del tango (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-astro-del-tango-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-559984": [ // En la luz de una estrella (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/en-la-luz-de-una-estrella-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-768298": [ // Amor último modelo (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/amor-ultimo-modelo-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-734134": [ // La piel de zapa (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-piel-de-zapa-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-766291": [ // Los dos rivales (1944)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-dos-rivales-1944", nota: "copia subida por terceros" },
+  ],
+  "movie-170667": [ // La cumparsita (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-cumparsita-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-445593": [ // Pobre mi madre querida (1948)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/263", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/pobre-mi-madre-querida-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-487627": [ // El último payador (1950)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/201", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-ultimo-payador-1950_202411", nota: "copia subida por terceros" },
+  ],
+  "movie-683338": [ // El día que me quieras (1969)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/880", nota: "gratis con registro" },
+  ],
+  "movie-776315": [ // ¡Viva la vida! (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/viva-la-vida-1969", nota: "copia subida por terceros" },
+  ],
+  "movie-630863": [ // Amalio Reyes, un hombre (1970)
+    { nombre: "Internet Archive", url: "https://archive.org/details/amalio-reyes-un-hombre-1970", nota: "copia subida por terceros" },
+  ],
+  "movie-614332": [ // La Malavida (1973)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/419", nota: "gratis con registro" },
+  ],
+  "movie-435083": [ // Historia del 900 (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/historia-del-900-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-446027": [ // El negro que tenía el alma blanca (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-negro-que-tenia-el-alma-blanca-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-320014": [ // La Quintrala (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-quintrala-dona-catalina-de-los-rios-y-lisperguer-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-335486": [ // Más allá del olvido (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mas-alla-del-olvido-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-455533": [ // Culpable (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/culpable-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-447435": [ // Amorina (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/amorina-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-455566": [ // Esta tierra es mía (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/esta-tierra-es-mia-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-455971": [ // La calesita (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-calesita-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-462548": [ // La sentencia (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-sentencia-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-435186": [ // Yo maté a Facundo (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/yo-mate-a-facundo-1975", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
