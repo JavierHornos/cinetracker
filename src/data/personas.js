@@ -180,4 +180,30 @@ Se casó con Mirtha Legrand en 1946 y la dirigió en *Pasaporte a Río* y en [*L
 ### Para ver
 Casi todas sus películas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link para verla afuera.`,
   },
+  // ── José Agustín Ferreyra (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1167413: {
+    nombre: "José Agustín Ferreyra",
+    rol: "Director, guionista y letrista de tangos",
+    bajada: "El Negro Ferreyra: el que llevó el arrabal y el tango al cine, del mudo al sonoro.",
+    principal: "Director",
+    texto: `Le decían "el Negro Ferreyra". Nació en el barrio de Constitución, en Buenos Aires, en 1889, hijo de Juan Ferreyra y de Manuela Saavedra, una mujer afrodescendiente. Murió en Buenos Aires en 1943.
+
+### Del Colón al cine
+Empezó pintando. En 1907, con su amigo Atilio Malinverno, fue uno de los primeros escenógrafos argentinos del Teatro Colón. Le gustaban Chaplin, Griffith, Ince y el cine sueco, y en 1915, el año de *Nobleza gaucha*, debutó sin ninguna experiencia previa con *Una noche de garufa*. Filmó casi siempre con muy poca plata y muy pocos recursos técnicos, entre 1915 y 1941.
+
+### El tango en la pantalla
+Desde *El tango de la muerte* (1917), el tango estuvo en todas sus películas. Cuando el tango canción empezó a contar historias, Ferreyra las llevó al cine: *La muchacha del arrabal* (1922), *La maleva* (1923), *Mientras Buenos Aires duerme* (1924), *El organito de la tarde* (1925) y *La costurerita que dio aquel mal paso* (1926), sobre el soneto de Evaristo Carriego. Escribía también las letras: el tango *La muchacha del arrabal*, con Leopoldo Torres Ríos y música de Roberto Firpo, lo tocaba la orquesta de Firpo en vivo durante la proyección, y lo grabó Carlos Gardel. Gardel grabó también *Y reías como loca* y *El alma de la calle*, dos tangos con letra suya. Del cine mudo de Ferreyra sobrevive muy poco: se puede ver completa [*Perdón viejita*](#/tmdb/movie/234260) (1927) y, afuera, [*La vuelta al bulín*](#/tmdb/movie/184880) (1926).
+
+### El paso al sonoro
+Probó el sonido antes que nadie: *La canción del gaucho* y *El cantar de mi ciudad* (1930) tenían música sincronizada, y [*Muñequitas porteñas*](#/tmdb/movie/550426) (1931) fue el primer largometraje argentino totalmente sonoro, con el sistema Vitaphone. En *Mañana es domingo* (1934) y [*Puente Alsina*](#/tmdb/movie/633791) (1935) trabajó con José Gola.
+
+### Libertad Lamarque
+En los estudios SIDE hizo con Libertad Lamarque [*Ayúdame a vivir*](#/pelicula/1240) (1936), donde el diálogo se corta en plena escena y sigue en un tango. Fue la primera película argentina que pudo competir con Hollywood en América Latina, y a Lamarque la consagró en todo el continente. Siguieron [*Besos brujos*](#/tmdb/movie/257905) y [*La ley que olvidaron*](#/tmdb/movie/463363) (1937), dos éxitos de boletería, y después [*Sol de primavera*](#/tmdb/movie/708109) y [*La que no perdonó*](#/tmdb/movie/718610) (1938), según la crítica la mejor filmada de todas las suyas.
+
+### Los últimos años
+Cuando dejó SIDE filmó fuera de la industria, con muy poco: [*Chimbela*](#/tmdb/movie/713540) (1939), con Elena Lucena, [*El ángel de trapo*](#/tmdb/movie/713542) y [*Pájaros sin nido*](#/tmdb/movie/739883) (1940). La última, [*La mujer y la selva*](#/tmdb/movie/824097) (1941), la rodó ya enfermo, en los obrajes del Chaco.
+
+### Para ver
+Cinco de sus películas sonoras están en Cine.ar, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
 };

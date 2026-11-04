@@ -7,6 +7,7 @@ export const LINKS = {
   // Películas de las estrellas del capítulo 3, en Cine.ar.
   "movie-429445": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/12", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/ayudame-a-vivir-1936", nota: "copia subida por terceros" },
   ],
   "movie-427803": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/8912", nota: "gratis con registro" },
@@ -37,6 +38,46 @@ export const LINKS = {
   ],
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
+  ],
+  // José Agustín Ferreyra: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-184880": [ // La vuelta al bulín (1926)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-vuelta-al-bulin-1926", nota: "copia subida por terceros" },
+  ],
+  "movie-550426": [ // Muñequitas porteñas (1931)
+    { nombre: "Internet Archive", url: "https://archive.org/details/munequitas-portenas-1931", nota: "copia subida por terceros" },
+  ],
+  "movie-633791": [ // Puente Alsina (1935)
+    { nombre: "Internet Archive", url: "https://archive.org/details/puente-alsina-1935", nota: "copia subida por terceros" },
+  ],
+  "movie-649823": [ // Muchachos de la ciudad (1937)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/127", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/muchachos-de-la-ciudad-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-257905": [ // Besos brujos (1937)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/13", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/besos-brujos-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-463363": [ // La ley que olvidaron (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-ley-que-olvidaron-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-718610": [ // La que no perdonó (1938)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/95", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-que-no-perdono-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-713540": [ // Chimbela (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/chimbela-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-713542": [ // El ángel de trapo (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-angel-de-trapo-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-739883": [ // Pájaros sin nido (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/pajaros-sin-nido-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-824097": [ // La mujer y la selva (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-mujer-y-la-selva-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-708109": [ // Sol de primavera (1937)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1302", nota: "gratis con registro" },
   ],
   // Daniel Tinayre (murió en 1994): sus películas tienen derechos. Copias subidas por terceros, link afuera.
   "movie-597700": [ // Mateo (1937)

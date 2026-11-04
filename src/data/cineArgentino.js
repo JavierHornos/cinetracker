@@ -26,7 +26,7 @@ En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira polít
 
 ### El Negro Ferreyra y el tango
 
-**José Agustín Ferreyra** fue el director más importante de los años 20. Filmaba en el arrabal, con actores no profesionales y sin guion cerrado, mucho antes del neorrealismo. Sus melodramas de tango, como *La muchacha del arrabal* (1922), inventaron un Buenos Aires de conventillos y milongas que el cine sonoro iba a heredar.
+**[José Agustín Ferreyra](#/persona/1167413)** fue el director más importante de los años 20. Filmaba en el arrabal, con actores no profesionales y sin guion cerrado, mucho antes del neorrealismo. Sus melodramas de tango, como *La muchacha del arrabal* (1922), inventaron un Buenos Aires de conventillos y milongas que el cine sonoro iba a heredar.
 
 ![El equipo de *La muchacha del arrabal* (José A. Ferreyra, 1922), una de las películas perdidas del cine mudo. Foto vía [cinenacional.com](https://cinenacional.com/pelicula/la-muchacha-del-arrabal).](/img/muchacha-del-arrabal-1922.webp)
 
