@@ -206,4 +206,27 @@ Cuando dejó SIDE filmó fuera de la industria, con muy poco: [*Chimbela*](#/tmd
 ### Para ver
 Cinco de sus películas sonoras están en Cine.ar, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Manuel Romero (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1411903: {
+    nombre: "Manuel Romero",
+    rol: "Director, autor de teatro y letrista de tangos",
+    bajada: "El más prolífico del cine clásico: más de cincuenta películas en Lumiton, a ritmo de revista porteña.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1891 y murió en Buenos Aires en 1954.
+
+### Del diario a la revista
+De muy joven trabajó en la revista *Fray Mocho* y en los diarios *Crítica* y *Última Hora*. Escribió más de 180 obras de teatro, muchas con Ivo Pelay, y la más exitosa fue *El bailarín del cabaret* (1922). Escribió también unas 150 letras de tango, muchas que se siguen cantando: *Tiempos viejos*, *Tomo y obligo*, *Nubes de humo*, *Patotero sentimental*, *Aquel tapado de armiño*.
+
+### París y Gardel
+En 1923 viajó a Francia con el director español Luis Bayón Herrera, y en París conoció a Carlos Gardel. Juntos armaron *Luces de Buenos Aires* (1931), que Romero escribió con Bayón Herrera y dirigió el chileno Adelqui Millar.
+
+### Lumiton
+En 1935 debutó como director con [*Noches de Buenos Aires*](#/tmdb/movie/623205), el mismo año que Saslavsky, Soffici, [Tinayre](#/persona/1180781) y Zavalía, y era el mayor de los cinco. En Lumiton filmó una película tras otra, casi siempre con argumento y música suyos: [*Radio Bar*](#/tmdb/movie/696942) (1936), [*Fuera de la ley*](#/tmdb/movie/335365) (1937), con José Gola y Luis Arata, y [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), cuyo título quedó como frase hecha. En 1938 hizo [*La rubia del camino*](#/tmdb/movie/403382), con Paulina Singerman, considerada la primera road movie argentina, y [*Mujeres que trabajan*](#/tmdb/movie/427803), la primera de sus películas con Niní Marshall. Con ella y Enrique Serrano siguieron [*Divorcio en Montevideo*](#/tmdb/movie/316904) (1939), [*Casamiento en Buenos Aires*](#/tmdb/movie/471472) y [*Luna de miel en Río*](#/tmdb/movie/644052) (1940).
+
+### Rápido y popular
+Rodaba muy rápido, con el único afán de terminar, y la crítica lo despreciaba. Pero tenía un estilo propio y llenaba las salas: el tango, el cabaret, el compadrito y el porteño canchero. Su actor fetiche fue Tito Lusiardo, y dirigió también a Luis Sandrini, Narciso Ibáñez Menta y Juan Carlos Thorry. Siguió filmando hasta los años 50: [*La historia del tango*](#/tmdb/movie/637803) (1949), [*El hincha*](#/tmdb/movie/344779) (1951), con Enrique Santos Discépolo, y [*¡Ué... Paisano!*](#/tmdb/movie/862156) (1953).
+
+### Para ver
+Dieciséis de sus películas están en Cine.ar, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
 };

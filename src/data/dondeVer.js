@@ -9,14 +9,8 @@ export const LINKS = {
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/12", nota: "gratis con registro" },
     { nombre: "Internet Archive", url: "https://archive.org/details/ayudame-a-vivir-1936", nota: "copia subida por terceros" },
   ],
-  "movie-427803": [
-    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/8912", nota: "gratis con registro" },
-  ],
   "movie-468702": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/104", nota: "gratis con registro" },
-  ],
-  "movie-403382": [
-    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1177", nota: "gratis con registro" },
   ],
   "movie-485429": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/175", nota: "gratis con registro" },
@@ -42,6 +36,156 @@ export const LINKS = {
   ],
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
+  ],
+  // Manuel Romero: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-623205": [ // Noches de Buenos Aires (1935)
+    { nombre: "Internet Archive", url: "https://archive.org/details/noches-de-buenos-aires-1935", nota: "copia subida por terceros" },
+  ],
+  "movie-629898": [ // El caballo del pueblo (1935)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-caballo-del-pueblo-1935", nota: "copia subida por terceros" },
+  ],
+  "movie-695130": [ // Don Quijote del altillo (1936)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/37", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/don-quijote-del-altillo-1936", nota: "copia subida por terceros" },
+  ],
+  "movie-696942": [ // Radio Bar (1936)
+    { nombre: "Internet Archive", url: "https://archive.org/details/radio-bar-1936", nota: "copia subida por terceros" },
+  ],
+  "movie-644043": [ // La vuelta de Rocha (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-vuelta-de-rocha-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-699063": [ // La muchacha del circo (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-muchacha-del-circo-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-457485": [ // El cañonero de Giles (1937)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/46", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-canonero-de-giles-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-445447": [ // Los muchachos de antes no usaban gomina (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-muchachos-de-antes-no-usaban-gomina-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-335365": [ // Fuera de la ley (1937)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/66", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/fuera-de-la-ley-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-607677": [ // Tres anclados en París (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tres-argentinos-en-paris-aka-tres-anclados-en-paris-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-403382": [ // La rubia del camino (1938)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1177", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-rubia-del-camino-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-427803": [ // Mujeres que trabajan (1938)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/8912", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/mujeres-que-trabajan-1938_202412", nota: "copia subida por terceros" },
+  ],
+  "movie-502329": [ // Gente bien (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/67", nota: "gratis con registro" },
+  ],
+  "movie-502328": [ // Muchachas que estudian (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/126", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/muchachas-que-estudian-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-316904": [ // Divorcio en Montevideo (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/35", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/divorcio-en-montevideo-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-706726": [ // La modelo y la estrella (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/91", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-modelo-y-la-estrella-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-504356": [ // La vida es un tango (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/100", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-vida-es-un-tango-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-644052": [ // Luna de miel en Río (1940)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/108", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/luna-de-miel-en-rio-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-485068": [ // Isabelita (1940)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/73", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/isabelita-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-429546": [ // Carnaval de antaño (1940)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/44", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/carnaval-de-antano-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-471472": [ // Casamiento en Buenos Aires (1940)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/24", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/casamiento-en-buenos-aires-1940_202608", nota: "copia subida por terceros" },
+  ],
+  "movie-504122": [ // Un bebé de París (1941)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1039", nota: "gratis con registro" },
+  ],
+  "movie-589247": [ // Yo quiero ser bataclana (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/yo-quiero-ser-bataclana-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-710049": [ // El tesoro de la isla Maciel (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-tesoro-de-la-isla-maciel-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-710317": [ // Mi amor eres tú (1941)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/119", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/mi-amor-eres-tu-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-264798": [ // Una luz en la ventana (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/una-luz-en-la-ventana-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-488103": [ // Ven... mi corazón te llama (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ven-mi-corazon-te-llama-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-515439": [ // Elvira Fernández, vendedora de tienda (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/elvira-fernandez-vendedora-de-tienda-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-564210": [ // Historia de crímenes (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/historia-de-crimenes-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-713855": [ // El fabricante de estrellas (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-fabricante-de-estrellas-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-714516": [ // Hay que casar a Paulina (1944)
+    { nombre: "Internet Archive", url: "https://archive.org/details/hay-que-casar-a-paulina-1944", nota: "copia subida por terceros" },
+  ],
+  "movie-685680": [ // El diablo andaba en los choclos (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-diablo-andaba-en-los-choclos-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-911806": [ // Adiós Pampa mía (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/adios-pampa-mia-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-437506": [ // Navidad de los pobres (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/navidad-de-los-pobres-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-657517": [ // La rubia Mireya (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-rubia-mireya-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-488108": [ // El tango vuelve a París (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-tango-vuelve-a-paris-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-656189": [ // Porteña de corazón (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/portena-de-corazon-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-637803": [ // La historia del tango (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-historia-del-tango-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-564214": [ // Mujeres que bailan (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mujeres-que-bailan-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-721923": [ // Morir en su ley (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/morir-en-su-ley-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-722298": [ // Un tropezón cualquiera da en la vida (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/un-tropezon-cualquiera-da-en-la-vida-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-580217": [ // Valentina (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/valentina-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-546231": [ // Derecho viejo (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/derecho-viejo-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-344779": [ // El hincha (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-hincha-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-862156": [ // ¡Ué... Paisano! (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/uei-paesano-1953", nota: "copia subida por terceros" },
   ],
   // José Agustín Ferreyra: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-184880": [ // La vuelta al bulín (1926)
