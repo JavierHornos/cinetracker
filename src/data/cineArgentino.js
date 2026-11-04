@@ -125,7 +125,7 @@ Hijo de [Leopoldo Torres Ríos](#/persona/1452584), **[Torre Nilsson](#/persona/
 
 ### Fernando Birri y el documental social
 
-En 1956 **Fernando Birri** fundó en la Universidad del Litoral la Escuela Documental de Santa Fe. Su corto *Tire dié* (1960) filma a los chicos que corrían junto al tren pidiendo monedas. Es el punto de partida del documental político latinoamericano. Después hizo la ficción *Los inundados* (1962).
+En 1956 **[Fernando Birri](#/persona/1131520)** fundó en la Universidad del Litoral la Escuela Documental de Santa Fe. Su corto [*Tire dié*](#/tmdb/movie/151441) (1960) filma a los chicos que corrían junto al tren pidiendo monedas. Es el punto de partida del documental político latinoamericano. Después hizo la ficción [*Los inundados*](#/tmdb/movie/204192) (1962).
 
 ### La Generación del 60
 

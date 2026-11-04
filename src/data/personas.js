@@ -368,4 +368,34 @@ Lo llamaron "un mal ejemplo para la juventud argentina". Lo censuró Raúl Apold
 ### Para ver
 Cuatro de sus películas están en Cine.ar, y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Fernando Birri (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1131520: {
+    nombre: "Fernando Birri",
+    rol: "Director, documentalista y maestro de cine",
+    bajada: "El padre del Nuevo Cine Latinoamericano: la Escuela Documental de Santa Fe y Tire dié.",
+    principal: "Director",
+    apariciones: "APARECE EN",
+    documental: {
+      titulo: "Ata tu arado a una estrella (Carmen Guarini, 2017)",
+      tmdb_id: 513929,
+      url: "https://play.cine.ar/INCAA/produccion/5259",
+      donde: "Cine.ar · gratis con registro",
+    },
+    texto: `Nació en Santa Fe en 1925 y murió en Roma en 2017. Se lo considera el padre del Nuevo Cine Latinoamericano.
+
+### Santa Fe y Roma
+Creció en una familia de artistas: su padre había sido pintor, un tío era caricaturista, de donde él decía que venía lo irónico y lo grotesco de su cine, y otros tres tíos tenían la Orquesta Típica Birri. Escribía poesía y pintaba, y antes de los veinte años ayudó a fundar el teatro experimental de la Universidad del Litoral y el cineclub Santa Fe. Entre 1950 y 1953 estudió en el Centro Sperimentale di Cinematografia de Roma, en pleno neorrealismo, y hasta actuó en algunas películas italianas.
+
+### La Escuela Documental de Santa Fe
+De vuelta en Santa Fe dio un cursillo de cine para la Universidad del Litoral con alumnos sin ninguna experiencia, y de ahí nació, el 19 de diciembre de 1956, el Instituto de Cinematografía: la Escuela Documental de Santa Fe. Como profesores convocó, entre otros, a Ernesto Sabato, al poeta Juan L. Ortiz, a Simón Feldman y a José Martínez Suárez.
+
+### Tire dié
+La primera película de la Escuela fue [*Tire dié*](#/tmdb/movie/151441), hecha con sus alumnos: los chicos de un barrio pobre de Santa Fe que corren junto al tren, sobre el puente, pidiendo monedas a los pasajeros. Abrió en la Argentina la línea del documental político y social. Después vino la ficción [*Los inundados*](#/tmdb/movie/204192) (1962), sobre una familia que vive de inundación en inundación, que ganó el premio a la mejor ópera prima en Venecia. Ese mismo año intervinieron la Escuela, y en 1963 prohibieron *Los 40 cuartos*, de Juan Oliva, hecha ahí.
+
+### América Latina
+Se fue del país y siguió filmando en Italia, como la experimental [*ORG*](#/tmdb/movie/239211) (1979), y en toda América Latina. En 1986 fundó con Gabriel García Márquez la Escuela Internacional de Cine y Televisión de San Antonio de los Baños, en Cuba, que dirigió hasta 1991, y filmó un cuento de García Márquez, [*Un señor muy viejo con unas alas enormes*](#/tmdb/movie/203992) (1988). En 2010 recibió el Cóndor de Plata a la trayectoria, y en 2015 el INCAA restauró y digitalizó su obra.
+
+### Para ver
+*Tire dié*, *Los inundados* y otras ocho películas con él están en Cine.ar, entre ellas *Ata tu arado a una estrella*, el documental de Carmen Guarini sobre sus últimos años.`,
+  },
 };

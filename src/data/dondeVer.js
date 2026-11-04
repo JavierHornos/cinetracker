@@ -66,6 +66,47 @@ export const LINKS = {
   "movie-252695": [ // No abras nunca esa puerta (1952)
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/256", nota: "gratis con registro" },
   ],
+  // Fernando Birri (murió en 2017): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-151441": [ // Tire dié (1958)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7425", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/TireDi", nota: "copia subida por terceros" },
+  ],
+  "movie-204192": [ // Los inundados (1962)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7354", nota: "gratis con registro" },
+  ],
+  "movie-535314": [ // La pampa gringa (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-pampa-gringa-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-239211": [ // ORG (1979)
+    { nombre: "Internet Archive", url: "https://archive.org/details/org_1979", nota: "copia subida por terceros" },
+  ],
+  "movie-885347": [ // Compañero Fernando (1981)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7424", nota: "gratis con registro" },
+  ],
+  "movie-358362": [ // Mi hijo el Che (1985)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7380", nota: "gratis con registro" },
+  ],
+  "movie-203992": [ // Un señor muy viejo con unas alas enormes (1988)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7355", nota: "gratis con registro" },
+  ],
+  "movie-1021557": [ // Trece segundos (1996)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/772", nota: "gratis con registro" },
+  ],
+  "movie-408780": [ // El siglo del viento (1999)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-siglo-del-viento-1999", nota: "copia subida por terceros" },
+  ],
+  "movie-1185583": [ // Donde comienza el camino (2005)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/6736", nota: "gratis con registro" },
+  ],
+  "movie-563770": [ // Paisajes devorados (2013)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/5132", nota: "gratis con registro" },
+  ],
+  "movie-920523": [ // BirriLata, una vuelta en tren (2015)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/4244", nota: "gratis con registro" },
+  ],
+  "movie-513929": [ // Ata tu arado a una estrella (2017)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/5259", nota: "gratis con registro" },
+  ],
   // Leopoldo Torre Nilsson (murió en 1978): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-261570": [ // Días de odio (1954)
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/177", nota: "gratis con registro" },
