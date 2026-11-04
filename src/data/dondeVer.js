@@ -51,6 +51,122 @@ export const LINKS = {
   "movie-165177": [ // El día que me quieras (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
   ],
+  // Mario Soffici: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-915131": [ // Noche federal (1932)
+    { nombre: "Internet Archive", url: "https://archive.org/details/noche-federal-1932", nota: "copia subida por terceros" },
+  ],
+  "movie-630484": [ // El alma del bandoneón (1935)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-alma-del-bandoneon-1935", nota: "copia subida por terceros" },
+  ],
+  "movie-915128": [ // La barra mendocina (1935)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-barra-mendocina-1935", nota: "copia subida por terceros" },
+  ],
+  "movie-623202": [ // Puerto Nuevo (1936)
+    { nombre: "Internet Archive", url: "https://archive.org/details/puerto-nuevo-1936", nota: "copia subida por terceros" },
+  ],
+  "movie-721633": [ // Cadetes de San Martín (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cadetes-de-san-martin-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-408764": [ // Viento norte (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/viento-norte-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-335265": [ // Kilómetro 111 (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/kilometro-111-1938_202411", nota: "copia subida por terceros" },
+  ],
+  "movie-764060": [ // El viejo doctor (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-viejo-doctor-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-335367": [ // Prisioneros de la tierra (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/prisioneros-de-la-tierra-1939_202411", nota: "copia subida por terceros" },
+  ],
+  "movie-764061": [ // Héroes sin fama (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/heroes-sin-fama-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-491662": [ // Cita en la frontera (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cita-en-la-frontera-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-430117": [ // Yo quiero morir contigo (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/yo-quiero-morir-contigo-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-906253": [ // El camino de las llamas (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-camino-de-las-llamas-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-915122": [ // Vacaciones en el otro mundo (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/vacaciones-en-el-otro-mundo-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-467931": [ // Tres hombres del río (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tres-hombres-del-rio-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-429685": [ // Despertar a la vida (1945)
+    { nombre: "Internet Archive", url: "https://archive.org/details/despertar-a-la-vida-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-335279": [ // La cabalgata del circo (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/78", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-cabalgata-del-circo-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-437951": [ // La pródiga (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/512", nota: "gratis con registro" },
+  ],
+  "movie-468867": [ // Besos perdidos (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/14", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/besos-perdidos-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-446595": [ // Celos (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/celos-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-630674": [ // El pecado de Julia (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-pecado-de-julia-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-189902": [ // La gata (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-gata-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-468889": [ // La secta del trébol (1948)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/234", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-secta-del-trebol-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-403295": [ // Tierra del Fuego (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tierra-del-fuego-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-436433": [ // El extraño caso del hombre y la bestia (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-extrano-caso-del-hombre-y-la-bestia-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-567766": [ // La indeseable (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-indeseable-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-199506": [ // Pasó en mi barrio (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/paso-en-mi-barrio-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-580139": [ // Ellos nos hicieron así (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ellos-nos-hicieron-asi-1953", nota: "copia subida por terceros" },
+  ],
+  "movie-714374": [ // La dama del mar (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-dama-del-mar-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-359278": [ // Mujeres casadas (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mujeres-casadas-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-537895": [ // Barrio gris (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/barrio-gris-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-660830": [ // El hombre que debía una muerte (1955)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/190", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-hombre-que-debia-una-muerte-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-657339": [ // El curandero (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-curandero-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-128489": [ // Rosaura a las 10 (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/rosaura-a-las-diez-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-504454": [ // Isla brava (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/isla-brava-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-680784": [ // Chafalonías (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/chafalonias-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-866109": [ // Propiedad (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/propiedad-1962", nota: "copia subida por terceros" },
+  ],
   // Manuel Romero: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-623205": [ // Noches de Buenos Aires (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/noches-de-buenos-aires-1935", nota: "copia subida por terceros" },

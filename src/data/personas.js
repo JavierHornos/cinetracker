@@ -222,12 +222,38 @@ De muy joven trabajó en la revista *Fray Mocho* y en los diarios *Crítica* y *
 En 1923 viajó a Francia con el director español Luis Bayón Herrera, y en París conoció a Carlos Gardel. Juntos armaron [*Luces de Buenos Aires*](#/tmdb/movie/170625) (1931), que Romero escribió con Bayón Herrera y dirigió el chileno Adelqui Millar.
 
 ### Lumiton
-En 1935 debutó como director con [*Noches de Buenos Aires*](#/tmdb/movie/623205), el mismo año que Saslavsky, Soffici, [Tinayre](#/persona/1180781) y Zavalía, y era el mayor de los cinco. En Lumiton filmó una película tras otra, casi siempre con argumento y música suyos: [*Radio Bar*](#/tmdb/movie/696942) (1936), [*Fuera de la ley*](#/tmdb/movie/335365) (1937), con José Gola y Luis Arata, y [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), cuyo título quedó como frase hecha. En 1938 hizo [*La rubia del camino*](#/tmdb/movie/403382), con Paulina Singerman, considerada la primera road movie argentina, y [*Mujeres que trabajan*](#/tmdb/movie/427803), la primera de sus películas con Niní Marshall. Con ella y Enrique Serrano siguieron [*Divorcio en Montevideo*](#/tmdb/movie/316904) (1939), [*Casamiento en Buenos Aires*](#/tmdb/movie/471472) y [*Luna de miel en Río*](#/tmdb/movie/644052) (1940).
+En 1935 debutó como director con [*Noches de Buenos Aires*](#/tmdb/movie/623205), el mismo año que Saslavsky, [Soffici](#/persona/1087155), [Tinayre](#/persona/1180781) y Zavalía, y era el mayor de los cinco. En Lumiton filmó una película tras otra, casi siempre con argumento y música suyos: [*Radio Bar*](#/tmdb/movie/696942) (1936), [*Fuera de la ley*](#/tmdb/movie/335365) (1937), con José Gola y Luis Arata, y [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), cuyo título quedó como frase hecha. En 1938 hizo [*La rubia del camino*](#/tmdb/movie/403382), con Paulina Singerman, considerada la primera road movie argentina, y [*Mujeres que trabajan*](#/tmdb/movie/427803), la primera de sus películas con Niní Marshall. Con ella y Enrique Serrano siguieron [*Divorcio en Montevideo*](#/tmdb/movie/316904) (1939), [*Casamiento en Buenos Aires*](#/tmdb/movie/471472) y [*Luna de miel en Río*](#/tmdb/movie/644052) (1940).
 
 ### Rápido y popular
 Rodaba muy rápido, con el único afán de terminar, y la crítica lo despreciaba. Pero tenía un estilo propio y llenaba las salas: el tango, el cabaret, el compadrito y el porteño canchero. Su actor fetiche fue Tito Lusiardo, y dirigió también a Luis Sandrini, Narciso Ibáñez Menta y Juan Carlos Thorry. Siguió filmando hasta los años 50: [*La historia del tango*](#/tmdb/movie/637803) (1949), [*El hincha*](#/tmdb/movie/344779) (1951), con Enrique Santos Discépolo, y [*¡Ué... Paisano!*](#/tmdb/movie/862156) (1953).
 
 ### Para ver
 Dieciséis de sus películas están en Cine.ar, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
+  // ── Mario Soffici (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1087155: {
+    nombre: "Mario Soffici",
+    rol: "Director, actor y guionista",
+    bajada: "El que llevó la cámara al interior: Prisioneros de la tierra y el cine social de los años 30.",
+    principal: "Director",
+    texto: `Nació en Florencia, Italia, en 1900, y llegó a la Argentina a los nueve años. Murió en Buenos Aires en 1977.
+
+### Del teatro al cine
+Se recibió de técnico electrónico, pero a los 28 años ya era un actor de teatro clásico reconocido. En una gira por Barcelona conoció a [José Agustín Ferreyra](#/persona/1167413): los dos estaban fascinados con el cine sonoro y planearon filmar en Buenos Aires. Soffici aprendió mirando: iba a ver cómo se filmaba, después estudiaba los negativos revelados y analizaba qué había salido bien y qué no. Trabajó como actor con Ferreyra, y en 1935 debutó como director con [*El alma del bandoneón*](#/tmdb/movie/630484).
+
+### Un obsesivo de la cámara
+Otros directores de la época se conformaban con filmar lo que pasaba delante de la cámara. Soffici, en cambio, estudiaba todo lo que la cámara podía sugerir, con un cuidado obsesivo: lo contrario de [Manuel Romero](#/persona/1411903). Hizo cine de barrio y tango, como [*Puerto Nuevo*](#/tmdb/movie/623202) (1936) y [*Pasó en mi barrio*](#/tmdb/movie/199506) (1951), y dramas de grandes estrellas, con primeros planos famosos de Zully Moreno en [*Celos*](#/tmdb/movie/446595), [*La gata*](#/tmdb/movie/189902) y [*La dama del mar*](#/tmdb/movie/714374), y de Amelia Bence en [*El pecado de Julia*](#/tmdb/movie/630674).
+
+### El interior y el cine social
+Lo que más le importaba eran los temas nacionales, y amaba el interior, el aire libre y el paisaje. [*Viento norte*](#/tmdb/movie/408764) (1937) cuenta la vida del peón de campo, y [*Kilómetro 111*](#/tmdb/movie/335265) (1938), cómo los acopiadores explotaban a los chacareros. La cumbre fue [*Prisioneros de la tierra*](#/tmdb/movie/335367) (1939), sobre cuentos de Horacio Quiroga: la explotación de los mensúes en los yerbatales de Misiones, con la selva como un personaje más. Para [*El camino de las llamas*](#/tmdb/movie/906253) recorrió Mendoza entera hasta encontrar en Tupungato el lugar para filmar el cruce de los animales por la cordillera.
+
+### Eva Duarte y los años de Perón
+En 1945 dirigió a Eva Duarte en [*La pródiga*](#/tmdb/movie/437951), que no se estrenó hasta 1984. Entre 1947 y 1956 hizo películas más débiles, y él mismo explicó que el clima de esos años no favorecía la expresión. Después volvió con fuerza: [*Rosaura a las 10*](#/tmdb/movie/128489) (1958), sobre la novela de Marco Denevi, contada desde varios puntos de vista.
+
+### El Instituto de Cine
+En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. En 1973, con Hugo del Carril, se hizo cargo del Instituto de Cine: abolieron la censura, la producción subió a 39 películas en 1973 y 40 en 1974, y arrancaron proyectos como *La Patagonia rebelde*, *Quebracho*, *La Raulito* y *La tregua*. En 1974 se enteró por los diarios de que lo habían sacado del cargo.
+
+### Para ver
+Cinco de sus películas están en Cine.ar, entre ellas *La pródiga*, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
 };
