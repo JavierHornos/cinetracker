@@ -521,6 +521,65 @@ export const LINKS = {
   "movie-614710": [ // Más allá del sol (1975)
     { nombre: "Internet Archive", url: "https://archive.org/details/mas-alla-del-sol-1975", nota: "copia subida por terceros" },
   ],
+  // Román Viñoly Barreto (murió en 1970): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-820926": [ // Corrientes, calle de ensueños (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/corrientes-calle-de-ensuenos-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-852870": [ // Con el sudor de tu frente (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/con-el-sudor-de-tu-frente-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-742152": [ // Fangio, el demonio de las pistas (1950)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1026", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/fangio-el-deminio-de-las-pistas-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-861525": [ // Una viuda casi alegre (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/una-viuda-casi-alegre-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-861654": [ // La calle junto a la luna (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-calle-junto-a-la-luna-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-195654": [ // Esta es mi vida (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/esta-es-mi-vida-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-421101": [ // La bestia debe morir (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-bestia-debe-morir-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-474995": [ // El abuelo (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-abuelo-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-722577": [ // El hombre virgen (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-hombre-virgen-1956", nota: "copia subida por terceros" },
+  ],
+  "movie-500878": [ // Horizontes de piedra (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/horizontes-de-piedra-1956", nota: "copia subida por terceros" },
+  ],
+  "movie-684550": [ // Fantoche (1957)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1027", nota: "gratis con registro" },
+  ],
+  "movie-713858": [ // Un centavo de mujer (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/un-centavo-de-mujer-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-269291": [ // Los dioses ajenos (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-dioses-ajenos-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-435581": [ // El dinero de Dios (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-dinero-de-dios-1959", nota: "copia subida por terceros" },
+  ],
+  "movie-719937": [ // Reportaje en el infierno (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/reportaje-en-el-infierno-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-617270": [ // Todo el año es Navidad (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/todo-el-ano-es-navidad-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-721634": [ // Barcos de papel (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/barcos-de-papel-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-611620": [ // Orden de matar (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/orden-de-matar-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-811120": [ // Villa Delicia, playa de estacionamiento, música ambiental (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/villa-delicia-playa-de-estacionamiento-musica-ambiental-aka-demetrio-silbame-la-marcha-nupcial-1965", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },

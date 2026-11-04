@@ -494,4 +494,27 @@ Después filmó en la India, *Harry Black* (1958), y en Europa: el western alem�
 ### Para ver
 *Pampa salvaje* y *La Malavida* están en Cine.ar, y casi todas sus películas, también las de Hollywood, tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Román Viñoly Barreto (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1023449: {
+    nombre: "Román Viñoly Barreto",
+    rol: "Director y guionista",
+    bajada: "El uruguayo de El vampiro negro: un director popular que el cine negro volvió de culto.",
+    principal: "Director",
+    texto: `Nació en Montevideo en 1914, en una familia de pescadores, y murió en Buenos Aires en 1970. Sus películas fueron populares en su momento y después cayeron en el olvido; en el siglo XXI los amantes del cine negro lo redescubrieron, y hoy es un director de culto.
+
+### De Montevideo a Buenos Aires
+Se doctoró en Filosofía, estudió música y ballet, fundó un grupo de teatro y escribió un libro sobre San Francisco de Asís. A los 26 años se mudó a Buenos Aires y entró al cine como asistente de Alberto de Zavalía. Debutó como director con *Estrellita* (1947), y en veinte años hizo unas treinta películas, muchas con guion suyo.
+
+### El cine negro
+Su lugar en la historia lo ganó con dos policiales. [*La bestia debe morir*](#/tmdb/movie/421101) (1952), sobre la novela de Nicholas Blake, que coescribió y protagonizó Narciso Ibáñez Menta: un escritor de novelas policiales que busca al hombre que atropelló a su hijo. Y [*El vampiro negro*](#/tmdb/movie/252697) (1953), una versión porteña de *M*, de Fritz Lang, sobre un asesino de niñas, con Olga Zubarry y Nathán Pinzón y una fotografía en sombras de Aníbal González Paz que la vuelve de lo más expresionista del cine argentino.
+
+### Todos los géneros
+Hizo también cine popular de todo tipo: [*Fangio, el demonio de las pistas*](#/tmdb/movie/742152) (1950), con el propio Juan Manuel Fangio; [*El abuelo*](#/tmdb/movie/474995) (1954), sobre Pérez Galdós, con Enrique Muiño y Mecha Ortiz; [*Fantoche*](#/tmdb/movie/684550) (1957), con Luis Sandrini como un excrack que vive del gol que les hizo a los uruguayos; *La familia Falcón* (1963), sobre el programa de televisión; y *La pérgola de las flores* (1965), que ganó el premio a la mejor película argentina del año.
+
+### Teatro y televisión
+Dirigió teatro en Uruguay y en la Argentina, y en sus últimos años trabajó en televisión. En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. Su hijo es el arquitecto Rafael Viñoly.
+
+### Para ver
+*Fangio* y *Fantoche* están en Cine.ar, y muchas de sus películas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
 };
