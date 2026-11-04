@@ -31,6 +31,10 @@ export const LINKS = {
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],
+  // A sangre fría (Tinayre, 1947): no es de dominio público (Tinayre murió en 1994). Grabación de TV subida por terceros.
+  "movie-561736": [
+    { nombre: "Internet Archive", url: "https://archive.org/details/a-sangre-fria-1946", nota: "copia subida por terceros, grabada de la televisión (canal Volver)" },
+  ],
   // Los tallos amargos (1956): no es de dominio público (Piazzolla murió en 1992). Copia restaurada subida por terceros.
   "movie-185250": [
     { nombre: "Internet Archive", url: "https://archive.org/details/los-tallos-amargos-the-bitter-stems-1956-eng-sub-restored-movie-720p-hd", nota: "copia restaurada subida por terceros, con la presentación de Eddie Muller (TCM) y subtítulos en inglés" },
