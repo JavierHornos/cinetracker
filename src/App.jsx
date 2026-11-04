@@ -102,7 +102,9 @@ function Cinetracker({ usuario }) {
   // Las fichas de personas tienen su propia dirección (#/persona/123) para poder compartirlas.
   // Al volver a una página ya vista (por ejemplo, de una ficha a la historia), se vuelve a donde estabas.
   useEffect(() => {
-    let anterior = window.location.hash;
+    // Las fichas se recuerdan por su dirección; todo lo demás es la página principal ("").
+    const clave = h => (/^#\/persona\//.test(h) ? h : "");
+    let anterior = clave(window.location.hash);
     const cambio = () => {
       posiciones.set(anterior, window.scrollY);
       const r = limpiarRuta();
@@ -110,12 +112,12 @@ function Cinetracker({ usuario }) {
       if (r.seccion) setSeccion(r.seccion);
       if (r.tmdb) setTmdbPendiente(r.tmdb);
       const nueva = window.location.hash;
-      anterior = nueva;
+      anterior = clave(nueva);
       setRuta(nueva);
       if (r.pelicula || r.tmdb) return;
-      const y = posiciones.get(nueva) ?? 0;
-      // Dos cuadros de espera: el primero para que React pinte la página, el segundo para que tenga su alto.
-      requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo({ top: y })));
+      const y = posiciones.get(anterior) ?? 0;
+      // Se espera un instante a que React pinte la página nueva (y tenga su alto) antes de mover el scroll.
+      setTimeout(() => window.scrollTo({ top: y }), 30);
     };
     window.addEventListener("hashchange", cambio);
     return () => window.removeEventListener("hashchange", cambio);
