@@ -212,6 +212,7 @@ Cinco de sus películas sonoras están en Cine.ar, y casi todas tienen además u
     rol: "Director, autor de teatro y letrista de tangos",
     bajada: "El más prolífico del cine clásico: más de cincuenta películas en Lumiton, a ritmo de revista porteña.",
     principal: "Director",
+    ocultar: ["Director of Photography"], // TMDB le pone un crédito de fotografía que no es suyo
     texto: `Nació en Buenos Aires en 1891 y murió en Buenos Aires en 1954.
 
 ### Del diario a la revista

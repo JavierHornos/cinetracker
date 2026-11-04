@@ -31,6 +31,8 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
     const porAnio = lista => [...new Map(lista.map(c => [`${c.media_type}-${c.id}`, c])).values()]
       .sort((a, b) => (anioDe(a) ?? 9999) - (anioDe(b) ?? 9999));
     const roles = ROLES
+      // `ocultar` en la ficha propia saca roles que TMDB le atribuye por error.
+      .filter(r => !propia?.ocultar?.includes(r.job))
       .map(r => ({ ...r, pelis: porAnio(crew.filter(c => c.job === r.job)) }))
       .filter(s => s.pelis.length)
       .sort((a, b) => (b.job === principal) - (a.job === principal));
