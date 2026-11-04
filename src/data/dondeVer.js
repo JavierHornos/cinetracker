@@ -51,6 +51,93 @@ export const LINKS = {
   "movie-165177": [ // El día que me quieras (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
   ],
+  // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-616477": [ // Dos amigos y un amor (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-812809": [ // 24 horas en libertad (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/24-horas-en-libertad-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-628683": [ // Chingolo (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/chingolo-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-127426": [ // El viejo Hucha (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-viejo-hucha-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-300427": [ // La guerra gaucha (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-guerra-gaucha-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-263969": [ // Su mejor alumno (1944)
+    { nombre: "Internet Archive", url: "https://archive.org/details/su-mejor-alumno-1944", nota: "copia subida por terceros" },
+  ],
+  "movie-127172": [ // Pampa bárbara (1945)
+    { nombre: "Internet Archive", url: "https://archive.org/details/pampa-barbara-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-618295": [ // Nunca te diré adiós (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/nunca-te-dire-adios-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-359266": [ // Como tú lo soñaste (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/como-tu-lo-sonaste-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-618292": [ // La calle grita (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-calle-grita-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-816262": [ // La culpa la tuvo el otro (1950)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/220", nota: "gratis con registro" },
+  ],
+  "movie-199518": [ // Los isleros (1951)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/241", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-isleros-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-567520": [ // Mi noche triste (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mi-noche-triste-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-768300": [ // Payaso (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/payaso-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-322457": [ // El seductor de Granada (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/a-la-buena-de-dios-el-seductor-de-granada-1953", nota: "copia subida por terceros" },
+  ],
+  "movie-320013": [ // Guacho (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/guacho-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-425114": [ // Mercado de Abasto (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mercado-de-abasto-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-811148": [ // Sangre y acero (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/sangre-y-acero-1956", nota: "copia subida por terceros" },
+  ],
+  "movie-199221": [ // El último perro (1956)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/202", nota: "gratis con registro" },
+  ],
+  "movie-599209": [ // Después del silencio (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/despues-del-silencio-1956_202403", nota: "copia subida por terceros" },
+  ],
+  "movie-559868": [ // Detrás de un largo muro (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/detras-de-un-largo-muro-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-199181": [ // Zafra (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/zafra-1959", nota: "copia subida por terceros" },
+  ],
+  "movie-833636": [ // Plaza Huincul (Pozo uno) (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/plaza-huincul-pozo-1-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-435386": [ // Hijo de hombre (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-sed-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-611267": [ // Los guerrilleros (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-guerrilleros-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-611880": [ // La cigarra está que arde (1967)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-cigarra-esta-que-arde-1967", nota: "copia subida por terceros" },
+  ],
+  "movie-487223": [ // Humo de marihuana (1968)
+    { nombre: "Internet Archive", url: "https://archive.org/details/humo-de-marihuana-1968", nota: "copia subida por terceros" },
+  ],
+  "movie-614483": [ // La Madre María (1974)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/418", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-madre-maria-1974", nota: "copia subida por terceros" },
+  ],
   // Francisco Mugica: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-316906": [ // Margarita, Armando y su padre (1939)
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/113", nota: "gratis con registro" },

@@ -53,7 +53,7 @@ Carlos Gardel filmó sus películas más famosas para Paramount, en Francia y Nu
 - **[Manuel Romero](#/persona/1411903)**, el más prolífico, hizo comedias y melodramas de tango a ritmo de fábrica: [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), [*La rubia del camino*](#/tmdb/movie/403382) (1938).
 - **[Mario Soffici](#/persona/1087155)** llevó la cámara al interior y a los conflictos sociales. [*Prisioneros de la tierra*](#/tmdb/movie/335367) (1939), sobre los mensúes de la yerba mate en Misiones, es para muchos la mejor película argentina de su tiempo.
 - **[Leopoldo Torres Ríos](#/persona/1452584)**, **[Luis Saslavsky](#/persona/586113)** ([*Historia de una noche*](#/tmdb/movie/335369), 1941) y **[Francisco Mugica](#/persona/1411904)** ([*Los martes, orquídeas*](#/tmdb/movie/468702), 1941, con Mirtha Legrand) completaron un cine de géneros variado.
-- **Lucas Demare** fundó con actores la cooperativa Artistas Argentinos Asociados en 1941. Su *La guerra gaucha* (1942), con guion de Homero Manzi y Ulyses Petit de Murat, fue el mayor éxito de taquilla de la época.
+- **[Lucas Demare](#/persona/1083978)** fundó con actores la cooperativa Artistas Argentinos Asociados en 1941. Su [*La guerra gaucha*](#/tmdb/movie/300427) (1942), con guion de Homero Manzi y Ulyses Petit de Murat, fue el mayor éxito de taquilla de la época.
 
 ### El freno de 1943
 

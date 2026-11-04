@@ -322,4 +322,27 @@ Su película más famosa es [*Los martes, orquídeas*](#/tmdb/movie/468702) (194
 ### Para ver
 Once de sus películas están en Cine.ar, entre ellas *Los martes, orquídeas*, y muchas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos.`,
   },
+  // ── Lucas Demare (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1083978: {
+    nombre: "Lucas Demare",
+    rol: "Director, guionista y productor",
+    bajada: "El bandoneonista que filmó La guerra gaucha: la épica, el interior y Artistas Argentinos Asociados.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1910 y murió en Buenos Aires en 1981.
+
+### El bandoneón
+Su padre era violinista y su hermano mayor, Lucio Demare, pianista y compositor de tango. Lucas estudió piano, después bandoneón con Pedro Maffia, y en 1928 se fue a España a tocar en la Orquesta Típica Argentina que dirigía su hermano. En 1933 cantó y tocó en dos películas españolas, y el cine lo atrapó: dejó la orquesta, donde ganaba mil dólares por mes, y entró a los estudios como peón sin sueldo. Fue subiendo de pizarrero a asistente de dirección, y estaba por debutar como director cuando la Guerra Civil lo obligó a irse.
+
+### Artistas Argentinos Asociados
+De vuelta en Buenos Aires debutó con [*Dos amigos y un amor*](#/tmdb/movie/616477) y siguió con [*Chingolo*](#/tmdb/movie/628683) y *El cura gaucho*, un gran éxito, pero la productora lo despidió igual. En el café El Ateneo se juntaba con actores que estaban sin trabajo: Enrique Muiño, Elías Alippi, Francisco Petrone, Ángel Magaña. Con ellos fundó en 1941 Artistas Argentinos Asociados, una cooperativa al estilo de United Artists. La primera película fue [*El viejo Hucha*](#/tmdb/movie/127426) (1942), donde se estrenó el tango *Malena*, de Homero Manzi y Lucio Demare.
+
+### La guerra gaucha
+[*La guerra gaucha*](#/tmdb/movie/300427) (1942), sobre el libro de Leopoldo Lugones, con guion de Homero Manzi y Ulyses Petit de Murat, cuenta la guerrilla de los gauchos de Güemes en Salta, en 1817. Construyeron una aldea en la misma zona donde pasó la historia y reunieron a mil extras, algo que el cine argentino nunca había hecho. El incendio del pueblo se podía filmar una sola vez, así que Demare vistió a todo el equipo de gauchos y de soldados realistas, por si entraban en cuadro; una ráfaga de viento le chamuscó la barba y la melena postizas. Estuvo diecinueve semanas en cartel y se la considera la película de más éxito del cine argentino.
+
+### La épica y el interior
+Con Manzi y Petit de Murat siguió con [*Su mejor alumno*](#/tmdb/movie/263969) (1944), sobre Dominguito, el hijo de Sarmiento, y [*Pampa bárbara*](#/tmdb/movie/127172) (1945), codirigida con Hugo Fregonese, sobre las fortineras de la frontera. Después filmó el litoral en [*Los isleros*](#/tmdb/movie/199518) (1951), el campo en [*Guacho*](#/tmdb/movie/320013) (1954) y el norte en [*Zafra*](#/tmdb/movie/199181) (1959). *Los isleros*, *El último perro* y *Zafra* compitieron en Cannes, y *La boda* (1964) ganó en San Sebastián.
+
+### Para ver
+En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos, y en 1981 recibió el Konex de Platino como el mejor director de la historia del cine argentino. Cuatro de sus películas están en Cine.ar y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
 };
