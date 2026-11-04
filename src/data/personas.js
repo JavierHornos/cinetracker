@@ -149,7 +149,7 @@ Programa el cine del MALBA desde 2002, dirigió el BAFICI entre 2004 y 2007 y fu
 Se formó como fotógrafo de cine en la Berlín de la República de Weimar, cerca de la Bauhaus, y se recibió en 1929 en la escuela de fotografía de la Asociación Lette. En 1933, con la llegada de los nazis al poder, se fue a Barcelona. Ahí trabajó como fotógrafo y camarógrafo en películas españolas, y dicen que aprendió el castellano leyendo *El Quijote*. En 1936, en plena Guerra Civil, se sumó al equipo que filmaba a la Columna Durruti, y sus fotos se difundieron en todo el mundo.
 
 ### Pablo Tabernero
-Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, [*Nace un amor*](#/tmdb/movie/627713) ([Luis Saslavsky](#/persona/586113), 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), [*Vidalita*](#/tmdb/movie/526465) ([Luis Saslavsky](#/persona/586113), 1949), *La Quintrala* (Hugo del Carril), y los policiales de Carlos Hugo Christensen *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
+Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, [*Nace un amor*](#/tmdb/movie/627713) ([Luis Saslavsky](#/persona/586113), 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), [*Vidalita*](#/tmdb/movie/526465) ([Luis Saslavsky](#/persona/586113), 1949), *La Quintrala* (Hugo del Carril), y los policiales de [Carlos Hugo Christensen](#/persona/107292) *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
 
 ### El maestro
 En *La Quintrala*, un muchacho que trabajaba en el área de arte lo miraba iluminar: era Félix "Chango" Monti, que ahí descubrió la luz. Así se aprendía entonces, sin escuela, al lado de los maestros. Tabernero también dirigió los Laboratorios Alex y enseñó en la Universidad de La Plata, hasta que en 1967 se fue con su familia a los Estados Unidos.
@@ -420,5 +420,28 @@ Cercano al peronismo, dirigió el corto [*Eva Perón inmortal*](#/tmdb/movie/631
 
 ### Para ver
 Casi todas sus películas argentinas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Juan Globo* (1949), con Luis Sandrini, está en Cine.ar.`,
+  },
+  // ── Carlos Hugo Christensen (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  107292: {
+    nombre: "Carlos Hugo Christensen",
+    rol: "Director y guionista",
+    bajada: "El más audaz del cine clásico: el erotismo de El ángel desnudo y los policiales en sombras de Tabernero.",
+    principal: "Director",
+    texto: `Nació en Santiago del Estero en 1914, de padre danés, y murió en Río de Janeiro en 1999, mientras filmaba *La casa de azúcar*, sobre un cuento de Silvina Ocampo. Dirigió más de cincuenta películas en la Argentina, Chile, Venezuela y Brasil.
+
+### El proyector
+A los doce años su padre le regaló un proyector chiquito con una sola película, cortísima, que proyectó una y otra vez para él y sus amigos. Ya en Buenos Aires estudió Filosofía y Letras, escribió poesía y fue crítico de cine. Trabajando en Radio Splendid conoció a César Guerrico, el de los estudios Lumiton, y entró ahí como ayudante.
+
+### De la comedia al erotismo
+Su primera película, *El buque embotellado* (1939), no se estrenó; la segunda, [*El inglés de los güesos*](#/tmdb/movie/258788) (1940), fue un éxito de crítica y de público. Pasó por todos los géneros: las comedias matrimoniales con Mirtha Legrand, como [*La pequeña señora de Pérez*](#/tmdb/movie/526054) (1944) y [*La señora de Pérez se divorcia*](#/tmdb/movie/630679) (1945), y los melodramas con carga erótica que lo hicieron famoso: [*Safo, historia de una pasión*](#/tmdb/movie/501905) (1943), [*El ángel desnudo*](#/tmdb/movie/290968) (1946), con una sensual Olga Zubarry, en lo que suele recordarse como el primer desnudo del cine argentino, [*Los pulpos*](#/tmdb/movie/468893) y [*Los verdes paraísos*](#/tmdb/movie/459511). Esa audacia le trajo problemas con la censura.
+
+### El policial
+En el policial hizo [*La muerte camina en la lluvia*](#/tmdb/movie/258286) (1948), [*La trampa*](#/tmdb/movie/301433) (1949) y sus dos obras maestras, [*Si muero antes de despertar*](#/tmdb/movie/30909) y [*No abras nunca esa puerta*](#/tmdb/movie/252695) (1952), sobre cuentos de Cornell Woolrich, con fotografía de [Pablo Tabernero](#/persona/1818145). En 2016 el MoMA de Nueva York las mostró en una retrospectiva. Cuidaba mucho la fotografía y la dirección de actores.
+
+### Venezuela y Brasil
+Entre 1949 y 1951 vivió en Venezuela, donde filmó [*La balandra Isabel llegó esta tarde*](#/tmdb/movie/199509) (1950), que ganó el premio a la mejor fotografía en Cannes. A mediados de los 50 se instaló en Brasil, donde tuvo su propio estudio e hizo una trilogía sobre Río de Janeiro: [*Meus Amores no Rio*](#/tmdb/movie/269226), *Esse Rio que Eu Amo* y *Crônica da Cidade Amada*. Allá rehízo sus comedias de la señora de Pérez. Estuvo casado desde 1947 con la actriz Susana Freyre.
+
+### Para ver
+Quince de sus películas argentinas están en Cine.ar, y casi todas, también las brasileñas, tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
 };

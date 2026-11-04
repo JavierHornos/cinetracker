@@ -81,7 +81,7 @@ La ley de 1947 obligó a los cines a pasar películas argentinas y el Estado dio
 ### Los directores
 
 - **[Luis César Amadori](#/persona/535744)**, el director comercial más exitoso: [*Dios se lo pague*](#/tmdb/movie/188353) (1948), con Arturo de Córdova y Zully Moreno.
-- **Carlos Hugo Christensen**, el más audaz con el erotismo y el policial: [*El ángel desnudo*](#/tmdb/movie/290968) (1946), [*No abras nunca esa puerta*](#/pelicula/1180) (1952).
+- **[Carlos Hugo Christensen](#/persona/107292)**, el más audaz con el erotismo y el policial: [*El ángel desnudo*](#/tmdb/movie/290968) (1946), [*No abras nunca esa puerta*](#/pelicula/1180) (1952).
 - **[Daniel Tinayre](#/persona/1180781)**, el policial y el melodrama oscuro: [*A sangre fría*](#/tmdb/movie/561736) (1947).
 - **[Leopoldo Torres Ríos](#/persona/1452584)**, el cine de barrio y de pibes: [*Pelota de trapo*](#/tmdb/movie/499878) (1948).
 - **Hugo del Carril** dirigió [*Las aguas bajan turbias*](#/tmdb/movie/318591) (1952), sobre los trabajadores de los yerbales. Es la película social más importante de la época.
@@ -92,7 +92,7 @@ Mientras Hollywood inventaba el *film noir*, los estudios argentinos lo trajeron
 
 - [*A sangre fría*](#/tmdb/movie/561736) (Daniel Tinayre, 1947): una pareja planea envenenar a una anciana para quedarse con su fortuna. La crítica la comparó con *Pacto de sangre*, de Billy Wilder. Tinayre siguió por ese camino con [*Pasaporte a Río*](#/tmdb/movie/386426) (1948), un policial con Arturo de Córdova y Mirtha Legrand; [*Deshonra*](#/tmdb/movie/318590) (1952), en una cárcel de mujeres con Fanny Navarro y Tita Merello, toda en sombras y tonos grises; y [*La bestia humana*](#/tmdb/movie/559762) (1957), sobre la novela de Zola que antes habían filmado Jean Renoir y Fritz Lang.
 - [*Apenas un delincuente*](#/pelicula/1156) (Hugo Fregonese, 1949): un empleado estafa a su empresa, esconde la plata y cumple seis años de cárcel pensando en disfrutarla al salir. Filmada en las calles de Buenos Aires, casi como un documental, le abrió a Fregonese las puertas de Hollywood.
-- [*Si muero antes de despertar*](#/pelicula/1161) y [*No abras nunca esa puerta*](#/pelicula/1180) (Carlos Hugo Christensen, 1952): cuentos del norteamericano Cornell Woolrich (William Irish), con guion de Alejandro Casona y fotografía de [Pablo Tabernero](#/persona/1818145), el maestro de Chango Monti. En la segunda hay una secuencia de cinco minutos sin palabras, en sombras: una madre ciega busca el arma de su hijo mientras él duerme.
+- [*Si muero antes de despertar*](#/pelicula/1161) y [*No abras nunca esa puerta*](#/pelicula/1180) ([Carlos Hugo Christensen](#/persona/107292), 1952): cuentos del norteamericano Cornell Woolrich (William Irish), con guion de Alejandro Casona y fotografía de [Pablo Tabernero](#/persona/1818145), el maestro de Chango Monti. En la segunda hay una secuencia de cinco minutos sin palabras, en sombras: una madre ciega busca el arma de su hijo mientras él duerme.
 - [*El vampiro negro*](https://es.wikipedia.org/wiki/El_vampiro_negro_%28pel%C3%ADcula_de_1953%29) (Román Viñoly Barreto, 1953): una versión porteña de *M*, de Fritz Lang, sobre un asesino de niñas que aterroriza a la ciudad. Con fotografía de Aníbal González Paz, es de lo más expresionista del cine argentino.
 - [*Los tallos amargos*](#/pelicula/1177) (Fernando Ayala, 1956): un periodista entra en un negocio de estafas por correspondencia y lo empiezan a carcomer las sospechas. La cumbre del género, y una película que estuvo a punto de perderse para siempre.
 

@@ -59,13 +59,6 @@ export const LINKS = {
   "movie-188353": [
     { nombre: "Internet Archive", url: "https://archive.org/details/dios-se-lo-pague-1948", nota: "copia subida por terceros" },
   ],
-  // Carlos Hugo Christensen, en Cine.ar.
-  "movie-290968": [ // El ángel desnudo (1946)
-    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/42", nota: "gratis con registro" },
-  ],
-  "movie-252695": [ // No abras nunca esa puerta (1952)
-    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/256", nota: "gratis con registro" },
-  ],
   // Fernando Birri (murió en 2017): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-151441": [ // Tire dié (1958)
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7425", nota: "gratis con registro" },
@@ -270,6 +263,132 @@ export const LINKS = {
   ],
   "movie-504944": [ // El amor nunca muere (1955)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-amor-nunca-muere-1955", nota: "copia subida por terceros" },
+  ],
+  // Carlos Hugo Christensen (murió en 1999): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-258788": [ // El inglés de los güesos (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-ingles-de-los-guesos-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-485067": [ // Águila blanca (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/aguila-blanca-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-763896": [ // Locos de verano (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/locos-de-verano-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-401206": [ // Noche de bodas (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/noches-de-bodas-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-258795": [ // Los chicos crecen (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-chicos-crecen-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-544111": [ // La novia de primavera (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-novia-de-primavera-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-334055": [ // Dieciséis años (1943)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/776", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/16-anos-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-501905": [ // Safo, historia de una pasión (1943)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/141", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/safo-historia-de-una-pasion-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-526054": [ // La pequeña señora de Pérez (1944)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/93", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-pequena-senora-de-perez-1944", nota: "copia subida por terceros" },
+  ],
+  "movie-468860": [ // El canto del cisne (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/47", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-canto-del-cisne-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-630679": [ // La señora de Pérez se divorcia (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/97", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-senora-de-perez-se-divorcia-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-740047": [ // Las seis suegras de Barba Azul (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/6071", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/las-seis-suegras-de-barba-azul-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-628226": [ // Adán y la serpiente (1946)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/adan-y-la-serpiente-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-290588": [ // La dama de la muerte (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-dama-de-la-muerte-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-290968": [ // El ángel desnudo (1946)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/42", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-angel-desnudo-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-369455": [ // Con el diablo en el cuerpo (1947)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/173", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/con-el-diablo-en-el-cuerpo-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-459511": [ // Los verdes paraísos (1947)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/245", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-verdes-paraisos-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-468893": [ // Los pulpos (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-pulpos-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-258286": [ // La muerte camina en la lluvia (1948)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/227", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-muerte-camina-en-la-lluvia-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-658468": [ // Una atrevida aventurita (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/una-atrevida-aventurita-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-767195": [ // ¿Por qué mintió la cigüeña? (1949)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/271", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/por-que-mintio-la-ciguena-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-301433": [ // La trampa (1949)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/236", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-trampa-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-199509": [ // La balandra Isabel llegó esta tarde (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-balandra-isabel-llego-esta-tarde-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-30909": [ // Si muero antes de despertar (1952)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/266", nota: "gratis con registro" },
+  ],
+  "movie-252695": [ // No abras nunca esa puerta (1952)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/256", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/no-abras-nunca-esa-puerta-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-788084": [ // Un ángel sin pudor (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/un-angel-sin-pudor-1953", nota: "copia subida por terceros" },
+  ],
+  "movie-258074": [ // Armiño negro (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/armino-negro-1953", nota: "copia subida por terceros" },
+  ],
+  "movie-320275": [ // Mãos sangrentas (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/maossangrentas", nota: "copia subida por terceros" },
+  ],
+  "movie-371221": [ // Leonora dos Sete Mares (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/leonora.dos.-setes.-mares", nota: "copia subida por terceros" },
+  ],
+  "movie-379991": [ // Amor para Três (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/amor-para-tres-carlos-hugo-christensen-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-269226": [ // Meus Amores no Rio (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mis-amores-en-rio-1959", nota: "copia subida por terceros" },
+  ],
+  "movie-290612": [ // Viagem aos Seios de Duília (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/viagem.-aos.-seios.-de.-duilia.-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-258109": [ // O Menino e o Vento (1967)
+    { nombre: "Internet Archive", url: "https://archive.org/details/o-menino-e-o-vento-1967", nota: "copia subida por terceros" },
+  ],
+  "movie-362111": [ // Anjos e Demônios (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/anjos-e-demonios-1969-longa-metragem-carlos-hugo-christensen-480-p", nota: "copia subida por terceros" },
+  ],
+  "movie-435013": [ // Uma Pantera em Minha Cama (1971)
+    { nombre: "Internet Archive", url: "https://archive.org/details/uma.-pantera.em.-minha.-cama", nota: "copia subida por terceros" },
+  ],
+  "movie-358547": [ // Enigma para Demônios (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/enigmaparademonioscarloshugochristensen", nota: "copia subida por terceros" },
+  ],
+  "movie-504766": [ // ¿Somos? (1982)
+    { nombre: "Internet Archive", url: "https://archive.org/details/somos-1982", nota: "copia subida por terceros" },
   ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
