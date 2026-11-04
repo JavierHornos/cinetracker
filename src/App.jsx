@@ -1,11 +1,11 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { supabase, supabaseConfigurado } from "./lib/supabase";
 import * as db from "./lib/datos";
 import {
   CAPITULOS, HISTORIA_CIERRE, HISTORIA_FUENTES, HISTORIA_INTRO, POR_QUE_VERLA, QUE_APRENDES,
 } from "./data/cineArgentino";
 import TextoMd from "./components/TextoMd";
-import { IMG, anioDe, tituloDe } from "./lib/tmdb";
+import { IMG, anioDe, detalles, tituloDe } from "./lib/tmdb";
 import Estrellas from "./components/Estrellas";
 import Login from "./components/Login";
 import Buscador from "./components/Buscador";
@@ -60,12 +60,14 @@ function leerRuta() {
   return {
     pelicula: Number(h.match(/^#\/pelicula\/(\d+)/)?.[1]) || null,
     seccion: h.match(/^#\/seccion\/(1001|argentino|mia)$/)?.[1] || null,
+    // #/tmdb/movie/ID abre una película aunque no esté en el catálogo (links desde los textos).
+    tmdb: (m => m && { media_type: m[1], id: Number(m[2]) })(h.match(/^#\/tmdb\/(movie|tv)\/(\d+)/)),
   };
 }
 // Película y sección se abren una vez y el link se limpia; la ficha de una persona queda en la dirección.
 function limpiarRuta() {
   const r = leerRuta();
-  if (r.pelicula || r.seccion) window.history.replaceState(null, "", window.location.pathname);
+  if (r.pelicula || r.seccion || r.tmdb) window.history.replaceState(null, "", window.location.pathname);
   return r;
 }
 
@@ -85,6 +87,7 @@ function Cinetracker({ usuario }) {
   const [seccion, setSeccion] = useState(() => rutaInicial.seccion || leer("cinetracker_seccion", "1001"));
   const [abiertaId, setAbiertaId] = useState(rutaInicial.pelicula);
   const [abiertaTmdb, setAbiertaTmdb] = useState(null);
+  const [tmdbPendiente, setTmdbPendiente] = useState(rutaInicial.tmdb);
   const [pedirLogin, setPedirLogin] = useState(false);
   const [aviso, setAviso] = useState(null);
   const [ruta, setRuta] = useState(() => window.location.hash);
@@ -95,8 +98,9 @@ function Cinetracker({ usuario }) {
       const r = limpiarRuta();
       if (r.pelicula) setAbiertaId(r.pelicula);
       if (r.seccion) setSeccion(r.seccion);
+      if (r.tmdb) setTmdbPendiente(r.tmdb);
       setRuta(window.location.hash);
-      if (!r.pelicula) window.scrollTo({ top: 0 });
+      if (!r.pelicula && !r.tmdb) window.scrollTo({ top: 0 });
     };
     window.addEventListener("hashchange", cambio);
     return () => window.removeEventListener("hashchange", cambio);
@@ -204,6 +208,18 @@ function Cinetracker({ usuario }) {
     return peli;
   }
 
+  // Abre la película de un link #/tmdb/… cuando el catálogo ya cargó (así se sabe si ya está).
+  const abrirDeTmdbRef = useRef(null);
+  useEffect(() => {
+    if (!tmdbPendiente || cargando) return;
+    let vigente = true;
+    detalles(tmdbPendiente.id, tmdbPendiente.media_type)
+      .then(d => { if (vigente) abrirDeTmdbRef.current({ ...d, media_type: tmdbPendiente.media_type }); })
+      .catch(() => {})
+      .finally(() => { if (vigente) setTmdbPendiente(null); });
+    return () => { vigente = false; };
+  }, [tmdbPendiente, cargando]);
+
   async function abrirDeTmdb(r) {
     const existente = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
     // Un visitante no puede sumar al catálogo: ve la película armada con los datos de TMDB.
@@ -217,6 +233,8 @@ function Cinetracker({ usuario }) {
     }
     try { setAbiertaId((await asegurar(r)).id); } catch (e) { avisar(`No se pudo abrir: ${e.message}`); }
   }
+
+  useEffect(() => { abrirDeTmdbRef.current = abrirDeTmdb; });
 
   async function marcarDeTmdb(r, cambios) {
     if (!usuario) { setPedirLogin(true); return; }

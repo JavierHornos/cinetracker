@@ -4,6 +4,16 @@ export const LINKS = {
   "movie-253766": [
     { nombre: "Internet Archive", url: "https://archive.org/details/mono-relojero-el-quirino-cristiani-arg-1938", nota: "copia subida por terceros · derechos: herederos de Quirino Cristiani" },
   ],
+  // Películas de las estrellas del capítulo 3, en Cine.ar.
+  "movie-429445": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/12", nota: "gratis con registro" },
+  ],
+  "movie-427803": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/8912", nota: "gratis con registro" },
+  ],
+  "movie-485429": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/175", nota: "gratis con registro" },
+  ],
   // Los tres berretines (1933), de las 41 de la historia.
   "movie-464326": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/106", nota: "gratis con registro" },

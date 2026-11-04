@@ -67,9 +67,9 @@ Argentina se mantuvo neutral en la Segunda Guerra. En respuesta, Estados Unidos 
 ### Las estrellas
 
 | Figura | Por qué importa | Una película |
-| Libertad Lamarque | "La novia de América", el melodrama cantado. En 1946 se fue a México, donde siguió su carrera. | *Ayúdame a vivir* (1936) |
-| Niní Marshall | Comediante y autora de sus personajes (Catita, Cándida). También trabajó años en México. | *Mujeres que trabajan* (1938) |
-| Luis Sandrini | El cómico tierno y torpe que el público adoró por décadas. | *Cuando los duendes cazan perdices* (1955) |
+| Libertad Lamarque | "La novia de América", el melodrama cantado. En 1946 se fue a México, donde siguió su carrera. | [*Ayúdame a vivir*](#/pelicula/1240) (1936) |
+| Niní Marshall | Comediante y autora de sus personajes (Catita, Cándida). También trabajó años en México. | [*Mujeres que trabajan*](#/pelicula/1200) (1938) |
+| Luis Sandrini | El cómico tierno y torpe que el público adoró por décadas. | [*Cuando los duendes cazan perdices*](#/tmdb/movie/485429) (1955) |
 | Tita Merello | La mujer de arrabal, dura y popular. | *Mercado de abasto* (1955) |
 | Hugo del Carril | Cantor, galán y después director. | *Las aguas bajan turbias* (1952) |
 | Mirtha Legrand y Zully Moreno | Las damas del cine de teléfonos blancos, la comedia elegante de clase alta. | *Los martes, orquídeas* (1941) |
