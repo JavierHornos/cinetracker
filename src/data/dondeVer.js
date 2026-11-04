@@ -38,6 +38,49 @@ export const LINKS = {
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],
+  // Daniel Tinayre (murió en 1994): sus películas tienen derechos. Copias subidas por terceros, link afuera.
+  "movie-597700": [ // Mateo (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mateo-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-437502": [ // Camino del infierno (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/camino-del-infierno-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-386426": [ // Pasaporte a Río (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/pasaporte-a-rio-1948", nota: "copia subida por terceros" },
+  ],
+  "movie-199513": [ // Danza del fuego (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/danza-del-fuego-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-422805": [ // La vendedora de fantasías (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-vendedora-de-fantasias-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-318590": [ // Deshonra (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/deshonra-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-559762": [ // La bestia humana (1957)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-bestia-humana-1957", nota: "copia subida por terceros" },
+  ],
+  "movie-562056": [ // En la ardiente oscuridad (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/en-la-ardiente-oscuridad-1959", nota: "copia subida por terceros" },
+  ],
+  "movie-269115": [ // La patota (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-patota-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-411301": [ // El rufián (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-rufian-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-269087": [ // Bajo un mismo rostro (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/bajo-un-mismo-rostro-1962", nota: "copia subida por terceros" },
+  ],
+  "movie-146709": [ // La cigarra no es un bicho (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-cigarra-no-es-un-bicho-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-504635": [ // Extraña ternura (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/extrana-ternura-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-612902": [ // Kuma Ching (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/kuma-ching-1969", nota: "copia subida por terceros" },
+  ],
   // A sangre fría (Tinayre, 1947): no es de dominio público (Tinayre murió en 1994). Grabación de TV subida por terceros.
   "movie-561736": [
     { nombre: "Internet Archive", url: "https://archive.org/details/a-sangre-fria-1946", nota: "copia subida por terceros, grabada de la televisión (canal Volver)" },

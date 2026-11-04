@@ -65,9 +65,13 @@ function leerRuta() {
   };
 }
 // Película y sección se abren una vez y el link se limpia; la ficha de una persona queda en la dirección.
+// Si el link a una película sale de una ficha, la ficha sigue abierta debajo del detalle.
+let rutaFija = "";
 function limpiarRuta() {
   const r = leerRuta();
-  if (r.pelicula || r.seccion || r.tmdb) window.history.replaceState(null, "", window.location.pathname);
+  if (r.pelicula || r.tmdb) window.history.replaceState(null, "", window.location.pathname + rutaFija);
+  else if (r.seccion) window.history.replaceState(null, "", window.location.pathname);
+  rutaFija = window.location.hash;
   return r;
 }
 

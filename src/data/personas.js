@@ -156,4 +156,28 @@ En *La Quintrala*, un muchacho que trabajaba en el área de arte lo miraba ilumi
 
 Gran parte de su biografía en Wikipedia todavía no tiene fuentes; la cuenta mejor el documental *Buscando a Tabernero*, filmado en la Argentina, Berlín y Barcelona.`,
   },
+  // ── Daniel Tinayre (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  1180781: {
+    nombre: "Daniel Tinayre",
+    rol: "Director y productor",
+    bajada: "El artesano del policial y del drama oscuro del cine industrial.",
+    principal: "Director",
+    texto: `Daniel Andrés Manoli Tinayre nació en Vertheuil, Francia, en 1910, y llegó a Buenos Aires muy joven. Murió en Buenos Aires en 1994.
+
+### Un director de oficio
+Dirigió más de veinte películas entre 1935 y 1974, casi siempre dentro de la industria: melodramas, comedias y, sobre todo, policiales y dramas oscuros. Debutó con *Bajo la Santa Federación* (1935) y en 1950 ganó el Cóndor de Plata a la mejor dirección por [*Danza del fuego*](#/tmdb/movie/199513). En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos.
+
+### El policial
+- [*Camino del infierno*](#/tmdb/movie/437502) (1946), que firmó junto a Luis Saslavsky: una mujer enferma de celos, con intriga policial.
+- [*A sangre fría*](#/tmdb/movie/561736) (1947): una pareja planea envenenar a una anciana para quedarse con su fortuna.
+- [*Pasaporte a Río*](#/tmdb/movie/386426) (1948): un ladrón obliga a la corista que lo vio robar a llevar el botín a Río de Janeiro.
+- [*Deshonra*](#/tmdb/movie/318590) (1952): una mujer presa por un crimen que no cometió, en una cárcel filmada en sombras y grises.
+- [*La bestia humana*](#/tmdb/movie/559762) (1957): los celos de un jefe de estación lo llevan al crimen, sobre la novela de Zola.
+
+### Mirtha Legrand
+Se casó con Mirtha Legrand en 1946 y la dirigió en *Pasaporte a Río* y en [*La patota*](#/tmdb/movie/269115) (1960), sobre una profesora atacada por sus alumnos, un tema muy adelantado para la época: ganó un premio en el Festival de Berlín y en 2015 Santiago Mitre hizo una nueva versión. Sus hijos son Daniel y Marcela Tinayre. Su última película fue *La Mary* (1974), con Susana Giménez y Carlos Monzón, y después produjo para la televisión *Almorzando con Mirtha Legrand*.
+
+### Para ver
+Casi todas sus películas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link para verla afuera.`,
+  },
 };
