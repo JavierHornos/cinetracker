@@ -121,7 +121,7 @@ En 1955 cayó Perón, se cortaron los créditos y los grandes estudios entraron 
 
 ### Leopoldo Torre Nilsson
 
-Hijo de [Leopoldo Torres Ríos](#/persona/1452584), **Torre Nilsson** fue el primer director argentino reconocido en los grandes festivales. *La casa del ángel* (1957) se presentó en Cannes y lo hizo conocido en Europa. Escribía con su mujer, la novelista Beatriz Guido, y retrató una clase alta encerrada, culposa y en decadencia: *La caída* (1959), *La mano en la trampa* (1961). Después hizo cine histórico de gran público, como *Martín Fierro* (1968).
+Hijo de [Leopoldo Torres Ríos](#/persona/1452584), **[Torre Nilsson](#/persona/116197)** fue el primer director argentino reconocido en los grandes festivales. [*La casa del ángel*](#/tmdb/movie/199194) (1957) se presentó en Cannes y lo hizo conocido en Europa. Escribía con su mujer, la novelista Beatriz Guido, y retrató una clase alta encerrada, culposa y en decadencia: [*La caída*](#/tmdb/movie/269271) (1959), [*La mano en la trampa*](#/tmdb/movie/121461) (1961). Después hizo cine histórico de gran público, como [*Martín Fierro*](#/tmdb/movie/202538) (1968).
 
 ### Fernando Birri y el documental social
 
@@ -141,7 +141,7 @@ En paralelo, **Fernando Ayala** y **Héctor Olivera** fundaron en 1956 Aries Cin
 
 ### Leonardo Favio, el outsider
 
-Actor de Torre Nilsson, **Leonardo Favio** debutó como director con *Crónica de un niño solo* (1965), sobre un chico internado en un reformatorio. Está filmada en blanco y negro, casi sin diálogo, y suele aparecer entre las mejores películas argentinas. Es el puente hacia el cine popular de los 70.`,
+Actor de [Torre Nilsson](#/persona/116197), **Leonardo Favio** debutó como director con *Crónica de un niño solo* (1965), sobre un chico internado en un reformatorio. Está filmada en blanco y negro, casi sin diálogo, y suele aparecer entre las mejores películas argentinas. Es el puente hacia el cine popular de los 70.`,
     peliculas: ["La casa del ángel", "Tire dié", "Shunko", "Los jóvenes viejos", "Crónica de un niño solo"],
   },
   {
@@ -166,7 +166,7 @@ Con la vuelta del peronismo hubo un año de cine libre y ambicioso:
 
 - *La Patagonia rebelde* (1974), de **Héctor Olivera**, sobre las huelgas rurales de Santa Cruz de 1921, con guion basado en Osvaldo Bayer. Fue un éxito y poco después la prohibieron.
 - *La tregua* (1974), de **Sergio Renán**, sobre la novela de Mario Benedetti. Fue la primera película argentina nominada al Oscar.
-- *Boquitas pintadas* (1974), de Torre Nilsson, sobre la novela de Manuel Puig.
+- [*Boquitas pintadas*](#/tmdb/movie/62499) (1974), de [Torre Nilsson](#/persona/116197), sobre la novela de Manuel Puig.
 - *La Raulito* (1975), de Lautaro Murúa, con Marilina Ross.
 
 Desde 1974 la Triple A amenazó a actores y directores, y muchos se fueron del país antes del golpe.`,

@@ -345,4 +345,27 @@ Con Manzi y Petit de Murat siguió con [*Su mejor alumno*](#/tmdb/movie/263969) 
 ### Para ver
 En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos, y en 1981 recibió el Konex de Platino como el mejor director de la historia del cine argentino. Cuatro de sus películas están en Cine.ar y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Leopoldo Torre Nilsson (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  116197: {
+    nombre: "Leopoldo Torre Nilsson",
+    rol: "Director, guionista y productor",
+    bajada: "El fundador del cine moderno argentino: La casa del ángel, Beatriz Guido y la Generación del 60.",
+    principal: "Director",
+    texto: `Leopoldo Torre Nilsson, *Babsy*, nació en Buenos Aires en 1924 y murió en Buenos Aires en 1978. Se lo considera el fundador del cine moderno argentino.
+
+### El hijo del pionero
+Era hijo de [Leopoldo Torres Ríos](#/persona/1452584) y sobrino del director de fotografía Carlos Torres Ríos. Entre 1939 y 1949 fue asistente de dirección de su padre en diecinueve películas y colaboró en el guion de nueve. Debutó con el corto *El muro* (1947), y con su padre codirigió [*El crimen de Oribe*](#/tmdb/movie/261571) (1950), sobre un cuento de Bioy Casares. Solo, empezó adaptando literatura: [*Días de odio*](#/tmdb/movie/261570) (1954), sobre *Emma Zunz* de Borges, [*La Tigra*](#/tmdb/movie/454276), sobre Florencio Sánchez, y [*Graciela*](#/tmdb/movie/561435) (1956), sobre la novela *Nada* de Carmen Laforet.
+
+### Beatriz Guido
+Conoció a la escritora Beatriz Guido en 1951, en la casa de Ernesto Sabato. Fueron pareja y socios durante veintisiete años, hasta su muerte. Juntos hicieron [*La casa del ángel*](#/tmdb/movie/199194) (1957): una adolescente de una familia católica y asfixiante de la clase alta, contada desde adentro. *Cahiers du Cinéma* la puso entre las diez mejores películas de su tiempo, junto a las de Bergman y Mizoguchi. Siguieron [*La caída*](#/tmdb/movie/269271) (1959), [*Fin de fiesta*](#/tmdb/movie/269119) (1960), [*La mano en la trampa*](#/tmdb/movie/121461) (1961), [*Homenaje a la hora de la siesta*](#/tmdb/movie/320291) (1962) y [*La terraza*](#/tmdb/movie/202541) (1963): la decadencia, la moral, la oligarquía, el peso del pasado y la sexualidad adolescente, con la influencia de Buñuel, Bergman y Antonioni. Gracias a Guido, el cine argentino empezó a tener personajes femeninos con más profundidad.
+
+### Los próceres
+Con Alfredo Alcón hizo una trilogía épica: [*Martín Fierro*](#/tmdb/movie/202538) (1968), [*El santo de la espada*](#/tmdb/movie/202460) (1970), sobre San Martín, y [*Güemes, la tierra en armas*](#/tmdb/movie/202462) (1971). Después [*Los siete locos*](#/tmdb/movie/202454) (1973), sobre Roberto Arlt, ganó el Oso de Plata en Berlín, y [*Boquitas pintadas*](#/tmdb/movie/62499) (1974), sobre la novela de Manuel Puig, casi no se estrena por la censura.
+
+### Censura y maestro
+Lo llamaron "un mal ejemplo para la juventud argentina". Lo censuró Raúl Apold durante el peronismo, y después Miguel Paulino Tato, el censor de los años 70. *La Tigra* estuvo prohibida años y se vio por primera vez en televisión, en *Sábados circulares*, en 1962. Con todo, impulsó la carrera de los directores de la Generación del 60: David José Kohon, Manuel Antín, Lautaro Murúa, José Martínez Suárez, Simón Feldman, Fernando Birri, Fernando Solanas y su actor Leonardo Favio.
+
+### Para ver
+Cuatro de sus películas están en Cine.ar, y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
 };

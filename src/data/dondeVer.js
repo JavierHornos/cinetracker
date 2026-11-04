@@ -66,6 +66,82 @@ export const LINKS = {
   "movie-252695": [ // No abras nunca esa puerta (1952)
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/256", nota: "gratis con registro" },
   ],
+  // Leopoldo Torre Nilsson (murió en 1978): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-261570": [ // Días de odio (1954)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/177", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/dias-de-odio-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-454276": [ // La Tigra (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-tigra-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-708183": [ // Para vestir santos (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/para-vestir-santos-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-561435": [ // Graciela (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/graciela-1956", nota: "copia subida por terceros" },
+  ],
+  "movie-202459": [ // El protegido (1956)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-protegido-1956", nota: "copia subida por terceros" },
+  ],
+  "movie-199194": [ // La casa del ángel (1957)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-casa-del-angel-1957", nota: "copia subida por terceros" },
+  ],
+  "movie-298112": [ // El secuestrador (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-secuestrador-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-269271": [ // La caída (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-caida-1959", nota: "copia subida por terceros" },
+  ],
+  "movie-269119": [ // Fin de fiesta (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/fin-de-fiesta-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-468974": [ // Un guapo del 900 (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/un-guapo-del-900-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-121461": [ // La mano en la trampa (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-mano-en-la-trampa-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-320291": [ // Homenaje a la hora de la siesta (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/homenaje-a-la-hora-de-la-siesta-1962", nota: "copia subida por terceros" },
+  ],
+  "movie-123790": [ // Setenta veces siete (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/setenta-veces-siete-1962", nota: "copia subida por terceros" },
+  ],
+  "movie-202541": [ // La terraza (1963)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/335", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-terraza-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-424128": [ // Once Upon a Tractor (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/once-upon-a-tractor-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-405501": [ // El ojo de la cerradura (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-ojo-de-la-cerradura-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-198793": [ // La chica del lunes (1967)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-chica-del-lunes-1967", nota: "copia subida por terceros" },
+  ],
+  "movie-407600": [ // Los traidores de San Ángel (1967)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-traidores-de-san-angel-1967", nota: "copia subida por terceros" },
+  ],
+  "movie-202460": [ // El santo de la espada (1970)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-santo-de-la-espada-1970", nota: "copia subida por terceros" },
+  ],
+  "movie-127035": [ // La maffia (1972)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-maffia-1972-de-leopoldo-torre-nilsson-con-alfrado-alcon-y-jose-slavin-cine-argentino-360p_202209", nota: "copia subida por terceros" },
+  ],
+  "movie-62499": [ // Boquitas pintadas (1974)
+    { nombre: "Internet Archive", url: "https://archive.org/details/boquitas-pintadas-1974", nota: "copia subida por terceros" },
+  ],
+  "movie-127499": [ // El Pibe Cabeza (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ElPibeCabezaLeopoldoTorreNilsson1975", nota: "copia subida por terceros" },
+  ],
+  "movie-279787": [ // La guerra del cerdo (1975)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/413", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-guerra-del-cerdo-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-568253": [ // Piedra libre (1976)
+    { nombre: "Internet Archive", url: "https://archive.org/details/piedra-libre-1976", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
