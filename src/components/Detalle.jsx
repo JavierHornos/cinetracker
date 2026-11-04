@@ -125,11 +125,17 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
               {equipo.map(r => (
                 <div key={r.job}>
                   <div className="etiqueta">{r.titulo}</div>
-                  {r.gente.map(p => (
-                    <button key={p.id} type="button" className="persona" onClick={() => onPersona(p.id)}>
+                  {r.gente.map(p => p.id ? (
+                    <button key={p.id} type="button" className="persona" onClick={() => onPersona(p.id)}
+                      title={p.de_cinenacional ? "Dato de cinenacional.com" : undefined}>
                       {p.profile_path ? <img src={`${IMG}w185${p.profile_path}`} alt="" loading="lazy" /> : <span className="sin" />}
                       <span>{p.name}</span>
                     </button>
+                  ) : (
+                    <span key={p.name} className="persona" title="Dato de cinenacional.com">
+                      <span className="sin" />
+                      <span>{p.name}</span>
+                    </span>
                   ))}
                 </div>
               ))}

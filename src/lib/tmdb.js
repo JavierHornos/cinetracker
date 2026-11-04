@@ -1,3 +1,5 @@
+import { CREDITOS_EXTRA, JOB_EXTRA } from "../data/creditosExtra";
+
 // TMDB a través de la Netlify Function (la clave nunca llega al navegador).
 const FN = "/.netlify/functions/tmdb";
 
@@ -80,10 +82,19 @@ export const ROLES = [
 
 export function equipoDe(d, mediaType) {
   const crew = d?.credits?.crew || [];
+  // Lo que TMDB no tiene y sí figura en cinenacional.com (src/data/creditosExtra.js).
+  const extra = CREDITOS_EXTRA[`${mediaType}-${d?.id}`] || {};
   return ROLES.map(r => {
     let gente = crew.filter(p => p.job === r.job);
     if (r.job === "Director" && mediaType === "tv") gente = gente.concat(d.created_by || []);
-    const unicos = [...new Map(gente.map(p => [p.id, p])).values()].slice(0, 4);
+    const clave = Object.keys(JOB_EXTRA).find(k => JOB_EXTRA[k] === r.job);
+    const nombres = new Set(gente.map(p => p.name.toLowerCase()));
+    for (const [id, name] of extra[clave] || []) {
+      if (!gente.some(p => p.id === id) && !nombres.has(name.toLowerCase())) {
+        gente.push({ id, name, profile_path: null, de_cinenacional: true });
+      }
+    }
+    const unicos = [...new Map(gente.map(p => [p.id ?? p.name, p])).values()].slice(0, 4);
     return { ...r, gente: unicos };
   }).filter(r => r.gente.length);
 }

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { IMG, ROLES, anioDe, detalles, persona, tituloDe } from "../lib/tmdb";
 import { FICHAS } from "../data/personas";
 import { BIOS } from "../data/bios";
+import { creditosExtraDe } from "../data/creditosExtra";
 import TextoMd from "./TextoMd";
 
 // Ficha de un director, director de fotografía o montajista: quién es y toda su filmografía,
@@ -24,7 +25,8 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
 
   // Una sección por rol (dirección, fotografía, montaje), la principal primero.
   const secciones = useMemo(() => {
-    const crew = datos?.combined_credits?.crew || [];
+    // A los créditos de TMDB se suman los que completa cinenacional.com.
+    const crew = [...(datos?.combined_credits?.crew || []), ...creditosExtraDe(id)];
     const principal = propia?.principal || {
       Directing: "Director", Camera: "Director of Photography", Editing: "Editor",
     }[datos?.known_for_department];
@@ -42,7 +44,7 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
       if (pelis.length) roles.push({ job: "apariciones", titulo: "APARICIONES", plural: propia.apariciones, pelis });
     }
     return roles;
-  }, [datos, propia]);
+  }, [datos, propia, id]);
 
   const todas = [...new Map(secciones.flatMap(s => s.pelis).map(p => [`${p.media_type}-${p.id}`, p])).values()];
   const vistas = todas.filter(vista).length;
