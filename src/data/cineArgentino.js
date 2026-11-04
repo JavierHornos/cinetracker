@@ -80,9 +80,9 @@ La ley de 1947 obligó a los cines a pasar películas argentinas y el Estado dio
 
 ### Los directores
 
-- **Luis César Amadori**, el director comercial más exitoso: *Dios se lo pague* (1948), con Arturo de Córdova y Zully Moreno.
-- **Carlos Hugo Christensen**, el más audaz con el erotismo y el policial: *El ángel desnudo* (1946), *No abras nunca esa puerta* (1952).
-- **[Daniel Tinayre](#/persona/1180781)**, el policial y el melodrama oscuro: *A sangre fría* (1947).
+- **Luis César Amadori**, el director comercial más exitoso: [*Dios se lo pague*](#/tmdb/movie/188353) (1948), con Arturo de Córdova y Zully Moreno.
+- **Carlos Hugo Christensen**, el más audaz con el erotismo y el policial: [*El ángel desnudo*](#/tmdb/movie/290968) (1946), [*No abras nunca esa puerta*](#/pelicula/1180) (1952).
+- **[Daniel Tinayre](#/persona/1180781)**, el policial y el melodrama oscuro: [*A sangre fría*](#/tmdb/movie/561736) (1947).
 - **[Leopoldo Torres Ríos](#/persona/1452584)**, el cine de barrio y de pibes: [*Pelota de trapo*](#/tmdb/movie/499878) (1948).
 - **Hugo del Carril** dirigió [*Las aguas bajan turbias*](#/tmdb/movie/318591) (1952), sobre los trabajadores de los yerbales. Es la película social más importante de la época.
 

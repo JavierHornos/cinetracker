@@ -55,6 +55,17 @@ export const LINKS = {
   "movie-318591": [
     { nombre: "Internet Archive", url: "https://archive.org/details/las-aguas-bajan-turbias-1952_202502", nota: "copia subida por terceros" },
   ],
+  // Dios se lo pague (Amadori, 1948): tiene derechos. Copia subida por terceros.
+  "movie-188353": [
+    { nombre: "Internet Archive", url: "https://archive.org/details/dios-se-lo-pague-1948", nota: "copia subida por terceros" },
+  ],
+  // Carlos Hugo Christensen, en Cine.ar.
+  "movie-290968": [ // El ángel desnudo (1946)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/42", nota: "gratis con registro" },
+  ],
+  "movie-252695": [ // No abras nunca esa puerta (1952)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/256", nota: "gratis con registro" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
