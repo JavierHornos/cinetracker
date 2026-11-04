@@ -340,7 +340,7 @@ De vuelta en Buenos Aires debutó con [*Dos amigos y un amor*](#/tmdb/movie/6164
 [*La guerra gaucha*](#/tmdb/movie/300427) (1942), sobre el libro de Leopoldo Lugones, con guion de Homero Manzi y Ulyses Petit de Murat, cuenta la guerrilla de los gauchos de Güemes en Salta, en 1817. Construyeron una aldea en la misma zona donde pasó la historia y reunieron a mil extras, algo que el cine argentino nunca había hecho. El incendio del pueblo se podía filmar una sola vez, así que Demare vistió a todo el equipo de gauchos y de soldados realistas, por si entraban en cuadro; una ráfaga de viento le chamuscó la barba y la melena postizas. Estuvo diecinueve semanas en cartel y se la considera la película de más éxito del cine argentino.
 
 ### La épica y el interior
-Con Manzi y Petit de Murat siguió con [*Su mejor alumno*](#/tmdb/movie/263969) (1944), sobre Dominguito, el hijo de Sarmiento, y [*Pampa bárbara*](#/tmdb/movie/127172) (1945), codirigida con Hugo Fregonese, sobre las fortineras de la frontera. Después filmó el litoral en [*Los isleros*](#/tmdb/movie/199518) (1951), el campo en [*Guacho*](#/tmdb/movie/320013) (1954) y el norte en [*Zafra*](#/tmdb/movie/199181) (1959). *Los isleros*, *El último perro* y *Zafra* compitieron en Cannes, y *La boda* (1964) ganó en San Sebastián.
+Con Manzi y Petit de Murat siguió con [*Su mejor alumno*](#/tmdb/movie/263969) (1944), sobre Dominguito, el hijo de Sarmiento, y [*Pampa bárbara*](#/tmdb/movie/127172) (1945), codirigida con [Hugo Fregonese](#/persona/31336), sobre las fortineras de la frontera. Después filmó el litoral en [*Los isleros*](#/tmdb/movie/199518) (1951), el campo en [*Guacho*](#/tmdb/movie/320013) (1954) y el norte en [*Zafra*](#/tmdb/movie/199181) (1959). *Los isleros*, *El último perro* y *Zafra* compitieron en Cannes, y *La boda* (1964) ganó en San Sebastián.
 
 ### Para ver
 En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos, y en 1981 recibió el Konex de Platino como el mejor director de la historia del cine argentino. Cuatro de sus películas están en Cine.ar y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
@@ -470,5 +470,28 @@ En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos. Di
 
 ### Para ver
 Varias de sus películas, como actor y como director, están en Cine.ar, y casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
+  // ── Hugo Fregonese (fuentes: Wikipedia en castellano e inglés y créditos de TMDB) ──
+  31336: {
+    nombre: "Hugo Fregonese",
+    rol: "Director",
+    bajada: "De Apenas un delincuente a Hollywood: el argentino que dirigió a Gary Cooper y Edward G. Robinson.",
+    principal: "Director",
+    texto: `Nació en Mendoza en 1908 y murió en Tigre en 1987. Fue el director argentino que más lejos llegó en Hollywood, y al volver casi nadie lo recordaba.
+
+### De periodista a Hollywood
+Empezó como periodista deportivo. En 1935 viajó a Nueva York casi sin hablar inglés, estudió en la Universidad de Columbia y Hollywood lo contrató como asesor técnico de las películas sobre América Latina. De vuelta en la Argentina trabajó como montajista, asistente de dirección y director de cortos.
+
+### Pampa bárbara y Apenas un delincuente
+Su primer largometraje fue [*Pampa bárbara*](#/tmdb/movie/127172) (1945), codirigido con [Lucas Demare](#/persona/1083978): la vida en los fortines de la frontera, con las indias cautivas y las fortineras. Siguió [*Donde mueren las palabras*](#/tmdb/movie/261617) (1946), que produjo Demare, y en 1949 [*Apenas un delincuente*](#/tmdb/movie/252696): un empleado que se roba los sueldos de su empresa, esconde la plata y cumple seis años de cárcel pensando en disfrutarla al salir. Filmada en las calles de Buenos Aires casi como un documental, es uno de los grandes policiales argentinos, y le abrió las puertas de Hollywood.
+
+### Hollywood
+En los años 50 hizo westerns y policiales con estrellas como James Mason en [*One Way Street*](#/tmdb/movie/36516) (1950), Gary Cooper, Barbara Stanwyck y Anthony Quinn en [*Blowing Wild*](#/tmdb/movie/76140) (1953), Jack Palance como Jack el Destripador en [*Man in the Attic*](#/tmdb/movie/41018) (1953) y Edward G. Robinson en [*Black Tuesday*](#/tmdb/movie/33224) (1954). Por *My Six Convicts* (1952) lo nominaron al premio del Sindicato de Directores. En 1947 se casó en secreto con la actriz Faith Domergue, con quien tuvo dos hijos.
+
+### Europa y el regreso
+Después filmó en la India, *Harry Black* (1958), y en Europa: el western alemán [*Old Shatterhand*](#/tmdb/movie/9547) y una película del Dr. Mabuse (1964). En 1966 rehízo su primera película en España, [*Pampa salvaje*](#/tmdb/movie/110614), con Robert Taylor. Volvió a la Argentina en 1971 y filmó [*La Malavida*](#/tmdb/movie/614332) (1973), con [Hugo del Carril](#/persona/941154), Soledad Silveyra y Víctor Laplace, y [*Más allá del sol*](#/tmdb/movie/614710) (1975).
+
+### Para ver
+*Pampa salvaje* y *La Malavida* están en Cine.ar, y casi todas sus películas, también las de Hollywood, tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
 };

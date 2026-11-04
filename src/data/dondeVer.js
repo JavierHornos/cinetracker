@@ -465,6 +465,62 @@ export const LINKS = {
   "movie-435186": [ // Yo maté a Facundo (1975)
     { nombre: "Internet Archive", url: "https://archive.org/details/yo-mate-a-facundo-1975", nota: "copia subida por terceros" },
   ],
+  // Hugo Fregonese (murió en 1987): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-261617": [ // Donde mueren las palabras (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/donde-mueren-las-palabras-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-671408": [ // De hombre a hombre (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/de-hombre-a-hombre-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-252696": [ // Apenas un delincuente (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/apenas-un-delincuente-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-36516": [ // One Way Street (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/1950-one-way-street-murallas-de-silencio-hugo-fregonese-vose", nota: "copia subida por terceros" },
+  ],
+  "movie-73896": [ // Apache Drums (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/apache-drums-hugo-fregonese-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-271907": [ // The Mark of the Renegade (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/the-mark-of-the-renegade-hugo-fregonese-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-169859": [ // Untamed Frontier (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/untamed-frontier-western-1952-joseph-cotten-shelley-winters-scott-brady", nota: "copia subida por terceros" },
+  ],
+  "movie-76140": [ // Blowing Wild (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/blowing.-wild.-1953.1080p.-blu-ray.x-264-yts.-ag", nota: "copia subida por terceros" },
+  ],
+  "movie-41018": [ // Man in the Attic (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/man-in-the-attic-1953-restored-movie-720p-hd", nota: "copia subida por terceros" },
+  ],
+  "movie-74074": [ // The Raid (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/the-raid-hugo-fregonese-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-33224": [ // Black Tuesday (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/black-tuesday-1954_202506", nota: "copia subida por terceros" },
+  ],
+  "movie-137603": [ // Seven Thunders (1957)
+    { nombre: "Internet Archive", url: "https://archive.org/details/seven-thunders", nota: "copia subida por terceros" },
+  ],
+  "movie-145865": [ // Harry Black (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/harry-black-1958", nota: "copia subida por terceros" },
+  ],
+  "movie-9547": [ // Old Shatterhand (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/old.-shatterhand.-1964.720p.-blu-ray.-rus.-ger.-hdclub", nota: "copia subida por terceros" },
+  ],
+  "movie-19132": [ // Los rayos mortales del Dr. Mabuse (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/the.-death.-ray.of.-dr.-mabuse.-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-110614": [ // Pampa salvaje (1966)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1036", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/pampa-salvaje-1966-dual.descargacineclasico.com-orev", nota: "copia subida por terceros" },
+  ],
+  "movie-3216": [ // Los monstruos del terror (1970)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-monstruos-del-terror-1970", nota: "copia subida por terceros" },
+  ],
+  "movie-614710": [ // Más allá del sol (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mas-alla-del-sol-1975", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
