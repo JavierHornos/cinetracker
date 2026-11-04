@@ -37,6 +37,16 @@ export const LINKS = {
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],
+  // Las películas de Carlos Gardel para Paramount: tienen derechos. Copias subidas por terceros, link afuera.
+  "movie-170625": [ // Luces de Buenos Aires (1931)
+    { nombre: "Internet Archive", url: "https://archive.org/details/las-luces-de-buenos-aires-1931", nota: "copia subida por terceros" },
+  ],
+  "movie-164895": [ // Cuesta abajo (1934)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cuesta-abajo-1934", nota: "copia subida por terceros" },
+  ],
+  "movie-165177": [ // El día que me quieras (1935)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
+  ],
   // Manuel Romero: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-623205": [ // Noches de Buenos Aires (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/noches-de-buenos-aires-1935", nota: "copia subida por terceros" },
