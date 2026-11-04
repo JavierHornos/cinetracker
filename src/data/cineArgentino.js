@@ -46,7 +46,7 @@ Después llegaron Estudios Río de la Plata (1934), EFA y Pampa Film (1936) y Es
 
 ### Gardel
 
-Carlos Gardel filmó sus películas más famosas para Paramount, en Francia y Nueva York: [*Luces de Buenos Aires*](#/tmdb/movie/170625) (1931), [*Cuesta abajo*](#/tmdb/movie/164895) (1934) y [*El día que me quieras*](#/tmdb/movie/165177) (1935). Gardel murió en Medellín en 1935, pero sus películas demostraron que el tango vendía en toda América Latina.
+Carlos Gardel filmó sus películas más famosas para Paramount, en Francia y Nueva York: [*Luces de Buenos Aires*](#/tmdb/movie/170625) (1931), [*Cuesta abajo*](#/tmdb/movie/164895) (1934), [*El día que me quieras*](#/tmdb/movie/165177) y [*Tango Bar*](#/tmdb/movie/170639) (1935). Gardel murió en Medellín en 1935, pero sus películas demostraron que el tango vendía en toda América Latina.
 
 ### Los directores de la época
 
