@@ -51,6 +51,54 @@ export const LINKS = {
   "movie-165177": [ // El día que me quieras (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
   ],
+  // Luis Saslavsky: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-537891": [ // La fuga (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-fuga-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-627713": [ // Nace un amor (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/nace-un-amor-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-316956": [ // Puerta cerrada (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/puerta-cerrada-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-729359": [ // El Loco Serenata (1939)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-loco-serenata-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-729616": [ // La casa del recuerdo (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-casa-del-recuerdo-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-335369": [ // Historia de una noche (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/historia-de-una-noche-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-479056": [ // Eclipse de sol (1943)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/40", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/eclipse-de-sol-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-734728": [ // Los ojos más lindos del mundo (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-ojos-mas-lindos-del-mundo-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-484850": [ // La dama duende (1945)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/82", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-dama-duende-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-573546": [ // Cinco besos (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cinco-besos-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-531448": [ // Historia de una mala mujer (1948)
+    { nombre: "Internet Archive", url: "https://archive.org/details/historia-de-una-mala-mujer-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-532802": [ // Las ratas (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/las-ratas-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-768306": [ // Placeres conyugales (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/placeres-conyugales-aka-las-mujeres-los-prefieren-tontos-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-614324": [ // Vení conmigo (1973)
+    { nombre: "Internet Archive", url: "https://archive.org/details/veni-conmigo-1973", nota: "copia subida por terceros" },
+  ],
+  "movie-682607": [ // El Fausto criollo (1979)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-fausto-criollo-1979", nota: "copia subida por terceros" },
+  ],
   // Leopoldo Torres Ríos: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-551244": [ // El conventillo de la Paloma (1936)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-conventillo-de-la-paloma-1936", nota: "copia subida por terceros" },

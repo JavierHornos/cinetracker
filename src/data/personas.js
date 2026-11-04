@@ -149,7 +149,7 @@ Programa el cine del MALBA desde 2002, dirigió el BAFICI entre 2004 y 2007 y fu
 Se formó como fotógrafo de cine en la Berlín de la República de Weimar, cerca de la Bauhaus, y se recibió en 1929 en la escuela de fotografía de la Asociación Lette. En 1933, con la llegada de los nazis al poder, se fue a Barcelona. Ahí trabajó como fotógrafo y camarógrafo en películas españolas, y dicen que aprendió el castellano leyendo *El Quijote*. En 1936, en plena Guerra Civil, se sumó al equipo que filmaba a la Columna Durruti, y sus fotos se difundieron en todo el mundo.
 
 ### Pablo Tabernero
-Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, *Nace un amor* (Luis Saslavsky, 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), *Vidalita* (Luis Saslavsky, 1949), *La Quintrala* (Hugo del Carril), y los policiales de Carlos Hugo Christensen *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
+Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, [*Nace un amor*](#/tmdb/movie/627713) ([Luis Saslavsky](#/persona/586113), 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), [*Vidalita*](#/tmdb/movie/526465) ([Luis Saslavsky](#/persona/586113), 1949), *La Quintrala* (Hugo del Carril), y los policiales de Carlos Hugo Christensen *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
 
 ### El maestro
 En *La Quintrala*, un muchacho que trabajaba en el área de arte lo miraba iluminar: era Félix "Chango" Monti, que ahí descubrió la luz. Así se aprendía entonces, sin escuela, al lado de los maestros. Tabernero también dirigió los Laboratorios Alex y enseñó en la Universidad de La Plata, hasta que en 1967 se fue con su familia a los Estados Unidos.
@@ -168,7 +168,7 @@ Gran parte de su biografía en Wikipedia todavía no tiene fuentes; la cuenta me
 Dirigió más de veinte películas entre 1935 y 1974, casi siempre dentro de la industria: melodramas, comedias y, sobre todo, policiales y dramas oscuros. Debutó con *Bajo la Santa Federación* (1935) y en 1950 ganó el Cóndor de Plata a la mejor dirección por [*Danza del fuego*](#/tmdb/movie/199513). En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos.
 
 ### El policial
-- [*Camino del infierno*](#/tmdb/movie/437502) (1946), que firmó junto a Luis Saslavsky: una mujer enferma de celos, con intriga policial.
+- [*Camino del infierno*](#/tmdb/movie/437502) (1946), que firmó junto a [Luis Saslavsky](#/persona/586113): una mujer enferma de celos, con intriga policial.
 - [*A sangre fría*](#/tmdb/movie/561736) (1947): una pareja planea envenenar a una anciana para quedarse con su fortuna.
 - [*Pasaporte a Río*](#/tmdb/movie/386426) (1948): un ladrón obliga a la corista que lo vio robar a llevar el botín a Río de Janeiro.
 - [*Deshonra*](#/tmdb/movie/318590) (1952): una mujer presa por un crimen que no cometió, en una cárcel filmada en sombras y grises.
@@ -222,7 +222,7 @@ De muy joven trabajó en la revista *Fray Mocho* y en los diarios *Crítica* y *
 En 1923 viajó a Francia con el director español Luis Bayón Herrera, y en París conoció a Carlos Gardel. Juntos armaron [*Luces de Buenos Aires*](#/tmdb/movie/170625) (1931), que Romero escribió con Bayón Herrera y dirigió el chileno Adelqui Millar.
 
 ### Lumiton
-En 1935 debutó como director con [*Noches de Buenos Aires*](#/tmdb/movie/623205), el mismo año que Saslavsky, [Soffici](#/persona/1087155), [Tinayre](#/persona/1180781) y Zavalía, y era el mayor de los cinco. En Lumiton filmó una película tras otra, casi siempre con argumento y música suyos: [*Radio Bar*](#/tmdb/movie/696942) (1936), [*Fuera de la ley*](#/tmdb/movie/335365) (1937), con José Gola y Luis Arata, y [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), cuyo título quedó como frase hecha. En 1938 hizo [*La rubia del camino*](#/tmdb/movie/403382), con Paulina Singerman, considerada la primera road movie argentina, y [*Mujeres que trabajan*](#/tmdb/movie/427803), la primera de sus películas con Niní Marshall. Con ella y Enrique Serrano siguieron [*Divorcio en Montevideo*](#/tmdb/movie/316904) (1939), [*Casamiento en Buenos Aires*](#/tmdb/movie/471472) y [*Luna de miel en Río*](#/tmdb/movie/644052) (1940).
+En 1935 debutó como director con [*Noches de Buenos Aires*](#/tmdb/movie/623205), el mismo año que [Saslavsky](#/persona/586113), [Soffici](#/persona/1087155), [Tinayre](#/persona/1180781) y Zavalía, y era el mayor de los cinco. En Lumiton filmó una película tras otra, casi siempre con argumento y música suyos: [*Radio Bar*](#/tmdb/movie/696942) (1936), [*Fuera de la ley*](#/tmdb/movie/335365) (1937), con José Gola y Luis Arata, y [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447) (1937), cuyo título quedó como frase hecha. En 1938 hizo [*La rubia del camino*](#/tmdb/movie/403382), con Paulina Singerman, considerada la primera road movie argentina, y [*Mujeres que trabajan*](#/tmdb/movie/427803), la primera de sus películas con Niní Marshall. Con ella y Enrique Serrano siguieron [*Divorcio en Montevideo*](#/tmdb/movie/316904) (1939), [*Casamiento en Buenos Aires*](#/tmdb/movie/471472) y [*Luna de miel en Río*](#/tmdb/movie/644052) (1940).
 
 ### Rápido y popular
 Rodaba muy rápido, con el único afán de terminar, y la crítica lo despreciaba. Pero tenía un estilo propio y llenaba las salas: el tango, el cabaret, el compadrito y el porteño canchero. Su actor fetiche fue Tito Lusiardo, y dirigió también a Luis Sandrini, Narciso Ibáñez Menta y Juan Carlos Thorry. Siguió filmando hasta los años 50: [*La historia del tango*](#/tmdb/movie/637803) (1949), [*El hincha*](#/tmdb/movie/344779) (1951), con Enrique Santos Discépolo, y [*¡Ué... Paisano!*](#/tmdb/movie/862156) (1953).
@@ -278,5 +278,28 @@ Su hermano Carlos Torres Ríos fue director de fotografía, y su hijo fue [Leopo
 
 ### Para ver
 Cinco de sus películas están en Cine.ar, y casi todas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
+  // ── Luis Saslavsky (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  586113: {
+    nombre: "Luis Saslavsky",
+    rol: "Director, guionista y crítico",
+    bajada: "El refinado del cine clásico: de la crítica en La Nación a Hollywood, y de la lista negra a París.",
+    principal: "Director",
+    texto: `Nació en Rosario en 1903 y murió en Buenos Aires en 1995. Dirigió más de veinte películas en la Argentina, Francia y España.
+
+### De la crítica a Hollywood
+Empezó como crítico de cine del diario *La Nación* en 1930, y con Eduardo Mallea y María Rosa Oliver fundó *La Revista de América*. En 1933 el diario lo mandó como corresponsal a Hollywood, donde conoció a Greta Garbo, Marlene Dietrich y Josef von Sternberg. Por su amigo Antoine de Saint-Exupéry, la Metro lo contrató como asesor de *Vuelo nocturno* (1933), sobre la novela de Saint-Exupéry.
+
+### El estilo
+De vuelta en Buenos Aires fundó con Alberto de Zavalía la productora SIFAL. Su debut, *Crimen a las tres* (1935), fue un fracaso, pero el policial [*La fuga*](#/tmdb/movie/537891) (1937), con Tita Merello y Francisco Petrone, fue un gran éxito. Siguieron [*Nace un amor*](#/tmdb/movie/627713), la primera película argentina de [Pablo Tabernero](#/persona/1818145), y el melodrama [*Puerta cerrada*](#/tmdb/movie/316956) (1939), con Libertad Lamarque y fotografía de John Alton. Combinaba el cine de entretenimiento con una búsqueda estética nueva, y Eva Perón decía que era el único director argentino bien educado.
+
+### Historia de una noche y La dama duende
+[*Historia de una noche*](#/tmdb/movie/335369) (1941), filmada en un mes, fue un éxito de crítica y de público: ganó los premios a la mejor dirección y a la mejor fotografía, de Alberto Etchebehere. La Warner Brothers quiso que hiciera una versión norteamericana, pero el proyecto no se completó. En 1946 [*La dama duende*](#/tmdb/movie/484850), sobre la comedia de Calderón de la Barca, le dio los Cóndor de Plata a la mejor película y al mejor director.
+
+### La lista negra y Europa
+En 1949, [*Vidalita*](#/tmdb/movie/526465) disgustó a Raúl Apold, el secretario de Prensa de Perón, que lo puso en su lista negra. Saslavsky se fue a Europa: en España filmó *La corona negra* (1951), con un guion original de Jean Cocteau y María Félix como protagonista, y en Francia dirigió a Jeanne Moreau en *Les Louves* (1957) y a Yves Montand en *Premier mai* (1958). Lo contó en su libro *La fábrica lloraba de noche*. De vuelta en la Argentina filmó [*Las ratas*](#/tmdb/movie/532802) (1963), sobre la novela de José Bianco, y [*El Fausto criollo*](#/tmdb/movie/682607) (1979), sobre el poema de Estanislao del Campo. En 1984 recibió el Konex de Platino como el mejor guionista del país.
+
+### Para ver
+*Eclipse de sol* y *La dama duende* están en Cine.ar, y casi todas sus películas argentinas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
 };
