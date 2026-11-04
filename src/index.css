@@ -418,3 +418,18 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 @keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }
 @keyframes subir { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* Vista previa de personas y películas en los textos (como Wikipedia) */
+.vista-previa { position: fixed; z-index: 60; width: 340px; max-width: calc(100vw - 16px); background: #111821; border: 1px solid #2a3a48; border-radius: 8px; padding: 14px 16px 12px; box-shadow: 0 10px 30px rgba(0,0,0,.6); font-family: var(--serif); color: var(--texto); }
+.vista-previa.hoja { left: 0 !important; right: 0; bottom: 0 !important; top: auto !important; width: auto; max-width: none; border-radius: 14px 14px 0 0; padding: 18px 16px calc(16px + env(safe-area-inset-bottom)); z-index: 61; }
+.vp-fondo { position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,.45); }
+.vp-cabeza { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; }
+.vp-cabeza img, .vp-sin-foto { width: 56px; height: 84px; object-fit: cover; border-radius: 4px; flex-shrink: 0; background: #1c2630; }
+.vp-cabeza .redonda { width: 56px; height: 56px; border-radius: 50%; }
+.vp-titulo { font-family: var(--display); font-size: 20px; letter-spacing: 1px; line-height: 1.1; color: #fff; }
+.vp-sub { font-size: 13px; color: var(--tenue); margin-top: 3px; }
+.vp-texto { font-size: 14px; line-height: 1.5; margin: 0 0 8px; }
+.vp-cargando { color: var(--tenue); }
+.vp-donde { font-size: 13px; color: #8cc4ec; margin-bottom: 8px; }
+.vp-ir { display: inline-block; font-family: var(--display); letter-spacing: 1px; font-size: 14px; color: var(--oro); text-decoration: none; }
+.vp-ir:hover { text-decoration: underline; }

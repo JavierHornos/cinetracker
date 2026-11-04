@@ -61,6 +61,16 @@ export async function persona(id) {
   return d;
 }
 
+// Solo los datos de la persona, sin filmografía: para la vista previa al pasar el mouse por un nombre.
+export async function personaBreve(id) {
+  const d = await tmdb(`/person/${id}`);
+  if (!d.biography) {
+    const en = await tmdb(`/person/${id}`, { language: "en-US" }).catch(() => null);
+    if (en?.biography) d.biography = en.biography;
+  }
+  return d;
+}
+
 // Los roles que importan para leer una película: quién la dirigió, la fotografió y la montó.
 export const ROLES = [
   { job: "Director", titulo: "DIRECCIÓN", plural: "COMO DIRECTOR" },
