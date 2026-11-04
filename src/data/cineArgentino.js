@@ -50,7 +50,7 @@ Carlos Gardel filmó sus películas más famosas para Paramount, en Francia y Nu
 
 ### Los directores de la época
 
-- **Manuel Romero**, el más prolífico, hizo comedias y melodramas de tango a ritmo de fábrica: *Los muchachos de antes no usaban gomina* (1937), *La rubia del camino* (1938).
+- **Manuel Romero**, el más prolífico, hizo comedias y melodramas de tango a ritmo de fábrica: *Los muchachos de antes no usaban gomina* (1937), [*La rubia del camino*](#/tmdb/movie/403382) (1938).
 - **Mario Soffici** llevó la cámara al interior y a los conflictos sociales. *Prisioneros de la tierra* (1939), sobre los mensualíes de la yerba mate en Misiones, es para muchos la mejor película argentina de su tiempo.
 - **Leopoldo Torres Ríos**, **Luis Saslavsky** (*Historia de una noche*, 1941) y **Francisco Mugica** ([*Los martes, orquídeas*](#/tmdb/movie/468702), 1941, con Mirtha Legrand) completaron un cine de géneros variado.
 - **Lucas Demare** fundó con actores la cooperativa Artistas Argentinos Asociados en 1941. Su *La guerra gaucha* (1942), con guion de Homero Manzi y Ulyses Petit de Murat, fue el mayor éxito de taquilla de la época.
