@@ -398,4 +398,27 @@ Se fue del país y siguió filmando en Italia, como la experimental [*ORG*](#/tm
 ### Para ver
 *Tire dié*, *Los inundados* y otras ocho películas con él están en Cine.ar, entre ellas *Ata tu arado a una estrella*, el documental de Carmen Guarini sobre sus últimos años.`,
   },
+  // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
+  535744: {
+    nombre: "Luis César Amadori",
+    rol: "Director, guionista, letrista y empresario teatral",
+    bajada: "El director comercial más exitoso del cine clásico: las grandes estrellas, Dios se lo pague y el exilio en España.",
+    principal: "Director",
+    texto: `Nació en Pescara, Italia, en 1902, llegó a la Argentina a los cinco años y murió en Buenos Aires en 1977. Sus amigos le decían Gino.
+
+### El teatro de revista
+Fue a la escuela en Villa Ballester y empezó Medicina en Córdoba, pero la dejó por la escritura: adaptaba comedias francesas. Debutó en el teatro con Ivo Pelay, y en 1940 compró el Teatro Maipo, donde montó decenas de revistas con el seudónimo de Leo Carter. Como guionista de cine firmaba Gabriel Peña. También fue letrista de tango, y Walt Disney lo eligió para dirigir el doblaje al castellano de *Fantasía*, *Pinocho*, *Dumbo* y *Bambi*.
+
+### Las estrellas
+Debutó como director en 1936, codirigiendo con [Mario Soffici](#/persona/1087155) [*Puerto Nuevo*](#/tmdb/movie/623202). Fue el director comercial más exitoso de su tiempo, y trabajó con las estrellas más grandes. Con Libertad Lamarque hizo melodramas musicales como [*Madreselva*](#/tmdb/movie/316954) (1938), con Hugo del Carril, que partía de un tango suyo y tuvo fotografía del húngaro John Alton, que después triunfó en Hollywood. Con Niní Marshall llevó al cine los personajes que ella había creado en la radio, como en [*Hay que educar a Niní*](#/tmdb/movie/335368) (1940). Con Pepe Arias hizo [*El profesor Cero*](#/tmdb/movie/857823) (1942), y con Luis Sandrini [*Juan Globo*](#/tmdb/movie/464800) (1949). Su director de fotografía de cabecera fue [Alberto Etchebehere](#/persona/1173339).
+
+### Dios se lo pague
+En 1947 se casó con la actriz Zully Moreno, y al año siguiente la dirigió, junto a Arturo de Córdova, en [*Dios se lo pague*](#/tmdb/movie/188353) (1948): un mendigo que pide en la puerta de una iglesia y por las noches vive como un millonario. Fue durante años uno de los éxitos más grandes del cine argentino. Volvieron a juntarse en [*Nacha Regules*](#/tmdb/movie/766161) (1950), y después dirigió a Mirtha Legrand en [*La de los ojos color del tiempo*](#/tmdb/movie/740475) (1952) y a María Félix en [*La pasión desnuda*](#/tmdb/movie/100106) (1953).
+
+### El exilio en España
+Cercano al peronismo, dirigió el corto [*Eva Perón inmortal*](#/tmdb/movie/631063) (1952). Después del golpe de 1955 lo detuvieron con cargos falsos, junto a Hugo del Carril y Atilio Mentasti, y se fue a España con Zully Moreno. Allí fue uno de los directores más populares de los años 50 y 60, con películas para las estrellas del momento: Sara Montiel en *La violetera* (1958) y *Mi último tango* (1960), las mellizas Pili y Mili en *Como dos gotas de agua* (1964), y Rocío Dúrcal en *Más bonita que ninguna* (1965) y *Cristina Guzmán* (1968).
+
+### Para ver
+Casi todas sus películas argentinas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Juan Globo* (1949), con Luis Sandrini, está en Cine.ar.`,
+  },
 };

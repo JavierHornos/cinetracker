@@ -183,6 +183,94 @@ export const LINKS = {
   "movie-568253": [ // Piedra libre (1976)
     { nombre: "Internet Archive", url: "https://archive.org/details/piedra-libre-1976", nota: "copia subida por terceros" },
   ],
+  // Luis César Amadori (murió en 1977): Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-768283": [ // El canillita y la dama (1936)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-canillita-y-la-dama-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-535625": [ // El pobre Pérez (1937)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-pobre-perez-1937", nota: "copia subida por terceros" },
+  ],
+  "movie-316954": [ // Madreselva (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/madreselva-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-914222": [ // Maestro Levita (1938)
+    { nombre: "Internet Archive", url: "https://archive.org/details/maestro-levita-1938", nota: "copia subida por terceros" },
+  ],
+  "movie-764063": [ // El haragán de la familia (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-haragan-de-la-familia-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-335368": [ // Hay que educar a Niní (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/hay-que-educar-a-nini-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-923212": [ // Napoleón (1941)
+    { nombre: "Internet Archive", url: "https://archive.org/details/napoleon-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-857823": [ // El profesor Cero (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-profesor-cero-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-651193": [ // Bajó un ángel del cielo (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/bajo-un-angel-del-cielo-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-681072": [ // Claro de luna (1942)
+    { nombre: "Internet Archive", url: "https://archive.org/details/claro-de-luna-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-767507": [ // Son cartas de amor (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/son-cartas-de-amor-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-911659": [ // Luisito (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/luisito-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-616466": [ // Carmen (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/carmen-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-721706": [ // Madame Sans-Gêne (1945)
+    { nombre: "Internet Archive", url: "https://archive.org/details/madame-sans-gene-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-735371": [ // Dos ángeles y un pecador (1945)
+    { nombre: "Internet Archive", url: "https://archive.org/details/dos-angeles-y-un-pecador-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-799201": [ // Mosquita muerta (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mosquita-muerta-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-617351": [ // Una mujer sin cabeza (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/una-mujer-sin-cabeza-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-285404": [ // Albéniz (1947)
+    { nombre: "Internet Archive", url: "https://archive.org/details/albeniz-1947", nota: "copia subida por terceros" },
+  ],
+  "movie-768172": [ // Don Juan Tenorio (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/don-juan-tenorio-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-464800": [ // Juan Globo (1949)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1030", nota: "gratis con registro" },
+  ],
+  "movie-766161": [ // Nacha Regules (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/nacha-regules-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-484712": [ // Me casé con una estrella (1951)
+    { nombre: "Internet Archive", url: "https://archive.org/details/me-case-con-una-estrella-1951", nota: "copia subida por terceros" },
+  ],
+  "movie-631063": [ // Eva Perón inmortal (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/peronismo-2", nota: "copia subida por terceros" },
+  ],
+  "movie-740475": [ // La de los ojos color del tiempo (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-de-los-ojos-color-del-tiempo-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-100106": [ // La pasión desnuda (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-pasion-desnuda-1953", nota: "copia subida por terceros" },
+  ],
+  "movie-127243": [ // El grito sagrado (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-grito-sagrado-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-863955": [ // Caídos en el infierno (1954)
+    { nombre: "Internet Archive", url: "https://archive.org/details/caidos-en-el-infierno-1954", nota: "copia subida por terceros" },
+  ],
+  "movie-737178": [ // El barro humano (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-barro-humano-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-504944": [ // El amor nunca muere (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-amor-nunca-muere-1955", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
