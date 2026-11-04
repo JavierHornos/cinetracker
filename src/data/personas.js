@@ -19,7 +19,7 @@ export const FICHAS = {
 Lo que sigue lo cuentan su familia, Puenzo y Campanella en el documental *Chango, la luz descubre*, que lo muestra trabajando en el rodaje de *Mamá se fue de viaje* y en el Teatro San Martín, en *La farsa de los ausentes*.
 
 ### Aprender de los maestros
-No había escuela de cine: se aprendía de los maestros, en el rodaje y en charlas, y después a prueba y error. Chango entró a *La Quintrala* (Hugo del Carril, 1955) por el lado del arte, y ahí, mirando trabajar al director de fotografía Pablo Tabernero, empezó a gustarle la luz. Tabernero era el alemán Peter Weinschenk, que llegó a la Argentina a mediados de los años 30; su historia está en el documental *Buscando a Tabernero* (2020), en Cine.ar.
+No había escuela de cine: se aprendía de los maestros, en el rodaje y en charlas, y después a prueba y error. Chango entró a *La Quintrala* (Hugo del Carril, 1955) por el lado del arte, y ahí, mirando trabajar al director de fotografía [Pablo Tabernero](#/persona/1818145), empezó a gustarle la luz. Tabernero era el alemán Peter Weinschenk, que llegó a la Argentina a mediados de los años 30; su historia está en el documental *Buscando a Tabernero* (2020), en Cine.ar.
 
 ### La primera
 *Juan que reía* (Carlos Galettini, 1976) fue su primera película. Su hermana cuenta que la familia les pedía a todos los conocidos que sacaran entrada, aunque después no entraran a verla: había que mantenerla en cartel.
@@ -128,6 +128,30 @@ Empezó a los 8 años, con un proyector Súper 8 y las copias de 16 mm que lleva
 Programa el cine del MALBA desde 2002, dirigió el BAFICI entre 2004 y 2007 y fue director artístico del festival de Mar del Plata. Escribió y editó más de diez libros, entre ellos *Cien años de cine argentino* y uno sobre *Metrópolis*.
 
 ### Para ver
-*La vida a oscuras* (Enrique Bellande, 2023), el documental sobre él y su trabajo, está gratis en Cine.ar. También aparece en *Buscando a Tabernero* (Eduardo Montes-Bradley, 2020), sobre el alemán Peter Weinschenk, que en la Argentina fue Pablo Tabernero: el director de fotografía de *La Quintrala*, donde Chango Monti descubrió la luz. También está en Cine.ar.`,
+*La vida a oscuras* (Enrique Bellande, 2023), el documental sobre él y su trabajo, está gratis en Cine.ar. También aparece en *Buscando a Tabernero* (Eduardo Montes-Bradley, 2020), sobre el alemán Peter Weinschenk, que en la Argentina fue [Pablo Tabernero](#/persona/1818145): el director de fotografía de *La Quintrala*, donde Chango Monti descubrió la luz. También está en Cine.ar.`,
+  },
+  // ── Pablo Tabernero (fuentes: Wikipedia en castellano, sinopsis de "Buscando a Tabernero" y créditos de TMDB) ──
+  1818145: {
+    nombre: "Pablo Tabernero",
+    rol: "Director de fotografía",
+    bajada: "Un refugiado de Berlín que se volvió el gran fotógrafo del cine clásico argentino.",
+    principal: "Director of Photography",
+    documental: {
+      titulo: "Buscando a Tabernero (Eduardo Montes-Bradley, 2020)",
+      tmdb_id: 768165,
+      donde: "Cine.ar · gratis con registro",
+    },
+    texto: `Se llamaba Peter Paul Weinschenk y nació en Berlín en 1910, en una familia de clase media de origen judío. Murió en 1996.
+
+### De Berlín a Barcelona
+Se formó como fotógrafo de cine en la Berlín de la República de Weimar, cerca de la Bauhaus, y se recibió en 1929 en la escuela de fotografía de la Asociación Lette. En 1933, con la llegada de los nazis al poder, se fue a Barcelona. Ahí trabajó como fotógrafo y camarógrafo en películas españolas, y dicen que aprendió el castellano leyendo *El Quijote*. En 1936, en plena Guerra Civil, se sumó al equipo que filmaba a la Columna Durruti, y sus fotos se difundieron en todo el mundo.
+
+### Pablo Tabernero
+Llegó a Buenos Aires como refugiado y en octubre de 1937 adoptó el nombre con el que se lo conoce. Ya lo esperaba un contrato para su primera película argentina, *Nace un amor* (Luis Saslavsky, 1938). Desde ahí iluminó más de cuarenta películas: *Prisioneros de la tierra* (Mario Soffici, 1939), *Vidalita* (Luis Saslavsky, 1949), *La Quintrala* (Hugo del Carril), y los policiales de Carlos Hugo Christensen *Si muero antes de despertar* y *No abras nunca esa puerta* (1952), donde según la crítica "nunca las sombras estuvieron mejor utilizadas en el cine argentino". En 1943 ganó el Cóndor de Plata a la mejor fotografía.
+
+### El maestro
+En *La Quintrala*, un muchacho que trabajaba en el área de arte lo miraba iluminar: era Félix "Chango" Monti, que ahí descubrió la luz. Así se aprendía entonces, sin escuela, al lado de los maestros. Tabernero también dirigió los Laboratorios Alex y enseñó en la Universidad de La Plata, hasta que en 1967 se fue con su familia a los Estados Unidos.
+
+Gran parte de su biografía en Wikipedia todavía no tiene fuentes; la cuenta mejor el documental *Buscando a Tabernero*, filmado en la Argentina, Berlín y Barcelona.`,
   },
 };
