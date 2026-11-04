@@ -91,48 +91,40 @@ export default function VistaPrevia({ catalogo }) {
   useEffect(() => { catalogoRef.current = catalogo; });
 
   useEffect(() => {
-    const tactil = window.matchMedia("(hover: none)").matches;
+    // Se pregunta en cada evento (y no una vez al cargar) por si la pantalla cambia de modo.
+    const tactil = () => window.matchMedia("(hover: none)").matches;
     let entrada;
     let actual = null;
 
     const abrir = a => {
       const href = a.getAttribute("href");
       const dest = destinoDe(href);
-      if (!dest) return false;
+      if (!dest) return;
+      const hoja = tactil();
       let estilo = {};
-      if (!tactil) {
+      if (!hoja) {
         const r = a.getBoundingClientRect();
         const left = Math.max(8, Math.min(r.left, window.innerWidth - 348));
         estilo = r.bottom + 280 > window.innerHeight
           ? { left, bottom: window.innerHeight - r.top + 8 }
           : { left, top: r.bottom + 8 };
       }
-      setTarjeta({ href, estilo, hoja: tactil, datos: null });
+      setTarjeta({ href, estilo, hoja, datos: null });
       obtener(dest, catalogoRef.current)
         .then(datos => setTarjeta(t => (t?.href === href ? { ...t, datos } : t)))
         .catch(() => setTarjeta(t => (t?.href === href ? { ...t, error: true } : t)));
-      return true;
     };
     const cerrar = () => { clearTimeout(entrada); actual = null; setTarjeta(null); };
-    const tecla = e => { if (e.key === "Escape") cerrar(); };
-    window.addEventListener("hashchange", cerrar);
-    window.addEventListener("keydown", tecla);
 
-    if (tactil) {
-      // En el celular, tocar el link muestra la vista previa en vez de navegar.
-      const toque = e => {
-        const a = linkDe(e);
-        if (a && destinoDe(a.getAttribute("href"))) { e.preventDefault(); abrir(a); }
-      };
-      document.addEventListener("click", toque, true);
-      return () => {
-        document.removeEventListener("click", toque, true);
-        window.removeEventListener("hashchange", cerrar);
-        window.removeEventListener("keydown", tecla);
-      };
-    }
-
+    // En el celular, tocar el link abre la vista previa en vez de navegar; en la compu, un clic la cierra.
+    const clic = e => {
+      if (e.target.closest?.(".vista-previa")) return; // su propio link la cierra al navegar
+      if (!tactil()) { cerrar(); return; }
+      const a = linkDe(e);
+      if (a && destinoDe(a.getAttribute("href"))) { e.preventDefault(); abrir(a); }
+    };
     const encima = e => {
+      if (tactil()) return;
       const a = linkDe(e);
       if (!a || a === actual) return;
       actual = a;
@@ -141,22 +133,28 @@ export default function VistaPrevia({ catalogo }) {
       entrada = setTimeout(() => abrir(a), DEMORA);
     };
     const afuera = e => {
+      if (tactil()) return;
       const a = linkDe(e);
       if (!a || a.contains(e.relatedTarget)) return;
       actual = null;
       clearTimeout(entrada);
       salida.current = setTimeout(() => setTarjeta(null), 250);
     };
+    const desplazar = () => { if (!tactil()) cerrar(); };
+    const tecla = e => { if (e.key === "Escape") cerrar(); };
+
+    document.addEventListener("click", clic, true);
     document.addEventListener("mouseover", encima);
     document.addEventListener("mouseout", afuera);
-    document.addEventListener("click", cerrar);
-    window.addEventListener("scroll", cerrar, { passive: true });
+    window.addEventListener("scroll", desplazar, { passive: true });
+    window.addEventListener("hashchange", cerrar);
+    window.addEventListener("keydown", tecla);
     return () => {
       clearTimeout(entrada);
+      document.removeEventListener("click", clic, true);
       document.removeEventListener("mouseover", encima);
       document.removeEventListener("mouseout", afuera);
-      document.removeEventListener("click", cerrar);
-      window.removeEventListener("scroll", cerrar);
+      window.removeEventListener("scroll", desplazar);
       window.removeEventListener("hashchange", cerrar);
       window.removeEventListener("keydown", tecla);
     };
