@@ -51,6 +51,10 @@ export const LINKS = {
   "movie-165177": [ // El día que me quieras (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
   ],
+  // Las aguas bajan turbias (Hugo del Carril, 1952): tiene derechos. Copia subida por terceros.
+  "movie-318591": [
+    { nombre: "Internet Archive", url: "https://archive.org/details/las-aguas-bajan-turbias-1952_202502", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
