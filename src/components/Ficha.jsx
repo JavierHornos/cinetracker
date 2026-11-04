@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { IMG, ROLES, anioDe, persona, tituloDe } from "../lib/tmdb";
+import { IMG, ROLES, anioDe, detalles, persona, tituloDe } from "../lib/tmdb";
 import { FICHAS } from "../data/personas";
 import { BIOS } from "../data/bios";
 import TextoMd from "./TextoMd";
@@ -44,8 +44,14 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
 
   const todas = [...new Map(secciones.flatMap(s => s.pelis).map(p => [`${p.media_type}-${p.id}`, p])).values()];
   const vistas = todas.filter(vista).length;
+  // El documental puede no tener a la persona en el reparto (Tabernero no aparece en el suyo):
+  // en ese caso se trae de TMDB al tocar "FICHA".
   const documental = propia?.documental &&
     (datos?.combined_credits?.cast || []).find(c => c.id === propia.documental.tmdb_id);
+  const abrirDocumental = async () => {
+    const d = documental || await detalles(propia.documental.tmdb_id, "movie").catch(() => null);
+    if (d) onAbrir({ ...d, media_type: "movie" });
+  };
 
   if (error) return (
     <div className="banner"><span>No pude cargar la ficha: {error}</span><button className="boton chico" onClick={onVolver}>VOLVER</button></div>
@@ -89,9 +95,7 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
             <small>{propia.documental.donde}</small>
           </div>
           <div className="acciones-doc">
-            {documental && (
-              <button type="button" className="boton fantasma chico" onClick={() => onAbrir(documental)}>FICHA</button>
-            )}
+            <button type="button" className="boton fantasma chico" onClick={abrirDocumental}>FICHA</button>
             {propia.documental.url && (
               <a className="boton oro chico" href={propia.documental.url} target="_blank" rel="noreferrer">▶ VER EN CINE.AR</a>
             )}
