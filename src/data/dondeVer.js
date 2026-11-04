@@ -544,6 +544,9 @@ export const LINKS = {
   "movie-421101": [ // La bestia debe morir (1952)
     { nombre: "Internet Archive", url: "https://archive.org/details/la-bestia-debe-morir-1952", nota: "copia subida por terceros" },
   ],
+  "movie-252697": [ // El vampiro negro (1953)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-vampiro-negro-1953", nota: "copia subida por terceros" },
+  ],
   "movie-474995": [ // El abuelo (1954)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-abuelo-1954", nota: "copia subida por terceros" },
   ],
