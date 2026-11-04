@@ -107,6 +107,7 @@ En *La batalla de Maipú* (1912), filmada donde hoy está la cancha de River, lo
     documental: {
       titulo: "La vida a oscuras (Enrique Bellande, 2023)",
       tmdb_id: 1110671,
+      url: "https://play.cine.ar/INCAA/produccion/9787",
       donde: "Cine.ar · gratis con registro",
     },
     texto: `Nació en Buenos Aires en 1968. Es crítico, historiador, docente y coleccionista, y para muchos el gran cinéfilo argentino: así lo presenta Eddie Muller, de la Film Noir Foundation, en la televisión norteamericana.

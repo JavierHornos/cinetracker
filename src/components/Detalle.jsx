@@ -153,7 +153,8 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
                 <div key={g.titulo} className="donde-grupo">
                   <span className="donde-tipo">{g.titulo}</span>
                   {g.plataformas.map(p => (
-                    <a key={p.provider_id} className="plataforma" href={donde.link} target="_blank" rel="noreferrer"
+                    <a key={p.provider_id} className="plataforma" target="_blank" rel="noreferrer"
+                      href={links.find(l => l.nombre === (NOMBRES[p.provider_name] || p.provider_name))?.url || donde.link}
                       title={NOTAS[p.provider_name] ? `${NOMBRES[p.provider_name] || p.provider_name} · ${NOTAS[p.provider_name]}` : p.provider_name}>
                       <img src={`${IMG}w92${p.logo_path}`} alt="" loading="lazy" />
                       <span>{NOMBRES[p.provider_name] || p.provider_name}</span>

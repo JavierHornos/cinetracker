@@ -4,6 +4,10 @@ export const LINKS = {
   "movie-253766": [
     { nombre: "Internet Archive", url: "https://archive.org/details/mono-relojero-el-quirino-cristiani-arg-1938", nota: "copia subida por terceros · derechos: herederos de Quirino Cristiani" },
   ],
+  // La vida a oscuras (Enrique Bellande, 2023), sobre Fernando Martín Peña.
+  "movie-1110671": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/9787", nota: "gratis con registro" },
+  ],
   "movie-898015": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/7901", nota: "gratis con registro" },
   ],
