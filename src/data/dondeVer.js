@@ -4,6 +4,10 @@ export const LINKS = {
   "movie-253766": [
     { nombre: "Internet Archive", url: "https://archive.org/details/mono-relojero-el-quirino-cristiani-arg-1938", nota: "copia subida por terceros · derechos: herederos de Quirino Cristiani" },
   ],
+  // Los tres berretines (1933), de las 41 de la historia.
+  "movie-464326": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/106", nota: "gratis con registro" },
+  ],
   // La vida a oscuras (Enrique Bellande, 2023), sobre Fernando Martín Peña.
   "movie-1110671": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/9787", nota: "gratis con registro" },
