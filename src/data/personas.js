@@ -302,4 +302,24 @@ En 1949, [*Vidalita*](#/tmdb/movie/526465) disgustó a Raúl Apold, el secretari
 ### Para ver
 *Eclipse de sol* y *La dama duende* están en Cine.ar, y casi todas sus películas argentinas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Francisco Mugica (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  1411904: {
+    nombre: "Francisco Mugica",
+    rol: "Director, montajista y director de fotografía",
+    bajada: "Del montaje de Lumiton a Los martes, orquídeas: la comedia blanca que copió Hollywood.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1907 y murió en Buenos Aires en 1985. Estuvo casado con la actriz Alímedes Nelson.
+
+### El montajista de Lumiton
+Antes de dirigir, aprendió el oficio en los estudios Lumiton desde la sala de montaje y detrás de la cámara. Montó [*Los tres berretines*](#/tmdb/movie/464326) (1933), una de las dos primeras películas sonoras de la industria, y casi todas las primeras de [Manuel Romero](#/persona/1411903): [*Noches de Buenos Aires*](#/tmdb/movie/623205), [*Radio Bar*](#/tmdb/movie/696942), [*El cañonero de Giles*](#/tmdb/movie/457485) y [*Los muchachos de antes no usaban gomina*](#/tmdb/movie/445447), en varias de las cuales hizo también la fotografía.
+
+### Director de comedias
+Debutó como director en 1939 con [*Margarita, Armando y su padre*](#/tmdb/movie/316906), sobre la obra de Enrique Jardiel Poncela, con Florencio Parravicini y Mecha Ortiz, y ese mismo año hizo el drama [*Así es la vida*](#/tmdb/movie/506916). Después se especializó en la comedia: [*Medio millón por una mujer*](#/tmdb/movie/485131), [*El mejor papá del mundo*](#/tmdb/movie/636933), [*La guerra la gano yo*](#/tmdb/movie/766187), [*Mi novia es un fantasma*](#/tmdb/movie/566746).
+
+### Los martes, orquídeas
+Su película más famosa es [*Los martes, orquídeas*](#/tmdb/movie/468702) (1941), con guion de Francisco Oyarzábal sobre un argumento de Sixto Pondal Ríos y Carlos Olivari. Elenita, la menor de cuatro hermanas, es tímida y romántica, y su padre le manda cada martes un ramo de orquídeas haciéndole creer que tiene un admirador secreto. Fue el primer gran papel de Mirtha Legrand y abrió el período de las comedias blancas. La Academia la eligió la mejor película del año, y Columbia compró la historia para hacer en Hollywood *Bailando nace el amor* (1942), con Fred Astaire y Rita Hayworth.
+
+### Para ver
+Once de sus películas están en Cine.ar, entre ellas *Los martes, orquídeas*, y muchas tienen además una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. En 1958 fue uno de los fundadores de Directores Argentinos Cinematográficos.`,
+  },
 };

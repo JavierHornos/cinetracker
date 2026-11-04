@@ -51,6 +51,68 @@ export const LINKS = {
   "movie-165177": [ // El día que me quieras (1935)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-dia-que-me-quieras-1935", nota: "copia subida por terceros" },
   ],
+  // Francisco Mugica: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
+  "movie-316906": [ // Margarita, Armando y su padre (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/113", nota: "gratis con registro" },
+  ],
+  "movie-506916": [ // Así es la vida (1939)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/11", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/asi-es-la-vida-1939", nota: "copia subida por terceros" },
+  ],
+  "movie-485131": [ // Medio millón por una mujer (1940)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/115", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/medio-millon-por-una-mujer-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-485125": [ // El solterón (1940)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-solteron-1940", nota: "copia subida por terceros" },
+  ],
+  "movie-636933": [ // El mejor papá del mundo (1941)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/55", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-mejor-papa-del-mundo-1941", nota: "copia subida por terceros" },
+  ],
+  "movie-484946": [ // Adolescencia (1942)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/4", nota: "gratis con registro" },
+  ],
+  "movie-514887": [ // El viaje (1942)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1028", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-viaje-1942", nota: "copia subida por terceros" },
+  ],
+  "movie-765981": [ // La hija del ministro (1943)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-hija-del-ministro-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-599844": [ // El espejo (1943)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/50", nota: "gratis con registro" },
+  ],
+  "movie-766187": [ // La guerra la gano yo (1943)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/85", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-guerra-la-gano-yo-1943", nota: "copia subida por terceros" },
+  ],
+  "movie-566746": [ // Mi novia es un fantasma (1944)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/121", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/mi-novia-es-un-fantasma-1944", nota: "copia subida por terceros" },
+  ],
+  "movie-566890": [ // Allá en el setenta y tantos (1945)
+    { nombre: "Internet Archive", url: "https://archive.org/details/alla-en-el-setenta-y-tantos-1945", nota: "copia subida por terceros" },
+  ],
+  "movie-656804": [ // Deshojando margaritas (1946)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/34", nota: "gratis con registro" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/deshojando-margaritas-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-1106921": [ // Cristina (1946)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cristina-1946", nota: "copia subida por terceros" },
+  ],
+  "movie-777842": [ // Esperanza (1949)
+    { nombre: "Internet Archive", url: "https://archive.org/details/esperanza-1949", nota: "copia subida por terceros" },
+  ],
+  "movie-1106009": [ // Piantadino (1950)
+    { nombre: "Internet Archive", url: "https://archive.org/details/piantadino-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-553754": [ // Rescate de sangre (1952)
+    { nombre: "Internet Archive", url: "https://archive.org/details/rescate-de-sangre-1952", nota: "copia subida por terceros" },
+  ],
+  "movie-683766": [ // He nacido en Buenos Aires (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/he-nacido-en-buenos-aires-1959_202510", nota: "copia subida por terceros" },
+  ],
   // Luis Saslavsky: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-537891": [ // La fuga (1937)
     { nombre: "Internet Archive", url: "https://archive.org/details/la-fuga-1937", nota: "copia subida por terceros" },
