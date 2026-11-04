@@ -21,6 +21,10 @@ export const LINKS = {
   "movie-485429": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/175", nota: "gratis con registro" },
   ],
+  // ¡Tango! (Luis Moglia Barth, 1933): tiene derechos (Moglia Barth murió en 1984). Copia subida por terceros.
+  "movie-453652": [
+    { nombre: "Internet Archive", url: "https://archive.org/details/tango-1933", nota: "copia subida por terceros" },
+  ],
   // Los tres berretines (1933), de las 41 de la historia.
   "movie-464326": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/106", nota: "gratis con registro" },

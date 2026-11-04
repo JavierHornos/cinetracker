@@ -35,7 +35,7 @@ Casi todo el cine mudo argentino se perdió: sobreviven muy pocas películas. Po
   },
   {
     id: "sonoro", numero: 2, titulo: "Llega el sonido y nacen los estudios", desde: 1933, hasta: 1945,
-    texto: `En 1933 se estrenaron con tres semanas de diferencia las dos primeras películas sonoras argentinas: *¡Tango!* (27 de abril) y *Los tres berretines* (19 de mayo). Con ellas nació una industria que en 1939 ya era la mayor productora de cine en castellano del mundo.
+    texto: `En 1933 se estrenaron con tres semanas de diferencia las dos primeras películas argentinas con el sonido grabado en la misma película: [*¡Tango!*](#/tmdb/movie/453652) (27 de abril) y [*Los tres berretines*](#/tmdb/movie/464326) (19 de mayo). Antes, en 1931, [*Muñequitas porteñas*](#/tmdb/movie/550426), de Ferreyra, había usado discos sincronizados. Con ellas nació una industria que en 1939 ya era la mayor productora de cine en castellano del mundo.
 
 ### Dos estudios, dos estilos
 
