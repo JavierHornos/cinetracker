@@ -38,7 +38,9 @@ function resumen(texto = "") {
 async function datosPersona(id) {
   const d = await una(`persona-${id}`, () => personaBreve(id));
   const propia = FICHAS[id];
-  const vida = [d.birthday, d.deathday].map(f => f?.slice(0, 4)).filter(Boolean).join("–");
+  // Los años solo si TMDB tiene el nacimiento (a veces trae una muerte suelta, mal cargada).
+  const nace = d.birthday?.slice(0, 4);
+  const vida = nace ? (d.deathday ? `${nace}–${d.deathday.slice(0, 4)}` : `n. ${nace}`) : "";
   return {
     redonda: true,
     foto: d.profile_path,
@@ -180,7 +182,7 @@ export default function VistaPrevia({ catalogo }) {
           <div className="vp-cabeza">
             {datos.foto
               ? <img className={datos.redonda ? "redonda" : ""} src={`${IMG}w185${datos.foto}`} alt="" />
-              : <span className={`vp-sin-foto${datos.redonda ? " redonda" : ""}`} />}
+              : !datos.redonda && <span className="vp-sin-foto" />}
             <div>
               <div className="vp-titulo">{datos.titulo}</div>
               {datos.sub && <div className="vp-sub">{datos.sub}</div>}
