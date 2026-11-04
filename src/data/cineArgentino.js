@@ -52,7 +52,7 @@ Carlos Gardel filmó sus películas más famosas para Paramount, en Francia y Nu
 
 - **Manuel Romero**, el más prolífico, hizo comedias y melodramas de tango a ritmo de fábrica: *Los muchachos de antes no usaban gomina* (1937), *La rubia del camino* (1938).
 - **Mario Soffici** llevó la cámara al interior y a los conflictos sociales. *Prisioneros de la tierra* (1939), sobre los mensualíes de la yerba mate en Misiones, es para muchos la mejor película argentina de su tiempo.
-- **Leopoldo Torres Ríos**, **Luis Saslavsky** (*Historia de una noche*, 1941) y **Francisco Mugica** (*Los martes, orquídeas*, 1941, con Mirtha Legrand) completaron un cine de géneros variado.
+- **Leopoldo Torres Ríos**, **Luis Saslavsky** (*Historia de una noche*, 1941) y **Francisco Mugica** ([*Los martes, orquídeas*](#/tmdb/movie/468702), 1941, con Mirtha Legrand) completaron un cine de géneros variado.
 - **Lucas Demare** fundó con actores la cooperativa Artistas Argentinos Asociados en 1941. Su *La guerra gaucha* (1942), con guion de Homero Manzi y Ulyses Petit de Murat, fue el mayor éxito de taquilla de la época.
 
 ### El freno de 1943
@@ -72,7 +72,7 @@ Argentina se mantuvo neutral en la Segunda Guerra. En respuesta, Estados Unidos 
 | Luis Sandrini | El cómico tierno y torpe que el público adoró por décadas. | [*Cuando los duendes cazan perdices*](#/tmdb/movie/485429) (1955) |
 | Tita Merello | La mujer de arrabal, dura y popular. | *Mercado de abasto* (1955) |
 | Hugo del Carril | Cantor, galán y después director. | *Las aguas bajan turbias* (1952) |
-| Mirtha Legrand y Zully Moreno | Las damas del cine de teléfonos blancos, la comedia elegante de clase alta. | *Los martes, orquídeas* (1941) |
+| Mirtha Legrand y Zully Moreno | Las damas del cine de teléfonos blancos, la comedia elegante de clase alta. | [*Los martes, orquídeas*](#/tmdb/movie/468702) (1941) |
 
 ### El peronismo y el cine
 

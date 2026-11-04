@@ -11,6 +11,9 @@ export const LINKS = {
   "movie-427803": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/8912", nota: "gratis con registro" },
   ],
+  "movie-468702": [
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/104", nota: "gratis con registro" },
+  ],
   "movie-485429": [
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/175", nota: "gratis con registro" },
   ],
