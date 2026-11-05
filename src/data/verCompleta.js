@@ -6,6 +6,13 @@ import { AGN_GLUCKSMANN } from "./agn";
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
+  "movie-1792467": {
+    youtube: "VpU5vEMfehc",
+    licencia: "Dominio público",
+    credito: "Max Glücksmann · 1906",
+    fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=VpU5vEMfehc" },
+  },
   // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo
   // (fuente que citan: Pangea Unidad Documental / Archivo Oscar Ceballos).
   "movie-1792455": {
