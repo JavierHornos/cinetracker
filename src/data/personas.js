@@ -67,7 +67,7 @@ Desde 1907 hizo experimentos de películas sonoras, sincronizando la imagen con 
 Llegó a Buenos Aires hacia 1890 y entró como ayudante de fotografía en la Casa Lepage, la tienda del belga Henri (Enrique) Lepage, donde también trabajaba Eugenio Py. Los tres importaban cámaras y proyectores. En 1908, cuando Lepage se retiró, Glücksmann se quedó con la empresa.
 
 ### Cines y noticieros
-Abrió salas en Buenos Aires, en el interior y en Montevideo, y llegó a tener cerca de cien en Argentina, Chile, Uruguay y Paraguay. Sus noticieros se llamaban *Actualidades*, y junto a Py fue pionero del documental. También produjo ficciones como *Mariano Moreno y la Revolución de Mayo* (1915).
+Abrió salas en Buenos Aires, en el interior y en Montevideo, y llegó a tener cerca de cien en Argentina, Chile, Uruguay y Paraguay. Sus noticieros se llamaban *Actualidades*, y junto a Py fue pionero del documental. También produjo ficciones como *Mariano Moreno y la Revolución de Mayo* (1915). Dos de esas actualidades se pueden ver completas acá: [*Bartolomé Mitre visita el Museo de Historia*](#/tmdb/movie/604648) (1901) y [*Salvataje de un suicida en Mar del Plata*](#/tmdb/movie/1777537) (1905).
 
 ### El Grand Splendid
 Mandó construir el Splendid Theatre, en avenida Santa Fe, que se inauguró el 14 de mayo de 1919, con la cúpula pintada por el italiano Nazareno Orlandi. Hoy es la librería El Ateneo Grand Splendid.

@@ -4,6 +4,13 @@
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
+  "movie-1777537": {
+    youtube: "D9eif7GE4vs",
+    licencia: "Dominio público",
+    credito: "Max Glücksmann · Mar del Plata, 1905",
+    fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=D9eif7GE4vs" },
+  },
   // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
   "movie-604648": {
     youtube: "XKmJhRuqbbA",
