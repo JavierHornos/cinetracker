@@ -6,6 +6,14 @@ import { AGN_GLUCKSMANN } from "./agn";
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo
+  // (fuente que citan: Pangea Unidad Documental / Archivo Oscar Ceballos).
+  "movie-1792455": {
+    youtube: "oFd9XZcUvss",
+    licencia: "Dominio público",
+    credito: "Casa Lepage / Max Glücksmann (atribuido) · Jorge Newbery y Aarón de Anchorena, 1907-1908",
+    fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=oFd9XZcUvss" },
+  },
   // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
   "movie-1777537": {
     youtube: "qNYIbp_LKb0",
