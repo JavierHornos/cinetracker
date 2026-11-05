@@ -49,7 +49,7 @@ async function datosDe(ruta) {
   const persona = ruta.match(/^\/persona\/(\d+)\/?$/);
   if (persona) {
     const clave = Netlify.env.get("TMDB_API_KEY") || Netlify.env.get("VITE_TMDB_API_KEY");
-    const res = await fetch(`https://api.themoviedb.org/3/person/${persona[1]}?api_key=${clave}&language=es-AR`);
+    const res = await fetch(`https://api.themoviedb.org/3/person/${persona[1]}?api_key=${clave}&language=es-MX`);
     if (!res.ok) return null;
     const d = await res.json();
     const rol = ROLES[d.known_for_department] || "Cine";

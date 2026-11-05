@@ -1,4 +1,5 @@
 import { CREDITOS_EXTRA, JOB_EXTRA } from "../data/creditosExtra";
+import { TITULOS_AR } from "../data/titulosAR";
 
 // TMDB a través de la Netlify Function (la clave nunca llega al navegador).
 const FN = "/.netlify/functions/tmdb";
@@ -6,7 +7,9 @@ const FN = "/.netlify/functions/tmdb";
 export const IMG = "https://image.tmdb.org/t/p/";
 
 async function tmdb(path, params = {}) {
-  const qs = new URLSearchParams({ path, language: "es-AR", ...params });
+  // TMDB no tiene títulos ni sinopsis cargados para Argentina (con es-AR devuelve los de España):
+  // se piden los de México, que son los latinoamericanos. Las plataformas siguen siendo las de Argentina.
+  const qs = new URLSearchParams({ path, language: "es-MX", ...params });
   const res = await fetch(`${FN}?${qs}`);
   if (!res.ok) throw new Error(`TMDB respondió ${res.status}`);
   return res.json();
@@ -120,9 +123,11 @@ export function dondeVerDe(d) {
   return { link: ar.link, grupos };
 }
 
-// Las habladas en castellano van con su título original: en es-AR, TMDB a veces devuelve
-// el título de España (Futbolín en vez de Metegol).
+// Las habladas en castellano van con su título original (Metegol, no Futbolín). Las demás, con el
+// título argentino si está cargado a mano (src/data/titulosAR.js) y si no, el latinoamericano de TMDB.
 export function tituloDe(r) {
   const original = r.original_title || r.original_name;
-  return r.original_language === "es" && original ? original : r.title || r.name;
+  if (r.original_language === "es" && original) return original;
+  const tipo = r.media_type === "tv" || (!r.title && r.name) ? "tv" : "movie";
+  return TITULOS_AR[`${tipo}-${r.id}`] || r.title || r.name;
 }
