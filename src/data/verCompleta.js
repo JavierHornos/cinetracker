@@ -4,6 +4,25 @@
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
+  "movie-604648": {
+    youtube: "XKmJhRuqbbA",
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Max Glücksmann · 15 de noviembre de 1901",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: "https://www.youtube.com/watch?v=XKmJhRuqbbA" },
+  },
+  "movie-804854": {
+    youtube: "UXKQ5uQwc8g",
+    licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)",
+    credito: "Elecciones argentinas 1910-11",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=UXKQ5uQwc8g" },
+  },
+  "movie-584726": {
+    youtube: "-PfvK3hY1tM",
+    licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken",
+    credito: "Una serpiente inofensiva. La culebra (1914)",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=-PfvK3hY1tM" },
+  },
   "movie-719504": {
     webm: "https://upload.wikimedia.org/wikipedia/commons/f/fa/La_bandera_Argentina_%281897%29.webm",
     licencia: "Dominio público",
