@@ -520,4 +520,24 @@ Dirigió teatro en Uruguay y en la Argentina, y en sus últimos años trabajó e
 ### Para ver
 *Fangio* y *Fantoche* están en Cine.ar, y muchas de sus películas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Enrique García Velloso (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1223554: {
+    nombre: "Enrique García Velloso",
+    rol: "Dramaturgo y director",
+    bajada: "El hombre de teatro que dirigió Amalia, el largometraje argentino más antiguo que se conserva.",
+    principal: "Director",
+    texto: `Nació en Rosario en 1880 y murió en Buenos Aires en 1938. Era hijo del escritor Juan José García Velloso. Hombre de teatro antes que de cine, dirigió las primeras grandes películas argentinas de argumento.
+
+### El teatro
+Escribió su primera obra a los quince años, y en total más de cien: zarzuelas criollas, sainetes, comedias, dramas, vodeviles y operetas. Sus éxitos fueron *Jesús Nazareno* (1902), *Gabino el mayoral* y *Mamá Culepina* (1916), la historia de una cuartelera que sigue a las tropas de Lucio V. Mansilla. Fue profesor de castellano, literatura y declamación, escribió manuales sobre el arte del actor y dirigió a figuras como Roberto Casaux.
+
+### Amalia
+En 1914 adaptó y dirigió [*Amalia*](#/tmdb/movie/226934), sobre la novela de José Mármol, con actores aficionados de la alta sociedad porteña. Se estrenó con fines benéficos en el Teatro Colón y es el largometraje argentino más antiguo que se conserva: se puede ver completo acá. Al año siguiente hizo [*Mariano Moreno y la Revolución de Mayo*](#/tmdb/movie/912476) (1915), producida por [Max Glücksmann](#/persona/1920262), la película más cara del cine argentino hasta entonces. En 1916 dirigió [*El movimiento continuo*](#/tmdb/movie/912473) y *Un romance argentino*.
+
+### Argentores
+En 1910 fundó la Sociedad de Autores Dramáticos, que después pasó a llamarse Argentores, y fue su primer presidente: le tocó pelear por que los autores cobraran derechos por sus obras.
+
+### Sus obras en el cine sonoro
+Varias de sus historias llegaron al cine después. [José Agustín Ferreyra](#/persona/1167413) filmó [*Besos brujos*](#/tmdb/movie/257905) (1937), con Libertad Lamarque, sobre un cuento suyo, y García Velloso la repudió en una carta pública: decía que desvirtuaba su cuento en el lenguaje y en la acción. [Luis Saslavsky](#/persona/586113) adaptó su obra [*Eclipse de sol*](#/tmdb/movie/479056) (1943), y en 1956 se estrenó [*El tango en París*](#/tmdb/movie/864482), con diálogos suyos.`,
+  },
 };
