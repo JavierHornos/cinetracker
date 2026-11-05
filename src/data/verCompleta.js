@@ -4,14 +4,31 @@
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
-  // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
-  "movie-1777537": {
-    youtube: "D9eif7GE4vs",
-    licencia: "Dominio público",
-    credito: "Max Glücksmann · Mar del Plata, 1905",
-    fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=D9eif7GE4vs" },
-  },
   // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
+  "movie-1777537": {
+    youtube: "qNYIbp_LKb0",
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Casa Lepage · Mar del Plata (el AGN la fecha en 1909: «Rescate en Mar del Plata»)",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: "https://www.youtube.com/watch?v=qNYIbp_LKb0" },
+  },
+  "movie-1792511": {
+    youtube: "e_nKRvMX_ek",
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Colección Max Glücksmann · Buenos Aires, 1910",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: "https://www.youtube.com/watch?v=e_nKRvMX_ek" },
+  },
+  "movie-1796074": {
+    youtube: "gjUL-0nOXzs",
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Colección Max Glücksmann · tambor 897 (el AGN la sube como «Niños aprendiendo la señal de la cruz», c. 1910)",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: "https://www.youtube.com/watch?v=gjUL-0nOXzs" },
+  },
+  "movie-1796082": {
+    youtube: "x2F_ZihQ13E",
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Colección Max Glücksmann · Roque Sáenz Peña recorre el Hotel de Inmigrantes",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: "https://www.youtube.com/watch?v=x2F_ZihQ13E" },
+  },
   "movie-1792447": {
     youtube: "7xrtfgoIwvE",
     licencia: "Copia oficial del Archivo General de la Nación",
