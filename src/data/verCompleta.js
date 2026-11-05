@@ -12,6 +12,12 @@ export const VER_COMPLETA = {
     fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=D9eif7GE4vs" },
   },
   // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
+  "movie-1792447": {
+    youtube: "7xrtfgoIwvE",
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Colección Max Glücksmann · 1908",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: "https://www.youtube.com/watch?v=7xrtfgoIwvE" },
+  },
   "movie-604648": {
     youtube: "XKmJhRuqbbA",
     licencia: "Copia oficial del Archivo General de la Nación",
