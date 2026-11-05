@@ -70,29 +70,7 @@ Llegó a Buenos Aires hacia 1890 y entró como ayudante de fotografía en la Cas
 Abrió salas en Buenos Aires, en el interior y en Montevideo, y llegó a tener cerca de cien en Argentina, Chile, Uruguay y Paraguay. Sus noticieros se llamaban *Actualidades*, y junto a Py fue pionero del documental. También produjo ficciones como *Mariano Moreno y la Revolución de Mayo* (1915). Tres de esas actualidades se pueden ver completas acá: [*Bartolomé Mitre visita el Museo de Historia*](#/tmdb/movie/604648) (1901), [*Salvataje de un suicida en Mar del Plata*](#/tmdb/movie/1777537) (1905) y [*Excursión a Palermo*](#/tmdb/movie/1792447) (1908), una excursión escolar al Parque 3 de Febrero.
 
 ### La colección Glücksmann del AGN
-Buena parte de lo que filmó la casa de Glücksmann se conserva en el Archivo General de la Nación, que fue subiendo los rollos a su [canal de YouTube](https://www.youtube.com/@agnargentina/search?query=Glucksmann). Son treinta años de la vida argentina: actos, fútbol, escuelas, inmigrantes, presidentes y hasta el golpe de 1930. Acá van ordenados por año; cada uno carga recién al tocarlo.
-
-!video[*Cine mudo de Max Glücksmann*, de la serie *200 historias destacadas* del AGN y Canal Encuentro: una presentación de la colección.](youtube:2hd9OqqJwkY)
-
-!video[*Población toba*, fines del siglo XIX](youtube:l9IYM_jcW1M)
-!video[*Rescate en Mar del Plata*, 1909 (Casa Lepage)](youtube:qNYIbp_LKb0)
-!video[*Niños aprendiendo la señal de la cruz*, hacia 1910](youtube:gjUL-0nOXzs)
-!video[*Una carrera de caballos*, Buenos Aires, 1910](youtube:e_nKRvMX_ek)
-!video[*Inauguración del Hotel de Inmigrantes*, 1912](youtube:5T_QuCEO5CY)
-!video[*Roque Sáenz Peña recorre el Hotel de Inmigrantes*, 1912](youtube:x2F_ZihQ13E)
-!video[*Fiesta del Árbol en el pabellón Mendoza*, 4 de julio de 1912](youtube:bpCHNLiNVu4)
-!video[*Mujeres jugando al golf*, Copa Zuberbühler, Mar del Plata, 1913](youtube:wj4Z44Kfbic)
-!video[*Partido de football entre Estudiantes y Porteño*, 18 de julio de 1915](youtube:J5Er4i9srK0)
-!video[*Ejercicios de gimnasia del Colegio Militar*, 1915](youtube:cp7aPa6Bxk8)
-!video[*Construcción de un puente con pontones*, 1915](youtube:KhVETqIzUPM)
-!video[*Patronato de la Infancia*, 1920](youtube:7fdeeqZqqtc)
-!video[*Alvear en la Exposición Rural*, 1923](youtube:_E1vXrKGoM8)
-!video[*Visita del príncipe Humberto de Saboya*, 1924](youtube:a0KAqRA0Vfc)
-!video[*Alvear y Regina Pacini en la entrega de la antena de la colectividad italiana*, 1927](youtube:Ybo57tLXKSw)
-!video[*Llegan los aviadores Larre Borges y Challe a El Palomar*, 1929](youtube:3rWW-Mzm-PM)
-!video[*En la cancha de Newell's Old Boys*, 1929](youtube:QiIQVWiYmU4)
-!video[*Asilo Colonia de Menores en Mercedes*, 1930](youtube:amzDgf8wNXg)
-!video[*El golpe militar del 6 de septiembre de 1930*](youtube:qx78ASsUthE)
+Buena parte de lo que filmó la casa de Glücksmann se conserva en el Archivo General de la Nación, que fue subiendo los rollos a su [canal de YouTube](https://www.youtube.com/@agnargentina/search?query=Glucksmann). Son treinta años de la vida argentina: actos, fútbol, escuelas, inmigrantes, presidentes y hasta el golpe de 1930. Están todos en su filmografía, más abajo: cada uno se puede ver completo y marcar como visto.
 
 ### El Grand Splendid
 Mandó construir el Splendid Theatre, en avenida Santa Fe, que se inauguró el 14 de mayo de 1919, con la cúpula pintada por el italiano Nazareno Orlandi. Hoy es la librería El Ateneo Grand Splendid.
