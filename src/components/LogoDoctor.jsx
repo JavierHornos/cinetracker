@@ -4,7 +4,7 @@
 
 export function Insignia({ alto = 48 }) {
   return (
-    <svg className="insignia" viewBox="0 0 80 100" height={alto} width={alto * 0.8} aria-hidden="true">
+    <svg className="insignia-doctor" viewBox="0 0 80 100" height={alto} width={alto * 0.8} aria-hidden="true">
       <polygon points="7,9 77,0 80,93 0,100" fill="#e9dfc6" />
       <polygon points="44,0 77,0 80,38" fill="#bfae8b" />
       <polygon points="0,58 24,100 0,100" fill="#bfae8b" />
@@ -22,7 +22,7 @@ export function Torcido({ texto }) {
   return [...texto].map((c, i) => (
     <span key={i} className="letra-torcida" style={{
       transform: `translateY(${SALTOS[i % SALTOS.length]}px) rotate(${GIROS[i % GIROS.length]}deg)`,
-    }}>{c === " " ? " " : c}</span>
+    }}>{c === " " ? " " : c}</span>
   ));
 }
 
