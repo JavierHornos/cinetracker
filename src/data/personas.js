@@ -69,6 +69,8 @@ Llegó a Buenos Aires hacia 1890 y entró como ayudante de fotografía en la Cas
 ### Cines y noticieros
 Abrió salas en Buenos Aires, en el interior y en Montevideo, y llegó a tener cerca de cien en Argentina, Chile, Uruguay y Paraguay. Sus noticieros se llamaban *Actualidades*, y junto a Py fue pionero del documental. También produjo ficciones como *Mariano Moreno y la Revolución de Mayo* (1915). Tres de esas actualidades se pueden ver completas acá: [*Bartolomé Mitre visita el Museo de Historia*](#/tmdb/movie/604648) (1901), [*Salvataje de un suicida en Mar del Plata*](#/tmdb/movie/1777537) (1905) y [*Excursión a Palermo*](#/tmdb/movie/1792447) (1908), una excursión escolar al Parque 3 de Febrero.
 
+!video[*Fiesta del Árbol en el pabellón Mendoza* (4 de julio de 1912), de la colección Max Glücksmann. Copia oficial del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:bpCHNLiNVu4)
+
 !video[*Construcción de un puente con pontones* (1915), de la colección Max Glücksmann. Copia oficial del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:KhVETqIzUPM)
 
 ### El Grand Splendid
