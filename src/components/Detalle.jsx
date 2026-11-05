@@ -23,7 +23,7 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
   }, [onCerrar]);
 
   useEffect(() => {
-    if (!peli.tmdb_id) return;
+    if (!(peli.tmdb_id > 0)) return; // las del AGN (id negativo) no están en TMDB
     let vigente = true;
     detalles(peli.tmdb_id, peli.media_type).then(d => vigente && setExtra(d)).catch(() => {});
     return () => { vigente = false; };
@@ -58,7 +58,8 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
 
         <div className="cuerpo">
           <div className="cabeza">
-            {peli.poster_path && <img src={`${IMG}w342${peli.poster_path}`} alt="" />}
+            {peli.poster_path ? <img src={`${IMG}w342${peli.poster_path}`} alt="" />
+              : completa?.youtube && <img className="afiche-video" src={`https://i.ytimg.com/vi/${completa.youtube}/hqdefault.jpg`} alt="" />}
             <div>
               <h1>{peli.titulo}</h1>
               {original && <div className="original">{original}</div>}

@@ -38,9 +38,15 @@ export const CREDITOS_EXTRA = {
 // Qué rol de TMDB corresponde a cada clave.
 export const JOB_EXTRA = { dir: "Director", foto: "Director of Photography", mont: "Editor" };
 
-// Las películas que cinenacional le suma a una persona, con la forma de un crédito de TMDB.
+import { AGN_GLUCKSMANN, GLUCKSMANN } from "./agn";
+
+// Las películas que cinenacional (y la colección del AGN) le suman a una persona, con la forma de un crédito de TMDB.
 export function creditosExtraDe(personaId) {
-  return Object.entries(CREDITOS_EXTRA).flatMap(([clave, c]) => {
+  const agn = personaId === GLUCKSMANN ? AGN_GLUCKSMANN.map(p => ({
+    id: p.tmdb, media_type: "movie", job: "Director", title: p.titulo, original_title: p.titulo,
+    original_language: "es", release_date: p.anio ? `${p.anio}-01-01` : "", del_agn: true,
+  })) : [];
+  return agn.concat(Object.entries(CREDITOS_EXTRA).flatMap(([clave, c]) => {
     const [media_type, id] = clave.split("-");
     return Object.entries(JOB_EXTRA)
       .filter(([k]) => (c[k] || []).some(([pid]) => pid === personaId))
@@ -48,5 +54,5 @@ export function creditosExtraDe(personaId) {
         id: Number(id), media_type, job, title: c.titulo, original_title: c.titulo,
         original_language: "es", release_date: `${c.anio}-01-01`, de_cinenacional: true,
       }));
-  });
+  }));
 }

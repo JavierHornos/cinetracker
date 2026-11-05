@@ -1,3 +1,5 @@
+import { AGN_GLUCKSMANN } from "./agn";
+
 // Películas que se pueden ver completas dentro de la página. Clave: "movie-<id TMDB>".
 // Hoy son copias de Wikimedia Commons (dominio público o CC BY); cuando estén en el canal
 // "Cine Club El Doctor" se puede cambiar por { youtube: "<id del video>", ... }.
@@ -100,6 +102,13 @@ export const VER_COMPLETA = {
     credito: "Georges Méliès",
     fuente: { nombre: "Wikimedia Commons", url: "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm" },
   },
+  // La colección Glücksmann del AGN que TMDB no tiene (src/data/agn.js).
+  ...Object.fromEntries(AGN_GLUCKSMANN.map(p => [`movie-${p.tmdb}`, {
+    youtube: p.youtube,
+    licencia: "Copia oficial del Archivo General de la Nación",
+    credito: "Colección Max Glücksmann",
+    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: `https://www.youtube.com/watch?v=${p.youtube}` },
+  }])),
 };
 
 // Las del capítulo 1 (el cine mudo), en orden. Las que no están en VER_COMPLETA se ven con un link afuera.

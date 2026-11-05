@@ -445,3 +445,4 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .videos-grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin: 8px 0 18px; }
 .videos-grilla figure { margin: 0; }
 .videos-grilla figcaption { font-size: 13px; line-height: 1.4; }
+.cabeza img.afiche-video { aspect-ratio: 2 / 3; object-fit: cover; }
