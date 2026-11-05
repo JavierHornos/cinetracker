@@ -2,6 +2,30 @@
 // ### subtítulo, - lista, 1. lista, | tabla | (primera fila = encabezado), **negrita**, *itálica*, [link](url),
 // ![epígrafe](/img/foto.webp) sola en su párrafo para una foto con epígrafe,
 // y !video[epígrafe](youtube:ID) para un video de YouTube embebido (solo de fuentes oficiales).
+// Varios !video seguidos, uno por línea, forman una galería.
+import { useState } from "react";
+
+const RE_VIDEO = /^!video\[(.+)\]\(youtube:([\w-]+)\)$/;
+
+// Video liviano: muestra la imagen de YouTube y carga el reproductor recién al tocarlo.
+function Video({ id, titulo }) {
+  const [play, setPlay] = useState(false);
+  return (
+    <div className="video-marco">
+      {play ? (
+        <iframe src={`https://www.youtube-nocookie.com/embed/${id}?rel=0&autoplay=1`} title={titulo}
+          allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowFullScreen />
+      ) : (
+        <button type="button" className="video-portada" onClick={() => setPlay(true)} aria-label={`Reproducir ${titulo}`}>
+          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" />
+          <span className="video-play" aria-hidden="true">▶</span>
+        </button>
+      )}
+    </div>
+  );
+}
+
+const limpio = t => t.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*/g, "");
 
 function enLinea(texto, clave = "") {
   const partes = [];
@@ -31,14 +55,26 @@ export default function TextoMd({ texto }) {
   return bloques.map((bloque, i) => {
     const lineas = bloque.split("\n");
     if (bloque.startsWith("### ")) return <h3 key={i}>{enLinea(bloque.slice(4), `h${i}`)}</h3>;
-    const video = bloque.trim().match(/^!video\[(.+)\]\(youtube:([\w-]+)\)$/);
+    if (lineas.length > 1 && lineas.every(l => RE_VIDEO.test(l.trim()))) {
+      return (
+        <div key={i} className="videos-grilla">
+          {lineas.map((l, j) => {
+            const [, epigrafe, id] = l.trim().match(RE_VIDEO);
+            return (
+              <figure key={id} className="foto video">
+                <Video id={id} titulo={limpio(epigrafe)} />
+                <figcaption>{enLinea(epigrafe, `g${i}-${j}`)}</figcaption>
+              </figure>
+            );
+          })}
+        </div>
+      );
+    }
+    const video = bloque.trim().match(RE_VIDEO);
     if (video) {
       return (
         <figure key={i} className="foto video">
-          <div className="video-marco">
-            <iframe src={`https://www.youtube-nocookie.com/embed/${video[2]}?rel=0`} title={video[1].replace(/[*[\]]|\(.*?\)/g, "")}
-              loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" allowFullScreen />
-          </div>
+          <Video id={video[2]} titulo={limpio(video[1])} />
           <figcaption>{enLinea(video[1], `v${i}`)}</figcaption>
         </figure>
       );

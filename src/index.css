@@ -437,3 +437,11 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 /* Video embebido en los textos de la historia */
 .video-marco { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 4px; overflow: hidden; }
 .video-marco iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.video-portada { position: absolute; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; background: #000; cursor: pointer; }
+.video-portada img { width: 100%; height: 100%; object-fit: cover; opacity: .85; transition: opacity .2s; }
+.video-portada:hover img { opacity: 1; }
+.video-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 64px; height: 44px; border-radius: 10px; background: rgba(200, 0, 0, .9); color: #fff; font-size: 20px; display: grid; place-items: center; }
+.videos-grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin: 8px 0 18px; }
+.videos-grilla figure { margin: 0; }
+.videos-grilla figcaption { font-size: 13px; line-height: 1.4; }
