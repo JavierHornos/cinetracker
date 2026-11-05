@@ -446,3 +446,5 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .videos-grilla figure { margin: 0; }
 .videos-grilla figcaption { font-size: 13px; line-height: 1.4; }
 .cabeza img.afiche-video { aspect-ratio: 2 / 3; object-fit: cover; }
+
+.tarjeta-persona { margin-top: 28px; }

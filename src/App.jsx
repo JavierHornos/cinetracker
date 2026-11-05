@@ -669,7 +669,7 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
       <section className="capitulo">
         <h2>Quienes hacen las películas</h2>
         <div className="historia-texto">
-          <p>Detrás de cada película hay alguien que la dirige, alguien que la ilumina y alguien que la monta. Estos son los que más se repiten entre las 100 de la crítica y las 41 de la historia. Tocá un nombre para ver su ficha y toda su filmografía; en el detalle de cada película también podés tocar quién la hizo.</p>
+          <p>Detrás de cada película hay alguien que la dirige, alguien que la ilumina y alguien que la monta. Estos son los que más se repiten entre las 100 de la crítica y las 41 de la historia: debajo de cada nombre, cuántas películas hizo en ese rol y en cuántas de las listas está. Tocá un nombre para ver su ficha y toda su filmografía; en el detalle de cada película también podés tocar quién la hizo.</p>
         </div>
         {GENTE.map(g => (
           <div key={g.rol} className="galeria">
@@ -678,7 +678,7 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
               {g.personas.map(p => (
                 <button key={p.id} type="button" className="persona" onClick={() => onPersona(p.id)}>
                   {p.foto ? <img src={`${IMG}w185${p.foto}`} alt="" loading="lazy" /> : <span className="sin" />}
-                  <span>{p.nombre}<small>{p.n} películas</small></span>
+                  <span>{p.nombre}<small>{p.total} películas · {p.n} en las listas</small></span>
                 </button>
               ))}
             </div>
