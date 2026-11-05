@@ -5,6 +5,7 @@ import {
   CAPITULOS, HISTORIA_CIERRE, HISTORIA_FUENTES, HISTORIA_INTRO, POR_QUE_VERLA, QUE_APRENDES,
 } from "./data/cineArgentino";
 import TextoMd from "./components/TextoMd";
+import { Insignia, Nombre } from "./components/LogoDoctor";
 import VistaPrevia from "./components/VistaPrevia";
 import { IMG, anioDe, detalles, tituloDe } from "./lib/tmdb";
 import Estrellas from "./components/Estrellas";
@@ -323,7 +324,7 @@ function Cinetracker({ usuario }) {
       <header className="header">
         <div className="header-fila">
           <button type="button" className="logo" onClick={() => { setAbiertaId(null); elegirSeccion("1001"); }} title="Ir al inicio">
-            🎬<span className="ocultar-celu"> CINETRACKER</span>
+            <Insignia alto={46} /><span className="ocultar-celu"><Nombre /></span>
           </button>
           <Buscador placeholder="Sumar película o serie…" onElegir={agregarDesdeBusqueda}
             etiquetaDe={r => {

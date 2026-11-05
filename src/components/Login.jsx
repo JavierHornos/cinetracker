@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { supabase } from "../lib/supabase";
+import { Insignia, Nombre } from "./LogoDoctor";
 
 export default function Login({ onVolver }) {
   const [email, setEmail] = useState("");
@@ -23,7 +24,7 @@ export default function Login({ onVolver }) {
     <main className="pantalla-centro">
       <div className="login">
         {onVolver && <button type="button" className="volver" onClick={onVolver}>← VOLVER</button>}
-        <div className="logo">🎬 CINETRACKER</div>
+        <div className="logo logo-login"><Insignia alto={92} /><Nombre /></div>
         <p>Las 1001 películas del libro, un recorrido por el cine argentino y tu lista. Entrá para marcar lo que vas viendo, desde el celu o la compu.</p>
 
         <button className="boton blanco" style={{ width: "100%" }} onClick={conGoogle}>

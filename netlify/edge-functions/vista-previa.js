@@ -8,9 +8,9 @@
 const SUPABASE = "https://klsptuzmhsiwccaphjud.supabase.co";
 const CLAVE_PUBLICA = "sb_publishable_zkYPhRzwjhL8uV1VuC_lrQ_yXna3koS";
 const IMG = "https://image.tmdb.org/t/p/";
-const SITIO = "Cinetracker";
+const SITIO = "Cine Club El Doctor";
 const POR_DEFECTO = {
-  titulo: "Cinetracker",
+  titulo: "Cine Club El Doctor",
   descripcion: "Las 1001 películas del libro, un recorrido por la historia del cine argentino y las fichas de quienes hacen las películas.",
 };
 const ROLES = { Directing: "Dirección", Camera: "Dirección de fotografía", Editing: "Montaje", Acting: "Actuación" };

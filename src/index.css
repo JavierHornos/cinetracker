@@ -448,3 +448,15 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .cabeza img.afiche-video { aspect-ratio: 2 / 3; object-fit: cover; }
 
 .tarjeta-persona { margin-top: 28px; }
+
+/* Logo de Cine Club El Doctor (src/components/LogoDoctor.jsx) */
+.header .logo { display: flex; align-items: center; gap: 10px; text-shadow: none; }
+.insignia { display: block; flex-shrink: 0; filter: drop-shadow(0 0 10px rgba(180, 0, 0, .35)); }
+.nombre-doctor { display: flex; flex-direction: column; align-items: flex-start; line-height: 1; color: #e9dfc6; }
+.nombre-doctor small { font-family: var(--display); font-size: 12px; letter-spacing: 5px; color: #bfae8b; margin-bottom: 2px; }
+.nombre-doctor b { font-family: 'Grenze Gotisch', var(--display); font-weight: 800; font-size: 27px; letter-spacing: 1px; text-shadow: 0 0 18px rgba(180, 0, 0, .55); }
+.letra-torcida { display: inline-block; }
+.logo-login { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.logo-login .nombre-doctor { align-items: center; }
+.logo-login .nombre-doctor small { font-size: 16px; letter-spacing: 7px; }
+.logo-login .nombre-doctor b { font-size: 44px; }
