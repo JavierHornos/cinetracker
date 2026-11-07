@@ -298,7 +298,8 @@ function Cinetracker({ usuario }) {
   }
 
   const libro = useMemo(() => catalogo.filter(p => p.listas.includes("1001"))
-    .sort((a, b) => (a.pagina_libro ?? 9999) - (b.pagina_libro ?? 9999) || a.id - b.id), [catalogo]);
+    // Orden del libro: por página y, si comparten página, por año (el libro es cronológico).
+    .sort((a, b) => (a.pagina_libro ?? 9999) - (b.pagina_libro ?? 9999) || (a.anio ?? 0) - (b.anio ?? 0) || a.id - b.id), [catalogo]);
   const argentino = useMemo(() => catalogo.filter(p => p.listas.includes("cine_argentino"))
     .sort((a, b) => (a.anio ?? 0) - (b.anio ?? 0)), [catalogo]);
   const encuesta = useMemo(() => catalogo.filter(p => p.listas.includes("encuesta2022"))
