@@ -22,6 +22,12 @@ export const VER_COMPLETA = {
     fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=oFd9XZcUvss" },
   },
   // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
+  "movie-804364": {
+    youtube: "t8RPac4UjcM",
+    licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)",
+    credito: "Max Glücksmann · Bodas de plata de Antonio N. Pirán y Emilia A. Moutier",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=t8RPac4UjcM" },
+  },
   "movie-1777537": {
     youtube: "qNYIbp_LKb0",
     licencia: "Copia oficial del Archivo General de la Nación",
