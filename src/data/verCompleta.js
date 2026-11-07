@@ -22,6 +22,24 @@ export const VER_COMPLETA = {
     fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=oFd9XZcUvss" },
   },
   // Copias oficiales en YouTube, subidas por los propios archivos: se pueden embeber.
+  "movie-804366": {
+    youtube: "t8RPac4UjcM",
+    licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)",
+    credito: "Casa Lepage de Max Glücksmann · el mismo rollo que las bodas de plata de los Pirán",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=t8RPac4UjcM" },
+  },
+  "movie-486633": {
+    youtube: "diVm-5c4Q8Q",
+    licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)",
+    credito: "José Agustín Ferreyra, 1926 · lo que se conserva, restaurado por el Museo del Cine",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=diVm-5c4Q8Q" },
+  },
+  "movie-805117": {
+    youtube: "91oYRUFCEMw",
+    licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)",
+    credito: "Rapid Film, 1926",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=91oYRUFCEMw" },
+  },
   "movie-804364": {
     youtube: "t8RPac4UjcM",
     licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)",
@@ -71,10 +89,10 @@ export const VER_COMPLETA = {
     fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=UXKQ5uQwc8g" },
   },
   "movie-584726": {
-    youtube: "-PfvK3hY1tM",
+    youtube: "0h3V4L5uRIE",
     licencia: "Copia oficial del Museo del Cine Pablo Ducrós Hicken",
-    credito: "Una serpiente inofensiva. La culebra (1914)",
-    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=-PfvK3hY1tM" },
+    credito: "Pathé Frères, distribuida por la Casa Lepage de Max Glücksmann · restauración 2019",
+    fuente: { nombre: "Museo del Cine (YouTube)", url: "https://www.youtube.com/watch?v=0h3V4L5uRIE" },
   },
   "movie-719504": {
     webm: "https://upload.wikimedia.org/wikipedia/commons/f/fa/La_bandera_Argentina_%281897%29.webm",
@@ -126,9 +144,11 @@ export const VER_COMPLETA = {
   // La colección Glücksmann del AGN que TMDB no tiene (src/data/agn.js).
   ...Object.fromEntries(AGN_GLUCKSMANN.map(p => [`movie-${p.tmdb}`, {
     youtube: p.youtube,
-    licencia: "Copia oficial del Archivo General de la Nación",
+    licencia: p.museo ? "Copia oficial del Museo del Cine Pablo Ducrós Hicken (ciclo Nitrato argentino)" : "Copia oficial del Archivo General de la Nación",
     credito: "Colección Max Glücksmann",
-    fuente: { nombre: "Archivo General de la Nación (YouTube)", url: `https://www.youtube.com/watch?v=${p.youtube}` },
+    fuente: p.museo
+      ? { nombre: "Museo del Cine (YouTube)", url: `https://www.youtube.com/watch?v=${p.youtube}` }
+      : { nombre: "Archivo General de la Nación (YouTube)", url: `https://www.youtube.com/watch?v=${p.youtube}` },
   }])),
 };
 

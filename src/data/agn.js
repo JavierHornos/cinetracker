@@ -31,6 +31,8 @@ export const AGN_GLUCKSMANN = [
     sinopsis: "El Asilo Colonia de Menores de Mercedes, en 1930 (tambor 307)." },
   { tmdb: -10014, anio: 1930, youtube: "qx78ASsUthE", titulo: "Golpe militar del 6 de septiembre de 1930",
     sinopsis: "Imágenes del golpe militar del 6 de septiembre de 1930 (tambor 334)." },
+  { tmdb: -10016, anio: 1927, youtube: "wlgFfX_eQyI", titulo: "A los toros...!", museo: true,
+    sinopsis: "Producción de la Cinematografía Argentina Max Glücksmann, de 1927. Copia del Museo del Cine (ciclo Nitrato argentino)." },
   { tmdb: -10015, anio: 1912, youtube: "5T_QuCEO5CY", titulo: "Inauguración del Hotel de Inmigrantes (Casa Lepage)",
     sinopsis: "Otra toma de la inauguración del Hotel de Inmigrantes, en 1912, de la Casa Lepage de Max Glücksmann (tambor 296)." },
 ];
