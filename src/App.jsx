@@ -12,6 +12,7 @@ import Estrellas from "./components/Estrellas";
 import Login from "./components/Login";
 import Buscador from "./components/Buscador";
 import Tarjeta from "./components/Tarjeta";
+import { TITULOS_LIBRO } from "./data/titulosLibro";
 import Detalle from "./components/Detalle";
 import Ficha from "./components/Ficha";
 import { FICHAS, MONTI } from "./data/personas";
@@ -456,7 +457,7 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
   const q = normalizar(texto.trim());
   const visibles = filtrarEstado(pelis, marcas, estado).filter(p =>
     (!decada || (p.anio && Math.floor(p.anio / 10) * 10 === Number(decada))) &&
-    (!q || [p.titulo, p.titulo_tmdb, p.titulo_original, p.direccion].some(t => normalizar(t).includes(q))));
+    (!q || [p.titulo, p.titulo_tmdb, p.titulo_original, TITULOS_LIBRO[`${p.media_type}-${p.tmdb_id}`], p.direccion].some(t => normalizar(t).includes(q))));
 
   const opciones = [
     { id: "todas", label: "TODAS" }, { id: "porver", label: "POR VER" }, { id: "vistas", label: "VISTAS" },

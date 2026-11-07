@@ -460,3 +460,7 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .logo-login .nombre-doctor { align-items: center; }
 .logo-login .nombre-doctor small { font-size: 16px; letter-spacing: 7px; }
 .logo-login .nombre-doctor b { font-size: 44px; }
+
+/* Título del libro (edición española) cuando difiere del latinoamericano */
+.en-libro { font-size: 13px; font-style: italic; color: var(--tenue); margin-top: 2px; }
+.tarjeta .en-libro { font-size: 10.5px; line-height: 1.25; margin-top: 1px; }

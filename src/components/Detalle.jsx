@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { IMG, detalles, dondeVerDe, elegirTrailer, equipoDe } from "../lib/tmdb";
 import { LINKS, NOMBRES, NOTAS } from "../data/dondeVer";
 import { PUESTOS } from "../data/encuesta2022";
+import { TITULOS_LIBRO } from "../data/titulosLibro";
 import { VER_COMPLETA } from "../data/verCompleta";
 import { corregirPelicula } from "../lib/datos";
 import { POR_QUE_VERLA, QUE_APRENDES, capituloDe } from "../data/cineArgentino";
@@ -62,6 +63,9 @@ export default function Detalle({ peli, marca, admin, onCerrar, onMarcar, onCorr
               : completa?.youtube && <img className="afiche-video" src={`https://i.ytimg.com/vi/${completa.youtube}/hqdefault.jpg`} alt="" />}
             <div>
               <h1>{peli.titulo}</h1>
+              {TITULOS_LIBRO[`${peli.media_type}-${peli.tmdb_id}`] && (
+                <div className="en-libro">En el libro: {TITULOS_LIBRO[`${peli.media_type}-${peli.tmdb_id}`]}</div>
+              )}
               {original && <div className="original">{original}</div>}
               <div className="meta">
                 {peli.anio && <span>{peli.anio}</span>}
