@@ -583,6 +583,70 @@ export const LINKS = {
   "movie-811120": [ // Villa Delicia, playa de estacionamiento, música ambiental (1966)
     { nombre: "Internet Archive", url: "https://archive.org/details/villa-delicia-playa-de-estacionamiento-musica-ambiental-aka-demetrio-silbame-la-marcha-nupcial-1965", nota: "copia subida por terceros" },
   ],
+  // Canal CRFA | Cine Mudo: no se sabe si son de dominio público (o no lo son): solo link afuera.
+  "movie-1817577": [ // Actualidades N°11 (Filippini, 1927)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=b6zZgZfNyUA", nota: "copia subida por terceros" },
+  ],
+  "movie-1817614": [ // La gran pared del oeste (1939)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=bVl88KxuanM", nota: "copia subida por terceros" },
+  ],
+  "movie-1587347": [ // La chacra de Don Bautista (1938)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=-fi6aFPib6c", nota: "copia subida por terceros" },
+  ],
+  "movie-1166330": [ // La flor de la ribera (1931)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=gDc9ZjMY654", nota: "copia subida por terceros" },
+  ],
+  "movie-691110": [ // Pancho Talero en la prehistoria (1930)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=aI15flDSZwg", nota: "copia subida por terceros" },
+  ],
+  "movie-507182": [ // Entre los hielos de las islas Orcadas (1928)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=4tuc2QYjSNo", nota: "copia subida por terceros" },
+  ],
+  "movie-978877": [ // Historia de un gaucho viejo (1924)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=oiD4U-7h6kE", nota: "copia subida por terceros" },
+  ],
+  "movie-804362": [ // En tierras nuevas donde el oro abunda (1924)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=_oS6GLmtQTE", nota: "copia subida por terceros" },
+  ],
+  "movie-1535730": [ // Recuerdos del Colegio Nacional Buenos Aires (1923)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=tsLXQOjn5NY", nota: "copia subida por terceros" },
+  ],
+  "movie-1263698": [ // En pos de la tierra (1922)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=UUX4Q5j1BBg", nota: "copia subida por terceros" },
+  ],
+  "movie-650427": [ // El suplicio del fuego (1922, fragmentos)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=s__nEGi6Sgk", nota: "copia subida por terceros" },
+  ],
+  "movie-454778": [ // La mosca y sus peligros (1920)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=290yQzfCN1w", nota: "copia subida por terceros" },
+  ],
+  "movie-408179": [ // Hasta después de muerta (1916)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=NhMsRDBl_J0", nota: "copia subida por terceros" },
+  ],
+  "movie-483995": [ // Juan sin ropa (1919)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=71pa5rCwSJk", nota: "copia subida por terceros" },
+  ],
+  "movie-626512": [ // El pañuelo de Clarita (1919)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=x4q5ilZEm5Y", nota: "copia subida por terceros" },
+  ],
+  "movie-1815591": [ // Los Sports (Cristiani, fragmento)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=9dyUf2Ymizo", nota: "copia subida por terceros" },
+  ],
+  "movie-628909": [ // Los que ligan (Cristiani, 1919)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=IGQdQs53xwM", nota: "copia subida por terceros" },
+  ],
+  "movie-156402": [ // En el infierno del Chaco (1932)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=_5EKCjImpww", nota: "copia subida por terceros" },
+  ],
+  "movie-660853": [ // Una nueva y gloriosa nación (1928)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=ndUbcijKILc", nota: "copia subida por terceros" },
+  ],
+  "movie-1105200": [ // Las naciones de América (1927)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=35waV11DniE", nota: "copia subida por terceros" },
+  ],
+  "movie-186463": [ // El último centauro (1924)
+    { nombre: "YouTube (CRFA | Cine Mudo)", url: "https://www.youtube.com/watch?v=qXXbQVgmkfQ", nota: "copia subida por terceros" },
+  ],
   // Lucas Demare: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
   "movie-616477": [ // Dos amigos y un amor (1938)
     { nombre: "Internet Archive", url: "https://archive.org/details/dos-amigos-y-un-amor-1937", nota: "copia subida por terceros" },
