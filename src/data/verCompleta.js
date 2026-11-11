@@ -7,6 +7,13 @@ import { AGN_GLUCKSMANN } from "./agn";
 
 export const VER_COMPLETA = {
   // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
+  "movie-1792483": {
+    youtube: "qs67V0WUyrU",
+    licencia: "Dominio público",
+    credito: "Max Glücksmann · Gran Revista Naval del Centenario, 21 de mayo de 1910",
+    fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=qs67V0WUyrU" },
+  },
+  // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
   "movie-1792467": {
     youtube: "VpU5vEMfehc",
     licencia: "Dominio público",
