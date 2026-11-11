@@ -7,6 +7,13 @@ import { AGN_GLUCKSMANN } from "./agn";
 
 export const VER_COMPLETA = {
   // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
+  "movie-1792496": {
+    youtube: "BXWoxWcPxv0",
+    licencia: "Dominio público",
+    credito: "Max Glücksmann · Gran Premio Hípico del Centenario, 22 de mayo de 1910",
+    fuente: { nombre: "CRFA | Cine Mudo (YouTube)", url: "https://www.youtube.com/watch?v=BXWoxWcPxv0" },
+  },
+  // Dominio público (Glücksmann murió en 1946): copia subida a YouTube por el canal CRFA | Cine Mudo.
   "movie-1792483": {
     youtube: "qs67V0WUyrU",
     licencia: "Dominio público",
