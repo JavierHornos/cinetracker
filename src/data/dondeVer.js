@@ -1194,9 +1194,6 @@ export const LINKS = {
     { nombre: "Internet Archive", url: "https://archive.org/details/uei-paesano-1953", nota: "copia subida por terceros" },
   ],
   // José Agustín Ferreyra: Cine.ar primero; si no, la copia de Internet Archive subida por terceros.
-  "movie-184880": [ // La vuelta al bulín (1926)
-    { nombre: "Internet Archive", url: "https://archive.org/details/la-vuelta-al-bulin-1926", nota: "copia subida por terceros" },
-  ],
   "movie-550426": [ // Muñequitas porteñas (1931)
     { nombre: "Internet Archive", url: "https://archive.org/details/munequitas-portenas-1931", nota: "copia subida por terceros" },
   ],
