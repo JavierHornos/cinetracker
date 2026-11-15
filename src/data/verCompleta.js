@@ -344,6 +344,12 @@ export const VER_COMPLETA = {
     credito: "Hermanos Lumière",
     fuente: { nombre: "Wikimedia Commons", url: "https://commons.wikimedia.org/wiki/File:Arrival_of_a_Train_at_La_Ciotat_(The_Lumi%C3%A8re_Brothers,_1895).webm" },
   },
+  "movie-5698": {
+    archive: "TheGreatTrainRobbery1903",
+    licencia: "Dominio público (Porter murió en 1941)",
+    credito: "Edwin S. Porter · Edison",
+    fuente: { nombre: "Internet Archive", url: "https://archive.org/details/TheGreatTrainRobbery1903" },
+  },
   "movie-233020": {
     webm: "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/La_revoluci%C3%B3n_de_mayo_%28Mario_Gallo%2C_1909%29.ogv/La_revoluci%C3%B3n_de_mayo_%28Mario_Gallo%2C_1909%29.ogv.240p.vp9.webm",
     mov: "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/La_revoluci%C3%B3n_de_mayo_%28Mario_Gallo%2C_1909%29.ogv/La_revoluci%C3%B3n_de_mayo_%28Mario_Gallo%2C_1909%29.ogv.360p.mpeg4.mov",
