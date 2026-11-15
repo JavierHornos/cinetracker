@@ -1,5 +1,15 @@
 // Links directos que TMDB no tiene (o no tiene completos). Clave: "movie-<id TMDB>" o "tv-<id TMDB>".
 export const LINKS = {
+  // Canal Cinefilia: todavía no son de dominio público en la Argentina (algún autor murió hace menos de 50 años): solo link afuera.
+  "movie-643": [ // El acorazado Potemkin (1925)
+    { nombre: "YouTube (Cinefilia)", url: "https://www.youtube.com/watch?v=3MgYVgszFGw", nota: "copia subida por terceros" },
+  ],
+  "movie-3059": [ // Intolerancia (1916)
+    { nombre: "YouTube (Cinefilia)", url: "https://www.youtube.com/watch?v=i_WGLV5moyc", nota: "copia subida por terceros" },
+  ],
+  "movie-143": [ // Sin novedad en el frente (1930)
+    { nombre: "YouTube (Cinefilia)", url: "https://www.youtube.com/watch?v=n7FqDhUM7xo", nota: "copia subida por terceros" },
+  ],
   // No es de dominio público (Cristiani murió en 1984): link afuera, no embebida. Pedir permiso para embeberla.
   "movie-253766": [
     { nombre: "Internet Archive", url: "https://archive.org/details/mono-relojero-el-quirino-cristiani-arg-1938", nota: "copia subida por terceros · derechos: herederos de Quirino Cristiani" },

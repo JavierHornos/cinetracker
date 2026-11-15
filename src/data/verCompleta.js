@@ -6,6 +6,97 @@ import { AGN_GLUCKSMANN } from "./agn";
 // También acepta { archive: "<identificador en archive.org>" }.
 
 export const VER_COMPLETA = {
+  // Canal Cinefilia (YouTube): películas de las 1001 en dominio público, con intertítulos en castellano.
+  "movie-961": { // El maquinista de La General (1926)
+    youtube: "zfMo02ZKEmo",
+    licencia: "Dominio público (Keaton murió en 1966)",
+    credito: "Buster Keaton y Clyde Bruckman",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=zfMo02ZKEmo" },
+  },
+  "movie-899": { // Lirios rotos (1919)
+    youtube: "KGHjKRlAAL8",
+    licencia: "Dominio público (Griffith murió en 1948)",
+    credito: "D. W. Griffith",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=KGHjKRlAAL8" },
+  },
+  "movie-992": { // El moderno Sherlock Holmes (1924)
+    youtube: "43HYV954Nik",
+    licencia: "Dominio público (Keaton murió en 1966)",
+    credito: "Buster Keaton",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=43HYV954Nik" },
+  },
+  "movie-618": { // El nacimiento de una nación (1915)
+    youtube: "vIl-qDgv2Ds",
+    licencia: "Dominio público (Griffith murió en 1948)",
+    credito: "D. W. Griffith",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=vIl-qDgv2Ds" },
+  },
+  "movie-32600": { // Siete ocasiones (1925)
+    youtube: "A-OxTBQqRdM",
+    licencia: "Dominio público (Keaton murió en 1966)",
+    credito: "Buster Keaton",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=A-OxTBQqRdM" },
+  },
+  "movie-653": { // Nosferatu (1922)
+    youtube: "-d2otW-98gA",
+    licencia: "Dominio público (Murnau murió en 1931)",
+    credito: "F. W. Murnau",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=-d2otW-98gA" },
+  },
+  "movie-1405": { // Avaricia (1924)
+    youtube: "ZxwA4je66hA",
+    licencia: "Dominio público (Von Stroheim murió en 1957)",
+    credito: "Erich von Stroheim",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=ZxwA4je66hA" },
+  },
+  "movie-701": { // La ley de la hospitalidad (1923)
+    youtube: "-n4aC6mfhHE",
+    licencia: "Dominio público (Keaton murió en 1966)",
+    credito: "Buster Keaton y John G. Blystone",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=-n4aC6mfhHE" },
+  },
+  "movie-234": { // El gabinete del doctor Caligari (1920)
+    youtube: "WenV_Jrja6c",
+    licencia: "Dominio público (Wiene murió en 1938)",
+    credito: "Robert Wiene",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=WenV_Jrja6c" },
+  },
+  "movie-31509": { // Las dos tormentas (1920)
+    youtube: "9CtS0l9UHs8",
+    licencia: "Dominio público (Griffith murió en 1948)",
+    credito: "D. W. Griffith",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=9CtS0l9UHs8" },
+  },
+  "movie-42511": { // Las dos huérfanas (1921)
+    youtube: "cDAvNe3d0QE",
+    licencia: "Dominio público (Griffith murió en 1948)",
+    credito: "D. W. Griffith",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=cDAvNe3d0QE" },
+  },
+  "movie-631": { // Amanecer (1927)
+    youtube: "5AreJjVuhCg",
+    licencia: "Dominio público (Murnau murió en 1931)",
+    credito: "F. W. Murnau",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=5AreJjVuhCg" },
+  },
+  "movie-35227": { // Esposas frívolas (1922)
+    youtube: "lEXynxobGBQ",
+    licencia: "Dominio público (Von Stroheim murió en 1957)",
+    credito: "Erich von Stroheim",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=lEXynxobGBQ" },
+  },
+  "movie-5991": { // El último (1924)
+    youtube: "_YtJfXrMsZY",
+    licencia: "Dominio público (Murnau murió en 1931)",
+    credito: "F. W. Murnau",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=_YtJfXrMsZY" },
+  },
+  "movie-669": { // Nanuk, el esquimal (1922)
+    youtube: "h6FNJ6ZgZcM",
+    licencia: "Dominio público (Flaherty murió en 1951)",
+    credito: "Robert Flaherty",
+    fuente: { nombre: "Cinefilia (YouTube)", url: "https://www.youtube.com/watch?v=h6FNJ6ZgZcM" },
+  },
   // Canal CRFA | Cine Mudo: películas de dominio público (sus directores murieron hace más de 50 años).
   "movie-1796085": {
     youtube: "Mgi6WyNamVw",
