@@ -26,6 +26,9 @@ function Video({ id, titulo }) {
 }
 
 const limpio = t => t.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*/g, "");
+export const limpiarMd = limpio;
+// id de un subtítulo (###), para el índice de la historia.
+export const slugTitulo = t => "sub-" + limpio(t).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 function enLinea(texto, clave = "") {
   const partes = [];
@@ -54,7 +57,7 @@ export default function TextoMd({ texto }) {
   const bloques = texto.trim().replace(/^(### .*)\n(?!\s*\n)/gm, "$1\n\n").split(/\n\s*\n/);
   return bloques.map((bloque, i) => {
     const lineas = bloque.split("\n");
-    if (bloque.startsWith("### ")) return <h3 key={i}>{enLinea(bloque.slice(4), `h${i}`)}</h3>;
+    if (bloque.startsWith("### ")) return <h3 key={i} id={slugTitulo(bloque.slice(4))}>{enLinea(bloque.slice(4), `h${i}`)}</h3>;
     if (lineas.length > 1 && lineas.every(l => RE_VIDEO.test(l.trim()))) {
       return (
         <div key={i} className="videos-grilla">

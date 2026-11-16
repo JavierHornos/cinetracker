@@ -4,7 +4,7 @@ import * as db from "./lib/datos";
 import {
   CAPITULOS, HISTORIA_CIERRE, HISTORIA_FUENTES, HISTORIA_INTRO, POR_QUE_VERLA, QUE_APRENDES,
 } from "./data/cineArgentino";
-import TextoMd from "./components/TextoMd";
+import TextoMd, { limpiarMd, slugTitulo } from "./components/TextoMd";
 import { Insignia, Nombre } from "./components/LogoDoctor";
 import VistaPrevia from "./components/VistaPrevia";
 import { IMG, anioDe, detalles, tituloDe } from "./lib/tmdb";
@@ -508,6 +508,7 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
 
   return (
     <div className="historia">
+      <div className="historia-principal">
       <header className="historia-cabeza">
         <h1>Historia del cine argentino</h1>
         <p className="bajada">Del cine mudo a hoy: directores, actores y películas para aprender.</p>
@@ -669,7 +670,7 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
         </div>
       </section>
 
-      <section className="capitulo">
+      <section id="cap-gente" className="capitulo">
         <h2>Quienes hacen las películas</h2>
         <div className="historia-texto">
           <p>Detrás de cada película hay alguien que la dirige, alguien que la ilumina y alguien que la monta. Estos son los que más se repiten entre las 100 de la crítica y las 41 de la historia: debajo de cada nombre, cuántas películas hizo en ese rol y en cuántas de las listas está. Tocá un nombre para ver su ficha y toda su filmografía; en el detalle de cada película también podés tocar quién la hizo.</p>
@@ -698,7 +699,71 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
         <div className="historia-texto"><TextoMd texto={HISTORIA_CIERRE} /></div>
         <div className="historia-texto fuentes"><TextoMd texto={HISTORIA_FUENTES} /></div>
       </section>
+      </div>
+      <IndiceHistoria />
     </div>
+  );
+}
+
+// Índice fijo al costado (solo en pantallas anchas): capítulos y sus apartados (###),
+// marcando dónde está el lector.
+const INDICE = [
+  ...CAPITULOS.map(c => ({
+    id: `cap-${c.id}`, texto: `${c.numero}. ${c.titulo}`,
+    subs: [...c.texto.matchAll(/^### (.+)$/gm)].map(m => ({ id: slugTitulo(m[1]), texto: limpiarMd(m[1]) })),
+  })),
+  { id: "cap-las41", texto: "Las 41 películas", subs: [] },
+  { id: "cap-encuesta", texto: "Las 100 de la crítica", subs: [] },
+  { id: "cap-gente", texto: "Quienes hacen las películas", subs: [] },
+];
+
+function IndiceHistoria() {
+  const [activo, setActivo] = useState(null);
+  const lista = useRef(null);
+  useEffect(() => {
+    const ids = INDICE.flatMap(c => [c.id, ...c.subs.map(s => s.id)]);
+    let pendiente = false;
+    const medir = () => {
+      pendiente = false;
+      let actual = null;
+      for (const id of ids) {
+        const el = document.getElementById(id);
+        if (el && el.getBoundingClientRect().top < 160) actual = id;
+      }
+      setActivo(actual);
+    };
+    const alScroll = () => { if (!pendiente) { pendiente = true; requestAnimationFrame(medir); } };
+    medir();
+    window.addEventListener("scroll", alScroll, { passive: true });
+    return () => window.removeEventListener("scroll", alScroll);
+  }, []);
+  // Que el renglón activo quede a la vista dentro del índice.
+  useEffect(() => {
+    const el = lista.current?.querySelector(".activo");
+    if (el) el.scrollIntoView({ block: "nearest" });
+  }, [activo]);
+  const ir = id => document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const capActivo = INDICE.find(c => c.id === activo || c.subs.some(s => s.id === activo))?.id;
+  return (
+    <aside className="historia-indice" aria-label="Índice">
+      <div className="etiqueta">ÍNDICE</div>
+      <ol ref={lista}>
+        {INDICE.map(c => (
+          <li key={c.id} className={c.id === capActivo ? "abierto" : ""}>
+            <button type="button" className={c.id === activo ? "activo" : ""} onClick={() => ir(c.id)}>{c.texto}</button>
+            {c.subs.length > 0 && (
+              <ol>
+                {c.subs.map(s => (
+                  <li key={s.id}>
+                    <button type="button" className={s.id === activo ? "activo" : ""} onClick={() => ir(s.id)}>{s.texto}</button>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </li>
+        ))}
+      </ol>
+    </aside>
   );
 }
 
