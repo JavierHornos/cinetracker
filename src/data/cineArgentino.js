@@ -104,7 +104,7 @@ Mientras Hollywood inventaba el *film noir*, los estudios argentinos lo trajeron
 - [*Apenas un delincuente*](#/pelicula/1156) ([Hugo Fregonese](#/persona/31336), 1949): un empleado estafa a su empresa, esconde la plata y cumple seis años de cárcel pensando en disfrutarla al salir. Filmada en las calles de Buenos Aires, casi como un documental, le abrió a Fregonese las puertas de Hollywood.
 - [*Si muero antes de despertar*](#/pelicula/1161) y [*No abras nunca esa puerta*](#/pelicula/1180) ([Carlos Hugo Christensen](#/persona/107292), 1952): cuentos del norteamericano Cornell Woolrich (William Irish), con guion de Alejandro Casona y fotografía de [Pablo Tabernero](#/persona/1818145), el maestro de Chango Monti. En la segunda hay una secuencia de cinco minutos sin palabras, en sombras: una madre ciega busca el arma de su hijo mientras él duerme.
 - [*El vampiro negro*](#/tmdb/movie/252697) ([Román Viñoly Barreto](#/persona/1023449), 1953): una versión porteña de *M*, de Fritz Lang, sobre un asesino de niñas que aterroriza a la ciudad. Con fotografía de Aníbal González Paz, es de lo más expresionista del cine argentino.
-- [*Los tallos amargos*](#/pelicula/1177) (Fernando Ayala, 1956): un periodista entra en un negocio de estafas por correspondencia y lo empiezan a carcomer las sospechas. La cumbre del género, y una película que estuvo a punto de perderse para siempre.
+- [*Los tallos amargos*](#/pelicula/1177) ([Fernando Ayala](#/persona/220264), 1956): un periodista entra en un negocio de estafas por correspondencia y lo empiezan a carcomer las sospechas. La cumbre del género, y una película que estuvo a punto de perderse para siempre.
 
 ### Los tallos amargos, la película rescatada
 
@@ -147,7 +147,7 @@ Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, 
 - **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).
 - **Manuel Antín**: *La cifra impar* (1962), sobre un cuento de Cortázar.
 
-En paralelo, **Fernando Ayala** y **Héctor Olivera** fundaron en 1956 Aries Cinematográfica, que fue durante décadas la productora comercial más fuerte del país.
+En paralelo, **[Fernando Ayala](#/persona/220264)** y **Héctor Olivera** fundaron en 1956 Aries Cinematográfica, que fue durante décadas la productora comercial más fuerte del país.
 
 ### Leonardo Favio, el outsider
 
@@ -199,7 +199,7 @@ Lo que llegaba a las salas era sobre todo entretenimiento: comedias de Alberto O
 Desde 1978, con la censura un poco más floja, algunos directores contaron el clima de la época con el género como coartada:
 
 - **Adolfo Aristarain**: *La parte del león* (1978) y sobre todo *Tiempo de revancha* (1981), con Federico Luppi. Un obrero se finge mudo para demandar a una empresa minera. Es una metáfora clara del silencio impuesto.
-- **Fernando Ayala**: *Plata dulce* (1982), sobre la especulación financiera de la "tablita" de Martínez de Hoz.
+- **[Fernando Ayala](#/persona/220264)**: [*Plata dulce*](#/tmdb/movie/118198) (1982), sobre la especulación financiera de la "tablita" de Martínez de Hoz.
 - **María Luisa Bemberg**, que empezó a dirigir pasados los 50 años: *Momentos* (1981) y *Señora de nadie* (1982), con una mirada feminista inédita en el cine argentino.
 - **Héctor Olivera**: *No habrá más penas ni olvido* (1983), sobre la novela de Osvaldo Soriano, una sátira sobre la violencia interna del peronismo. Se estrenó en el fin de la dictadura.`,
     peliculas: ["Tiempo de revancha", "Plata dulce", "No habrá más penas ni olvido"],

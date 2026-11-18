@@ -29,6 +29,7 @@ export const CREDITOS_EXTRA = {
   "movie-226216": { titulo: "Los traidores", anio: 1973, foto: [[1456852, "Julio Lencina"], [3432229, "Rinaldo Arsenio Pica"]] },
   "movie-127449": { titulo: "La tregua", anio: 1974, foto: [[995370, "Juan Carlos Desanzo"]], mont: [[1070260, "Juan Carlos Macías"]] },
   "movie-62499": { titulo: "Boquitas pintadas", anio: 1974, foto: [[116203, "Aníbal Di Salvo"]] },
+  "movie-353916": { titulo: "Argentinísima", anio: 1972, dir: [[220264, "Fernando Ayala"]] },
   "movie-246896": { titulo: "No habrá más penas ni olvido", anio: 1983, foto: [[2351756, "Eber Latour"]] },
   "movie-42085": { titulo: "Camila", anio: 1984, foto: [[33824, "Fernando Arribas"]] },
   "movie-193302": { titulo: "Los rubios", anio: 2003, foto: [[4298147, "Catalina Fernández"]] },

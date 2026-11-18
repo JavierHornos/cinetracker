@@ -401,6 +401,35 @@ Se fue del país y siguió filmando en Italia, como la experimental [*ORG*](#/tm
 ### Para ver
 *Tire dié*, *Los inundados* y otras ocho películas con él están en Cine.ar, entre ellas *Ata tu arado a una estrella*, el documental de Carmen Guarini sobre sus últimos años.`,
   },
+  // ── Fernando Ayala (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  220264: {
+    nombre: "Fernando Ayala",
+    rol: "Director, guionista y productor",
+    bajada: "Los tallos amargos, El jefe y Plata dulce: el director que fundó Aries con Héctor Olivera.",
+    principal: "Director",
+    texto: `Nació en Gualeguay, Entre Ríos, en 1920 y murió en Buenos Aires en 1997. Fue director, guionista y, sobre todo, productor: con [Héctor Olivera](#/persona/52121) fundó Aries Cinematográfica, la productora más fuerte del cine argentino durante cuarenta años.
+
+### El oficio
+Aprendió en el rodaje. Desde 1942 fue asistente de dirección en quince películas, entre ellas *El espejo* (1943), de [Francisco Mugica](#/persona/1411904), y *Dock Sud* (1953). Antes de su primer largo dirigió y escribió dos cortos: *El trasandino del Norte* (1949) y *Vuelo 300* (1950).
+
+### El debut: cine negro y cine moderno
+Debutó con [*Ayer fue primavera*](#/tmdb/movie/537899) (1955), y al año siguiente hizo [*Los tallos amargos*](#/tmdb/movie/185250) (1956), la cumbre del cine negro argentino. Empezó a dirigir justo cuando cayó Perón, y eso le permitió meter una crítica social que antes no habría pasado la censura. Con [*El jefe*](#/tmdb/movie/264386) (1958), con Alberto de Mendoza como líder de una patota de muchachos, y [*El candidato*](#/tmdb/movie/562493) (1959), sobre una campaña electoral, el cine argentino volvió a mostrarse afuera. Está en el comienzo de la renovación de los 50 y 60, junto a [Torre Nilsson](#/persona/116197).
+
+### Aries
+En 1956 fundó con Olivera Aries Cinematográfica Argentina, y la presidió hasta su muerte. Fueron socios toda la vida y, durante algunos años, pareja, algo que Olivera contó recién en 2021, en su autobiografía *Fabricante de sueños*. Aries hizo de todo: el cine de autor de los dos y las comedias más taquilleras del país. Ayala dirigió a Luis Sandrini en [*El profesor hippie*](#/tmdb/movie/55323) (1969) y sus secuelas, y con Olivera codirigió [*Argentinísima*](#/tmdb/movie/353916) (1972), un recorrido por el folclore. Como productor está detrás de [*La Patagonia rebelde*](#/tmdb/movie/64978) (1974), [*La nona*](#/tmdb/movie/118195) (1979), [*No habrá más penas ni olvido*](#/tmdb/movie/246896) (1983) y [*La noche de los lápices*](#/tmdb/movie/55269) (1986).
+
+### Lo que otros no filmaban
+Aries filmó temas y personajes que el cine argentino evitaba. En [*Primero yo*](#/tmdb/movie/198834) (1964) un hijo quiere ser bailarín contra la voluntad de su padre, y la película muestra el ambiente gay de la danza porteña sin burla, por primera vez. Su última película, [*Dios los cría*](#/tmdb/movie/135532) (1991), tiene como protagonista a un hombre gay y a su comunidad.
+
+### Plata dulce
+Con la dictadura terminando hizo [*Plata dulce*](#/tmdb/movie/118198) (1982), con Federico Luppi y Julio De Grazia, sobre la especulación financiera de la "tablita" de Martínez de Hoz. Los dos volvieron a juntarse en [*El arreglo*](#/tmdb/movie/342731) (1983). Siguieron [*Pasajeros de una pesadilla*](#/tmdb/movie/505972) (1984), sobre un crimen real, y [*El año del conejo*](#/tmdb/movie/796817) (1987).
+
+### Reconocimiento
+Fue uno de los fundadores de Directores Argentinos Cinematográficos en 1958 y recibió el Premio Konex en 1981 y en 1991.
+
+### Para ver
+Muchas de sus películas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

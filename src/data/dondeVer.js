@@ -1291,6 +1291,34 @@ export const LINKS = {
   "movie-185250": [
     { nombre: "Internet Archive", url: "https://archive.org/details/los-tallos-amargos-the-bitter-stems-1956-eng-sub-restored-movie-720p-hd", nota: "copia restaurada subida por terceros, con la presentación de Eddie Muller (TCM) y subtítulos en inglés" },
   ],
+  // Fernando Ayala (murió en 1997): no son de dominio público. Copias subidas por terceros.
+  "movie-537899": [ // Ayer fue primavera (1955)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ayer-fue-primavera-1955", nota: "copia subida por terceros" },
+  ],
+  "movie-684244": [ // Una viuda difícil (1957)
+    { nombre: "Internet Archive", url: "https://archive.org/details/una-viuda-dificil-1957", nota: "copia subida por terceros" },
+  ],
+  "movie-264386": [ // El jefe (1958)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-jefe-1958_202606", nota: "copia subida por terceros" },
+  ],
+  "movie-562493": [ // El candidato (1959)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-candidato-1959_202606", nota: "copia subida por terceros" },
+  ],
+  "movie-264388": [ // Paula cautiva (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/paula-cautiva-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-198834": [ // Primero yo (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/primero-yo-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-611841": [ // Hotel alojamiento (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/hotel-alojamiento-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-568246": [ // La guita (1970)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-guita-1970_202508", nota: "copia subida por terceros" },
+  ],
+  "movie-614717": [ // Triángulo de cuatro (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/triangulo-de-cuatro-1975", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
