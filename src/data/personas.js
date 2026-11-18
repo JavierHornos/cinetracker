@@ -430,6 +430,35 @@ Fue uno de los fundadores de Directores Argentinos Cinematográficos en 1958 y r
 ### Para ver
 Muchas de sus películas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── David José Kohon (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1453186: {
+    nombre: "David José Kohon",
+    rol: "Director, guionista y crítico",
+    bajada: "Tres veces Ana y Breve cielo: Buenos Aires y sus solitarios en la Generación del 60.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1929 y murió en Buenos Aires en 2004. Fue uno de los nombres centrales de la Generación del 60, y su tema fue siempre la ciudad: la vida porteña y sus personajes solitarios.
+
+### Crítico, escritor y ayudante
+Antes de filmar escribió. Hizo crítica de cine en *Gente de Cine*, *Mundo Argentino* y el diario *Democracia*, y fue parte de la Asociación de Cronistas Cinematográficos. Escribió teatro y una novela, *El negro círculo de la calle* (1964). En el cine empezó desde abajo: en 1950 fue ayudante de dirección en *Patrulla Norte* y en 1952, segundo ayudante de [Leopoldo Torres Ríos](#/persona/1452584) en *La encrucijada*.
+
+### Los cortos
+En 1950 dirigió el corto *La flecha y un compás*, donde también actúa. El que lo hizo conocido en los cineclubes fue [*Buenos Aires*](#/tmdb/movie/488586) (1958), un corto de mirada social sobre la ciudad.
+
+### La Generación del 60
+Con el nuevo cine europeo como referencia, Antonioni y la Nueva Ola francesa, hizo [*Prisioneros de una noche*](#/tmdb/movie/413777) (1960), con Alfredo Alcón y María Vaner y fotografía de [Alberto Etchebehere](#/persona/1173339), y [*Tres veces Ana*](#/tmdb/movie/392745) (1961), tres historias con María Vaner como tres mujeres distintas, fotografiada por [Ricardo Aronovich](#/persona/22456). No buscaba solo retratar las preocupaciones de su época: quería cambiar la forma de filmarlas.
+
+### Breve cielo
+[*Breve cielo*](#/tmdb/movie/335489) (1969), con Ana María Picchio y Alberto Fernández de Rosa, es su película más recordada, y una de las que eligió la crítica en la encuesta de 2022. Después vinieron [*Con alma y vida*](#/tmdb/movie/612941) (1970), con fotografía de [Aníbal González Paz](#/persona/1414707) y montaje de [Antonio Ripoll](#/persona/1195528), y la idea original de [*La Madre María*](#/tmdb/movie/614483) (1974), con Tita Merello.
+
+### La dictadura
+Sus dos últimas películas, las dos con Alfredo Alcón, cuentan la época: [*¿Qué es el otoño?*](#/tmdb/movie/341590) (1976) muestra el clima de represión política, y [*El agujero en la pared*](#/tmdb/movie/504895) (1982), las consecuencias del plan económico de la dictadura en la clase media.
+
+### Para leer
+Javier Naudeau lo entrevistó en *Un film de entrevista. Conversaciones con David José Kohon* (Fondo Nacional de las Artes, 2006).
+
+### Para ver
+*Prisioneros de una noche* y *La Madre María* están en Cine.ar. Casi todas las demás tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

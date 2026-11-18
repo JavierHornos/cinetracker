@@ -1353,6 +1353,28 @@ export const LINKS = {
   "movie-118198": [ // Plata dulce (1982)
     { nombre: "Internet Archive", url: "https://archive.org/details/plata-dulce-1982", nota: "copia subida por terceros" },
   ],
+  // David José Kohon (murió en 2004): no son de dominio público. Copias subidas por terceros.
+  "movie-488586": [ // Buenos Aires (1958, corto)
+    { nombre: "Internet Archive", url: "https://archive.org/details/youtube-19qvO_6EBZY", nota: "copia subida por terceros" },
+  ],
+  "movie-392745": [ // Tres veces Ana (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tres-veces-ana-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-545306": [ // Así o de otra manera (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/asi-o-de-otra-manera-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-335489": [ // Breve cielo (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/breve-cielo-1969", nota: "copia subida por terceros" },
+  ],
+  "movie-612941": [ // Con alma y vida (1970)
+    { nombre: "Internet Archive", url: "https://archive.org/details/con-alma-y-vida-1970", nota: "copia subida por terceros" },
+  ],
+  "movie-341590": [ // ¿Qué es el otoño? (1976)
+    { nombre: "Internet Archive", url: "https://archive.org/details/que-es-el-otono-1977", nota: "copia subida por terceros" },
+  ],
+  "movie-504895": [ // El agujero en la pared (1982)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-agujero-en-la-pared-1982", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

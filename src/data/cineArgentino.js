@@ -143,7 +143,7 @@ Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, 
 
 - **Simon Feldman**: *El negoción* (1959).
 - **Lautaro Murúa**: *Shunko* (1960), sobre un maestro rural en Santiago del Estero, y *Alias Gardelito* (1961).
-- **David José Kohon**: *Tres veces Ana* (1961).
+- **[David José Kohon](#/persona/1453186)**: [*Tres veces Ana*](#/tmdb/movie/392745) (1961).
 - **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).
 - **Manuel Antín**: *La cifra impar* (1962), sobre un cuento de Cortázar.
 
