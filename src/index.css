@@ -121,6 +121,17 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .fila-filtros .campo { padding: 8px 12px; font-size: 15px; }
 .fila-filtros select.campo { width: auto; flex-shrink: 0; }
 
+/* Mi lista: buscador y orden */
+.mi-lista-herramientas { flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+.buscar-lista { position: relative; flex: 1 1 260px; max-width: 460px; }
+.buscar-lista .campo { width: 100%; padding-right: 76px; }
+.buscar-lista .contador { position: absolute; right: 34px; top: 50%; transform: translateY(-50%); font-size: 12px; color: var(--tenue); pointer-events: none; }
+.orden { display: flex; align-items: center; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.orden::-webkit-scrollbar { display: none; }
+.orden > span { font-family: var(--display); font-size: 12px; letter-spacing: 1.5px; color: #555; margin-right: 2px; }
+.orden .chip { padding: 5px 11px; font-size: 12px; }
+.orden .chip[aria-pressed="true"] { background: transparent; color: var(--oro); border-color: var(--oro); }
+
 .banner {
   display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding: 12px 14px; margin-bottom: 14px;
   background: #121008; border: 1px solid #3a3010; border-radius: 6px; color: #d8c88a; font-size: 14px; line-height: 1.5;

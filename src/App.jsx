@@ -35,6 +35,9 @@ function listaVieja() {
   try { return JSON.parse(localStorage.getItem(LISTA_VIEJA)) || []; } catch { return []; }
 }
 const normalizar = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const ORDEN_MI_LISTA = "cineclub_orden_mi_lista";
+// Para ordenar por título sin contar el artículo inicial, como en los catálogos.
+const claveTitulo = t => normalizar(t).replace(/^(el|la|los|las|lo|un|una|the|a|an|le|les|il|der|die|das)\s+/, "").replace(/^[^a-z0-9]+/, "");
 
 export default function App() {
   const [sesion, setSesion] = useState(undefined);
@@ -263,6 +266,9 @@ function Cinetracker({ usuario }) {
 
   async function agregarDesdeBusqueda(r) {
     if (!usuario) { setPedirLogin(true); return; }
+    // Si ya está en la lista, abre su ficha en vez de avisar.
+    const yaEsta = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
+    if (yaEsta && marcas[yaEsta.id]?.en_mi_lista) { setAbiertaId(yaEsta.id); return; }
     try {
       const peli = await sumarDeTmdb(r);
       if (peli) avisar(`Agregada a tu lista: ${peli.titulo}`);
@@ -829,7 +835,32 @@ function SeccionMiLista({ pelis, marcas, admin, onAbrir, onMarcar, onImportar })
   const [estado, setEstado] = useState("todas");
   const [vieja, setVieja] = useState(listaVieja);
   const [importando, setImportando] = useState(false);
+  const [texto, setTexto] = useState("");
+  const [orden, setOrden] = useState(() => leer(ORDEN_MI_LISTA, "recientes"));
   const vistas = pelis.filter(p => marcas[p.id]?.visto).length;
+
+  function cambiarOrden(o) {
+    // Tocar "Año" otra vez invierte el sentido.
+    const nuevo = o === "anio" && orden === "anio" ? "anio-desc" : o === "anio" && orden === "anio-desc" ? "anio" : o;
+    setOrden(nuevo);
+    guardar(ORDEN_MI_LISTA, nuevo);
+  }
+
+  const q = normalizar(texto.trim());
+  const filtradas = filtrarEstado(pelis, marcas, estado).filter(p =>
+    !q || [p.titulo, p.titulo_tmdb, p.titulo_original].some(t => normalizar(t).includes(q)));
+  const visibles = orden === "recientes" ? filtradas : [...filtradas].sort((a, b) => {
+    if (orden === "titulo") return claveTitulo(a.titulo).localeCompare(claveTitulo(b.titulo), "es");
+    if (orden === "puntaje") return (marcas[b.id]?.puntaje || 0) - (marcas[a.id]?.puntaje || 0);
+    const sentido = orden === "anio-desc" ? -1 : 1;
+    return ((a.anio ?? 9999) - (b.anio ?? 9999)) * sentido;
+  });
+  const ordenes = [
+    { id: "recientes", label: "RECIENTES" },
+    { id: "anio", label: orden === "anio-desc" ? "AÑO ↓" : "AÑO ↑", activo: orden.startsWith("anio") },
+    { id: "titulo", label: "TÍTULO" },
+    { id: "puntaje", label: "PUNTAJE" },
+  ];
 
   return (
     <>
@@ -856,7 +887,22 @@ function SeccionMiLista({ pelis, marcas, admin, onAbrir, onMarcar, onImportar })
             { id: "todas", label: "TODAS" }, { id: "porver", label: "POR VER" }, { id: "vistas", label: "VISTAS" },
             { id: "calificadas", label: "CALIFICADAS" }, { id: "peliculas", label: "PELÍCULAS" }, { id: "series", label: "SERIES" },
           ]} />
-          <Grilla pelis={filtrarEstado(pelis, marcas, estado)} marcas={marcas} admin={admin} onAbrir={onAbrir} onMarcar={onMarcar} />
+          <div className="fila-filtros mi-lista-herramientas">
+            <div className="buscar-lista">
+              <input className="campo" type="search" placeholder="Buscar en mi lista…" value={texto}
+                onChange={e => setTexto(e.target.value)} aria-label="Buscar en mi lista" />
+              {q && <span className="contador">{visibles.length} de {pelis.length}</span>}
+            </div>
+            <div className="orden" role="group" aria-label="Ordenar">
+              <span>ORDENAR</span>
+              {ordenes.map(o => (
+                <button key={o.id} className="chip" aria-pressed={o.activo ?? orden === o.id} onClick={() => cambiarOrden(o.id)}>
+                  {o.label}
+                </button>
+              ))}
+            </div>
+          </div>
+          <Grilla pelis={visibles} marcas={marcas} admin={admin} onAbrir={onAbrir} onMarcar={onMarcar} />
         </>
       )}
     </>
