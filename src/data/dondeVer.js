@@ -1357,9 +1357,6 @@ export const LINKS = {
   "movie-413777": [ // Prisioneros de una noche (1960)
     { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/319", nota: "gratis con registro" },
   ],
-  "movie-614483": [ // La Madre María (1974, idea original de Kohon)
-    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/418", nota: "gratis con registro" },
-  ],
   "movie-488586": [ // Buenos Aires (1958, corto)
     { nombre: "Internet Archive", url: "https://archive.org/details/youtube-19qvO_6EBZY", nota: "copia subida por terceros" },
   ],
