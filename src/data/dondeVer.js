@@ -1290,6 +1290,7 @@ export const LINKS = {
   // Los tallos amargos (1956): no es de dominio público (Piazzolla murió en 1992). Copia restaurada subida por terceros.
   "movie-185250": [
     { nombre: "Internet Archive", url: "https://archive.org/details/los-tallos-amargos-the-bitter-stems-1956-eng-sub-restored-movie-720p-hd", nota: "copia restaurada subida por terceros, con la presentación de Eddie Muller (TCM) y subtítulos en inglés" },
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-tallos-amargos-fernando-ayala-1956", nota: "copia remasterizada subida por terceros, sin subtítulos" },
   ],
   // Fernando Ayala (murió en 1997): no son de dominio público. Copias subidas por terceros.
   "movie-537899": [ // Ayer fue primavera (1955)
@@ -1318,6 +1319,39 @@ export const LINKS = {
   ],
   "movie-614717": [ // Triángulo de cuatro (1975)
     { nombre: "Internet Archive", url: "https://archive.org/details/triangulo-de-cuatro-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-631955": [ // Vuelo 300 (1950, corto)
+    { nombre: "Internet Archive", url: "https://archive.org/details/vuelo-300-1950", nota: "copia subida por terceros" },
+  ],
+  "movie-603740": [ // Sábado a la noche, cine (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/sabado-a-la-noche-cine-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-628224": [ // Huis Clos (A puerta cerrada) (1962, producción de Aries)
+    { nombre: "Internet Archive", url: "https://archive.org/details/1962-a-puerta-cerrada-huis-clos", nota: "copia subida por terceros" },
+  ],
+  "movie-776165": [ // La industria del matrimonio (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-industria-del-matrimonio-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-120146": [ // Las locas del conventillo (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/las-locas-del-conventillo-maria-y-la-otra-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-244340": [ // La fiaca (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-fiaca-1969", nota: "copia subida por terceros" },
+  ],
+  "movie-290081": [ // La gran ruta (1971)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-gran-ruta-1971", nota: "copia subida por terceros" },
+  ],
+  "movie-356096": [ // El muerto (Olivera, 1975, producción de Aries)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-muerto-cacique-bandeira-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-804027": [ // Los médicos (1978)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-medicos-1978", nota: "copia subida por terceros" },
+  ],
+  "movie-315718": [ // Abierto día y noche (1981)
+    { nombre: "Internet Archive", url: "https://archive.org/details/abierto-dia-y-noche-1981", nota: "copia subida por terceros" },
+  ],
+  "movie-118198": [ // Plata dulce (1982)
+    { nombre: "Internet Archive", url: "https://archive.org/details/plata-dulce-1982", nota: "copia subida por terceros" },
   ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
