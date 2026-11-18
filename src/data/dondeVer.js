@@ -1353,7 +1353,13 @@ export const LINKS = {
   "movie-118198": [ // Plata dulce (1982)
     { nombre: "Internet Archive", url: "https://archive.org/details/plata-dulce-1982", nota: "copia subida por terceros" },
   ],
-  // David José Kohon (murió en 2004): no son de dominio público. Copias subidas por terceros.
+  // David José Kohon (murió en 2004): no son de dominio público. Cine.ar primero; si no, copia subida por terceros.
+  "movie-413777": [ // Prisioneros de una noche (1960)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/319", nota: "gratis con registro" },
+  ],
+  "movie-614483": [ // La Madre María (1974, idea original de Kohon)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/418", nota: "gratis con registro" },
+  ],
   "movie-488586": [ // Buenos Aires (1958, corto)
     { nombre: "Internet Archive", url: "https://archive.org/details/youtube-19qvO_6EBZY", nota: "copia subida por terceros" },
   ],
