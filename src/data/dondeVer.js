@@ -1441,6 +1441,31 @@ export const LINKS = {
   "movie-560634": [ // Cuarteles de invierno (1984)
     { nombre: "Internet Archive", url: "https://archive.org/details/cuarteles-de-invierno-1984", nota: "copia subida por terceros" },
   ],
+  // Leonardo Favio (murió en 2012): Cine.ar primero; si no, copia subida por terceros.
+  "movie-127467": [ // Juan Moreira (1973)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/405", nota: "gratis con registro" },
+  ],
+  "movie-638667": [ // Gente querible (2010)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/1488", nota: "gratis con registro" },
+  ],
+  "movie-519406": [ // Favio, crónica de un director (Venturini, 2015)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/4598", nota: "gratis con registro" },
+  ],
+  "movie-258159": [ // El amigo (1960, corto)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-amigo-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-47142": [ // Crónica de un niño solo (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cronica-de-un-nino-solo-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-36785": [ // El dependiente (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-dependiente-1969_202608", nota: "copia subida por terceros" },
+  ],
+  "movie-127424": [ // Nazareno Cruz y el lobo (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/nazareno-cruz-and-the-wolf-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-37061": [ // Gatica, el Mono (1993)
+    { nombre: "Internet Archive", url: "https://archive.org/details/gatica-.-by-leonardo-favio.-1993.1140p.-2-kremastered", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

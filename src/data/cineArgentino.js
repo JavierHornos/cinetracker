@@ -142,7 +142,7 @@ En 1956 **[Fernando Birri](#/persona/1131520)** fundó en la Universidad del Lit
 Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, filmó la vida urbana de la clase media con un lenguaje moderno:
 
 - **Simon Feldman**: *El negoción* (1959).
-- **[José Martínez Suárez](#/persona/1083797)**: [*El crack*](#/tmdb/movie/597489) (1960), sobre el mundo del fútbol, y [*Dar la cara*](#/tmdb/movie/501916) (1962), con Leonardo Favio entre los actores.
+- **[José Martínez Suárez](#/persona/1083797)**: [*El crack*](#/tmdb/movie/597489) (1960), sobre el mundo del fútbol, y [*Dar la cara*](#/tmdb/movie/501916) (1962), con [Leonardo Favio](#/persona/116190) entre los actores.
 - **[Lautaro Murúa](#/persona/105226)**: [*Shunko*](#/tmdb/movie/431881) (1960), sobre un maestro rural en Santiago del Estero, y [*Alias Gardelito*](#/tmdb/movie/335487) (1961).
 - **[David José Kohon](#/persona/1453186)**: [*Tres veces Ana*](#/tmdb/movie/392745) (1961).
 - **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).
@@ -152,7 +152,7 @@ En paralelo, **[Fernando Ayala](#/persona/220264)** y **Héctor Olivera** fundar
 
 ### Leonardo Favio, el outsider
 
-Actor de [Torre Nilsson](#/persona/116197), **Leonardo Favio** debutó como director con *Crónica de un niño solo* (1965), sobre un chico internado en un reformatorio. Está filmada en blanco y negro, casi sin diálogo, y suele aparecer entre las mejores películas argentinas. Es el puente hacia el cine popular de los 70.`,
+Actor de [Torre Nilsson](#/persona/116197), **[Leonardo Favio](#/persona/116190)** debutó como director con [*Crónica de un niño solo*](#/tmdb/movie/47142) (1965), sobre un chico internado en un reformatorio. Está filmada en blanco y negro, casi sin diálogo, y suele aparecer entre las mejores películas argentinas. Es el puente hacia el cine popular de los 70.`,
     peliculas: ["La casa del ángel", "Tire dié", "Shunko", "Los jóvenes viejos", "Crónica de un niño solo"],
   },
   {
@@ -169,7 +169,7 @@ Actor de [Torre Nilsson](#/persona/116197), **Leonardo Favio** debutó como dire
 
 ### Favio, el cine que llenó las salas
 
-**Leonardo Favio** mezcló lo popular con una puesta muy personal. *Juan Moreira* (1973), sobre el gaucho perseguido, y *Nazareno Cruz y el lobo* (1975), una leyenda del lobizón hecha radioteatro, fueron enormes éxitos de taquilla.
+**[Leonardo Favio](#/persona/116190)** mezcló lo popular con una puesta muy personal. [*Juan Moreira*](#/tmdb/movie/127467) (1973), sobre el gaucho perseguido, y [*Nazareno Cruz y el lobo*](#/tmdb/movie/127424) (1975), una leyenda del lobizón hecha radioteatro, fueron enormes éxitos de taquilla.
 
 ### El breve verano de 1973-1974
 

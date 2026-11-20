@@ -537,6 +537,41 @@ Después del golpe de 1976 se exilió en España, donde filmó *La Raulito en li
 ### Para ver
 *Un guapo del 900* está en Cine.ar. *Shunko*, *Alias Gardelito*, *La Raulito* y *Cuarteles de invierno* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Leonardo Favio (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  116190: {
+    nombre: "Leonardo Favio",
+    rol: "Director, actor y cantor",
+    bajada: "Crónica de un niño solo, El romance del Aniceto y la Francisca, Nazareno Cruz y el lobo: el director más querido del cine argentino.",
+    principal: "Director",
+    documental: {
+      titulo: "Favio, crónica de un director (Alejandro Venturini, 2015)",
+      tmdb_id: 519406,
+      url: "https://play.cine.ar/INCAA/produccion/4598",
+      donde: "Cine.ar · gratis con registro",
+    },
+    texto: `Fuad Jorge Jury nació en Las Catitas, Mendoza, en 1938 y murió en Buenos Aires en 2012. Fue actor, cantor popular en toda América Latina y, sobre todo, el director que muchos consideran el más grande del cine argentino.
+
+### Una infancia de internados
+Su madre, Laura Favio, era actriz; su padre los abandonó temprano. Pasó buena parte de la infancia internado en institutos de menores, de donde se escapaba o lo echaban, y por algunos robos chicos terminó preso. Probó el seminario y la Marina. Todo eso está en sus películas.
+
+### El actor de Torre Nilsson
+En Buenos Aires empezó como extra y, apadrinado por [Torre Nilsson](#/persona/116197), se hizo actor: [*El secuestrador*](#/tmdb/movie/298112) (1958), [*Fin de fiesta*](#/tmdb/movie/269119) (1960), [*La mano en la trampa*](#/tmdb/movie/121461) (1961) y [*La terraza*](#/tmdb/movie/202541) (1963). Trabajó también con [Fernando Ayala](#/persona/220264), [Manuel Antín](#/persona/1125518) y [José Martínez Suárez](#/persona/1083797), en [*Dar la cara*](#/tmdb/movie/501916) (1962). Su primer corto como director, [*El amigo*](#/tmdb/movie/258159), es de 1960.
+
+### La trilogía en blanco y negro
+[*Crónica de un niño solo*](#/tmdb/movie/47142) (1965) cuenta la fuga de un chico de un reformatorio, casi sin diálogo. Torre Nilsson aprobó el guion pero no se animó a producirla. En la encuesta del Museo del Cine de 2000 fue elegida la mejor película del cine sonoro argentino, con más del 75 % de los votos. Siguieron [*Este es el romance del Aniceto y la Francisca*](#/tmdb/movie/214487) (1967), con Federico Luppi, Elsa Daniel y María Vaner, elegida la mejor película argentina en una encuesta de 1998 entre cien personas del cine, y [*El dependiente*](#/tmdb/movie/36785) (1969), con Walter Vidarte y Graciela Borges, sobre un cuento de su hermano y coguionista, Jorge Zuhair Jury. En el montaje de las tres está [Antonio Ripoll](#/persona/1195528), que siguió con él hasta *Soñar, soñar*.
+
+### El cantor
+El Instituto de Cine declaró *El dependiente* de "exhibición no obligatoria" y le quitó el apoyo. Favio se largó a cantar: con "Fuiste mía un verano" llegó el éxito en toda América Latina, y con las canciones financió buena parte de su cine. Lo llamaron el Juglar de América.
+
+### El cine que llenó las salas
+En color y a lo grande vinieron [*Juan Moreira*](#/tmdb/movie/127467) (1973), con Rodolfo Bebán como el gaucho perseguido, y [*Nazareno Cruz y el lobo*](#/tmdb/movie/127424) (1975), la leyenda del lobizón contada como un radioteatro, una de las películas argentinas más vistas de la historia. Después de [*Soñar, soñar*](#/tmdb/movie/127423) (1976), con Carlos Monzón y Gian Franco Pagliaro, el golpe lo dejó años sin filmar.
+
+### La vuelta
+Volvió con [*Gatica, el Mono*](#/tmdb/movie/37061) (1993), sobre el boxeador José María Gatica, ídolo del peronismo. Peronista de toda la vida, hizo *Perón, sinfonía del sentimiento* (1999), un documental de casi seis horas. Su última película, [*Aniceto*](#/tmdb/movie/72776) (2008), vuelve a su *Romance* convertido en ballet.
+
+### Para ver
+*Juan Moreira* y *Gente querible* están en Cine.ar, igual que el documental *Favio, crónica de un director*. *Crónica de un niño solo*, *El amigo*, *El dependiente*, *Nazareno Cruz y el lobo* y *Gatica* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
