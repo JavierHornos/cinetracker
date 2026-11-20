@@ -142,6 +142,7 @@ En 1956 **[Fernando Birri](#/persona/1131520)** fundó en la Universidad del Lit
 Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, filmó la vida urbana de la clase media con un lenguaje moderno:
 
 - **Simon Feldman**: *El negoción* (1959).
+- **[José Martínez Suárez](#/persona/1083797)**: [*El crack*](#/tmdb/movie/597489) (1960), sobre el mundo del fútbol, y [*Dar la cara*](#/tmdb/movie/501916) (1962), con Leonardo Favio entre los actores.
 - **Lautaro Murúa**: *Shunko* (1960), sobre un maestro rural en Santiago del Estero, y *Alias Gardelito* (1961).
 - **[David José Kohon](#/persona/1453186)**: [*Tres veces Ana*](#/tmdb/movie/392745) (1961).
 - **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).

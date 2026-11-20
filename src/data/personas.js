@@ -488,6 +488,29 @@ En 1991 fundó la Universidad del Cine (FUC), donde se formaron muchos de los di
 ### Para ver
 *Don Segundo Sombra* está en Cine.ar. Casi todas las demás tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── José Martínez Suárez (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1083797: {
+    nombre: "José Martínez Suárez",
+    rol: "Director, guionista y maestro de cine",
+    bajada: "El crack, Dar la cara y Los muchachos de antes no usaban arsénico; el maestro de Martel y Campanella.",
+    principal: "Director",
+    texto: `José Antonio Martínez Suárez nació en Villa Cañás, Santa Fe, en 1925 y murió en Buenos Aires en 2019. Dirigió pocas películas, pero formó a varias generaciones de cineastas y presidió durante once años el Festival de Mar del Plata.
+
+### Veintiocho películas de asistente
+Era hermano de las mellizas Mirtha y Silvia Legrand, y cuñado de [Daniel Tinayre](#/persona/1180781). Aprendió el oficio desde abajo: entre 1949 y 1967 fue asistente de dirección en veintiocho películas, entre ellas [*La bestia humana*](#/tmdb/movie/559762), de Tinayre, y [*Ayer fue primavera*](#/tmdb/movie/537899), el debut de [Fernando Ayala](#/persona/220264). En 1959 dirigió el corto *Altos Hornos Zapla*, y fue profesor en la Escuela Documental de Santa Fe de [Fernando Birri](#/persona/1131520).
+
+### La Generación del 60
+Su primer largo, [*El crack*](#/tmdb/movie/597489) (1960), con Jorge Salcedo y Aída Luz, sobre el mundo del fútbol, lo puso en la corriente renovadora de la Generación del 60. Siguió [*Dar la cara*](#/tmdb/movie/501916) (1962), un retrato de los jóvenes de su tiempo, con [Leonardo Favio](#/persona/116190) entre los actores, fotografía de Ricardo Younis y montaje de [Antonio Ripoll](#/persona/1195528) y [Gerardo Rinaldi](#/persona/1916121).
+
+### Los 70 y 80
+Volvió a dirigir con [*Los chantas*](#/tmdb/movie/567042) (1975) y [*Los muchachos de antes no usaban arsénico*](#/tmdb/movie/341589) (1976): cuatro viejas glorias del cine, con Narciso Ibáñez Menta, Mecha Ortiz, Bárbara Mújica y Arturo García Buhr, encerradas en una casona y en un juego de humor negro. Es su película más querida, y en 2019 [Juan José Campanella](#/persona/84714) la volvió a filmar como [*El cuento de las comadrejas*](#/tmdb/movie/574088), con fotografía de [Félix Monti](#/persona/414697). Su última película fue [*Noches sin lunas ni soles*](#/tmdb/movie/127025) (1984), con Alberto de Mendoza, Luisina Brando y Lautaro Murúa.
+
+### El taller
+Su taller de cine fue famoso en todo el mundo: de ahí salieron más de 120 cortos premiados en festivales. Fueron alumnos suyos [Lucrecia Martel](#/persona/56208), Juan José Campanella y Gustavo Taretto, entre muchos otros. En 2002 recibió el Cóndor de Plata a la trayectoria, y desde 2008 hasta su muerte presidió el Festival Internacional de Cine de Mar del Plata.
+
+### Para ver
+Sobre su vida está el documental [*Soy lo que quise ser*](#/tmdb/movie/616332) (Betina Casanova y Mariana Scarone, 2019). Cinco de sus largos tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

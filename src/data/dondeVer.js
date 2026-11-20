@@ -1409,6 +1409,22 @@ export const LINKS = {
   "movie-597486": [ // La invitación (1982)
     { nombre: "Internet Archive", url: "https://archive.org/details/la-invitacion-1982", nota: "copia subida por terceros" },
   ],
+  // José Martínez Suárez (murió en 2019): no son de dominio público. Copias subidas por terceros.
+  "movie-597489": [ // El crack (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-crack-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-501916": [ // Dar la cara (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/dar-la-cara-1962", nota: "copia subida por terceros" },
+  ],
+  "movie-567042": [ // Los chantas (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-chantas-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-341589": [ // Los muchachos de antes no usaban arsénico (1976)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-muchachos-de-antes-no-usaban-arsenico-1976", nota: "copia subida por terceros" },
+  ],
+  "movie-127025": [ // Noches sin lunas ni soles (1984)
+    { nombre: "Internet Archive", url: "https://archive.org/details/noches-sin-lunas-ni-soles-1984_202410", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
