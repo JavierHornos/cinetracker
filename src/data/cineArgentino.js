@@ -167,6 +167,8 @@ Actor de [Torre Nilsson](#/persona/116197), **[Leonardo Favio](#/persona/116190)
 
 **[Raymundo Gleyzer](#/persona/1211616)** formó el grupo Cine de la Base, ligado a la izquierda no peronista. Su ficción [*Los traidores*](#/tmdb/movie/226216) (1973) cuenta la historia de un dirigente sindical corrupto. Gleyzer fue secuestrado en mayo de 1976 y sigue desaparecido.
 
+Con Gleyzer había empezado, a mediados de los 60, **[Jorge Prelorán](#/persona/1279640)**, que tomó otro camino: el cine etnográfico. Filmó a artesanos, campesinos y pueblos originarios del interior, una persona por película y con su propia voz, como en [*Hermógenes Cayo*](#/tmdb/movie/462551) (1969), sobre un imaginero de la Puna, o [*Los onas*](#/tmdb/movie/614748) (1977), sobre los últimos selk'nam.
+
 ### Favio, el cine que llenó las salas
 
 **[Leonardo Favio](#/persona/116190)** mezcló lo popular con una puesta muy personal. [*Juan Moreira*](#/tmdb/movie/127467) (1973), sobre el gaucho perseguido, y [*Nazareno Cruz y el lobo*](#/tmdb/movie/127424) (1975), una leyenda del lobizón hecha radioteatro, fueron enormes éxitos de taquilla.
