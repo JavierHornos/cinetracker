@@ -1466,6 +1466,16 @@ export const LINKS = {
   "movie-37061": [ // Gatica, el Mono (1993)
     { nombre: "Internet Archive", url: "https://archive.org/details/gatica-.-by-leonardo-favio.-1993.1140p.-2-kremastered", nota: "copia subida por terceros" },
   ],
+  // Simón Feldman (murió en 2015): no son de dominio público. Copias subidas por terceros.
+  "movie-413774": [ // Los de la mesa 10 (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-de-la-mesa-10-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-757728": [ // Tango argentino (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tango-argentino-1969", nota: "copia subida por terceros" },
+  ],
+  "movie-883285": [ // Los cuatro secretos (1976)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-cuatro-secretos-1976-simon-feldman_202502", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

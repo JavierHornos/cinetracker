@@ -3,6 +3,7 @@
 // Cada persona va como [id de TMDB, nombre]; si no está en TMDB, el id es null y se muestra sin link.
 // Solo se cargan agregados: donde TMDB y cinenacional no coinciden (Los tallos amargos) no se toca nada.
 export const CREDITOS_EXTRA = {
+  "movie-648387": { titulo: "El negoción (primera versión)", anio: 1958, foto: [[1836392, "Simón Feldman"]], mont: [[1836392, "Simón Feldman"]] },
   "movie-226934": { titulo: "Amalia", anio: 1914, foto: [[1266997, "Eugenio Py"]] },
   "movie-234260": { titulo: "Perdón, viejita", anio: 1927, foto: [[1920247, "Carlos Torres Ríos"]] },
   "movie-464326": { titulo: "Los tres berretines", anio: 1933, foto: [[96252, "John Alton"]] },

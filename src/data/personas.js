@@ -572,6 +572,32 @@ Volvió con [*Gatica, el Mono*](#/tmdb/movie/37061) (1993), sobre el boxeador Jo
 ### Para ver
 *Juan Moreira* y *Gente querible* están en Cine.ar, igual que el documental *Favio, crónica de un director*. *Crónica de un niño solo*, *El amigo*, *El dependiente*, *Nazareno Cruz y el lobo* y *Gatica* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Simón Feldman (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1836392: {
+    nombre: "Simón Feldman",
+    rol: "Director, animador, pintor y maestro de cine",
+    bajada: "El negoción y Los de la mesa 10: el hombre que estudió en París y escribió la historia de la Generación del 60.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1922 y murió en Buenos Aires en 2015. Fue director, pintor, animador, crítico y, sobre todo, maestro: muchos aprendieron cine con sus clases y con sus libros.
+
+### París
+En 1953 estudió en el IDHEC, la escuela de cine de París. De vuelta en Buenos Aires fundó el Seminario de Cine de Buenos Aires, y [Fernando Birri](#/persona/1131520) lo llamó como profesor de la Escuela Documental de Santa Fe. Su primer corto, *Un teatro independiente* (1954), lo fotografió él mismo.
+
+### El negoción
+[*El negoción*](#/tmdb/movie/603218) es una de las películas que abren la Generación del 60, y tiene dos versiones. La primera, de 1958, la filmó casi solo: dirigió, escribió, fotografió y montó. La de 1959 la escribió con el dibujante Oski y Juan José Barrenechea, con fotografía de Vicente Cosentino y música de Waldo de los Ríos, y no llegó a estrenarse comercialmente.
+
+### Los de la mesa 10
+[*Los de la mesa 10*](#/tmdb/movie/413774) (1960), sobre la obra de Osvaldo Dragún, con María Aurelia Bisutti y Emilio Alfaro, cuenta el amor de dos jóvenes de clases distintas. Tiene fotografía de [Ricardo Aronovich](#/persona/22456) y música de Horacio Salgán, y la crítica la elogió.
+
+### Documentales y animación
+Hizo cortos sobre arte, como *Gambartes, pintor del litoral* (1960) y *Grabado argentino* (1961), y el documental [*Tango argentino*](#/tmdb/movie/757728) (1969), con Astor Piazzolla. También fue animador: [*Los cuatro secretos*](#/tmdb/movie/883285) (1976), una película para chicos que escribió con Beatriz Doumerc, montada por [Luis César D'Angiolillo](#/persona/140557), y las animaciones de *Castelao* (1980). Su último largo fue *Memorias y olvidos* (1987).
+
+### Los libros
+Escribió *La generación del 60*, la historia de su propio grupo contada desde adentro, y manuales de oficio, como *Guion argumental*, *Guion documental* y *La composición de la imagen en movimiento*. En 2000 recibió el Cóndor de Plata a la trayectoria. Su archivo personal está en la Biblioteca Nacional.
+
+### Para ver
+*Los de la mesa 10*, *Tango argentino* y *Los cuatro secretos* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
