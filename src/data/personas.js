@@ -511,6 +511,32 @@ Su taller de cine fue famoso en todo el mundo: de ahí salieron más de 120 cort
 ### Para ver
 Sobre su vida está el documental [*Soy lo que quise ser*](#/tmdb/movie/616332) (Betina Casanova y Mariana Scarone, 2019). Cinco de sus largos tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Lautaro Murúa (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  105226: {
+    nombre: "Lautaro Murúa",
+    rol: "Actor y director",
+    bajada: "Shunko, Alias Gardelito y La Raulito: el actor chileno que filmó a los márgenes de la Argentina.",
+    principal: "Director",
+    texto: `Nació en 1926 en Tacna, entonces bajo dominio chileno y hoy en Perú, y murió en Madrid en 1995. Hizo casi toda su obra en la Argentina, donde vivió cerca de cuarenta años y se nacionalizó. Fue uno de los grandes actores del cine argentino y dirigió seis películas.
+
+### De Chile a Buenos Aires
+Estudió Bellas Artes en Santiago y fue parte del Teatro Experimental de la Universidad de Chile, que renovó la escena de su país. En 1954 protagonizó en teatro *Martín Rivas*, uno de los éxitos de la década. A mediados de los 50 se instaló en Buenos Aires.
+
+### El actor de la Generación del 60
+Fue la cara del cine moderno argentino. Con [Torre Nilsson](#/persona/116197) hizo [*Graciela*](#/tmdb/movie/561435) (1956), [*La casa del ángel*](#/tmdb/movie/199194) (1957), [*La caída*](#/tmdb/movie/269271) (1959) y [*Fin de fiesta*](#/tmdb/movie/269119) (1960); con [Manuel Antín](#/persona/1125518), [*La cifra impar*](#/tmdb/movie/304796) y *Los venerables todos*; y trabajó también con [David José Kohon](#/persona/1453186) y [José Martínez Suárez](#/persona/1083797). Ganó el Cóndor de Plata al mejor actor por *Graciela*, por *Aquello que amamos* y por *La cifra impar*.
+
+### Shunko y Alias Gardelito
+Como director debutó con [*Shunko*](#/tmdb/movie/431881) (1960), sobre el libro de Jorge W. Ábalos: un maestro rural, que él mismo interpreta, en una escuela de Santiago del Estero donde los chicos hablan quichua. Ganó el Cóndor de Plata a la mejor película y el premio a la mejor película en castellano en el Festival de Mar del Plata. Siguió [*Alias Gardelito*](#/tmdb/movie/335487) (1961), con Alberto Argibay como un ladronzuelo que sueña con ser cantor como Gardel, sobre un cuento de Bernardo Kordon. Ganó el Cóndor a la mejor película y a la mejor dirección.
+
+### Los 70
+Diez años después filmó [*Un guapo del 900*](#/tmdb/movie/560013) (1971), sobre la obra de Samuel Eichelbaum, y [*La Raulito*](#/tmdb/movie/209646) (1975), con Marilina Ross como una chica que vive en la calle vestida de varón, inspirada en una mujer real, hincha de Boca. Como actor estuvo en *Invasión* (1969), de Hugo Santiago, *Crónica de una señora* (1971), [*La tregua*](#/tmdb/movie/127449) (1974) y *Quebracho* (1974).
+
+### Exilio y vuelta
+Después del golpe de 1976 se exilió en España, donde filmó *La Raulito en libertad* (1977). Volvió con la democracia, en 1983. Ese año actuó en [*No habrá más penas ni olvido*](#/tmdb/movie/246896), de [Héctor Olivera](#/persona/52121), y dirigió su última película, [*Cuarteles de invierno*](#/tmdb/movie/560634) (1984), sobre la novela de Osvaldo Soriano: un cantor de tangos y un boxeador llegan a un pueblo en plena dictadura. Siguió actuando, en *El exilio de Gardel* (1985), de [Fernando Solanas](#/persona/71353), y en *La peste* (1992). En una de sus últimas películas, *Belmonte*, hizo del torero Juan Belmonte.
+
+### Para ver
+*Un guapo del 900* está en Cine.ar. *Shunko*, *Alias Gardelito*, *La Raulito* y *Cuarteles de invierno* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

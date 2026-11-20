@@ -143,7 +143,7 @@ Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, 
 
 - **Simon Feldman**: *El negoción* (1959).
 - **[José Martínez Suárez](#/persona/1083797)**: [*El crack*](#/tmdb/movie/597489) (1960), sobre el mundo del fútbol, y [*Dar la cara*](#/tmdb/movie/501916) (1962), con Leonardo Favio entre los actores.
-- **Lautaro Murúa**: *Shunko* (1960), sobre un maestro rural en Santiago del Estero, y *Alias Gardelito* (1961).
+- **[Lautaro Murúa](#/persona/105226)**: [*Shunko*](#/tmdb/movie/431881) (1960), sobre un maestro rural en Santiago del Estero, y [*Alias Gardelito*](#/tmdb/movie/335487) (1961).
 - **[David José Kohon](#/persona/1453186)**: [*Tres veces Ana*](#/tmdb/movie/392745) (1961).
 - **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).
 - **[Manuel Antín](#/persona/1125518)**: [*La cifra impar*](#/tmdb/movie/304796) (1962), sobre un cuento de Cortázar.
@@ -178,7 +178,7 @@ Con la vuelta del peronismo hubo un año de cine libre y ambicioso:
 - *La Patagonia rebelde* (1974), de **Héctor Olivera**, sobre las huelgas rurales de Santa Cruz de 1921, con guion basado en Osvaldo Bayer. Fue un éxito y poco después la prohibieron.
 - *La tregua* (1974), de **Sergio Renán**, sobre la novela de Mario Benedetti. Fue la primera película argentina nominada al Oscar.
 - [*Boquitas pintadas*](#/tmdb/movie/62499) (1974), de [Torre Nilsson](#/persona/116197), sobre la novela de Manuel Puig.
-- *La Raulito* (1975), de Lautaro Murúa, con Marilina Ross.
+- [*La Raulito*](#/tmdb/movie/209646) (1975), de [Lautaro Murúa](#/persona/105226), con Marilina Ross.
 
 Desde 1974 la Triple A amenazó a actores y directores, y muchos se fueron del país antes del golpe.`,
     peliculas: ["La hora de los hornos", "Los traidores", "Juan Moreira", "La Patagonia rebelde", "La tregua", "Nazareno Cruz y el lobo"],

@@ -1425,6 +1425,22 @@ export const LINKS = {
   "movie-127025": [ // Noches sin lunas ni soles (1984)
     { nombre: "Internet Archive", url: "https://archive.org/details/noches-sin-lunas-ni-soles-1984_202410", nota: "copia subida por terceros" },
   ],
+  // Lautaro Murúa (murió en 1995): Cine.ar primero; si no, copia subida por terceros.
+  "movie-560013": [ // Un guapo del 900 (1971)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/465", nota: "gratis con registro" },
+  ],
+  "movie-431881": [ // Shunko (1960)
+    { nombre: "Internet Archive", url: "https://archive.org/details/shunko-1960", nota: "copia subida por terceros" },
+  ],
+  "movie-335487": [ // Alias Gardelito (1961)
+    { nombre: "Internet Archive", url: "https://archive.org/details/alias-gardelito-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-209646": [ // La Raulito (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-raulito-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-560634": [ // Cuarteles de invierno (1984)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cuarteles-de-invierno-1984", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
