@@ -161,7 +161,7 @@ Actor de [Torre Nilsson](#/persona/116197), **[Leonardo Favio](#/persona/116190)
 
 ### Cine Liberación y el Tercer Cine
 
-**Fernando "Pino" Solanas** y **Octavio Getino** filmaron en secreto *La hora de los hornos* (1968), un documental-ensayo de más de cuatro horas sobre el neocolonialismo y el peronismo proscripto. Se pasaba en sindicatos y casas, y la proyección se cortaba para debatir. En 1969 publicaron el manifiesto *Hacia un tercer cine*: ni el cine de Hollywood ni el de autor europeo, sino un cine para la liberación. El texto influyó en todo el Tercer Mundo.
+**[Fernando "Pino" Solanas](#/persona/71353)** y **[Octavio Getino](#/persona/937636)** filmaron en secreto [*La hora de los hornos*](#/tmdb/movie/89681) (1968), un documental-ensayo de más de cuatro horas sobre el neocolonialismo y el peronismo proscripto. Se pasaba en sindicatos y casas, y la proyección se cortaba para debatir. En 1969 publicaron el manifiesto *Hacia un tercer cine*: ni el cine de Hollywood ni el de autor europeo, sino un cine para la liberación. El texto influyó en todo el Tercer Mundo.
 
 ### Raymundo Gleyzer y el Cine de la Base
 
@@ -218,7 +218,7 @@ El año anterior, *Camila* (1984), de **María Luisa Bemberg**, había sido nomi
 ### Las películas de la memoria
 
 - [*La noche de los lápices*](#/tmdb/movie/55269) (1986), de [Héctor Olivera](#/persona/52121), sobre los estudiantes secundarios secuestrados en La Plata en 1976.
-- *Tangos, el exilio de Gardel* (1985) y *Sur* (1988), de Pino Solanas, sobre el exilio y el regreso. Solanas ganó el premio a mejor director en Cannes por *Sur*.
+- [*Tangos, el exilio de Gardel*](#/tmdb/movie/182469) (1985) y [*Sur*](#/tmdb/movie/46770) (1988), de [Pino Solanas](#/persona/71353), sobre el exilio y el regreso. Solanas ganó el premio a mejor director en Cannes por *Sur*.
 
 ### Otros caminos
 

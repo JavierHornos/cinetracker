@@ -1511,6 +1511,18 @@ export const LINKS = {
   "movie-370252": [ // Las venganzas de Beto Sánchez (1973)
     { nombre: "Internet Archive", url: "https://archive.org/details/las-venganzas-de-beto-sanchez-1973", nota: "copia subida por terceros" },
   ],
+  // Solanas (murió en 2020) y Getino (murió en 2012): no son de dominio público. Copias subidas por terceros.
+  "movie-89681": [ // La hora de los hornos (1968), en tres partes
+    { nombre: "Internet Archive · parte 1", url: "https://archive.org/details/la-hora-de-los-hornos-a-hora-dos-fornos-parte-1-remasterizado-hd-ptbr-ing-esp-rus-frn", nota: "copia subida por terceros" },
+    { nombre: "Internet Archive · parte 2", url: "https://archive.org/details/la-hora-de-los-hornos-parte-2-1968-1080p-burn-in-1920x-1080-x-264-embed", nota: "copia subida por terceros" },
+    { nombre: "Internet Archive · parte 3", url: "https://archive.org/details/la-hora-de-los-hornos-parte-3-remasterizada", nota: "copia subida por terceros" },
+  ],
+  "movie-651095": [ // Perón: la revolución justicialista (1971)
+    { nombre: "Internet Archive", url: "https://archive.org/details/peron-la-revolucion-justicialista-1971", nota: "copia subida por terceros" },
+  ],
+  "movie-182469": [ // Tangos, el exilio de Gardel (1985)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tangos-lexil-de-gardel-fernando-e.-solanas-1985", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

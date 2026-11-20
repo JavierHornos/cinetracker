@@ -650,6 +650,58 @@ Aries hizo también cine comercial a escala industrial: comedias de gran públic
 ### Para ver
 *Psexoanálisis*, *Los neuróticos*, *Las venganzas de Beto Sánchez* y *El muerto* tienen una copia en Internet Archive, subida por terceros. Varias de sus películas más recientes están en plataformas: en el detalle de cada una está dónde.`,
   },
+  // ── Fernando "Pino" Solanas (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  71353: {
+    nombre: "Fernando \"Pino\" Solanas",
+    rol: "Director, guionista y político",
+    bajada: "La hora de los hornos, Tangos y Sur: del cine militante clandestino al premio a la mejor dirección en Cannes.",
+    principal: "Director",
+    texto: `Nació en Olivos en 1936 y murió en las afueras de París en 2020, de COVID, siendo embajador argentino ante la UNESCO. Estudió teatro, música y derecho. Hizo cine político durante más de cincuenta años, y es el único director argentino que ganó el premio a la mejor dirección en Cannes.
+
+### La hora de los hornos
+Después del corto *Seguir andando* (1962), filmó en secreto con [Octavio Getino](#/persona/937636) [*La hora de los hornos*](#/tmdb/movie/89681) (1968): un documental-ensayo en tres partes, de más de cuatro horas, sobre el neocolonialismo, el peronismo proscripto y la violencia en América Latina. Con Getino fundó el grupo Cine Liberación y armó un circuito propio para mostrarla en sindicatos, casas y organizaciones, donde la proyección se cortaba para debatir. La película se vio en más de setenta países. En 1969 publicaron el manifiesto *Hacia un tercer cine*.
+
+### Con Perón
+En 1971 los dos entrevistaron a Perón en su exilio de Madrid, y de ahí salieron [*Perón: la revolución justicialista*](#/tmdb/movie/651095) y *Perón: actualización política y doctrinaria para la toma del poder*, los registros más extensos de su pensamiento. También participó en el documental colectivo sobre el Cordobazo, [*Argentina, mayo de 1969*](#/tmdb/movie/435584).
+
+### Exilio
+Su primera ficción, [*Los hijos de Fierro*](#/tmdb/movie/261263), la terminó en 1975, con fotografía de Juan Carlos Desanzo y montaje de [Luis César D'Angiolillo](#/persona/140557). La Triple A lo amenazó de muerte y en 1976 un comando de la Marina intentó secuestrarlo. Se exilió en Francia.
+
+### Tangos y Sur
+Desde París filmó [*Tangos, el exilio de Gardel*](#/tmdb/movie/182469) (1985), premiada en Venecia: los exiliados argentinos montan un espectáculo de tango en París. Ya en democracia hizo [*Sur*](#/tmdb/movie/46770) (1988), con Miguel Ángel Solá: un preso político sale en libertad al final de la dictadura y camina una noche de niebla por el barrio. Le dio el premio a la mejor dirección en Cannes. Las dos y [*El viaje*](#/tmdb/movie/12124) (1992) tienen fotografía de [Félix "Chango" Monti](#/persona/414697); *Sur* tiene montaje de [Juan Carlos Macías](#/persona/1070260).
+
+### Los 90 y los documentales
+En 1991 un grupo comando le disparó cuatro tiros en las piernas, después de que denunciara al gobierno de Menem, y tuvo que postergar *El viaje*, que muestra dibujos de Alberto Breccia. Siguió [*La nube*](#/tmdb/movie/49318) (1998), con Eduardo Pavlovsky, premiada en Venecia. Desde 2004 volvió al documental: [*Memoria del saqueo*](#/tmdb/movie/32547), por el que recibió el Oso de Oro a la trayectoria en Berlín, [*La dignidad de los nadies*](#/tmdb/movie/98020) (2005) y una serie sobre los recursos del país, de *Argentina latente* (2007) a *Viaje a los pueblos fumigados* (2018).
+
+### El político
+Fue diputado nacional desde 2009 y senador desde 2013 por la Ciudad de Buenos Aires, con el movimiento Proyecto Sur. Su última película, *Tres en la deriva del acto creativo*, se estrenó en 2021, después de su muerte, en Mar del Plata y en Cannes Classics.
+
+### Para ver
+Sus películas no están en Cine.ar. *La hora de los hornos*, *Perón: la revolución justicialista* y *Tangos* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
+  // ── Octavio Getino (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  937636: {
+    nombre: "Octavio Getino",
+    rol: "Director, escritor e investigador",
+    bajada: "El teórico de Cine Liberación: La hora de los hornos y el manifiesto Hacia un tercer cine.",
+    principal: "Director",
+    texto: `Nació en León, España, en 1935 y murió en Buenos Aires en 2012. Llegó a la Argentina de joven. Fue cofundador y principal teórico del grupo Cine Liberación, y uno de los que más pensó y escribió sobre el cine latinoamericano como industria y como herramienta política.
+
+### El escritor
+Antes del cine fue narrador: su libro de cuentos *Chulleca* ganó en 1964 el Premio Casa de las Américas. Su primer corto, sobre la persecución y la tortura a los presos del Plan Conintes durante el gobierno de Frondizi, le costó la cárcel en 1962.
+
+### Cine Liberación
+Con [Fernando "Pino" Solanas](#/persona/71353) filmó en la clandestinidad [*La hora de los hornos*](#/tmdb/movie/89681) (1968), y con él fundó Cine Liberación, el grupo que con el Cinema Novo brasileño, el cine cubano y el Cine de la Base de [Raymundo Gleyzer](#/persona/1211616) formó el Tercer Cine. En 1969 escribieron juntos el manifiesto *Hacia un tercer cine*. En 1971 entrevistaron a Perón en Madrid para [*Perón: la revolución justicialista*](#/tmdb/movie/651095) y *Perón: actualización política y doctrinaria para la toma del poder*.
+
+### El familiar
+Escribió y dirigió solo [*El familiar*](#/tmdb/movie/454667) (1975), con Emilio Alfaro, sobre la leyenda norteña del Familiar, el perro diabólico que se come a los peones de los ingenios.
+
+### Exilio y libros
+Amenazado de muerte después del golpe de 1976, se exilió en Perú y después en Europa. Escribió muchos libros sobre cine y cultura: *Cine y dependencia* (1990), *Las industrias culturales en la Argentina* (1995), *La tercera mirada* (1996) y *Cine argentino* (1998), entre otros.
+
+### Para ver
+*La hora de los hornos* y *Perón: la revolución justicialista* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
