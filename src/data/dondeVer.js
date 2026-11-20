@@ -1476,6 +1476,31 @@ export const LINKS = {
   "movie-883285": [ // Los cuatro secretos (1976)
     { nombre: "Internet Archive", url: "https://archive.org/details/los-cuatro-secretos-1976-simon-feldman_202502", nota: "copia subida por terceros" },
   ],
+  // Rodolfo Kuhn (murió en 1987): no son de dominio público. Copias subidas por terceros.
+  "movie-335488": [ // Los jóvenes viejos (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-jovenes-viejos-1962", nota: "copia subida por terceros" },
+  ],
+  "movie-562972": [ // Los inconstantes (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-inconstantes-1963", nota: "copia subida por terceros" },
+  ],
+  "movie-269054": [ // Pajarito Gómez (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/pajarito-gomez-una-vida-feliz-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-801089": [ // Noche terrible (1967)
+    { nombre: "Internet Archive", url: "https://archive.org/details/noche-terrible-1967", nota: "copia subida por terceros" },
+  ],
+  "movie-612269": [ // ¡Ufa con el sexo! (1968)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ufa-con-el-sexo-1968", nota: "copia subida por terceros" },
+  ],
+  "movie-613333": [ // Turismo de carretera (1968)
+    { nombre: "Internet Archive", url: "https://archive.org/details/turismo-de-carretera-1968", nota: "copia subida por terceros" },
+  ],
+  "movie-435584": [ // Argentina, mayo de 1969 (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/argentina-los-caminos-de-la-liberacion-1969", nota: "copia subida por terceros" },
+  ],
+  "movie-614714": [ // La hora de María y el pájaro de oro (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-hora-de-maria-y-el-pajaro-de-oro-1975", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

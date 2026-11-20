@@ -598,6 +598,32 @@ Escribió *La generación del 60*, la historia de su propio grupo contada desde 
 ### Para ver
 *Los de la mesa 10*, *Tango argentino* y *Los cuatro secretos* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Rodolfo Kuhn (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1453184: {
+    nombre: "Rodolfo Kuhn",
+    rol: "Director y guionista",
+    bajada: "Los jóvenes viejos y Pajarito Gómez: la Nueva Ola porteña y la sátira de la industria del espectáculo.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1934 y murió en México en 1987, a los 52 años. De la Generación del 60, fue el que más se acercó a la Nueva Ola francesa.
+
+### Los cortos
+Empezó con cortos que él mismo producía y montaba: *Contracampo* (1958) y *Luz, cámara, acción* (1959), los dos escritos con [Manuel Antín](#/persona/1125518), y *Sinfonía en no bemol* (1958), que ganó una medalla en el festival de la Exposición de Bruselas.
+
+### Los jóvenes viejos
+Su primer largo, [*Los jóvenes viejos*](#/tmdb/movie/335488) (1962), con María Vaner, Alberto Argibay y Emilio Alfaro, sigue a tres muchachos de clase media que se van de fin de semana a Mar del Plata sin saber bien qué buscan. Tiene fotografía de [Ricardo Aronovich](#/persona/22456) y montaje de [Antonio Ripoll](#/persona/1195528) y [Gerardo Rinaldi](#/persona/1916121): el aburrimiento y la desorientación de una generación. Siguió [*Los inconstantes*](#/tmdb/movie/562972) (1963), con Elsa Daniel, con quien estuvo casado.
+
+### Pajarito Gómez
+[*Pajarito Gómez, una vida feliz*](#/tmdb/movie/269054) (1965), con Héctor Pellegrini y [Lautaro Murúa](#/persona/105226), es una sátira sobre un cantante popular fabricado por una discográfica: lo que se ve en el escenario y lo que pasa atrás. Compitió en el Festival de Berlín. Kuhn también hizo la ambientación y los títulos.
+
+### Coproducciones y cine político
+Dirigió *Noche terrible*, su episodio de [*El ABC del amor*](#/tmdb/movie/268659) (1967), una película en tres partes hecha con directores de Brasil y Chile, entre ellos Eduardo Coutinho. Después de [*¡Ufa con el sexo!*](#/tmdb/movie/612269) y [*Turismo de carretera*](#/tmdb/movie/613333) (1968), se sumó a [*Argentina, mayo de 1969: los caminos de la liberación*](#/tmdb/movie/435584), el documental colectivo sobre el Cordobazo, con [Fernando Solanas](#/persona/71353), Octavio Getino, Pablo Szir, Eliseo Subiela y otros. Ahí también hizo fotografía y montaje.
+
+### Los últimos años
+Filmó [*La hora de María y el pájaro de oro*](#/tmdb/movie/614714) (1975), con Leonor Manso, y en los 80 [*El señor Galíndez*](#/tmdb/movie/463552) (1984), sobre la obra de Eduardo Pavlovsky acerca de los torturadores. Escribió un libro sobre Armando Bo y un manual de realización. Murió de un ataque al corazón en México.
+
+### Para ver
+Sus películas no están en Cine.ar. Casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

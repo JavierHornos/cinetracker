@@ -145,7 +145,7 @@ Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, 
 - **[José Martínez Suárez](#/persona/1083797)**: [*El crack*](#/tmdb/movie/597489) (1960), sobre el mundo del fútbol, y [*Dar la cara*](#/tmdb/movie/501916) (1962), con [Leonardo Favio](#/persona/116190) entre los actores.
 - **[Lautaro Murúa](#/persona/105226)**: [*Shunko*](#/tmdb/movie/431881) (1960), sobre un maestro rural en Santiago del Estero, y [*Alias Gardelito*](#/tmdb/movie/335487) (1961).
 - **[David José Kohon](#/persona/1453186)**: [*Tres veces Ana*](#/tmdb/movie/392745) (1961).
-- **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).
+- **[Rodolfo Kuhn](#/persona/1453184)**: [*Los jóvenes viejos*](#/tmdb/movie/335488) (1962) y [*Pajarito Gómez*](#/tmdb/movie/269054) (1965), una sátira sobre un ídolo fabricado por la industria del disco.
 - **[Manuel Antín](#/persona/1125518)**: [*La cifra impar*](#/tmdb/movie/304796) (1962), sobre un cuento de Cortázar.
 
 En paralelo, **[Fernando Ayala](#/persona/220264)** y **Héctor Olivera** fundaron en 1956 Aries Cinematográfica, que fue durante décadas la productora comercial más fuerte del país.
