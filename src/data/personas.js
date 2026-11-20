@@ -748,6 +748,35 @@ Desde 1976 enseñó cine en la Universidad de California en Los Ángeles (UCLA),
 ### Para ver
 Sus películas no están en Cine.ar. *Quilino*, *Chucalezna*, *Hermógenes Cayo*, *Valle Fértil*, *Cochengo Miranda* y *Los onas* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── María Luisa Bemberg (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  1066960: {
+    nombre: "María Luisa Bemberg",
+    rol: "Directora y guionista",
+    bajada: "Camila, Miss Mary y Yo, la peor de todas: empezó a dirigir a los 58 años y cambió la mirada del cine argentino sobre las mujeres.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1922 y murió en Buenos Aires en 1995. Empezó a dirigir largometrajes a los 58 años, y en catorce años hizo seis películas que pusieron en el centro del cine argentino a mujeres que se rebelan contra el lugar que les tocó.
+
+### La señora de nadie
+Era de la cuarta generación de la familia Bemberg, dueña de la Cervecería Quilmes, y no la mandaron a la escuela: así se educaba entonces a las chicas de su clase. Se casó en 1945, tuvo cuatro hijos y se separó años después; dejó de ser, decía ella, "la señora de Miguens para convertirse en la señora de nadie". En 1959 fundó el Teatro del Globo, estudió actuación en Nueva York con Lee Strasberg y fue una de las fundadoras de la Unión Feminista Argentina.
+
+### Guionista
+Escribió la obra de la que salió [*Crónica de una señora*](#/tmdb/movie/409723) (1971), de Raúl de la Torre, con Graciela Borges y [Lautaro Murúa](#/persona/105226), premiada en San Sebastián, y el guion de [*Triángulo de cuatro*](#/tmdb/movie/614717) (1975), de [Fernando Ayala](#/persona/220264). Dirigió dos cortos feministas: *El mundo de la mujer* (1972) y *Juguetes* (1978), este con fotografía de [Félix "Chango" Monti](#/persona/414697).
+
+### Momentos y Señora de nadie
+Con la productora Lita Stantic fundó GEA Cinematográfica y en 1981 dirigió [*Momentos*](#/tmdb/movie/127252), con Graciela Dufau y Miguel Ángel Solá. La censura de la dictadura le hizo la guerra a la película y a ella. Siguió [*Señora de nadie*](#/tmdb/movie/127022) (1982), con Luisina Brando: una mujer que deja a su marido y empieza de nuevo. La fotografió [Miguel Rodríguez](#/persona/1676474).
+
+### Camila
+[*Camila*](#/tmdb/movie/42085) (1984), con Susú Pecoraro, Imanol Arias y Héctor Alterio, cuenta el amor entre Camila O'Gorman y un sacerdote en tiempos de Rosas, y cómo los fusilaron por eso. Fue un éxito enorme y estuvo nominada al Oscar a la mejor película extranjera. La montó [Luis César D'Angiolillo](#/persona/140557), que también montó [*Miss Mary*](#/tmdb/movie/241603) (1986), con Julie Christie como la institutriz inglesa de una familia de estancieros en los años 30.
+
+### Yo, la peor de todas y De eso no se habla
+[*Yo, la peor de todas*](#/tmdb/movie/123763) (1990), con Assumpta Serna y Dominique Sanda, es la historia de Sor Juana Inés de la Cruz, obligada a callarse por la Iglesia. [*De eso no se habla*](#/tmdb/movie/124304) (1993), con Marcello Mastroianni y Luisina Brando, es una fábula sobre una madre que quiere ocultar que su hija es enana. Las dos tienen fotografía de Monti y montaje de [Juan Carlos Macías](#/persona/1070260).
+
+### El impostor
+Murió de cáncer mientras escribía [*El impostor*](#/tmdb/movie/476293), sobre un cuento de Silvina Ocampo, pariente suya. La dirigió su colaborador Alejandro Maci y se estrenó en 1997, con fotografía de [Ricardo Aronovich](#/persona/22456).
+
+### Para ver
+*Camila* está en plataformas: en su detalle está dónde. *Señora de nadie*, *Miss Mary*, *Yo, la peor de todas* y *Crónica de una señora* tienen una copia en Internet Archive, subida por terceros.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

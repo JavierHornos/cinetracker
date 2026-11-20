@@ -203,7 +203,7 @@ Desde 1978, con la censura un poco más floja, algunos directores contaron el cl
 
 - **Adolfo Aristarain**: *La parte del león* (1978) y sobre todo *Tiempo de revancha* (1981), con Federico Luppi. Un obrero se finge mudo para demandar a una empresa minera. Es una metáfora clara del silencio impuesto.
 - **[Fernando Ayala](#/persona/220264)**: [*Plata dulce*](#/tmdb/movie/118198) (1982), sobre la especulación financiera de la "tablita" de Martínez de Hoz.
-- **María Luisa Bemberg**, que empezó a dirigir pasados los 50 años: *Momentos* (1981) y *Señora de nadie* (1982), con una mirada feminista inédita en el cine argentino.
+- **[María Luisa Bemberg](#/persona/1066960)**, que empezó a dirigir pasados los 50 años: [*Momentos*](#/tmdb/movie/127252) (1981) y [*Señora de nadie*](#/tmdb/movie/127022) (1982), con una mirada feminista inédita en el cine argentino.
 - **[Héctor Olivera](#/persona/52121)**: [*No habrá más penas ni olvido*](#/tmdb/movie/246896) (1983), sobre la novela de Osvaldo Soriano, una sátira sobre la violencia interna del peronismo. Se estrenó en el fin de la dictadura.`,
     peliculas: ["Tiempo de revancha", "Plata dulce", "No habrá más penas ni olvido"],
   },
@@ -215,7 +215,7 @@ Desde 1978, con la censura un poco más floja, algunos directores contaron el cl
 
 *La historia oficial* (1985), de **Luis Puenzo**, con **Norma Aleandro** y **Héctor Alterio**. Una profesora de historia empieza a sospechar que su hija adoptiva es hija de desaparecidos. Ganó el Oscar a la mejor película extranjera en 1986, el primero de América Latina, y Aleandro se llevó el premio a mejor actriz en Cannes.
 
-El año anterior, *Camila* (1984), de **María Luisa Bemberg**, había sido nominada al Oscar. Cuenta el romance prohibido entre Camila O'Gorman y un sacerdote en tiempos de Rosas.
+El año anterior, [*Camila*](#/tmdb/movie/42085) (1984), de **[María Luisa Bemberg](#/persona/1066960)**, había sido nominada al Oscar. Cuenta el romance prohibido entre Camila O'Gorman y un sacerdote en tiempos de Rosas.
 
 ### Las películas de la memoria
 

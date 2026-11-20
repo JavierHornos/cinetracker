@@ -1570,6 +1570,19 @@ export const LINKS = {
   "movie-614748": [ // Los onas (1977)
     { nombre: "Internet Archive", url: "https://archive.org/details/vimeo-115225674", nota: "copia subida por terceros" },
   ],
+  // María Luisa Bemberg (murió en 1995): no son de dominio público. Copias subidas por terceros.
+  "movie-409723": [ // Crónica de una señora (1971, guion de Bemberg)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cronica-de-una-senora-1971", nota: "copia subida por terceros" },
+  ],
+  "movie-127022": [ // Señora de nadie (1982)
+    { nombre: "Internet Archive", url: "https://archive.org/details/senora-de-nadie-1982", nota: "copia subida por terceros" },
+  ],
+  "movie-241603": [ // Miss Mary (1986)
+    { nombre: "Internet Archive", url: "https://archive.org/details/miss-mary-1986", nota: "copia subida por terceros" },
+  ],
+  "movie-123763": [ // Yo, la peor de todas (1990)
+    { nombre: "Internet Archive", url: "https://archive.org/details/yo-la-peor-de-todas-1990", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
