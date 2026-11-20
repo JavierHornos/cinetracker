@@ -1378,6 +1378,37 @@ export const LINKS = {
   "movie-504895": [ // El agujero en la pared (1982)
     { nombre: "Internet Archive", url: "https://archive.org/details/el-agujero-en-la-pared-1982", nota: "copia subida por terceros" },
   ],
+  // Manuel Antín (murió en 2024): Cine.ar primero; si no, copia subida por terceros.
+  "movie-198655": [ // Don Segundo Sombra (1969)
+    { nombre: "Cine.ar", url: "https://play.cine.ar/INCAA/produccion/367", nota: "gratis con registro" },
+  ],
+  "movie-304796": [ // La cifra impar (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-cifra-impar-1962", nota: "copia subida por terceros" },
+  ],
+  "movie-198844": [ // Los venerables todos (1962)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-venerables-todos-1961", nota: "copia subida por terceros" },
+  ],
+  "movie-264554": [ // Circe (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/circe-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-506679": [ // Intimidad de los parques (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/intimidad-de-los-parques-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-597470": [ // Psique y sexo (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/psique-y-sexo-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-597475": [ // Castigo al traidor (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/castigo-al-traidor-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-506557": [ // Juan Manuel de Rosas (1972)
+    { nombre: "Internet Archive", url: "https://archive.org/details/juan-manuel-de-rosas-1972", nota: "copia subida por terceros" },
+  ],
+  "movie-454662": [ // La sartén por el mango (1972)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-sarten-por-el-mango-1972", nota: "copia subida por terceros" },
+  ],
+  "movie-597486": [ // La invitación (1982)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-invitacion-1982", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

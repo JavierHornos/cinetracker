@@ -145,7 +145,7 @@ Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, 
 - **Lautaro Murúa**: *Shunko* (1960), sobre un maestro rural en Santiago del Estero, y *Alias Gardelito* (1961).
 - **[David José Kohon](#/persona/1453186)**: [*Tres veces Ana*](#/tmdb/movie/392745) (1961).
 - **Rodolfo Kuhn**: *Los jóvenes viejos* (1962).
-- **Manuel Antín**: *La cifra impar* (1962), sobre un cuento de Cortázar.
+- **[Manuel Antín](#/persona/1125518)**: [*La cifra impar*](#/tmdb/movie/304796) (1962), sobre un cuento de Cortázar.
 
 En paralelo, **[Fernando Ayala](#/persona/220264)** y **Héctor Olivera** fundaron en 1956 Aries Cinematográfica, que fue durante décadas la productora comercial más fuerte del país.
 
@@ -237,7 +237,7 @@ La hiperinflación de 1989 hundió la producción: los estrenos nacionales cayer
 ### Las tres condiciones
 
 1. **La Ley de Cine 24.377 (1994)** creó el INCAA tal como lo conocemos y un Fondo de Fomento que se nutre de un porcentaje de las entradas, del video y de la TV. Por primera vez hubo plata estable para producir.
-1. **Las escuelas**: la Universidad del Cine (FUC), fundada por Manuel Antín en 1991, la ENERC y las carreras universitarias formaron a miles de estudiantes a lo largo de los 90.
+1. **Las escuelas**: la Universidad del Cine (FUC), fundada por [Manuel Antín](#/persona/1125518) en 1991, la ENERC y las carreras universitarias formaron a miles de estudiantes a lo largo de los 90.
 1. **El BAFICI**, el festival de cine independiente de Buenos Aires, nació en 1999 y fue la vidriera de esta generación.
 
 ### El punto de partida

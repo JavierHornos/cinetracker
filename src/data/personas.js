@@ -459,6 +459,35 @@ Javier Naudeau lo entrevistó en *Un film de entrevista. Conversaciones con Davi
 ### Para ver
 *Prisioneros de una noche* y *La Madre María* están en Cine.ar. Casi todas las demás tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Manuel Antín (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1125518: {
+    nombre: "Manuel Antín",
+    rol: "Director, escritor y gestor",
+    bajada: "Cortázar en el cine, el INCAA de la vuelta de la democracia y la Universidad del Cine.",
+    principal: "Director",
+    texto: `Nació en Las Palmas, Chaco, en 1926 y murió en Buenos Aires en 2024. Hizo doce largometrajes entre 1960 y 1982, pero su huella llega más lejos: dirigió el Instituto de Cine en la vuelta de la democracia y fundó la escuela donde se formó buena parte del cine argentino actual.
+
+### Escritor antes que director
+Escribió novelas, teatro y poesía. De joven fue guionista de televisión y de historietas de la Editorial Abril, donde coincidió con Héctor Germán Oesterheld. Al cine entró como coguionista de dos cortos de Rodolfo Kuhn, *Contracampo* (1958) y *Luz, cámara, acción* (1959), y en 1960 dirigió su propio corto, *Biografías*.
+
+### Cortázar
+Su primer largo, [*La cifra impar*](#/tmdb/movie/304796) (1962), con Lautaro Murúa, María Rosa Gallo y Sergio Renán, es una adaptación del cuento "Cartas de mamá", de Julio Cortázar. Volvió dos veces a Cortázar: [*Circe*](#/tmdb/movie/264554) (1964), con Graciela Borges, e [*Intimidad de los parques*](#/tmdb/movie/506679) (1965), con Francisco Rabal y Dora Baret. Con el escritor mantuvo una larga correspondencia, que cuenta el documental [*Cortázar y Antín: cartas iluminadas*](#/tmdb/movie/594333) (Cinthia Rajschmir, 2018). Era la Generación del 60 en estado puro: el cine argentino mirando a la Nueva Ola francesa.
+
+### La película perdida
+En el medio filmó su propia novela, [*Los venerables todos*](#/tmdb/movie/198844) (1962), con Murúa, Fernanda Mistral y Walter Vidarte y fotografía de [Ricardo Aronovich](#/persona/22456). Fue al Festival de Cannes, pero nunca se estrenó en las salas y quedó perdida durante décadas. Un hallazgo casual permitió restaurarla, y se estrenó en el Festival de Mar del Plata en 2015.
+
+### Los clásicos y la historia
+En los 60 hizo también *Los argentinos*, una serie de documentales para televisión sobre Benito Quinquela Martín, Ernesto Sabato, Bernardo Houssay, Amadeo Carrizo y [Torre Nilsson](#/persona/116197), entre otros. Dos veces quiso filmar *Adán Buenosayres*, de Marechal, y el Instituto de Cine le negó el crédito. Después vino su ciclo de grandes adaptaciones e historia: [*Don Segundo Sombra*](#/tmdb/movie/198655) (1969), sobre la novela de Güiraldes, y [*Juan Manuel de Rosas*](#/tmdb/movie/506557) (1972), con Rodolfo Bebán, las dos con fotografía de [Miguel Rodríguez](#/persona/1676474) y montaje de [Antonio Ripoll](#/persona/1195528). En 1978 filmó *Allá lejos y hace tiempo*, sobre el libro de Guillermo Enrique Hudson, que según cinenacional quedó inconclusa. Su última película fue [*La invitación*](#/tmdb/movie/597486) (1982), sobre una novela de Beatriz Guido.
+
+### El Instituto de Cine
+Con la vuelta de la democracia, Raúl Alfonsín lo puso al frente del Instituto Nacional de Cine, que dirigió de 1983 a 1989. Se terminó la censura del Ente de Calificación Cinematográfica, el de Miguel Paulino Tato, y el cine argentino salió al mundo: festivales, muestras y coproducciones, sobre todo con España. Son los años de *La historia oficial* y el primer Oscar.
+
+### La Universidad del Cine
+En 1991 fundó la Universidad del Cine (FUC), donde se formaron muchos de los directores del Nuevo Cine Argentino. En 2011 recibió el Cóndor de Plata a la trayectoria.
+
+### Para ver
+*Don Segundo Sombra* está en Cine.ar. Casi todas las demás tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
