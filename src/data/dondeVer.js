@@ -1523,6 +1523,37 @@ export const LINKS = {
   "movie-182469": [ // Tangos, el exilio de Gardel (1985)
     { nombre: "Internet Archive", url: "https://archive.org/details/tangos-lexil-de-gardel-fernando-e.-solanas-1985", nota: "copia subida por terceros" },
   ],
+  // Raymundo Gleyzer (desaparecido en 1976): no son de dominio público. Copias subidas por terceros.
+  "movie-612707": [ // El ciclo (1963)
+    { nombre: "Internet Archive", url: "https://archive.org/details/el-ciclo-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-278842": [ // La tierra quema (1964)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-tierra-quema-1964", nota: "copia subida por terceros" },
+  ],
+  "movie-278839": [ // Ocurrido en Hualfín (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/sucedio-en-hualfin-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-226215": [ // Ceramiqueros de Traslasierra (1965)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ceramiqueros-de-traslasierra-1965", nota: "copia subida por terceros" },
+  ],
+  "movie-580835": [ // Quilino (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/quilino-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-226224": [ // Nuestras islas Malvinas (1966)
+    { nombre: "Internet Archive", url: "https://archive.org/details/nuestras-islas-malvinas-1966", nota: "copia subida por terceros" },
+  ],
+  "movie-489603": [ // Swift (1971)
+    { nombre: "Internet Archive", url: "https://archive.org/details/swift-1971", nota: "copia subida por terceros" },
+  ],
+  "movie-274808": [ // México, la revolución congelada (1973)
+    { nombre: "Internet Archive", url: "https://archive.org/details/mexico-la-revolucion-congelada-1973-raymundo-gleyzer-huellas-de-la-historia-1080p-h-264", nota: "copia subida por terceros" },
+  ],
+  "movie-226216": [ // Los traidores (1973)
+    { nombre: "Internet Archive", url: "https://archive.org/details/LosTraidoresDeRaymundoGleyzer1973", nota: "copia subida por terceros" },
+  ],
+  "movie-278845": [ // Me matan si no trabajo y si trabajo me matan (1974)
+    { nombre: "Internet Archive", url: "https://archive.org/details/me-matan-si-no-trabajo-si-no-trabajo-me-matan-1974", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

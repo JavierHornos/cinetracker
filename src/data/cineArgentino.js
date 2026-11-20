@@ -165,7 +165,7 @@ Actor de [Torre Nilsson](#/persona/116197), **[Leonardo Favio](#/persona/116190)
 
 ### Raymundo Gleyzer y el Cine de la Base
 
-**Raymundo Gleyzer** formó el grupo Cine de la Base, ligado a la izquierda no peronista. Su ficción *Los traidores* (1973) cuenta la historia de un dirigente sindical corrupto. Gleyzer fue secuestrado en mayo de 1976 y sigue desaparecido.
+**[Raymundo Gleyzer](#/persona/1211616)** formó el grupo Cine de la Base, ligado a la izquierda no peronista. Su ficción [*Los traidores*](#/tmdb/movie/226216) (1973) cuenta la historia de un dirigente sindical corrupto. Gleyzer fue secuestrado en mayo de 1976 y sigue desaparecido.
 
 ### Favio, el cine que llenó las salas
 
@@ -185,7 +185,7 @@ Desde 1974 la Triple A amenazó a actores y directores, y muchos se fueron del p
   },
   {
     id: "dictadura", numero: 6, titulo: "La dictadura", desde: 1976, hasta: 1983,
-    texto: `La última dictadura militar fue el período más oscuro del cine argentino. En 1976 se estrenaron apenas 16 películas nacionales. Hubo cineastas desaparecidos, como Raymundo Gleyzer y Pablo Szir, y muchos otros se exiliaron.
+    texto: `La última dictadura militar fue el período más oscuro del cine argentino. En 1976 se estrenaron apenas 16 películas nacionales. Hubo cineastas desaparecidos, como [Raymundo Gleyzer](#/persona/1211616) y Pablo Szir, y muchos otros se exiliaron.
 
 ### La censura
 

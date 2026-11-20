@@ -702,6 +702,29 @@ Amenazado de muerte después del golpe de 1976, se exilió en Perú y después e
 ### Para ver
 *La hora de los hornos* y *Perón: la revolución justicialista* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Raymundo Gleyzer (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  1211616: {
+    nombre: "Raymundo Gleyzer",
+    rol: "Documentalista y director",
+    bajada: "México, la revolución congelada y Los traidores: el Cine de la Base. Desaparecido en 1976.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1941. El 27 de mayo de 1976 lo secuestraron en la puerta del sindicato de cine, el SICA, y sigue desaparecido. Tenía 34 años.
+
+### La Plata y los primeros documentales
+A los veinte años dejó Ciencias Económicas y entró a la escuela de cine de la Universidad de La Plata. Sus primeros trabajos son documentales sobre la pobreza y el trabajo: [*La tierra quema*](#/tmdb/movie/278842) (1964), sobre los campesinos del nordeste de Brasil, [*Ceramiqueros de Traslasierra*](#/tmdb/movie/226215) (1965) y, con [Jorge Prelorán](#/persona/1279640), [*Ocurrido en Hualfín*](#/tmdb/movie/278839) (1965) y [*Quilino*](#/tmdb/movie/580835) (1966), en las que también hizo cámara.
+
+### El camarógrafo
+Desde 1965 trabajó en noticieros de televisión. Fue el primer camarógrafo argentino que filmó en las Malvinas, y de ese viaje salió [*Nuestras islas Malvinas*](#/tmdb/movie/226224) (1966). También fue el primero en mandar a la televisión argentina reportajes sobre la zafra en Cuba.
+
+### México, la revolución congelada
+En 1970 convenció al candidato a presidente de México, Luis Echeverría, de que lo dejara filmar su campaña. Echeverría esperaba un elogio de la Revolución hecha institución; Gleyzer hizo [*México, la revolución congelada*](#/tmdb/movie/274808) (1973), una crítica feroz a una revolución traicionada, que termina con la masacre de Tlatelolco de 1968. México presionó para que la prohibieran en la Argentina, y en México no se vio hasta 2007. Ganó premios en Locarno y en Adelaida.
+
+### El Cine de la Base
+Militante del PRT, fundó con sus compañeros el grupo Cine de la Base, que filmaba y proyectaba en la clandestinidad, en barrios, fábricas, escuelas y universidades. Hizo [*Swift*](#/tmdb/movie/489603) (1971), [*Ni olvido ni perdón: 1972, la masacre de Trelew*](#/tmdb/movie/489592) y su única ficción, [*Los traidores*](#/tmdb/movie/226216) (1973): un delegado sindical que se convierte en burócrata al servicio de la patronal. Las copias tuvieron que sacarse del país y volvieron con la democracia. Su último documental fue [*Me matan si no trabajo y si trabajo me matan*](#/tmdb/movie/278845) (1974), sobre los obreros de una fábrica envenenados con plomo.
+
+### Para ver
+Sobre su vida está el documental [*Raymundo*](#/tmdb/movie/279603) (Ernesto Ardito y Virna Molina, 2003). Sus películas no están en Cine.ar, pero casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
