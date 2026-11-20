@@ -1554,6 +1554,22 @@ export const LINKS = {
   "movie-278845": [ // Me matan si no trabajo y si trabajo me matan (1974)
     { nombre: "Internet Archive", url: "https://archive.org/details/me-matan-si-no-trabajo-si-no-trabajo-me-matan-1974", nota: "copia subida por terceros" },
   ],
+  // Jorge Prelorán (murió en 2009): no son de dominio público. Copias subidas por terceros.
+  "movie-746098": [ // Chucalezna (1968)
+    { nombre: "Internet Archive", url: "https://archive.org/details/1968-chucalezna-jorge-preloran", nota: "copia subida por terceros" },
+  ],
+  "movie-462551": [ // Hermógenes Cayo (1969)
+    { nombre: "Internet Archive", url: "https://archive.org/details/hermogenes-cayo-1969", nota: "copia subida por terceros" },
+  ],
+  "movie-1095041": [ // Valle Fértil (1972)
+    { nombre: "Internet Archive", url: "https://archive.org/details/valle-fertil-1972", nota: "copia subida por terceros" },
+  ],
+  "movie-614570": [ // Cochengo Miranda (1975)
+    { nombre: "Internet Archive", url: "https://archive.org/details/cochengo-miranda-1975", nota: "copia subida por terceros" },
+  ],
+  "movie-614748": [ // Los onas (1977)
+    { nombre: "Internet Archive", url: "https://archive.org/details/vimeo-115225674", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

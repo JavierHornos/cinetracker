@@ -725,6 +725,29 @@ Militante del PRT, fundó con sus compañeros el grupo Cine de la Base, que film
 ### Para ver
 Sobre su vida está el documental [*Raymundo*](#/tmdb/movie/279603) (Ernesto Ardito y Virna Molina, 2003). Sus películas no están en Cine.ar, pero casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Jorge Prelorán (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  1279640: {
+    nombre: "Jorge Prelorán",
+    rol: "Documentalista",
+    bajada: "Hermógenes Cayo y Cochengo Miranda: el cine etnográfico argentino, una película por persona.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1933 y murió en Culver City, Estados Unidos, en 2009. Es el gran nombre del cine etnográfico argentino.
+
+### Geografía humana
+Filmó a la gente de las zonas rurales y marginales del país, con poco contacto con los medios: artesanos, pastores, puesteros, pueblos originarios. Llamaba a su cine "geografía humana": quería mostrar que los deseos de las personas son parecidos en cualquier parte, y que las diferencias materiales son lo de menos. Se oponía al documental que solo busca lo exótico. Registró culturas que estaban cambiando o desapareciendo con la llegada de la radio, la bicicleta y el auto. Trabajó con muy pocos recursos.
+
+### Con Gleyzer
+A mediados de los 60 filmó con [Raymundo Gleyzer](#/persona/1211616) [*Ocurrido en Hualfín*](#/tmdb/movie/278839) (1965) y [*Quilino*](#/tmdb/movie/580835) (1966). De esos años son también los cortos sobre el Noroeste: *Casabindo*, *Feria en Simoca*, *Trapiches caseros*, [*Chucalezna*](#/tmdb/movie/746098) (1968) e *Iruya* (1968).
+
+### Las etnobiografías
+Su forma más personal fueron las películas sobre una sola persona, contada con su propia voz: [*Hermógenes Cayo*](#/tmdb/movie/462551) (1969), un imaginero de la Puna jujeña, considerada su obra mayor, [*Valle Fértil*](#/tmdb/movie/1095041) (1972), [*Cochengo Miranda*](#/tmdb/movie/614570) (1975), sobre un campesino de la región pampeana y su familia, y *Los hijos de Zerda* (1978). Con la antropóloga Anne Chapman y Ana Montes de González hizo [*Los onas: vida y muerte en Tierra del Fuego*](#/tmdb/movie/614748) (1977), sobre la última generación de los selk'nam.
+
+### Estados Unidos
+Desde 1976 enseñó cine en la Universidad de California en Los Ángeles (UCLA), hasta 1994. Su corto [*Luther Metke at 94*](#/tmdb/movie/244380) (1980), sobre un veterano, poeta y constructor de cabañas de 94 años, estuvo nominado al Oscar al mejor corto documental. Con su mujer, la antropóloga Mabel Prelorán, hizo *Zulay, frente al siglo XXI* (1989), sobre una mujer de un pueblo de Ecuador que se va a vivir a Los Ángeles. Recibió el Konex de Platino, y en Buenos Aires dirigió la maestría de cine documental de la Universidad del Cine. En 2007 donó su archivo al Smithsonian; otra parte está en la Biblioteca Nacional.
+
+### Para ver
+Sus películas no están en Cine.ar. *Quilino*, *Chucalezna*, *Hermógenes Cayo*, *Valle Fértil*, *Cochengo Miranda* y *Los onas* tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
