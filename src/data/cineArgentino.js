@@ -148,7 +148,7 @@ Un grupo de directores jóvenes, que venían del cortometraje y los cineclubes, 
 - **[Rodolfo Kuhn](#/persona/1453184)**: [*Los jóvenes viejos*](#/tmdb/movie/335488) (1962) y [*Pajarito Gómez*](#/tmdb/movie/269054) (1965), una sátira sobre un ídolo fabricado por la industria del disco.
 - **[Manuel Antín](#/persona/1125518)**: [*La cifra impar*](#/tmdb/movie/304796) (1962), sobre un cuento de Cortázar.
 
-En paralelo, **[Fernando Ayala](#/persona/220264)** y **Héctor Olivera** fundaron en 1956 Aries Cinematográfica, que fue durante décadas la productora comercial más fuerte del país.
+En paralelo, **[Fernando Ayala](#/persona/220264)** y **[Héctor Olivera](#/persona/52121)** fundaron en 1956 Aries Cinematográfica, que fue durante décadas la productora comercial más fuerte del país.
 
 ### Leonardo Favio, el outsider
 
@@ -175,7 +175,7 @@ Actor de [Torre Nilsson](#/persona/116197), **[Leonardo Favio](#/persona/116190)
 
 Con la vuelta del peronismo hubo un año de cine libre y ambicioso:
 
-- *La Patagonia rebelde* (1974), de **Héctor Olivera**, sobre las huelgas rurales de Santa Cruz de 1921, con guion basado en Osvaldo Bayer. Fue un éxito y poco después la prohibieron.
+- [*La Patagonia rebelde*](#/tmdb/movie/64978) (1974), de **[Héctor Olivera](#/persona/52121)**, sobre las huelgas rurales de Santa Cruz de 1921, con guion basado en Osvaldo Bayer. Fue un éxito y poco después la prohibieron.
 - *La tregua* (1974), de **Sergio Renán**, sobre la novela de Mario Benedetti. Fue la primera película argentina nominada al Oscar.
 - [*Boquitas pintadas*](#/tmdb/movie/62499) (1974), de [Torre Nilsson](#/persona/116197), sobre la novela de Manuel Puig.
 - [*La Raulito*](#/tmdb/movie/209646) (1975), de [Lautaro Murúa](#/persona/105226), con Marilina Ross.
@@ -202,7 +202,7 @@ Desde 1978, con la censura un poco más floja, algunos directores contaron el cl
 - **Adolfo Aristarain**: *La parte del león* (1978) y sobre todo *Tiempo de revancha* (1981), con Federico Luppi. Un obrero se finge mudo para demandar a una empresa minera. Es una metáfora clara del silencio impuesto.
 - **[Fernando Ayala](#/persona/220264)**: [*Plata dulce*](#/tmdb/movie/118198) (1982), sobre la especulación financiera de la "tablita" de Martínez de Hoz.
 - **María Luisa Bemberg**, que empezó a dirigir pasados los 50 años: *Momentos* (1981) y *Señora de nadie* (1982), con una mirada feminista inédita en el cine argentino.
-- **Héctor Olivera**: *No habrá más penas ni olvido* (1983), sobre la novela de Osvaldo Soriano, una sátira sobre la violencia interna del peronismo. Se estrenó en el fin de la dictadura.`,
+- **[Héctor Olivera](#/persona/52121)**: [*No habrá más penas ni olvido*](#/tmdb/movie/246896) (1983), sobre la novela de Osvaldo Soriano, una sátira sobre la violencia interna del peronismo. Se estrenó en el fin de la dictadura.`,
     peliculas: ["Tiempo de revancha", "Plata dulce", "No habrá más penas ni olvido"],
   },
   {
@@ -217,7 +217,7 @@ El año anterior, *Camila* (1984), de **María Luisa Bemberg**, había sido nomi
 
 ### Las películas de la memoria
 
-- *La noche de los lápices* (1986), de Héctor Olivera, sobre los estudiantes secundarios secuestrados en La Plata en 1976.
+- [*La noche de los lápices*](#/tmdb/movie/55269) (1986), de [Héctor Olivera](#/persona/52121), sobre los estudiantes secundarios secuestrados en La Plata en 1976.
 - *Tangos, el exilio de Gardel* (1985) y *Sur* (1988), de Pino Solanas, sobre el exilio y el regreso. Solanas ganó el premio a mejor director en Cannes por *Sur*.
 
 ### Otros caminos

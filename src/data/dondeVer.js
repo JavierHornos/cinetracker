@@ -1501,6 +1501,16 @@ export const LINKS = {
   "movie-614714": [ // La hora de María y el pájaro de oro (1975)
     { nombre: "Internet Archive", url: "https://archive.org/details/la-hora-de-maria-y-el-pajaro-de-oro-1975", nota: "copia subida por terceros" },
   ],
+  // Héctor Olivera (vive): copias subidas por terceros de sus primeras películas.
+  "movie-612263": [ // Psexoanálisis (1968)
+    { nombre: "Internet Archive", url: "https://archive.org/details/psexoanalisis-1968", nota: "copia subida por terceros" },
+  ],
+  "movie-811065": [ // Los neuróticos (1971)
+    { nombre: "Internet Archive", url: "https://archive.org/details/los-neuroticos-1971", nota: "copia subida por terceros" },
+  ],
+  "movie-370252": [ // Las venganzas de Beto Sánchez (1973)
+    { nombre: "Internet Archive", url: "https://archive.org/details/las-venganzas-de-beto-sanchez-1973", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

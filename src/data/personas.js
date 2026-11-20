@@ -624,6 +624,32 @@ Filmó [*La hora de María y el pájaro de oro*](#/tmdb/movie/614714) (1975), co
 ### Para ver
 Sus películas no están en Cine.ar. Casi todas tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link.`,
   },
+  // ── Héctor Olivera (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  52121: {
+    nombre: "Héctor Olivera",
+    rol: "Productor, director y guionista",
+    bajada: "La Patagonia rebelde, No habrá más penas ni olvido y La noche de los lápices; cofundador de Aries.",
+    principal: "Director",
+    texto: `Nació en Olivos, provincia de Buenos Aires, en 1931. Productor antes que director, es una de las figuras centrales de la industria del cine argentino de la segunda mitad del siglo XX: con [Fernando Ayala](#/persona/220264) fundó Aries Cinematográfica.
+
+### El oficio
+A los catorce años su madre lo llevó a los Estudios Baires, y a los dieciséis ya era segundo ayudante de dirección. En 1950 entró a la producción en Artistas Argentinos Asociados, donde aprendió junto a [Mario Soffici](#/persona/1087155), Tulio Demicheli y [Luis César Amadori](#/persona/535744). Conoció a Ayala en un rodaje de 1945, *Allá en el setenta y tantos*.
+
+### Aries
+En 1956 fundaron Aries Cinematográfica Argentina: Ayala dirigía y Olivera producía. Empezaron con [*El jefe*](#/tmdb/movie/264386) (1958) y siguieron con [*Paula cautiva*](#/tmdb/movie/264388) (1963) y [*Primero yo*](#/tmdb/movie/198834) (1964), entre muchas otras. En su autobiografía, *Fabricante de sueños* (2021), contó que durante algunos años fueron amantes. Se casó con Beba Etchebehere, hija del director de fotografía [Alberto Etchebehere](#/persona/1173339).
+
+### El director
+Debutó como director con [*Psexoanálisis*](#/tmdb/movie/612263) (1968) y con Ayala hizo [*Argentinísima*](#/tmdb/movie/353916) (1972). Su obra mayor llegó en 1974: [*La Patagonia rebelde*](#/tmdb/movie/64978), sobre el libro de Osvaldo Bayer acerca de las huelgas rurales de Santa Cruz de 1921, con Héctor Alterio, Luis Brandoni y Federico Luppi. Fue premiada en el Festival de Berlín y estuvo prohibida. Después hizo [*El muerto*](#/tmdb/movie/356096) (1975), sobre el cuento de Borges, y la comedia [*La nona*](#/tmdb/movie/118195) (1979), con Pepe Soriano, sobre la obra de Roberto Cossa.
+
+### La vuelta de la democracia
+[*No habrá más penas ni olvido*](#/tmdb/movie/246896) (1983), sobre la novela de Osvaldo Soriano, es una sátira sobre la violencia interna del peronismo en un pueblo. [*La noche de los lápices*](#/tmdb/movie/55269) (1986) cuenta el secuestro de estudiantes secundarios de La Plata en 1976. Volvió a Soriano con [*Una sombra ya pronto serás*](#/tmdb/movie/203958) (1994), que ganó cinco Cóndores de Plata, y filmó [*El caso María Soledad*](#/tmdb/movie/345379) (1993), [*Ay, Juancito*](#/tmdb/movie/600046) (2004), sobre Juan Duarte, el hermano de Evita, y [*El mural*](#/tmdb/movie/132320) (2010), sobre el mural de Siqueiros en la quinta de Natalio Botana.
+
+### El productor
+Aries hizo también cine comercial a escala industrial: comedias de gran público y, en los 80, coproducciones de aventura y fantasía con el estadounidense Roger Corman. Recibió el Cóndor de Plata a la trayectoria en 1996 y fue declarado doctor honoris causa por la Universidad de Buenos Aires en 2024.
+
+### Para ver
+*Psexoanálisis*, *Los neuróticos*, *Las venganzas de Beto Sánchez* y *El muerto* tienen una copia en Internet Archive, subida por terceros. Varias de sus películas más recientes están en plataformas: en el detalle de cada una está dónde.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
