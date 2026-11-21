@@ -14,7 +14,7 @@ export const FICHAS = {
       url: "https://play.cine.ar/INCAA/produccion/7901",
       donde: "Cine.ar · gratis con registro",
     },
-    texto: `Félix "Chango" Monti es uno de los grandes directores de fotografía del cine argentino. Iluminó *La historia oficial* y *El secreto de sus ojos*, las dos películas argentinas que ganaron el Oscar, y trabajó con Luis Puenzo, Fernando Solanas, María Luisa Bemberg, Lucrecia Martel y Juan José Campanella. También filmó mucho en Brasil.
+    texto: `Félix "Chango" Monti es uno de los grandes directores de fotografía del cine argentino. Iluminó *La historia oficial* y *El secreto de sus ojos*, las dos películas argentinas que ganaron el Oscar, y trabajó con [Luis Puenzo](#/persona/69315), Fernando Solanas, María Luisa Bemberg, Lucrecia Martel y Juan José Campanella. También filmó mucho en Brasil.
 
 Lo que sigue lo cuentan su familia, Puenzo y Campanella en el documental *Chango, la luz descubre*, que lo muestra trabajando en el rodaje de *Mamá se fue de viaje* y en el Teatro San Martín, en *La farsa de los ausentes*.
 
@@ -802,6 +802,29 @@ Fue vicepresidente de Directores Argentinos Cinematográficos cuando se impulsó
 
 ### Para ver
 Sus películas hasta 1995 tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Últimos días de la víctima* está en una plataforma.`,
+  },
+  // ── Luis Puenzo (fuentes: Wikipedia en castellano, el documental sobre Monti y créditos de TMDB) ──
+  69315: {
+    nombre: "Luis Puenzo",
+    rol: "Director, guionista y productor",
+    bajada: "La historia oficial: el primer Oscar del cine argentino y latinoamericano.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1946 y murió el 21 de abril de 2026, a los 80 años. Con *La historia oficial* el cine argentino ganó su primer Oscar.
+
+### La publicidad
+Desde los años 70 hizo muchísima publicidad con [Félix "Chango" Monti](#/persona/414697). En el documental *Chango, la luz descubre* cuenta que al principio no sabían nada, que los clientes les daban metros y metros de película y que así aprendieron, juntos y equivocándose, a mover la cámara sobre carros, como en el cine inglés de los 60 y la Nueva Ola francesa. Antes había dirigido *Luces de mis zapatos* (1973), con Pipo Pescador, y [*Las sorpresas*](#/tmdb/movie/566715) (1975), ya con Monti en la fotografía y [Juan Carlos Macías](#/persona/1070260) en el montaje.
+
+### La historia oficial
+[*La historia oficial*](#/tmdb/movie/29263) (1985), con Norma Aleandro y Héctor Alterio, cuenta cómo una profesora de historia empieza a sospechar que su hija adoptiva es hija de desaparecidos. La escribió con Aída Bortnik. Ganó el Oscar a la mejor película extranjera en 1986, el primero de América Latina, y Aleandro el premio a la mejor actriz en Cannes. Se filmó en la casa de Puenzo, porque no encontraban locación; para esos espacios chicos Monti inventó las "Chango lights". La montó Macías. En la ficha de Monti están las historias del rodaje.
+
+### Hollywood
+Después filmó en inglés [*Gringo viejo*](#/tmdb/movie/43345) (1989), sobre la novela de Carlos Fuentes, con Jane Fonda y Gregory Peck, y [*La peste*](#/tmdb/movie/36907) (1992), sobre la novela de Albert Camus trasladada a una ciudad sudamericana, con William Hurt, Robert Duvall y Raúl Juliá. Las dos con Monti y Macías. Su última película fue [*La puta y la ballena*](#/tmdb/movie/59979) (2004).
+
+### El productor
+Fue miembro fundador de la Academia de cine argentina y en 1994 participó en la redacción de la ley de cine que le dio autarquía al INCAA. Con su productora acompañó a su hija, [Lucía Puenzo](#/persona/69309), en [*XXY*](#/tmdb/movie/11148) (2007), *El niño pez* (2009) y produjo también [*Infancia clandestina*](#/tmdb/movie/127880) (2012). Entre 2020 y 2022 presidió el INCAA.
+
+### Para ver
+*La historia oficial* tiene una copia en Internet Archive, subida por terceros: en su detalle está el link. Para sus otras películas, TMDB no informa ninguna plataforma en la Argentina.`,
   },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {

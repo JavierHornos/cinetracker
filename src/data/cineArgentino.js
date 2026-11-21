@@ -213,7 +213,7 @@ Desde 1978, con la censura un poco más floja, algunos directores contaron el cl
 
 ### El primer Oscar
 
-*La historia oficial* (1985), de **Luis Puenzo**, con **Norma Aleandro** y **Héctor Alterio**. Una profesora de historia empieza a sospechar que su hija adoptiva es hija de desaparecidos. Ganó el Oscar a la mejor película extranjera en 1986, el primero de América Latina, y Aleandro se llevó el premio a mejor actriz en Cannes.
+[*La historia oficial*](#/tmdb/movie/29263) (1985), de **[Luis Puenzo](#/persona/69315)**, con **Norma Aleandro** y **Héctor Alterio**. Una profesora de historia empieza a sospechar que su hija adoptiva es hija de desaparecidos. Ganó el Oscar a la mejor película extranjera en 1986, el primero de América Latina, y Aleandro se llevó el premio a mejor actriz en Cannes.
 
 El año anterior, [*Camila*](#/tmdb/movie/42085) (1984), de **[María Luisa Bemberg](#/persona/1066960)**, había sido nominada al Oscar. Cuenta el romance prohibido entre Camila O'Gorman y un sacerdote en tiempos de Rosas.
 

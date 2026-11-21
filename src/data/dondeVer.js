@@ -1605,6 +1605,10 @@ export const LINKS = {
   "movie-423175": [ // La ley de la frontera (1995)
     { nombre: "Internet Archive", url: "https://archive.org/details/la-ley-de-la-frontera-1995", nota: "copia subida por terceros" },
   ],
+  // Luis Puenzo (murió en 2026): no es de dominio público. Copia subida por terceros.
+  "movie-29263": [ // La historia oficial (1985)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-historia-oficial-1985_202410", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],
