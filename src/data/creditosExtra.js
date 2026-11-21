@@ -4,6 +4,13 @@
 // Solo se cargan agregados: donde TMDB y cinenacional no coinciden (Los tallos amargos) no se toca nada.
 export const CREDITOS_EXTRA = {
   "movie-648387": { titulo: "El negoción (primera versión)", anio: 1958, foto: [[1836392, "Simón Feldman"]], mont: [[1836392, "Simón Feldman"]] },
+  // Miguel Rodríguez (fotografía): TMDB lo tiene repartido en varias entradas; se suma a la principal (1676474).
+  "movie-219944": { titulo: "Quebracho", anio: 1974, foto: [[1676474, "Miguel Rodríguez"]] },
+  "movie-389913": { titulo: "Sofía", anio: 1987, foto: [[1676474, "Miguel Rodríguez"]] },
+  "movie-623742": { titulo: "Los miedos", anio: 1980, foto: [[1676474, "Miguel Rodríguez"]] },
+  "movie-632208": { titulo: "Margarito Tereré", anio: 1978, foto: [[1676474, "Miguel Rodríguez"]] },
+  "movie-127252": { titulo: "Momentos", anio: 1981, foto: [[1676474, "Miguel Rodríguez"]] },
+  "movie-118192": { titulo: "Cien veces no debo", anio: 1990, foto: [[1676474, "Miguel Rodriguez"]] },
   "movie-226934": { titulo: "Amalia", anio: 1914, foto: [[1266997, "Eugenio Py"]] },
   "movie-234260": { titulo: "Perdón, viejita", anio: 1927, foto: [[1920247, "Carlos Torres Ríos"]] },
   "movie-464326": { titulo: "Los tres berretines", anio: 1933, foto: [[96252, "John Alton"]] },

@@ -901,6 +901,26 @@ Ya veterano, fue el fotógrafo de la renovación. Con [Torre Nilsson](#/persona/
 ### La familia
 Su hija Beba se casó con [Héctor Olivera](#/persona/52121), y su nieto Javier Olivera también es director.`,
   },
+  // ── Miguel Rodríguez (fuentes: cinenacional.com y créditos de TMDB; no tiene artículo en Wikipedia) ──
+  1676474: {
+    nombre: "Miguel Rodríguez",
+    rol: "Director de fotografía",
+    bajada: "Don Segundo Sombra, La Raulito, Los muchachos de antes no usaban arsénico y Miss Mary.",
+    principal: "Director of Photography",
+    texto: `Nació en Salta en 1931 y murió en Boulogne, en el Gran Buenos Aires, en 1991. Entre 1965 y 1990 fotografió una treintena de películas, varias de ellas centrales en el cine argentino de los 70 y 80. Casi no hay nada escrito sobre él: esta ficha sale de sus créditos.
+
+### Con Antín y en los 70
+Su primer largo como director de fotografía fue [*Don Segundo Sombra*](#/tmdb/movie/198655) (1969), de [Manuel Antín](#/persona/1125518), con quien hizo también [*Juan Manuel de Rosas*](#/tmdb/movie/506557) (1972) y la inconclusa *Allá lejos y hace tiempo* (1978). En los 70 trabajó para [Daniel Tinayre](#/persona/1180781) en [*La Mary*](#/tmdb/movie/305885) (1974), con Susana Giménez y Carlos Monzón; para Ricardo Wullicher en [*Quebracho*](#/tmdb/movie/219944) (1974) y [*Saverio, el cruel*](#/tmdb/movie/614730) (1977); para [Lautaro Murúa](#/persona/105226) en [*La Raulito*](#/tmdb/movie/209646) (1975), y para [José Martínez Suárez](#/persona/1083797) en [*Los muchachos de antes no usaban arsénico*](#/tmdb/movie/341589) (1976). En varias de ellas también fue el camarógrafo.
+
+### Alejandro Doria y María Luisa Bemberg
+Con Alejandro Doria hizo cinco películas: [*La isla*](#/tmdb/movie/341591) (1979), [*Los miedos*](#/tmdb/movie/623742) (1980), [*Darse cuenta*](#/tmdb/movie/123223) (1984), [*Sofía*](#/tmdb/movie/389913) (1987), con idea original suya, y [*Cien veces no debo*](#/tmdb/movie/118192) (1990). Con [María Luisa Bemberg](#/persona/1066960) fotografió sus tres primeros largos: [*Momentos*](#/tmdb/movie/127252) (1981), [*Señora de nadie*](#/tmdb/movie/127022) (1982) y [*Miss Mary*](#/tmdb/movie/241603) (1986).
+
+### Los 80
+Fotografió también [*Volver*](#/tmdb/movie/164076) (1982), de David Lipszyc, *De la misteriosa Buenos Aires* (1981), sobre cuentos de Mujica Lainez, [*Luna caliente*](#/tmdb/movie/580376) (1985), sobre la novela de Mempo Giardinelli, y [*Conviviendo con la muerte*](#/tmdb/movie/5333) (1988), de Martin Donovan.
+
+### Ojo
+TMDB lo tiene repartido en varias entradas con el mismo nombre; acá se juntan sus créditos según cinenacional.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
