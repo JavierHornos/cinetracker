@@ -18,15 +18,15 @@ export const CAPITULOS = [
 - **[Eugenio Py](#/persona/1266997)**, fotógrafo francés, filmó [*La bandera argentina*](#/tmdb/movie/719504) (1897), considerado el primer corto filmado en el país. Sobrevivió apenas un fragmento, conservado en un flipbook, y se puede ver acá abajo.
 - **[Mario Gallo](#/persona/1037358)**, italiano, dirigió *El fusilamiento de Dorrego* (1908) y [*La Revolución de Mayo*](#/pelicula/1227), estrenada el 23 de mayo de 1909. Esa fecha es hoy el Día del Cine Nacional.
 
-En 1900 llegó el primer noticiario formal: la visita a Buenos Aires de Campos Salles, el presidente electo de Brasil. Al año siguiente, **Eugenio Cardini**, un aficionado que le había comprado una cámara a los Lumière en París, filmó la Avenida de Mayo con el Cabildo de antes y probó un tímido ensayo con argumento, [*Escenas callejeras*](#/tmdb/movie/861906) (1901). Ya entonces hubo intentos de cine sonoro: se sincronizaba un disco con la imagen. No duraron mucho, pero se adelantaron décadas. Gallo siguió con [*La creación del himno*](#/tmdb/movie/233019) (1910), y con él actuó **Blanca Podestá**, que venía del teatro y fue la primera estrella del cine argentino. Mientras tanto, los noticieros filmaban todo lo que pasaba: hasta la subida de un globo piloteado por Eduardo Newbery, con dos curiosos que se empeñaban en ponerse delante de la cámara.
+En 1900 llegó el primer noticiario formal: la visita a Buenos Aires de Campos Salles, el presidente electo de Brasil. Al año siguiente, **[Eugenio Cardini](#/persona/2404612)**, un aficionado que le había comprado una cámara a los Lumière en París, filmó la Avenida de Mayo con el Cabildo de antes y probó un tímido ensayo con argumento, [*Escenas callejeras*](#/tmdb/movie/861906) (1901). Ya entonces hubo intentos de cine sonoro: se sincronizaba un disco con la imagen. No duraron mucho, pero se adelantaron décadas. Gallo siguió con [*La creación del himno*](#/tmdb/movie/233019) (1910), y con él actuó **[Blanca Podestá](#/persona/1920870)**, que venía del teatro y fue la primera estrella del cine argentino. Mientras tanto, los noticieros filmaban todo lo que pasaba: hasta la subida de un globo piloteado por Eduardo Newbery, con dos curiosos que se empeñaban en ponerse delante de la cámara.
 
 !video[*Historia del cine argentino, parte I (1893-1909)*: el Odeón, la Casa Lepage, Py, Cardini, Gallo y Blanca Podestá, con imágenes de la época. Del noticiero del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:OiN4w5Ugpsg)
 
 ### Del corto al largometraje
 
-*Amalia* (1914), basada en la novela de José Mármol, es el largometraje argentino más antiguo que se conserva. La dirigió [Enrique García Velloso](#/persona/1223554) y la actuaron damas y caballeros de la sociedad porteña. Por esos años **Horacio Quiroga**, con el seudónimo de León de Aldecoa, escribió las primeras críticas de cine formales del país. Al año siguiente llegó el primer gran éxito: *Nobleza gaucha* (1915), un drama rural de Humberto Cairo, Eduardo Martínez de la Pera y Ernesto Gunche. Estuvo en cartel más de veinte años y mostró que el cine local podía ser negocio: con lo que ganaron, Martínez de la Pera y Gunche construyeron el primer estudio de cine del país. La cámara con la que la filmaron se conservó como una reliquia, y el noticiero del AGN la muestra. En [*Flor de durazno*](#/tmdb/movie/227457) (1917), con Ilde Pirovano, apareció por primera vez en el cine un joven y todavía gordito **Carlos Gardel**. Las cámaras también filmaban la calle: el camarógrafo **Pío Cuadro** filmó la Semana Trágica de 1919 arriesgando su propia vida.
+*Amalia* (1914), basada en la novela de José Mármol, es el largometraje argentino más antiguo que se conserva. La dirigió [Enrique García Velloso](#/persona/1223554) y la actuaron damas y caballeros de la sociedad porteña. Por esos años **[Horacio Quiroga](#/persona/1919298)**, con el seudónimo de León de Aldecoa, escribió las primeras críticas de cine formales del país. Al año siguiente llegó el primer gran éxito: *Nobleza gaucha* (1915), un drama rural de Humberto Cairo, Eduardo Martínez de la Pera y Ernesto Gunche. Estuvo en cartel más de veinte años y mostró que el cine local podía ser negocio: con lo que ganaron, Martínez de la Pera y Gunche construyeron el primer estudio de cine del país. La cámara con la que la filmaron se conservó como una reliquia, y el noticiero del AGN la muestra. En [*Flor de durazno*](#/tmdb/movie/227457) (1917), con Ilde Pirovano, apareció por primera vez en el cine un joven y todavía gordito **[Carlos Gardel](#/persona/1146483)**. Las cámaras también filmaban la calle: el camarógrafo **Pío Cuadro** filmó la Semana Trágica de 1919 arriesgando su propia vida.
 
-En 1917 el italiano **Quirino Cristiani** hizo *El Apóstol*, una sátira política sobre el presidente Yrigoyen. Es el primer largometraje animado de la historia del cine, anterior a Disney. La produjo **Federico Valle**, un italiano que había trabajado con los Lumière y con Méliès en Francia y fue una figura central del cine mudo argentino. No se conserva ninguna copia. De Cristiani se conserva muy poco: *El mono relojero* (1938), que está en la lista de abajo, y algunos cortos que [Fernando Martín Peña](#/persona/1816728) encontró en Ushuaia en 2009.
+En 1917 el italiano **[Quirino Cristiani](#/persona/1289536)** hizo *El Apóstol*, una sátira política sobre el presidente Yrigoyen. Es el primer largometraje animado de la historia del cine, anterior a Disney. La produjo **[Federico Valle](#/persona/1615919)**, un italiano que había trabajado con los Lumière y con Méliès en Francia y fue una figura central del cine mudo argentino. No se conserva ninguna copia. De Cristiani se conserva muy poco: *El mono relojero* (1938), que está en la lista de abajo, y algunos cortos que [Fernando Martín Peña](#/persona/1816728) encontró en Ushuaia en 2009.
 
 !video[*Historia del cine argentino, parte II (1909-1919)*: *Amalia*, la cámara de *Nobleza gaucha*, el primer Gardel, Federico Valle y la Semana Trágica. Del noticiero del [Archivo General de la Nación](https://www.youtube.com/@agnargentina).](youtube:wJ-3Pzw7g40)
 
@@ -178,7 +178,7 @@ Con Gleyzer había empezado, a mediados de los 60, **[Jorge Prelorán](#/persona
 Con la vuelta del peronismo hubo un año de cine libre y ambicioso:
 
 - [*La Patagonia rebelde*](#/tmdb/movie/64978) (1974), de **[Héctor Olivera](#/persona/52121)**, sobre las huelgas rurales de Santa Cruz de 1921, con guion basado en Osvaldo Bayer. Fue un éxito y poco después la prohibieron.
-- *La tregua* (1974), de **Sergio Renán**, sobre la novela de Mario Benedetti. Fue la primera película argentina nominada al Oscar.
+- *La tregua* (1974), de **[Sergio Renán](#/persona/1022343)**, sobre la novela de Mario Benedetti. Fue la primera película argentina nominada al Oscar.
 - [*Boquitas pintadas*](#/tmdb/movie/62499) (1974), de [Torre Nilsson](#/persona/116197), sobre la novela de Manuel Puig.
 - [*La Raulito*](#/tmdb/movie/209646) (1975), de [Lautaro Murúa](#/persona/105226), con Marilina Ross.
 
@@ -191,7 +191,7 @@ Desde 1974 la Triple A amenazó a actores y directores, y muchos se fueron del p
 
 ### La censura
 
-El Ente de Calificación Cinematográfica estaba a cargo de **Miguel Paulino Tato**, a quien apodaban "el señor Tijeras". Cortaba escenas, prohibía películas extranjeras enteras y vetaba temas. Existían listas negras: actores como Norma Aleandro, Héctor Alterio y Federico Luppi no podían trabajar o tuvieron que irse. Solanas y Getino filmaron desde el exilio.
+El Ente de Calificación Cinematográfica estaba a cargo de **[Miguel Paulino Tato](#/persona/2564761)**, a quien apodaban "el señor Tijeras". Cortaba escenas, prohibía películas extranjeras enteras y vetaba temas. Existían listas negras: actores como Norma Aleandro, Héctor Alterio y Federico Luppi no podían trabajar o tuvieron que irse. Solanas y Getino filmaron desde el exilio.
 
 ### El cine permitido
 
@@ -224,8 +224,8 @@ El año anterior, [*Camila*](#/tmdb/movie/42085) (1984), de **[María Luisa Bemb
 
 ### Otros caminos
 
-- **Alejandro Doria**: *Esperando la carroza* (1985), con China Zorrilla y Antonio Gasalla. Una comedia sobre una familia que no quiere cuidar a la madre. Con los años se volvió una película de culto que se cita de memoria.
-- **Eliseo Subiela**: *Hombre mirando al sudeste* (1986), sobre un paciente de un neuropsiquiátrico que dice venir de otro planeta. Su argumento es muy parecido al de la norteamericana *K-PAX*.
+- **[Alejandro Doria](#/persona/74893)**: *Esperando la carroza* (1985), con China Zorrilla y Antonio Gasalla. Una comedia sobre una familia que no quiere cuidar a la madre. Con los años se volvió una película de culto que se cita de memoria.
+- **[Eliseo Subiela](#/persona/81116)**: *Hombre mirando al sudeste* (1986), sobre un paciente de un neuropsiquiátrico que dice venir de otro planeta. Su argumento es muy parecido al de la norteamericana *K-PAX*.
 - **[Adolfo Aristarain](#/persona/109356)**: [*Un lugar en el mundo*](#/tmdb/movie/32635) (1992), con Federico Luppi y Cecilia Roth, en un pueblo de San Luis.
 
 ### La crisis
@@ -245,15 +245,15 @@ La hiperinflación de 1989 hundió la producción: los estrenos nacionales cayer
 
 ### El punto de partida
 
-*Historias breves* (1995) juntó los cortos ganadores de un concurso del INCAA. Ahí debutaron Adrián Caetano, Bruno Stagnaro, [Lucrecia Martel](#/persona/56208), Daniel Burman y Sandra Gugliotta. Antes, **[Martín Rejtman](#/persona/1082091)** había filmado [*Rapado*](#/tmdb/movie/57981) (1992), una película seca y minimalista que anticipó el tono del movimiento.
+*Historias breves* (1995) juntó los cortos ganadores de un concurso del INCAA. Ahí debutaron [Adrián Caetano](#/persona/230217), [Bruno Stagnaro](#/persona/1027870), [Lucrecia Martel](#/persona/56208), [Daniel Burman](#/persona/584335) y [Sandra Gugliotta](#/persona/64770). Antes, **[Martín Rejtman](#/persona/1082091)** había filmado [*Rapado*](#/tmdb/movie/57981) (1992), una película seca y minimalista que anticipó el tono del movimiento.
 
 ### Las películas clave
 
 | Año | Película | Director | Por qué importa |
 | 1998 | *Pizza, birra, faso* | Caetano y Stagnaro | Pibes de la calle, actores no profesionales, el manifiesto del movimiento |
-| 1999 | *Mundo grúa* | Pablo Trapero | Un gruista desocupado; el trabajo en crisis de los 90 |
+| 1999 | *Mundo grúa* | [Pablo Trapero](#/persona/56210) | Un gruista desocupado; el trabajo en crisis de los 90 |
 | 2001 | [*La ciénaga*](#/tmdb/movie/58429) | [Lucrecia Martel](#/persona/56208) | Una familia en decadencia en Salta; para muchos, la mejor película argentina |
-| 2001 | *La libertad* | Lisandro Alonso | Un hachero solo en el monte, casi sin diálogo |
+| 2001 | *La libertad* | [Lisandro Alonso](#/persona/1002601) | Un hachero solo en el monte, casi sin diálogo |
 | 2001 | *Bolivia* | Adrián Caetano | Un inmigrante boliviano en un bar porteño |
 | 2002 | *Historias mínimas* | Carlos Sorín | Tres viajes por la ruta patagónica |
 | 2003 | *Los rubios* | Albertina Carri | Documental sobre sus padres desaparecidos, que discute cómo se cuenta la memoria |
@@ -263,8 +263,8 @@ La hiperinflación de 1989 hundió la producción: los estrenos nacionales cayer
 
 Al mismo tiempo creció un cine de género con estrellas, que llevó mucho público a las salas:
 
-- *Nueve reinas* (2000), de **Fabián Bielinsky**, con Ricardo Darín y Gastón Pauls. Un thriller de estafadores en plena crisis.
-- *El hijo de la novia* (2001), de **Juan José Campanella**, con Darín y Norma Aleandro, nominada al Oscar.
+- *Nueve reinas* (2000), de **[Fabián Bielinsky](#/persona/74907)**, con [Ricardo Darín](#/persona/69310) y Gastón Pauls. Un thriller de estafadores en plena crisis.
+- *El hijo de la novia* (2001), de **[Juan José Campanella](#/persona/84714)**, con Darín y Norma Aleandro, nominada al Oscar.
 
 La crisis de 2001 se volvió tema de muchas de estas películas. **Ricardo Darín** se convirtió en esos años en la cara del cine argentino en el mundo.`,
     peliculas: ["Pizza, birra, faso", "Mundo grúa", "Nueve reinas", "La ciénaga", "La libertad", "Historias mínimas", "Los rubios"],
@@ -276,16 +276,16 @@ La crisis de 2001 se volvió tema de muchas de estas películas. **Ricardo Darí
 ### El cine de gran público
 
 - *El secreto de sus ojos* (2009), de **Juan José Campanella**, con Ricardo Darín y Soledad Villamil. Un empleado judicial revisa un crimen de los años 70. Ganó el Oscar a la mejor película extranjera en 2010.
-- *Relatos salvajes* (2014), de **Damián Szifron**: seis historias de gente que explota. Nominada al Oscar y uno de los mayores éxitos de taquilla del cine argentino.
+- *Relatos salvajes* (2014), de **[Damián Szifron](#/persona/591600)**: seis historias de gente que explota. Nominada al Oscar y uno de los mayores éxitos de taquilla del cine argentino.
 - *El clan* (2015), de **Pablo Trapero**, sobre la familia Puccio. León de Plata a la mejor dirección en Venecia.
-- *El ciudadano ilustre* (2016), de **Mariano Cohn y Gastón Duprat**. Un Nobel de literatura vuelve a su pueblo. Oscar Martínez ganó la Copa Volpi en Venecia.
-- *Argentina, 1985* (2022), de **Santiago Mitre**, con Darín y Peter Lanzani, sobre el Juicio a las Juntas. Ganó el Globo de Oro y fue nominada al Oscar. Es la octava nominación argentina, récord en América Latina.
+- *El ciudadano ilustre* (2016), de **[Mariano Cohn](#/persona/584193) y [Gastón Duprat](#/persona/584191)**. Un Nobel de literatura vuelve a su pueblo. Oscar Martínez ganó la Copa Volpi en Venecia.
+- *Argentina, 1985* (2022), de **[Santiago Mitre](#/persona/84677)**, con Darín y Peter Lanzani, sobre el Juicio a las Juntas. Ganó el Globo de Oro y fue nominada al Oscar. Es la octava nominación argentina, récord en América Latina.
 
 ### El cine de autor
 
 - **[Lucrecia Martel](#/persona/56208)**: [*Zama*](#/tmdb/movie/326382) (2017), sobre la novela de Antonio Di Benedetto, un funcionario colonial esperando un traslado que nunca llega. En 2025 presentó en Venecia el documental [*Nuestra tierra*](#/tmdb/movie/661603), sobre el asesinato del dirigente diaguita Javier Chocobar.
-- **Mariano Llinás** y el colectivo **El Pampero Cine** hicieron un cine de producción propia y sin apuro: *Historias extraordinarias* (2008, cuatro horas) y *La flor* (2018, más de trece horas). *Trenque Lauquen* (2022), de Laura Citarella, salió del mismo grupo.
-- **Rodrigo Moreno**, **Lisandro Alonso** y **Matías Piñeiro** siguieron circulando por los grandes festivales.
+- **[Mariano Llinás](#/persona/1293509)** y el colectivo **El Pampero Cine** hicieron un cine de producción propia y sin apuro: *Historias extraordinarias* (2008, cuatro horas) y *La flor* (2018, más de trece horas). *Trenque Lauquen* (2022), de [Laura Citarella](#/persona/1266005), salió del mismo grupo.
+- **[Rodrigo Moreno](#/persona/1022649)**, **Lisandro Alonso** y **[Matías Piñeiro](#/persona/1086353)** siguieron circulando por los grandes festivales.
 
 ### Las plataformas
 
