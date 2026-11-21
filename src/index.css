@@ -450,6 +450,8 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 .galeria-gente { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 14px; }
 .galeria .persona span { display: flex; flex-direction: column; }
 .galeria .persona small { color: var(--tenue); font-size: 12px; }
+.galeria .persona .sin { display: flex; flex-direction: row; align-items: center; justify-content: center; font-size: 12px; letter-spacing: 0.5px; color: var(--tenue); text-decoration: none; }
+.galeria .persona .con-historia { font-style: normal; color: var(--oro); }
 .tarjeta-persona { margin-bottom: 8px; }
 
 @keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }

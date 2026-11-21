@@ -21,6 +21,12 @@ import { ENCUESTA, PUESTOS, VOTOS } from "./data/encuesta2022";
 import { GENTE } from "./data/gente";
 import { MUDAS_COMPLETAS, VER_COMPLETA } from "./data/verCompleta";
 
+// Iniciales para el círculo de la galería cuando no hay foto (sin el apodo entre comillas).
+function iniciales(nombre) {
+  const p = nombre.replace(/["“”].*?["“”]/g, " ").split(/\s+/).filter(w => /^\p{L}/u.test(w));
+  return ((p[0]?.[0] || "") + (p.length > 1 ? p[p.length - 1][0] : "")).toUpperCase();
+}
+
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
 
@@ -687,8 +693,8 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
             <div className="galeria-gente">
               {g.personas.map(p => (
                 <button key={p.id} type="button" className="persona" onClick={() => onPersona(p.id)}>
-                  {p.foto ? <img src={`${IMG}w185${p.foto}`} alt="" loading="lazy" /> : <span className="sin" />}
-                  <span>{p.nombre}<small>{p.total} películas · {p.n} en las listas</small></span>
+                  {p.foto ? <img src={`${IMG}w185${p.foto}`} alt="" loading="lazy" /> : <span className="sin" aria-hidden="true">{iniciales(p.nombre)}</span>}
+                  <span>{p.nombre}<small>{p.total} películas · {p.n} en las listas{FICHAS[p.id] ? <em className="con-historia"> · con historia</em> : null}</small></span>
                 </button>
               ))}
             </div>
