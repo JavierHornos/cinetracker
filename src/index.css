@@ -447,6 +447,8 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
 @media (hover: hover) { .mas-epoca summary:hover { border-color: var(--oro); } }
 .mas-epoca .nota { color: var(--tenue); font-size: 13px; margin: 10px 0 8px; }
 .galeria { margin: 18px 0 6px; max-width: 980px; }
+.seccion-bajada { color: var(--tenue); font-size: 15px; line-height: 1.5; margin: 0 0 14px; max-width: 760px; }
+.vacio-grande .seccion-bajada { margin: 0 auto 18px; text-transform: none; letter-spacing: normal; font-family: inherit; }
 .galeria-gente { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 14px; }
 .galeria .persona span { display: flex; flex-direction: column; }
 .galeria .persona small { color: var(--tenue); font-size: 12px; }

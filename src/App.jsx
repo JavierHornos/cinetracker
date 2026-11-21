@@ -27,6 +27,8 @@ function iniciales(nombre) {
   return ((p[0]?.[0] || "") + (p.length > 1 ? p[p.length - 1][0] : "")).toUpperCase();
 }
 
+const BAJADA_MI_LISTA = "Tu lista de pendientes: lo que te recomendaron, lo que viste en un tráiler, lo que dijiste “esta la veo”.";
+
 const LISTA_VIEJA = "cinetracker_list_v2";
 const LISTA_VIEJA_IMPORTADA = "cinetracker_importado";
 
@@ -384,7 +386,9 @@ function Cinetracker({ usuario }) {
         ) : usuario ? (
           <SeccionMiLista pelis={miLista} onImportar={importarListaVieja} {...props} />
         ) : (
-          <div className="vacio-grande">ENTRÁ PARA ARMAR TU LISTA<br />
+          <div className="vacio-grande">
+            <p className="seccion-bajada">{BAJADA_MI_LISTA} Entrá con Google o con tu mail para armarla.</p>
+            ENTRÁ PARA ARMAR TU LISTA<br />
             <button className="boton oro" style={{ marginTop: 16 }} onClick={() => setPedirLogin(true)}>ENTRAR</button>
           </div>
         )}
@@ -479,6 +483,7 @@ function Seccion1001({ pelis, marcas, admin, onAbrir, onMarcar }) {
 
   return (
     <>
+      <p className="seccion-bajada">La lista del libro <i>1001 películas que hay que ver antes de morir</i>, de Steven Jay Schneider. ¿Cuántas te faltan?</p>
       <Progreso vistas={vistas} total={pelis.length} texto="VISTAS" />
       <Chips opciones={opciones} valor={estado} onCambiar={setEstado} />
       <div className="fila-filtros">
@@ -523,7 +528,7 @@ function SeccionArgentino({ pelis, encuesta, completas, marcas, onAbrir, onMarca
       <div className="historia-principal">
       <header className="historia-cabeza">
         <h1>Historia del cine argentino</h1>
-        <p className="bajada">Del cine mudo a hoy: directores, actores y películas para aprender.</p>
+        <p className="bajada">125 años de cine argentino contados en nueve capítulos: quiénes lo hicieron, qué filmaron y dónde verlo hoy, muchas veces gratis y completo.</p>
         <button type="button" className="boton fantasma chico compartir"
           onClick={() => onCompartir("/historia", "Historia del cine argentino")}>↗ COMPARTIR</button>
       </header>
@@ -870,6 +875,7 @@ function SeccionMiLista({ pelis, marcas, admin, onAbrir, onMarcar, onImportar })
 
   return (
     <>
+      <p className="seccion-bajada">{BAJADA_MI_LISTA}</p>
       {vieja.length > 0 && (
         <div className="banner">
           <span>Encontré {vieja.length} títulos guardados en este navegador de la versión anterior.</span>
