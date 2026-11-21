@@ -921,6 +921,26 @@ Fotografió también [*Volver*](#/tmdb/movie/164076) (1982), de David Lipszyc, *
 ### Ojo
 TMDB lo tiene repartido en varias entradas con el mismo nombre; acá se juntan sus créditos según cinenacional.`,
   },
+  // ── Eugenio Cardini (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  2404612: {
+    nombre: "Eugenio Cardini",
+    rol: "Fotógrafo y pionero del cine",
+    bajada: "El aficionado que compró una cámara a los Lumière y filmó Escenas callejeras, el primer intento de cine con argumento en la Argentina.",
+    principal: "Director",
+    texto: `Eugenio Alejandro Cardini nació en Buenos Aires a fines de la década de 1870 (las fuentes dicen 1879 o 1880) y murió en Mar del Plata en 1962. No fue un profesional del cine sino un aficionado rico y curioso, y por eso mismo pudo probar cosas que nadie más hacía.
+
+### La cámara de los Lumière
+Era hijo de inmigrantes italianos que tenían una fábrica de muebles de hierro en San Cristóbal. Desde chico le interesó la fotografía, y se cuenta que en 1896 armó una máquina rudimentaria, inspirada en el kinetoscopio de Edison, con película de 50 milímetros sin perforar. En 1897 viajó a París y compró una cámara Lumière, que según se dice fue la séptima que vendieron los hermanos. En ese viaje, a orillas del lago de Como, filmó a su familia caminando hacia la cámara: esa primera toma está perdida. En 1900 la Sociedad Fotográfica Argentina de Aficionados le dio un premio por sus fotos estereoscópicas.
+
+### Escenas callejeras
+De vuelta en Buenos Aires filmó [*Escenas callejeras*](#/tmdb/movie/861906) (1901; algunas fuentes dicen 1902): frente a un telón pintado, un farolero, un policía, un lustrabotas, chicos jugando a las bolitas y un choque entre un ciclista y un peatón. Es el primer intento de contar algo, con un gag, en el cine argentino: mientras [Eugenio Py](#/persona/1266997) registraba lo que pasaba, Cardini armaba situaciones con intérpretes improvisados.
+
+### Los otros cortos
+Filmó [*Salida de los obreros de la fábrica*](#/tmdb/movie/1272103) en la fábrica de su padre, como los Lumière en Lyon; [*Plaza de Mayo*](#/tmdb/movie/1266034) (1902), con el tedeum del 25 de Mayo y el presidente Roca; [*El regimiento ciclista*](#/tmdb/movie/862174), y [*En casa del fotógrafo*](#/tmdb/movie/628916) (1901), que muestra a un fotógrafo trabajando, filmado de frente, con sus clientes fuera de cuadro: un fotógrafo viejo frente a un cineasta nuevo. Hasta 1924 siguió filmando a su familia.
+
+### Para ver
+*Escenas callejeras*, *El regimiento ciclista*, *Plaza de Mayo*, *En casa del fotógrafo* y sus películas familiares de 1924 se pueden ver completas en la página: son de dominio público.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
