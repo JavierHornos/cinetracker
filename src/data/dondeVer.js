@@ -1583,6 +1583,28 @@ export const LINKS = {
   "movie-123763": [ // Yo, la peor de todas (1990)
     { nombre: "Internet Archive", url: "https://archive.org/details/yo-la-peor-de-todas-1990", nota: "copia subida por terceros" },
   ],
+  // Adolfo Aristarain (murió en 2026): no son de dominio público. Copias subidas por terceros; desde 1997, nada (recientes).
+  "movie-215868": [ // La parte del león (1978)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-parte-del-leon-1978", nota: "copia subida por terceros" },
+  ],
+  "movie-484880": [ // La playa del amor (1980)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-playa-del-amor-1979", nota: "copia subida por terceros" },
+  ],
+  "movie-475817": [ // La discoteca del amor (1980)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-discoteca-del-amor-1980", nota: "copia subida por terceros" },
+  ],
+  "movie-43428": [ // Tiempo de revancha (1981)
+    { nombre: "Internet Archive", url: "https://archive.org/details/tiempo-de-revancha-1981_202608", nota: "copia subida por terceros" },
+  ],
+  "movie-275729": [ // The Stranger (1987)
+    { nombre: "Internet Archive", url: "https://archive.org/details/the-stranger_202007", nota: "copia subida por terceros" },
+  ],
+  "movie-32635": [ // Un lugar en el mundo (1992)
+    { nombre: "Internet Archive", url: "https://archive.org/details/un-lugar-en-el-mundo-1992", nota: "copia subida por terceros" },
+  ],
+  "movie-423175": [ // La ley de la frontera (1995)
+    { nombre: "Internet Archive", url: "https://archive.org/details/la-ley-de-la-frontera-1995", nota: "copia subida por terceros" },
+  ],
   "movie-740542": [
     { nombre: "BAFILMA", url: "https://bafilma.gba.gob.ar/audiovisuales/largometrajes-peliculas/papelito", nota: "gratis con registro" },
   ],

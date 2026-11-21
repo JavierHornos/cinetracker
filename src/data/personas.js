@@ -777,6 +777,32 @@ Murió de cáncer mientras escribía [*El impostor*](#/tmdb/movie/476293), sobre
 ### Para ver
 *Camila* está en plataformas: en su detalle está dónde. *Señora de nadie*, *Miss Mary*, *Yo, la peor de todas* y *Crónica de una señora* tienen una copia en Internet Archive, subida por terceros.`,
   },
+  // ── Adolfo Aristarain (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  109356: {
+    nombre: "Adolfo Aristarain",
+    rol: "Director y guionista",
+    bajada: "Tiempo de revancha, Un lugar en el mundo y Martín (Hache): el cine clásico norteamericano al servicio de las preguntas argentinas.",
+    principal: "Director",
+    texto: `Nació en Parque Chas, Buenos Aires, en 1943 y murió en Buenos Aires el 26 de abril de 2026, a los 82 años. Filmó entre la Argentina y España, y en 2003 recibió también la nacionalidad española.
+
+### Treinta películas de ayudante
+Fue autodidacta: lector y cinéfilo desde chico, aprendió inglés hasta hablarlo como segunda lengua, y en la radio leyó traducciones suyas de Dylan Thomas. Trabajó de montajista y sonidista en Río de Janeiro, y desde 1967 vivió en Madrid. Antes de dirigir fue ayudante de dirección en unas treinta películas, con directores como Sergio Leone (estuvo en [*Érase una vez en el Oeste*](#/tmdb/movie/335)), Mario Camus, Vicente Aranda, [Daniel Tinayre](#/persona/1180781) y Sergio Renán. Decía que sus maestros eran John Ford, Howard Hawks, Raoul Walsh, Nicholas Ray y John Huston.
+
+### Policiales en dictadura
+Debutó con [*La parte del león*](#/tmdb/movie/215868) (1978), un policial sobre un hombre que encuentra el botín de un robo. Después de dos musicales de encargo con Cacho Castaña y un joven Ricardo Darín, [*La playa del amor*](#/tmdb/movie/484880) y [*La discoteca del amor*](#/tmdb/movie/475817), hizo [*Tiempo de revancha*](#/tmdb/movie/43428) (1981): Federico Luppi es un obrero que, después de una explosión en una mina, se finge mudo para hacerle juicio a la empresa. En plena dictadura, una película sobre el silencio. Siguió [*Últimos días de la víctima*](#/tmdb/movie/265626) (1982), con Luppi como un asesino a sueldo, sobre la novela de José Pablo Feinmann. Las tres tienen fotografía de [Horacio Maira](#/persona/1311464), y las dos últimas, montaje de [Eduardo López](#/persona/1311465).
+
+### Un lugar en el mundo
+En España dirigió para televisión episodios de *Pepe Carvalho*, con Eusebio Poncela, y en Estados Unidos [*The Stranger*](#/tmdb/movie/275729) (1987). De vuelta hizo [*Un lugar en el mundo*](#/tmdb/movie/32635) (1992), con Luppi, Cecilia Roth y José Sacristán: una familia que elige quedarse en un pueblo de San Luis. Ganó la Concha de Oro en San Sebastián y fue nominada al Oscar a la mejor película extranjera como uruguaya, hasta que la Academia la descalificó por no serlo.
+
+### La trilogía de los miedos
+Después de [*La ley de la frontera*](#/tmdb/movie/423175) (1995), filmada en España, vinieron las tres películas que él consideraba un mismo conjunto de miedos: [*Martín (Hache)*](#/tmdb/movie/43429) (1997), con Luppi, Juan Diego Botto y Eusebio Poncela, sobre un padre y un hijo; [*Lugares comunes*](#/tmdb/movie/32546) (2002), con Luppi y Mercedes Sampietro, sobre la novela de su primo Lorenzo F. Aristarain; y [*Roma*](#/tmdb/movie/43432) (2004). Luppi trabajó en cinco de sus películas, aunque Aristarain siempre negó que fuera su actor fetiche.
+
+### Reconocimiento
+Fue vicepresidente de Directores Argentinos Cinematográficos cuando se impulsó la ley de cine vigente. En 2024 recibió la Medalla de Oro de la Academia de cine de España.
+
+### Para ver
+Sus películas hasta 1995 tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Últimos días de la víctima* está en una plataforma.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

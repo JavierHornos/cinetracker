@@ -201,7 +201,7 @@ Lo que llegaba a las salas era sobre todo entretenimiento: comedias de Alberto O
 
 Desde 1978, con la censura un poco más floja, algunos directores contaron el clima de la época con el género como coartada:
 
-- **Adolfo Aristarain**: *La parte del león* (1978) y sobre todo *Tiempo de revancha* (1981), con Federico Luppi. Un obrero se finge mudo para demandar a una empresa minera. Es una metáfora clara del silencio impuesto.
+- **[Adolfo Aristarain](#/persona/109356)**: [*La parte del león*](#/tmdb/movie/215868) (1978) y sobre todo [*Tiempo de revancha*](#/tmdb/movie/43428) (1981), con Federico Luppi. Un obrero se finge mudo para demandar a una empresa minera. Es una metáfora clara del silencio impuesto.
 - **[Fernando Ayala](#/persona/220264)**: [*Plata dulce*](#/tmdb/movie/118198) (1982), sobre la especulación financiera de la "tablita" de Martínez de Hoz.
 - **[María Luisa Bemberg](#/persona/1066960)**, que empezó a dirigir pasados los 50 años: [*Momentos*](#/tmdb/movie/127252) (1981) y [*Señora de nadie*](#/tmdb/movie/127022) (1982), con una mirada feminista inédita en el cine argentino.
 - **[Héctor Olivera](#/persona/52121)**: [*No habrá más penas ni olvido*](#/tmdb/movie/246896) (1983), sobre la novela de Osvaldo Soriano, una sátira sobre la violencia interna del peronismo. Se estrenó en el fin de la dictadura.`,
@@ -226,7 +226,7 @@ El año anterior, [*Camila*](#/tmdb/movie/42085) (1984), de **[María Luisa Bemb
 
 - **Alejandro Doria**: *Esperando la carroza* (1985), con China Zorrilla y Antonio Gasalla. Una comedia sobre una familia que no quiere cuidar a la madre. Con los años se volvió una película de culto que se cita de memoria.
 - **Eliseo Subiela**: *Hombre mirando al sudeste* (1986), sobre un paciente de un neuropsiquiátrico que dice venir de otro planeta. Su argumento es muy parecido al de la norteamericana *K-PAX*.
-- **Adolfo Aristarain**: *Un lugar en el mundo* (1992), con Federico Luppi y Cecilia Roth, en un pueblo de San Luis.
+- **[Adolfo Aristarain](#/persona/109356)**: [*Un lugar en el mundo*](#/tmdb/movie/32635) (1992), con Federico Luppi y Cecilia Roth, en un pueblo de San Luis.
 
 ### La crisis
 
