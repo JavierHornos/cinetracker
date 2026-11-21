@@ -801,7 +801,7 @@ Después de [*La ley de la frontera*](#/tmdb/movie/423175) (1995), filmada en Es
 Fue vicepresidente de Directores Argentinos Cinematográficos cuando se impulsó la ley de cine vigente. En 2024 recibió la Medalla de Oro de la Academia de cine de España.
 
 ### Para ver
-Sus películas hasta 1995 tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Últimos días de la víctima* está en una plataforma.`,
+Sus películas hasta 1995 tienen una copia en Internet Archive, subida por terceros: en el detalle de cada una está el link. *Últimos días de la víctima* también está en Movistar.`,
   },
   // ── Luis Puenzo (fuentes: Wikipedia en castellano, el documental sobre Monti y créditos de TMDB) ──
   69315: {

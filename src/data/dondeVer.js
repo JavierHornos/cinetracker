@@ -1596,6 +1596,9 @@ export const LINKS = {
   "movie-43428": [ // Tiempo de revancha (1981)
     { nombre: "Internet Archive", url: "https://archive.org/details/tiempo-de-revancha-1981_202608", nota: "copia subida por terceros" },
   ],
+  "movie-265626": [ // Últimos días de la víctima (1982); también en Movistar (pago)
+    { nombre: "Internet Archive", url: "https://archive.org/details/ultimos-dias-de-la-victima-1982", nota: "copia subida por terceros" },
+  ],
   "movie-275729": [ // The Stranger (1987)
     { nombre: "Internet Archive", url: "https://archive.org/details/the-stranger_202007", nota: "copia subida por terceros" },
   ],
