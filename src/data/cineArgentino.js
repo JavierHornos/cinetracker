@@ -245,7 +245,7 @@ La hiperinflación de 1989 hundió la producción: los estrenos nacionales cayer
 
 ### El punto de partida
 
-*Historias breves* (1995) juntó los cortos ganadores de un concurso del INCAA. Ahí debutaron Adrián Caetano, Bruno Stagnaro, [Lucrecia Martel](#/persona/56208), Daniel Burman y Sandra Gugliotta. Antes, **Martín Rejtman** había filmado *Rapado* (1992), una película seca y minimalista que anticipó el tono del movimiento.
+*Historias breves* (1995) juntó los cortos ganadores de un concurso del INCAA. Ahí debutaron Adrián Caetano, Bruno Stagnaro, [Lucrecia Martel](#/persona/56208), Daniel Burman y Sandra Gugliotta. Antes, **[Martín Rejtman](#/persona/1082091)** había filmado [*Rapado*](#/tmdb/movie/57981) (1992), una película seca y minimalista que anticipó el tono del movimiento.
 
 ### Las películas clave
 

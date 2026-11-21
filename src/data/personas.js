@@ -852,6 +852,35 @@ En 2019 presidió el jurado del Festival de Venecia y dirigió la puesta visual 
 ### Para ver
 *La ciénaga*, *La niña santa*, *Zama* y *Nuestra tierra* están en plataformas, y *Rey muerto* y *Nueva Argirópolis* en Cine.ar: en el detalle de cada una está dónde.`,
   },
+  // ── Martín Rejtman (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  1082091: {
+    nombre: "Martín Rejtman",
+    rol: "Director, guionista y escritor",
+    bajada: "Rapado, Silvia Prieto y Los guantes mágicos: el humor seco que anticipó el Nuevo Cine Argentino.",
+    principal: "Director",
+    texto: `Nació en Buenos Aires en 1961. Director y escritor, su primera película, *Rapado*, se filmó antes de que existiera el Nuevo Cine Argentino y hoy se la considera su punto de partida.
+
+### Nueva York y Roma
+Estudió cine en la Escuela Panamericana de Arte y en 1981 se fue a estudiar dirección a la Universidad de Nueva York. Fue asistente de dirección en la Argentina y en Italia, y asistente de montaje en los estudios de Cinecittà. Su primer corto es [*Doli vuelve a casa*](#/tmdb/movie/268408) (1986), con Rosario Bléfari.
+
+### Rapado
+[*Rapado*](#/tmdb/movie/57981) (1992) sigue a un adolescente al que le roban la moto, la plata y las zapatillas; se rapa y se obsesiona con conseguir otra moto. Planos fijos, actores que hablan sin dramatismo, humor seco: un cine que no se parecía a nada de lo que se hacía en la Argentina. Tardó años en estrenarse, y para la generación que venía fue una revelación.
+
+### Silvia Prieto y Los guantes mágicos
+[*Silvia Prieto*](#/tmdb/movie/49984) (1999), con Rosario Bléfari, Valeria Bertuccelli y Vicentico, es la historia de una mujer que al cumplir 27 años decide cambiar de vida y descubre que hay otra mujer con su mismo nombre. [*Los guantes mágicos*](#/tmdb/movie/126104) (2003), con Vicentico y Bertuccelli, sigue a un remisero en medio de separaciones, negocios disparatados y cambios de clima violentos. Las dos tienen esa forma de mirar a la clase media porteña: personajes que repiten frases, objetos que pasan de mano en mano, una tristeza que da risa.
+
+### Documentales
+Filmó [*Copacabana*](#/tmdb/movie/354425) (2006), un documental sobre la fiesta de la Virgen de Copacabana en la comunidad boliviana de Buenos Aires, y con Federico León [*Entrenamiento elemental para actores*](#/tmdb/movie/269765) (2009).
+
+### Los últimos
+[*Dos disparos*](#/tmdb/movie/285463) (2014) empieza con un chico de 16 años que encuentra un revólver en el garaje, se dispara dos veces y sobrevive. Siguieron [*El repartidor está en camino*](#/tmdb/movie/744369), premiado como proyecto en San Sebastián en 2020, y [*La práctica*](#/tmdb/movie/713919) (2024), sobre un profesor de yoga argentino en Chile.
+
+### El escritor
+Publicó cuatro libros de cuentos: *Rapado* (1992), *Velcro y yo* (1996), *Literatura y otros cuentos* (2005) y *Tres cuentos* (2012).
+
+### Para ver
+*Rapado*, *Silvia Prieto*, *Los guantes mágicos*, *Dos disparos* y *La práctica* están en MUBI: en el detalle de cada una está el link.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
