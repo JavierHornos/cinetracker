@@ -826,6 +826,32 @@ Fue miembro fundador de la Academia de cine argentina y en 1994 participó en la
 ### Para ver
 *La historia oficial* tiene una copia en Internet Archive, subida por terceros: en su detalle está el link. Para sus otras películas, TMDB no informa ninguna plataforma en la Argentina.`,
   },
+  // ── Lucrecia Martel (fuentes: Wikipedia en castellano y créditos de TMDB) ──
+  56208: {
+    nombre: "Lucrecia Martel",
+    rol: "Directora y guionista",
+    bajada: "La ciénaga, La niña santa, La mujer sin cabeza y Zama: el cine que se escucha tanto como se ve.",
+    principal: "Director",
+    texto: `Nació en Salta en 1966. Con cuatro largometrajes de ficción se volvió una de las directoras más importantes del cine contemporáneo. En la encuesta del Museo del Cine de 2022, [*La ciénaga*](#/tmdb/movie/58429) quedó primera entre las cien mejores películas argentinas.
+
+### Formación
+Hizo el secundario en un colegio católico de Salta y estudió cine en la ENERC, en Buenos Aires; también pasó por el taller de [José Martínez Suárez](#/persona/1083797). Hizo los cortos *El 56* (1988) y *Piso 24* (1989), y en 1995 [*Rey muerto*](#/tmdb/movie/204656), uno de los ganadores del concurso *Historias breves* del INCAA, la película colectiva con la que arrancó el Nuevo Cine Argentino. Trabajó en televisión, incluido un programa para chicos fuera de lo común, *Magazine For Fai*.
+
+### La trilogía de Salta
+[*La ciénaga*](#/tmdb/movie/58429) (2001), con Mercedes Morán y Graciela Borges, sigue a dos familias de Salta durante un verano pesado y húmedo, alrededor de una pileta sucia. Ganó el premio Alfred Bauer en Berlín y el premio NHK de Sundance. [*La niña santa*](#/tmdb/movie/44413) (2004), con María Alché y Mercedes Morán, sobre una adolescente con fervor religioso en un hotel de Salta, compitió en Cannes, con fotografía de [Félix "Chango" Monti](#/persona/414697). Las dos las montó [Santiago Ricci](#/persona/978234). [*La mujer sin cabeza*](#/tmdb/movie/8898) (2008), con María Onetto, es la historia de una mujer que atropella algo en la ruta y no sabe si fue un perro o un chico; también fue a Cannes.
+
+### El sonido
+Su cine se escucha tanto como se ve: los ruidos fuera de cuadro, las voces que se superponen, los sonidos del calor y del agua cuentan lo que la imagen no muestra. Las diferencias de clase, el racismo y la religión de la burguesía del Noroeste están ahí, casi siempre fuera de foco.
+
+### Zama
+Después de años de trabajo filmó [*Zama*](#/tmdb/movie/326382) (2017), sobre la novela de Antonio Di Benedetto: Diego de Zama, un funcionario de la corona española en el Paraguay de fines del siglo XVIII, espera un traslado que nunca llega. Hizo también cortos como [*Nueva Argirópolis*](#/tmdb/movie/325036) (2010) y [*Muta*](#/tmdb/movie/83339) (2011).
+
+### Nuestra tierra
+En 2019 presidió el jurado del Festival de Venecia y dirigió la puesta visual del espectáculo *Cornucopia*, de Björk. En 2025 presentó en Venecia su primer largo documental, [*Nuestra tierra*](#/tmdb/movie/661603), escrito con María Alché, sobre el asesinato del dirigente diaguita Javier Chocobar, de la comunidad Chuschagasta, en Tucumán.
+
+### Para ver
+*La ciénaga*, *La niña santa*, *Zama* y *Nuestra tierra* están en plataformas, y *Rey muerto* y *Nueva Argirópolis* en Cine.ar: en el detalle de cada una está dónde.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",

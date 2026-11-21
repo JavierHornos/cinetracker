@@ -245,14 +245,14 @@ La hiperinflación de 1989 hundió la producción: los estrenos nacionales cayer
 
 ### El punto de partida
 
-*Historias breves* (1995) juntó los cortos ganadores de un concurso del INCAA. Ahí debutaron Adrián Caetano, Bruno Stagnaro, Lucrecia Martel, Daniel Burman y Sandra Gugliotta. Antes, **Martín Rejtman** había filmado *Rapado* (1992), una película seca y minimalista que anticipó el tono del movimiento.
+*Historias breves* (1995) juntó los cortos ganadores de un concurso del INCAA. Ahí debutaron Adrián Caetano, Bruno Stagnaro, [Lucrecia Martel](#/persona/56208), Daniel Burman y Sandra Gugliotta. Antes, **Martín Rejtman** había filmado *Rapado* (1992), una película seca y minimalista que anticipó el tono del movimiento.
 
 ### Las películas clave
 
 | Año | Película | Director | Por qué importa |
 | 1998 | *Pizza, birra, faso* | Caetano y Stagnaro | Pibes de la calle, actores no profesionales, el manifiesto del movimiento |
 | 1999 | *Mundo grúa* | Pablo Trapero | Un gruista desocupado; el trabajo en crisis de los 90 |
-| 2001 | *La ciénaga* | Lucrecia Martel | Una familia en decadencia en Salta; para muchos, la mejor película argentina |
+| 2001 | [*La ciénaga*](#/tmdb/movie/58429) | [Lucrecia Martel](#/persona/56208) | Una familia en decadencia en Salta; para muchos, la mejor película argentina |
 | 2001 | *La libertad* | Lisandro Alonso | Un hachero solo en el monte, casi sin diálogo |
 | 2001 | *Bolivia* | Adrián Caetano | Un inmigrante boliviano en un bar porteño |
 | 2002 | *Historias mínimas* | Carlos Sorín | Tres viajes por la ruta patagónica |
@@ -283,7 +283,7 @@ La crisis de 2001 se volvió tema de muchas de estas películas. **Ricardo Darí
 
 ### El cine de autor
 
-- **Lucrecia Martel**: *Zama* (2017), sobre la novela de Antonio Di Benedetto, un funcionario colonial esperando un traslado que nunca llega. En 2025 presentó en Venecia el documental *Nuestra tierra*, sobre el asesinato del dirigente diaguita Javier Chocobar.
+- **[Lucrecia Martel](#/persona/56208)**: [*Zama*](#/tmdb/movie/326382) (2017), sobre la novela de Antonio Di Benedetto, un funcionario colonial esperando un traslado que nunca llega. En 2025 presentó en Venecia el documental [*Nuestra tierra*](#/tmdb/movie/661603), sobre el asesinato del dirigente diaguita Javier Chocobar.
 - **Mariano Llinás** y el colectivo **El Pampero Cine** hicieron un cine de producción propia y sin apuro: *Historias extraordinarias* (2008, cuatro horas) y *La flor* (2018, más de trece horas). *Trenque Lauquen* (2022), de Laura Citarella, salió del mismo grupo.
 - **Rodrigo Moreno**, **Lisandro Alonso** y **Matías Piñeiro** siguieron circulando por los grandes festivales.
 
