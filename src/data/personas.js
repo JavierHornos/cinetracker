@@ -881,6 +881,26 @@ Publicó cuatro libros de cuentos: *Rapado* (1992), *Velcro y yo* (1996), *Liter
 ### Para ver
 *Rapado*, *Silvia Prieto*, *Los guantes mágicos*, *Dos disparos* y *La práctica* están en MUBI: en el detalle de cada una está el link.`,
   },
+  // ── Alberto Etchebehere (fuentes: Wikipedia en castellano, cinenacional.com y créditos de TMDB) ──
+  1173339: {
+    nombre: "Alberto Etchebehere",
+    rol: "Director de fotografía",
+    bajada: "Más de cien películas, de los melodramas de Amadori al cine moderno de Torre Nilsson.",
+    principal: "Director of Photography",
+    texto: `Nació en 1903 y murió en Buenos Aires en 1965. En treinta años fotografió más de cien películas: es el director de fotografía que une la época de oro de los estudios con el cine moderno de los 60.
+
+### El noticiero de Valle
+Empezó en el equipo de Federico Valle, el productor del noticiero *Film Revista Valle*, y con su apoyo trabajó en los experimentos que llevaron a un sistema para sobreimprimir los subtítulos en las películas habladas en otros idiomas, que después se usó en todo el mundo. En 1937 dirigió una película, *¡Segundos afuera!*.
+
+### Los estudios
+Desde 1933 trabajó en los grandes estudios con los grandes directores. Para [Luis Saslavsky](#/persona/586113) fotografió [*Historia de una noche*](#/tmdb/movie/335369) (1941); para [Luis César Amadori](#/persona/535744), [*Dios se lo pague*](#/tmdb/movie/188353) (1948), [*Almafuerte*](#/tmdb/movie/190115) (1949) y [*Nacha Regules*](#/tmdb/movie/766161) (1950); para [Daniel Tinayre](#/persona/1180781), [*Deshonra*](#/tmdb/movie/318590) (1952) y [*La bestia humana*](#/tmdb/movie/559762) (1957); para [Román Viñoly Barreto](#/persona/1023449), [*La bestia debe morir*](#/tmdb/movie/421101) (1952), y para [Hugo del Carril](#/persona/941154), [*Más allá del olvido*](#/tmdb/movie/335486) (1956). Ganó el premio de la Academia de cine a la mejor fotografía por *Historia de una noche*, *Nacha Regules* y *Deshonra*, y menciones por *Dios se lo pague* y *Almafuerte*.
+
+### El cine moderno
+Ya veterano, fue el fotógrafo de la renovación. Con [Torre Nilsson](#/persona/116197) hizo [*El secuestrador*](#/tmdb/movie/298112) (1958), [*La caída*](#/tmdb/movie/269271) (1959), [*La mano en la trampa*](#/tmdb/movie/121461) (1961), [*Homenaje a la hora de la siesta*](#/tmdb/movie/320291) (1962) y [*El ojo de la cerradura*](#/tmdb/movie/405501) (1966). Fotografió también [*Prisioneros de una noche*](#/tmdb/movie/413777) (1960), de [David José Kohon](#/persona/1453186), [*El hombre de la esquina rosada*](#/tmdb/movie/426086) (1962), de René Mugica, sobre el cuento de Borges, y [*Paula cautiva*](#/tmdb/movie/264388) (1963), de [Fernando Ayala](#/persona/220264). Ganó el Cóndor de Plata a la mejor fotografía en blanco y negro por [*Los inocentes*](#/tmdb/movie/103115) (1963), de Juan Antonio Bardem, y por *El ojo que espía*.
+
+### La familia
+Su hija Beba se casó con [Héctor Olivera](#/persona/52121), y su nieto Javier Olivera también es director.`,
+  },
   // ── Luis César Amadori (fuente: Wikipedia en castellano y créditos de TMDB) ──
   535744: {
     nombre: "Luis César Amadori",
