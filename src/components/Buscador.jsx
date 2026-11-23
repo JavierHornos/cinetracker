@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { IMG, anioDe, buscar, tituloDe } from "../lib/tmdb";
 
 // Búsqueda en TMDB con desplegable de resultados.
-export default function Buscador({ placeholder, tipo = "multi", inicial = "", etiquetaDe, onElegir }) {
+// Tocar un resultado llama a onElegir (abrir la ficha); el botón "+ LISTA", si hay onAgregar, la suma directo.
+export default function Buscador({ placeholder, tipo = "multi", inicial = "", etiquetaDe, onElegir, onAgregar, puedeAgregar }) {
   const [texto, setTexto] = useState(inicial);
   const [resultados, setResultados] = useState([]);
   const [estado, setEstado] = useState("quieto"); // quieto | buscando | listo | error
@@ -45,9 +46,12 @@ export default function Buscador({ placeholder, tipo = "multi", inicial = "", et
           {resultados.map(r => {
             const titulo = tituloDe(r);
             const anio = anioDe(r);
+            const cerrar = () => { setTexto(""); setResultados([]); setAbierto(false); };
+            const agregable = onAgregar && (!puedeAgregar || puedeAgregar(r));
             return (
-              <button type="button" key={`${r.media_type}-${r.id}`} className="resultado"
-                onClick={() => { onElegir(r); setTexto(""); setResultados([]); setAbierto(false); }}>
+              <div key={`${r.media_type}-${r.id}`} className="resultado-fila">
+              <button type="button" className="resultado"
+                onClick={() => { onElegir(r); cerrar(); }}>
                 {r.poster_path
                   ? <img src={`${IMG}w92${r.poster_path}`} alt="" loading="lazy" />
                   : <div className="sin-img" />}
@@ -60,6 +64,11 @@ export default function Buscador({ placeholder, tipo = "multi", inicial = "", et
                 </div>
                 {etiquetaDe?.(r) && <span className="ya">{etiquetaDe(r)}</span>}
               </button>
+              {agregable && (
+                <button type="button" className="agregar-lista" title="Sumar a mi lista sin abrirla"
+                  onClick={() => { onAgregar(r); cerrar(); }}>+ LISTA</button>
+              )}
+              </div>
             );
           })}
         </div>

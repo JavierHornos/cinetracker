@@ -280,7 +280,6 @@ function Cinetracker({ usuario }) {
     try {
       const peli = await sumarDeTmdb(r);
       if (peli) avisar(`Agregada a tu lista: ${peli.titulo}`);
-      elegirSeccion("mia");
     } catch (e) {
       avisar(`No se pudo agregar: ${e.message}`);
     }
@@ -342,7 +341,11 @@ function Cinetracker({ usuario }) {
           <button type="button" className="logo" onClick={() => { setAbiertaId(null); elegirSeccion("1001"); }} title="Ir al inicio">
             <Insignia alto={46} /><span className="ocultar-celu"><Nombre /></span>
           </button>
-          <Buscador placeholder="Sumar película o serie…" onElegir={agregarDesdeBusqueda}
+          <Buscador placeholder="Buscar película o serie…" onElegir={abrirDeTmdb} onAgregar={agregarDesdeBusqueda}
+            puedeAgregar={r => {
+              const p = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
+              return !(p && marcas[p.id]?.en_mi_lista);
+            }}
             etiquetaDe={r => {
               const p = porTmdb.get(`${r.media_type === "tv" ? "tv" : "movie"}-${r.id}`);
               if (!p) return null;

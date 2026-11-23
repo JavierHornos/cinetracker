@@ -91,6 +91,13 @@ input:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid 
   background: transparent; border: none; border-bottom: 1px solid #161616; cursor: pointer;
 }
 .resultado:hover { background: var(--panel-2); }
+.resultado-fila { display: flex; align-items: stretch; border-bottom: 1px solid #161616; }
+.resultado-fila .resultado { flex: 1; min-width: 0; border-bottom: none; }
+.agregar-lista {
+  flex-shrink: 0; padding: 0 14px; background: transparent; border: none; border-left: 1px solid #1c1c1c;
+  color: var(--oro); font-family: var(--display); font-size: 12px; letter-spacing: .5px; cursor: pointer;
+}
+.agregar-lista:hover { background: var(--panel-2); }
 .resultado img, .resultado .sin-img { width: 34px; height: 51px; object-fit: cover; border-radius: 2px; flex-shrink: 0; background: #1a1a1a; }
 .resultado .t { color: #ddd; font-family: var(--display); font-size: 15px; letter-spacing: .5px; }
 .resultado .s { color: var(--muy-tenue); font-size: 12px; }
