@@ -142,7 +142,10 @@ export default function Ficha({ id, porTmdb, marcas, onAbrir, onMarcar, onVolver
                 const listas = [
                   c?.listas.includes("cine_argentino") && "Cine argentino",
                   c?.listas.includes("1001") && "1001 películas",
-                  p.media_type === "tv" && "Serie",
+                  // En una serie, cuántos episodios hizo en ese rol (dirigir un capítulo no es dirigir la serie).
+                  p.media_type === "tv" && (p.episode_count
+                    ? `Serie · ${p.episode_count} ${p.episode_count === 1 ? "episodio" : "episodios"}`
+                    : "Serie"),
                 ].filter(Boolean).join(" · ");
                 const titulo = tituloDe(p);
                 return (
